@@ -1,0 +1,1 @@
+http://gen.lib.rus.ec/search.php?&req=angular+&phrase=1&view=simple&column=def&sort=year&sortmode=DESC
