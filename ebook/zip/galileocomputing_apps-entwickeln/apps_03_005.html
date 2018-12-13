@@ -1,0 +1,805 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 3 Aufwachen &#8211; analoger Wecker">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 3 Aufwachen &#8211; analoger Wecker">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 3 Aufwachen &#8211; analoger
+         Wecker
+      </title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_03_004.html">
+      <link rel="next" href="apps_03_006.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_03_004.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_03_006.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff" class="navnav">3 Aufwachen &#8211; analoger Wecker</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_03_001.html#dodtp523deab6-b894-4553-bc57-f19b8c82711c" class="navnav">3.1 Eigene View-Klassen in Cocoa Touch</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_001.html#dodtp453496f8-2506-4078-9d48-f2ae841048ec" class="navnav">3.1.1 Zeichnen in Cocoa Touch</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_001.html#dodtpbeef7b9e-a920-4d0a-b8c8-018fd73786a2" class="navnav">3.1.2 Zeitberechnung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_001.html#dodtp368e550c-41e2-45fe-a426-af8e69e230eb" class="navnav">3.1.3 View-Erzeugung über NIB-Dateien</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_001.html#dodtpa7215b74-eb08-4a84-947c-6c11dfd1ac69" class="navnav">3.1.4 Aktualisierung der Zeitanzeige</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_001.html#dodtpf63ee996-c5eb-434d-b03c-56a8017b0cd7" class="navnav">3.1.5 Wiederverwendbarkeit von Views</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_03_002.html#dodtp48e66c8d-0135-4d4a-aca0-154c1cb50ec2" class="navnav">3.2 Views und Viewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtpac25936e-a3e5-4cd8-9cec-8686f92f9ec6" class="navnav">3.2.1 Outlets</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtpaac41390-9135-4fdc-a7cf-3867becf384f" class="navnav">3.2.2 View-Hierarchien</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtpfd3f33d1-3da7-47db-b0ae-e871a076e662" class="navnav">3.2.3 Actions</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtp1b1bb933-3bdc-4810-80ac-9f5c2d8a24f6" class="navnav">3.2.4 Ereignisse</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtp009b4d3a-a199-4df6-bd87-5e229a18375d" class="navnav">3.2.5 Controlzustände und Buttons</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtp3a191257-4e08-4274-8b17-625b0208638b" class="navnav">3.2.6 Direkte Gestenverarbeitung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtpbc46c62d-db40-4709-8cbc-4580da56485f" class="navnav">3.2.7 Übergänge</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtp197deaea-4bd9-433f-a357-f8ab4a157ca6" class="navnav">3.2.8 Der Lebenszyklus eines Viewcontrollers</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_03_003.html#dodtpf5e69a2b-44b9-48a6-a838-4e601f65ad94" class="navnav">3.3 Lokale Benachrichtigungen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_003.html#dodtpbc9c4dcc-43e5-44ba-8796-5377ec7cb186" class="navnav">3.3.1 Benachrichtigungen versenden ...</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_003.html#dodtp25696055-745a-4da7-9928-2073c9f44118" class="navnav">3.3.2 ... und verarbeiten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_03_004.html#dodtp1cb56bf3-2314-4800-af45-0afb535fe169" class="navnav">3.4 Eine App für alle</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_004.html#dodtpba7535e2-bc44-4bbb-9a46-60d6cceeb3ab" class="navnav">3.4.1 Das Retina Display</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_004.html#dodtpa4f42412-62c6-40ba-8535-93b28d74b78f" class="navnav">3.4.2 Sprachkursus für die App</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_004.html#dodtpe767cf6c-709f-4b47-aff6-e36e2d4aa28f" class="navnav">3.4.3 Es funktioniert nicht</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_004.html#dodtp30997de2-120c-4188-aaec-a97e12d03cec" class="navnav">3.4.4 Universelle Apps</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_03_005.html#dodtp328a43f6-1580-4d6a-8363-0c13dc2738f9" class="navh">3.5 Fehlersuche</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_005.html#dodtp3ca11770-99b5-4828-b3ac-9236ca7131bf" class="navh">3.5.1 Logging</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_005.html#dodtp7fa3f986-d0d3-4f84-9220-484085a6f5bf" class="navh">3.5.2 Der Debugger</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_005.html#dodtp9cead0f4-c431-4b34-9007-c85b3d3dfe9d" class="navh">3.5.3 Laufzeitfehler</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_03_006.html#dodtpcaac84af-76af-4c19-a4cd-176b1c601791" class="navnav">3.6 Die App auf einem Gerät testen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_006.html#dodtp0c573092-1c85-428a-a49d-0c701eb0a61b" class="navnav">3.6.1 Das iOS Developer Program</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_006.html#dodtp8c4daf78-a061-43aa-b100-d8cfa95f0e06" class="navnav">3.6.2 Entwicklungszertifikat und Entwicklungsprofile</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_006.html#dodtp804bfb38-27ef-4215-a13f-204f5283c0e2" class="navnav">3.6.3 Profilprobleme</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main"><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp328a43f6-1580-4d6a-8363-0c13dc2738f9" name="dodtp328a43f6-1580-4d6a-8363-0c13dc2738f9"></a><h2 class="t2"><span class="cfett">3.5</span><span class="cfett"> Fehlersuche</span><a href="#dodtp3ca11770-99b5-4828-b3ac-9236ca7131bf"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h2>
+                                                <p>Beim Programmieren Ihrer ersten App ist wahrscheinlich der eine oder andere Fehler
+                                                   aufgetreten. Dabei haben Sie schon die ersten Möglichkeiten zur Fehlersuche kennengelernt,
+                                                   als Xcode Sie nach der Übersetzung auf Fehler hingewiesen hat. Außerdem hat Xcode
+                                                   Ihnen vielleicht Warnungen angezeigt. Der <span class="cbegriff">Issue-Navigator</span><a class="indexterm" id="dodtp2db26836-b046-4247-b3b3-a21b771a0a8e"></a> (<span class="ctastatur"><img align="top" src="keys/ctastatur_KENNRCk=.gif" alt="CMD" title="CMD"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KDQp.gif" alt="4" title="4"></span>) zeigt Ihnen alle Fehler mit roten Punkten und Warnungen mit gelben Dreiecken zu
+                                                   Ihrem Code an. Sie können durch Anklicken eines Fehlers oder einer Warnung direkt
+                                                   zu der entsprechenden Programmstelle gelangen.
+                                                </p><a href="bilder/03_033.png" rel="lightbox" title="Der Issue-Navigator"><img class="bild" border="1" src="bilderklein/klein03_033.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 3.33   </strong>Der Issue-Navigator
+                                                </p>
+                                                <p>Fehler und Warnungen unterscheiden sich darin, dass sich ein fehlerhafter Code nicht
+                                                   übersetzen oder gar ausführen lässt. Erhalten Sie bei der Übersetzung nur Warnungen,
+                                                   so wird trotzdem ein ausführbares Programm erzeugt. Allerdings enthält dieses Programm
+                                                   möglicherweise (abhängig von den Compiler-Einstellungen) Laufzeitfehler<a class="indexterm" id="dodtp3d763bd7-97fa-4f96-9d5c-6d856b1c8756"></a>, die es ganz oder teilweise unbrauchbar machen. Sie sollten also Ihren Programmcode
+                                                   immer so formulieren, dass auch keine Warnungen bei der Übersetzung auftreten.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Schlagen Sie die Warnungen nicht einfach in den Wind!
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie sollten die Warnungen auf keinen Fall ignorieren, sondern den Ursachen dafür auf
+                                                               den Grund gehen und diese beseitigen. Gerade als Anfänger werden Sie dabei viel lernen.
+                                                               Das leichtfertige Ignorieren von Warnungen oder das unbedachte Ändern von Code aufgrund
+                                                               von Warnungen kann fatale Folgen haben, wie der berühmt-berüchtigte Debian-OpenSSL-Bug<span class="footnote"><a id="dodtp15289a2a-2792-4971-9f8a-b3d1a99a8e06">[17](http://digitaloffense.net/tools/debian-openssl/)</a></span> gezeigt hat.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Wenn Sie den Menüpunkt <span class="cscreenelement">Analyze</span> unter <span class="cscreenelement">Product</span> auswählen, untersucht Xcode den Programmcode genauer. Dafür dauert aber die Übersetzung
+                                                   des Projekts länger. Der Analyzer<a class="indexterm" id="dodtp07313d98-a5c7-43fd-843d-7e021556fc17"></a> kann beispielsweise einige Arten von Speicherlecks oder die Verwendung nicht initialisierter
+                                                   Variablen finden. Xcode verwendet blaue Symbole, um Meldungen des Analyzers darzustellen.
+                                                </p><a href="bilder/03_034.png" rel="lightbox" title="Analyzer-Meldung in Xcode"><img class="bild" border="1" src="bilderklein/klein03_034.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 3.34   </strong>Analyzer-Meldung in Xcode
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp3ca11770-99b5-4828-b3ac-9236ca7131bf" name="dodtp3ca11770-99b5-4828-b3ac-9236ca7131bf"></a><h3 class="t3"><span class="cfett">3.5.1</span><span class="cfett"> Logging</span><a href="#dodtp7fa3f986-d0d3-4f84-9220-484085a6f5bf"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp328a43f6-1580-4d6a-8363-0c13dc2738f9"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Eine einfache Möglichkeit der Fehlersuche ist die Verwendung des Loggings<a class="indexterm" id="dodtpa3a8f671-dfd8-4a3d-9d48-eb69751e2ef2"></a>. Mit dem Logger können Sie beliebige Texte in die Konsole schreiben. Wenn Sie Ihre
+                                                   App über Xcode ausführen, wird Ihnen die Konsole in einem Teil des Debuggerbereichs
+                                                   angezeigt. Sie können diesen Bereich auch über das Menü <span class="cscreenelement">View</span> · <span class="cscreenelement">Show Debug Area</span> oder die Tastenkombination <span class="ctastatur"><img align="top" src="keys/ctastatur_KFNISUZUKQ==.gif" alt="SHIFT" title="SHIFT"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KENNRCk=.gif" alt="CMD" title="CMD"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KFkp.gif" alt="Y" title="Y"></span> öffnen.
+                                                </p>
+                                                <p>Die Ausgabe Ihrer Apps auf einem Gerät können Sie aber auch über Xcode ansehen, indem
+                                                   Sie den <span class="ckursiv">Organizer</span><a class="indexterm" id="dodtp4096cdde-8e56-46e0-8877-e19f84f69bb5"></a> über den Menüpunkt <span class="cscreenelement">Organizer</span> unter <span class="cscreenelement">Window</span> öffnen. Dort wählen Sie das Symbol <span class="cscreenelement">Devices</span> und unter dem gewünschten Gerät den Punkt <span class="cscreenelement">Console</span> aus. Sie werden dort aber wahrscheinlich noch keine Geräte finden, da Sie noch keine
+                                                   registriert haben. Das wird am Ende dieses Kapitels beschrieben.
+                                                </p>
+                                                <p>Über die Funktion <span class="clisting">NSLog</span><a class="indexterm" id="dodtpd6ba06c6-f146-4f04-9edc-d015207b20c4"></a> können Sie eine Ausgabe ins Log schreiben. Der Aufruf dieser Funktion ist ähnlich
+                                                   zu der C-Funktion <span class="clisting">printf</span>, die Sie vielleicht kennen. <span class="clisting">NSLog</span> erlaubt Ihnen also formatierte Ausgaben &#8211; mit dem Unterschied, dass <span class="clisting">NSLog</span> einen Objective-C-String als ersten Parameter erwartet.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               NSLog mit Format
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie sollten für den Formatparameter immer eine Zeichenkettenkonstante verwenden, da
+                                                               Variablen unbeabsichtigt Prozentzeichen enthalten können. Das kann zu Abstürzen führen.
+                                                               Schreiben Sie also lieber
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">NSLog(@"%@", theLogText);<br></pre></div>
+                                                               
+                                                               statt <span class="clisting">NSLog(theLogText)</span>. Wenn beispielsweise die Variable die Zeichenkette <span class="clisting">@"Es gibt 10 %einmalig."</span> enthält, erwartet <span class="clisting">NSLog</span> für den Platzhalter <span class="clisting">%e</span> einen Fließkommaparameter. Bei der zweiten Variante führt das aber zu einem Absturz.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Hier sind einige Beispiele für Ausgaben mit <span class="clisting">NSLog</span>:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">NSLog(@"Hallo Welt");<br>NSLog(@"angle=%.2f", theAngle);<br>NSLog(@"x=%.1f, y=%.1f", thePoint.x, thePoint.y);<br>NSLog(@"current time=%@", [NSDate date]);<br>NSLog(@"frame=%@", NSStringFromCGRect(self.frame));<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 3.45   </strong>Ausgaben mit »NSLog«
+                                                </p>
+                                                <p>Sie sollten beachten, dass Objekte der Klasse <span class="clisting">NSString</span> nicht über das Format <span class="clisting">%s</span>, sondern über <span class="clisting">%@</span> ausgegeben werden. Das Format <span class="clisting">%s</span> verwenden Sie für C-Strings, also für Zeiger auf <span class="clisting">char</span>. Das Format <span class="clisting">%@</span> verwenden Sie hingegen für Objekte beliebiger Klassen. Dabei verwendet <span class="clisting">NSLog</span> für die Ausgabe die Rückgabe der Methode <span class="clisting">description</span><a class="indexterm" id="dodtpa655f8a1-b418-4d1d-9137-c4ca0ee9b10e"></a> des Objekts. Diese Methode stellt die Oberklasse <span class="clisting">NSObject</span> bereit, und Unterklassen können sie überschreiben.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp7fa3f986-d0d3-4f84-9220-484085a6f5bf" name="dodtp7fa3f986-d0d3-4f84-9220-484085a6f5bf"></a><h3 class="t3"><span class="cfett">3.5.2</span><span class="cfett"> Der Debugger</span><a href="#dodtp9cead0f4-c431-4b34-9007-c85b3d3dfe9d"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp3ca11770-99b5-4828-b3ac-9236ca7131bf"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Obwohl Xcode schon recht viele Fehler findet, kann Ihr Programm natürlich trotzdem
+                                                   noch weitere Fehler, sogenannte <span class="cbegriff">Laufzeitfehler</span><a class="indexterm" id="dodtpf69f4620-f1a1-4f94-90c9-86351c21a88b"></a>, enthalten. Wie der Name schon sagt, treten diese Fehler erst bei der Ausführung
+                                                   des Programms auf. Diese Fehler sind leider nicht immer offensichtlich und manchmal
+                                                   nur sehr schwer zu finden. Bei der Verwendung von Threads kann die Fehlersuche sogar
+                                                   zu vorzeitiger Alterung, Haarausfall und schlechtem Atem führen.
+                                                </p>
+                                                <p>Sie können Laufzeitfehler in der Regel am einfachsten über einen <span class="cbegriff">Debugger</span><a class="indexterm" id="dodtp4ea95386-5912-479c-9bf7-4dc7ae3811b3"></a> aufspüren. Damit können Sie Ihr Programm während der Ausführung anhalten, Variablen
+                                                   inspizieren und gegebenenfalls verändern. Sie können das Programm entweder durch einen
+                                                   Pause-Knopf oder durch Haltepunkte (<span class="cbegriff">Breakpoints</span><a class="indexterm" id="dodtpbac0677f-eb18-4e24-8fc3-c953fe556faf"></a>) anhalten und danach die Ausführung schrittweise oder kontinuierlich fortsetzen.
+                                                   Außerdem können Sie die Breakpoints an Bedingungen knüpfen, was besonders bei Schleifen
+                                                   und wiederholt aufgerufenen Anweisungen hilfreich ist.
+                                                </p>
+                                                <p>Das Setzen eines Breakpoints ist einfach. Sie klicken in die graue Leiste links neben
+                                                   Ihrem Quelltext. Es erscheint ein blaugrauer Pfeil, der den Breakpoint symbolisiert
+                                                   (siehe Abbildung 3.35). Der Debugger stoppt dann an dieser Stelle (oder an der ersten
+                                                   Anweisung nach dieser Stelle, wenn Sie den Haltepunkt in eine Zeile gesetzt haben,
+                                                   in der keine Anweisung steht). Sie können den Breakpoint wieder durch einen Rechtsklick
+                                                   auf das Symbol und die Auswahl des entsprechenden Menüpunkts entfernen. Alternativ
+                                                   verwenden Sie den Breakpoint-Navigator dazu oder ziehen den Haltepunkt wieder aus
+                                                   der Leiste. Außerdem erlaubt Ihnen Xcode das Verschieben der Breakpoints in der Leiste.
+                                                </p><a href="bilder/03_035.png" rel="lightbox" title="Setzen eines Breakpoints"><img class="bild" border="1" src="bilderklein/klein03_035.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 3.35   </strong>Setzen eines Breakpoints
+                                                </p>
+                                                <p>Über den Popupmenüpunkt <span class="cscreenelement">Edit Breakpoint</span> können Sie einem Breakpoint auch eine Bedingung zuweisen (siehe Abbildung 3.36).
+                                                   Dabei können Sie in dem Eingabefeld <span class="cscreenelement">Condition</span> eine beliebige, gültige Bedingung in Objective-C formulieren. Der Debugger hält erst
+                                                   dann an diesem Breakpoint, wenn die Bedingung erfüllt ist.
+                                                </p><a href="bilder/03_036.png" rel="lightbox" title="Setzen einer Breakpoint-Bedingung"><img class="bild" border="1" src="bilderklein/klein03_036.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 3.36   </strong>Setzen einer Breakpoint-Bedingung
+                                                </p>
+                                                <p>Wenn der Debugger hält, zeigt er einen grünen Pfeil links neben dem Quelltext an,
+                                                   der die aktuelle Ausführungsposition darstellt (siehe Abbildung 3.37). Der Debugger
+                                                   hat aber die Anweisung an dieser Position noch nicht ausgeführt.
+                                                </p><a href="bilder/03_037.png" rel="lightbox" title="Halt des Programms an einem Breakpoint"><img class="bild" border="1" src="bilderklein/klein03_037.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 3.37   </strong>Halt des Programms an einem Breakpoint
+                                                </p>
+                                                <p>Sie können sich während des Halts die aktuellen Variablenwerte ansehen und sie durch
+                                                   einen Doppelklick auf die betreffende Zeile ändern. Allerdings funktioniert das leider
+                                                   nur bei einfachen Variablen. Bei Zeigern auf Objekte können Sie so lediglich den Zeiger
+                                                   verbiegen (z. B. auf 0 = <span class="clisting">nil</span> setzen). Außerdem haben Sie über die Steuerungsleiste des Debuggers (siehe Abbildung
+                                                   3.38) folgende Möglichkeiten:
+                                                </p>
+                                                <ul class="gp">
+                                                   <li>Sie können die Ausführung bis zum nächsten Breakpoint oder einem manuellen Halt fortfahren
+                                                      lassen. Während Ihr Programm läuft, zeigt der Debugger statt des Fortfahren- ein Pause-Symbol,
+                                                      mit dem Sie die Ausführung anhalten lassen können.
+                                                   </li>
+                                                   <li>Sie können auch nur die nächste Anweisung ausführen. Durch mehrfaches Anklicken dieses
+                                                      Symbols können Sie Ihr Programm schrittweise ausführen.
+                                                   </li>
+                                                   <li>Falls der Debugger vor einem Methoden- oder Funktionsaufruf angehalten hat, können
+                                                      Sie ihn in diese Methode hineinspringen lassen. Das funktioniert allerdings nur, wenn
+                                                      zu dieser Methode auch die entsprechenden Debuggingsymbole vorhanden sind. Das ist
+                                                      bei den Systembibliotheken in der Regel nicht der Fall. Ansonsten verhält sich diese
+                                                      Funktion wie das schrittweise Ausführen.
+                                                   </li>
+                                                   <li>Analog können Sie auch aus einer Methode hinausspringen. Der Debugger läuft dabei
+                                                      so lange weiter, bis er die aktuelle Methode verlässt. Das funktioniert auch, wenn
+                                                      die Methode aus dem Betriebssystem oder einer Programmbibliothek heraus aufgerufen
+                                                      wurde. Sie bekommen dann aber statt Objective-C-Quellcode Assembleranweisungen zu
+                                                      sehen.
+                                                   </li>
+                                                   <li>In der Steuerungsleiste können Sie den aktuellen Thread sehen, in dem sich das Programm
+                                                      gerade befindet. Über eine Liste können Sie auch die anderen Threads auswählen und
+                                                      ansehen.
+                                                   </li>
+                                                   <li>Außerdem zeigt Ihnen die Steuerleiste die oberste Methode beziehungsweise Funktion
+                                                      des Stacks des ausgewählten Threads an. Durch Anklicken können Sie sich die anderen
+                                                      Methoden und Funktionen auf dem Stack ansehen und in diese wechseln.
+                                                   </li>
+                                                </ul><a href="bilder/03_038.png" rel="lightbox" title="Steuerungsleiste des Debuggers"><img class="bild" border="1" src="bilderklein/klein03_038.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 3.38   </strong>Steuerungsleiste des Debuggers
+                                                </p>
+                                                <p>Die Funktionsweise des Debuggers soll jetzt anhand des Beispielprojekts verdeutlicht
+                                                   werden. Setzen Sie dazu einen Breakpoint in die erste Zeile der Action-Methode <span class="clisting">updateAlarm</span> in der Klasse <span class="clisting">AlarmClockViewController</span>, und starten Sie die App über Xcode. Der Simulator öffnet das Programm und zeigt
+                                                   die laufende Uhr an. Betätigen Sie nun den Schalter zum Ein- und Ausschalten der Weckfunktion.
+                                                   Der Debugger stoppt die Ausführung und zeigt den grünen Pfeil in der ersten Zeile
+                                                   dieser Methode.
+                                                </p>
+                                                <p>Die Variablenansicht, die sich unter der Steuerleiste des Debuggers befindet, zeigt
+                                                   unter anderem auch das Symbol <span class="clisting">self</span> mit einem Dreieck zum Aufklappen an. In diesem Symbol finden Sie die Attribute des
+                                                   Viewcontrollers und eine Zeile mit dem Namen <span class="clisting">UIViewController</span>. Diese Zeile repräsentiert die Daten der Oberklasse des Objekts. Sie können die Attribute
+                                                   und das Symbol für die Oberklasse aufklappen und sich auch dort die enthaltenen Attribute
+                                                   ansehen.
+                                                </p>
+                                                <p>Klicken Sie jetzt das auf Symbol, um die nächste Anweisung auszuführen. Der grüne
+                                                   Pfeil springt zur nächsten Zeile. Danach klicken Sie das Symbol mehrmals, bis der
+                                                   Pfeil in der letzten Zeile der Methode mit der Anweisung <span class="clisting">[self updateTimeLabel];</span> angezeigt wird. Bei der schrittweisen Ausführung des Codes ist Ihnen sicherlich aufgefallen,
+                                                   dass der Debugger nur einen Block der Bedingung durchlaufen hat. Welchen Block die
+                                                   App durchläuft, hängt natürlich von der Schalterstellung im Wecker ab.
+                                                </p>
+                                                <p>Springen Sie mit dem Debugger jetzt in die Methode <span class="clisting">updateTimeLabel</span>, indem Sie auf das Symbol zum Hineinspringen in eine Methode klicken. Der Debugger
+                                                   hält in der ersten Zeile der Methode <span class="clisting">updateTimeLabel</span>. Klicken Sie jetzt das Symbol zum Verlassen der Methode. Der grüne Pfeil springt
+                                                   in die Zeile mit der letzten schließenden, geschweiften Klammer der Methode <span class="clisting">updateAlarm</span>.
+                                                </p>
+                                                <p>Löschen Sie den Breakpoint über das Popupmenü, und setzen Sie danach einen Breakpoint
+                                                   in die letzte Zeile der Methode <span class="clisting">angleWithPoint:</span> der Klasse <span class="clisting">ClockControl</span>. Geben Sie über den Popupmenüpunkt <span class="cscreenelement">Edit Breakpoint</span> die Bedingung <span class="clisting">theAlarm &lt; 0</span> ein. Der Debugger sollte jetzt nur anhalten, wenn Sie in die linke Hälfte der Uhr
+                                                   klicken. Denn dann ist der Winkel, den die Funktion <span class="clisting">atan2</span> liefert, kleiner als 0.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp9cead0f4-c431-4b34-9007-c85b3d3dfe9d" name="dodtp9cead0f4-c431-4b34-9007-c85b3d3dfe9d"></a><h3 class="t3"><span class="cfett">3.5.3</span><span class="cfett"> Laufzeitfehler</span><a href="#dodtp7fa3f986-d0d3-4f84-9220-484085a6f5bf"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Viele Laufzeitfehler enden in einem Absturz des Programms. In den meisten Fällen bekommen
+                                                   Sie einen Hinweis auf die Ursache. Der Debugger zeigt Ihnen die Stelle, die den Absturz
+                                                   ausgelöst hat, und in bestimmten Fällen finden Sie in der Konsole eine Fehlermeldung.
+                                                   Die Absturzstelle entspricht aber in vielen Fällen nicht der Absturzursache, und diese
+                                                   Stelle ist häufig auch in Systembibliotheken zu finden.
+                                                </p>
+                                                <p>Das bedeutet aber nicht, dass Sie einen Bug in iOS gefunden haben. Cocoa Touch wird
+                                                   jeden Tag von vielen Millionen Entwicklern wie Ihnen getestet. Sie sollten zuerst
+                                                   immer davon ausgehen, dass Ihr Code den Fehler verursacht hat. Natürlich ist auch
+                                                   das iOS nicht fehlerfrei. Aber einen Bug in den Systembibliotheken kann nur Apple
+                                                   beheben, und Sie sollten vorher alle Möglichkeiten ausprobieren, um Ihre App zum Laufen
+                                                   zu bekommen.
+                                                </p>
+                                                <p>Nach einem Absturz wird die Absturzstelle mit dem Absturzsignal im Quellcode angezeigt.
+                                                   Dieses Signal gibt häufig direkt oder indirekt einen Hinweis auf die Absturzursache.
+                                                </p><a href="bilder/03_039.png" rel="lightbox" title="Anzeige der Absturzstelle mit dem Signal ()"><img class="bild" border="1" src="bilderklein/klein03_039.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 3.39   </strong>Anzeige der Absturzstelle mit dem Signal (<span class="clisting">SIGART</span>)
+                                                </p>
+                                                <p>Der Absturz in Abbildung 3.39 hat das Signal <span class="clisting">SIGART</span><a class="indexterm" id="dodtp25590b85-5bd2-455d-9c30-8d8c08921152"></a> ausgelöst. Das geschieht in der Regel, wenn eine Ausnahme ausgelöst wurde. Die finden
+                                                   Sie in der Konsole, die im Bereich des Debuggers angezeigt wird. Die Ausgabe der Ausnahme
+                                                   erfolgt in der Konsole in fetter Schrift und ist in zwei Teile unterteilt. Die erste,
+                                                   sehr lange Zeile enthält eine Beschreibung der Ausnahme, und die restlichen Zeilen
+                                                   enthalten den Stacktrace<a class="indexterm" id="dodtpe7cbf73d-92c9-4090-82bb-fc6c30b29b9e"></a>.
+                                                </p>
+                                                <p>Die Beschreibung der Ausnahme in Abbildung 3.39 lautet:</p>
+                                                <div class="listing"><pre class="prettyprint">Terminating app due to uncaught exception 'NSUnknownKeyException',<br>   reason: '[&lt;UIViewController 0x4b44d90&gt; setValue:forUndefinedKey:]:<br>      this class is not key value coding-compliant for the key clockControl.'<br></pre></div>
+                                                <p>Ihr Programm hat also versucht, bei einem Objekt zum Schlüssel <span class="clisting">clockControl</span> einen Wert zu setzen. Die Meldung gibt auch die Klasse des Objekts (<span class="clisting">UIViewController</span>) aus, und das ist der Hinweis auf die Ursache. Die Wecker-App verwendet nur einen
+                                                   Viewcontroller, und der sollte die Klasse <span class="clisting">AlarmClockViewController</span> haben. Der Entwickler hat bei der Erzeugung dieses Viewcontrollers anscheinend vergessen,
+                                                   die richtige Klasse anzugeben. Da die App den Viewcontroller über <span class="cdateipfad">MainWindow.xib</span> anlegt, müssen Sie dort im Identitätsinspektor des Viewcontrollers die richtige Klasse
+                                                   setzen.
+                                                </p><a href="bilder/03_040.png" rel="lightbox" title="Ausgabe nach einem Programmabsturz durch eine Ausnahme"><img class="bild" border="1" src="bilderklein/klein03_040.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 3.40   </strong>Ausgabe nach einem Programmabsturz durch eine Ausnahme
+                                                </p>
+                                                <p>Ein anderes Signal, das Sie wahrscheinlich relativ häufig zu sehen bekommen, ist <span class="clisting">EXC_BAD_ACCESS</span><a class="indexterm" id="dodtpbd4a48a3-bc47-4c8f-8b80-936cc66800db"></a>. Dieses Signal deutet in der Regel auf einen Dangling Pointer hin. Für das Aufspüren
+                                                   von Fehlern bei der Speicherverwaltung stellt Apple das Programm <span class="cbegriff">Instruments</span> zur Verfügung, das Kapitel 5 vorstellt.
+                                                </p><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_03_005.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="3 Aufwachen &#8211; analoger Wecker"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_03_004.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_03_006.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

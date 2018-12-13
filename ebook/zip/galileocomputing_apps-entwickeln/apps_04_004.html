@@ -1,0 +1,1509 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 4 Daten, Tabellen und Controller">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 4 Daten, Tabellen und Controller">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 4 Daten, Tabellen und Controller</title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_04_003.html">
+      <link rel="next" href="apps_04_005.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_04_003.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_04_005.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6" class="navnav">4 Daten, Tabellen und Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_001.html#dodtp161390c7-9a37-4c74-9595-2265118b8a9d" class="navnav">4.1 Benachrichtigungen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_001.html#dodtp944a9e6e-1cbf-401f-ab3b-c6f85b6c876d" class="navnav">4.1.1 Benachrichtigungen empfangen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_001.html#dodtpad52d840-8b9f-495b-8a2a-35e4047330dd" class="navnav">4.1.2 Eigene Benachrichtigungen verschicken</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_002.html#dodtpb57c4bb1-6c65-41ad-89c1-3b7576ac3d40" class="navnav">4.2 Core Data</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtpe1e9b8ac-e5e8-4efb-a42d-3b2d94c7f1fe" class="navnav">4.2.1 Datenmodellierung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtpfe1fabf9-75f8-485c-87ce-e94464e26740" class="navnav">4.2.2 Implementierung von Entitätstypen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp04f7af7a-9e1e-4cde-bd50-4948972b41c4" class="navnav">4.2.3 Einbindung von Core Data</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp711fd6f8-9d0b-43f7-b7df-59135a212956" class="navnav">4.2.4 Der Objektkontext</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp2ba4af9f-2546-41d4-b686-0ffb17d12850" class="navnav">4.2.5 Die Nachrichten des Objektkontexts</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp94b638ad-f337-4d8a-b0e4-505a32faba95" class="navnav">4.2.6 Anlegen und Ändern von Entitäten in der Praxis</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_003.html#dodtpf45f1df5-53c6-4a69-a3ed-d229d0003cff" class="navnav">4.3 View-Rotationen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_003.html#dodtp5345ec09-8314-4638-b388-9dc3d0a6983d" class="navnav">4.3.1 Flexible Views dank der Autoresizingmask</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_003.html#dodtpb891c5b3-4a6e-4b5e-948d-d111012768e1" class="navnav">4.3.2 Lang lebe das Rotationsprinzip</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_003.html#dodtpd1dcc312-26bd-4cb1-bb4c-02bbae967f9e" class="navnav">4.3.3 Anpassung des Layouts</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_004.html#dodtp4879682b-5be3-4bc3-ac97-1ba88bf23d21" class="navh">4.4 Texte, Bilder und Töne verwalten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_004.html#dodtp4d2a8cd8-a7fd-43f6-97f5-5e8ce021411a" class="navh">4.4.1 Die Tastatur betritt die Bühne</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_004.html#dodtp1742cc84-080e-4401-bb5f-8199ed8adfe7" class="navh">4.4.2 Fotos aufnehmen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_004.html#dodtp742013f6-5218-4c2b-94a5-35d471354bd2" class="navh">4.4.3 Töne aufnehmen und abspielen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_005.html#dodtpc3f5f98e-3fa0-4ded-b3a1-091f17c3d7f1" class="navnav">4.5 Tableviews und Core Data</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp4173eb94-717b-41c2-bf9b-9b9909cbbd9d" class="navnav">4.5.1 Tableviews</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtpac0189cc-2f13-478f-a1c4-c4ff25a79da7" class="navnav">4.5.2 Tabellenzellen gestalten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtpe33951e6-7013-4dab-96e0-1e4ef4c73ca3" class="navnav">4.5.3 Buttons in Tabellenzellen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp04982a99-ada3-4624-aa0c-879217a1b0b1" class="navnav">4.5.4 Zellen löschen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp26fdab25-043f-47e3-9d67-3f4b5fd3614b" class="navnav">4.5.5 Core Data II: Die Rückkehr der Objekte</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp71d9a2c1-d96b-4401-9885-7307c2ff22d4" class="navnav">4.5.6 Prädikate</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp0437a63c-3e9d-4a27-8595-255fa2fc4555" class="navnav">4.5.7 Aktualisierung des Tableviews</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp34c90a04-f378-49e9-bd0b-db542c8f1874" class="navnav">4.5.8 Das Delegate des Fetchedresultscontrollers</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp93db3543-20d8-4787-95a7-bf305df55e41" class="navnav">4.5.9 Tabelleneinträge suchen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_006.html#dodtp7af46a15-51ff-4fcc-b2c4-b30e36461622" class="navnav">4.6 Containerviewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtpbdcb129d-0df5-43de-a8fa-0dbcdfbaa055" class="navnav">4.6.1 Der Navigationcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtp3216b28c-3a06-4dee-a7dd-4ba43a860410" class="navnav">4.6.2 Splitviewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtp42a6570b-bf63-47d9-8397-a69f74153e47" class="navnav">4.6.3 Der Pageviewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtp9d49c8ad-9181-4db0-8db3-4376f11656ac" class="navnav">4.6.4 Subview- und Containerviewcontroller</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main"><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp4879682b-5be3-4bc3-ac97-1ba88bf23d21" name="dodtp4879682b-5be3-4bc3-ac97-1ba88bf23d21"></a><h2 class="t2"><span class="cfett">4.4</span><span class="cfett"> Texte, Bilder und Töne verwalten</span><a href="#dodtp4d2a8cd8-a7fd-43f6-97f5-5e8ce021411a"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h2>
+                                                <p>Im Gegensatz zu Computern oder den Smartphones anderer Hersteller besitzen die iOS-Geräte
+                                                   keine Hardware-Tastatur. Stattdessen zeigt das Gerät eine Tastatur auf dem Bildschirm
+                                                   an, und der Touchscreen empfängt die Tastendrücke. Bei diesem Vorgehen entsteht aber
+                                                   das Problem, dass die Tastatur das Eingabefeld verdeckt. Die Lösung dafür ist eine
+                                                   Verschiebung des Eingabefelds in einen Bereich, den die Tastatur nicht verdeckt.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp4d2a8cd8-a7fd-43f6-97f5-5e8ce021411a" name="dodtp4d2a8cd8-a7fd-43f6-97f5-5e8ce021411a"></a><h3 class="t3"><span class="cfett">4.4.1</span><span class="cfett"> Die Tastatur betritt die Bühne</span><a href="#dodtp1742cc84-080e-4401-bb5f-8199ed8adfe7"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp4879682b-5be3-4bc3-ac97-1ba88bf23d21"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Für Texteingaben bietet Cocoa Touch die Klassen <span class="clisting">UITextField</span><a class="indexterm" id="dodtp0bb2dd94-fc9c-426c-a13e-c84fa972de61"></a> und <span class="clisting">UITextView</span><a class="indexterm" id="dodtp2732633b-f11d-40ab-8493-51338bdce59c"></a> an. Während Textfelder für die Eingabe von kurzen, meist einzeiligen Texten gedacht
+                                                   sind, eigenen sich Textviews besonders für mehrzeilige und längere Texte. Das Verhalten
+                                                   beider Klassen ist allerdings sehr ähnlich. Allerdings ist <span class="clisting">UITextView</span> im Gegensatz zu <span class="clisting">UITextField</span> nicht von <span class="clisting">UIControl</span> abgeleitet und versendet somit auch keine Ereignisse. 
+                                                </p>
+                                                <p>Die Tastatur<a class="indexterm" id="dodtp2018ef54-a883-49eb-82e9-8d96639578f5"></a> verhält sich bei beiden Klassen aber gleich. Wenn Sie ein Textfeld oder einen Textview
+                                                   antippen, fährt die Tastatur vom unteren Bildschirmrand aus.
+                                                </p>
+                                                <p>Das Fototagebuch verwendet für die Texteingabe einen Textview, da die Beschreibung
+                                                   eines Eintrags durchaus ein längerer Text sein kann. Allerdings liegt der Textview
+                                                   so, dass ihn die Tastatur im Hochformat ganz und im Querformat teilweise verdeckt.
+                                                   Der Viewcontroller sollte also dafür sorgen, dass sich der Textview beim Erscheinen
+                                                   der Tastatur an den freien Bereich des Bildschirms anpasst.
+                                                </p>
+                                                <p>Dazu müssen Sie zunächst mitbekommen, wann Sie die Ausmaße des Views verändern müssen.
+                                                   Dafür haben Sie zwei Möglichkeiten. Sie können entweder die Methoden <span class="clisting">textViewShouldBeginEditing:</span><a class="indexterm" id="dodtpe0a67b4e-8ea5-4bc7-aa22-cab12ef5b51d"></a> beziehungsweise <span class="clisting">textViewDidEndEditing:</span><a class="indexterm" id="dodtp5d3edfed-60e8-448b-9487-47e2cab9766b"></a> des Textview-Delegates verwenden, oder Sie arbeiten mit Benachrichtigungen. Die Verwendung
+                                                   der Delegatemethoden ist naheliegend und findet sich in vielen Beispielprogrammen
+                                                   im Web. Aber leider beruht dieser Weg auf einem Denkfehler. Die beiden Methoden informieren
+                                                   Sie über den Beginn beziehungsweise das Ende des Editiervorgangs. Sie informieren
+                                                   Sie aber nicht über das Erscheinen oder Verschwinden der Tastatur. Das ist keine Spitzfindigkeit,
+                                                   denn auf einem iPad mit angeschlossener Hardware-Tastatur<a class="indexterm" id="dodtp54af92c3-4491-45dd-bcb2-e86bf60faa50"></a> zeigt Cocoa Touch die Software-Tastatur<a class="indexterm" id="dodtp2edf9f8f-30a3-419f-9bf2-954ae009583b"></a> nicht an.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Simulation der Hardware-Tastatur
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie können das Verhalten Ihrer Apps mit einer angeschlossenen Hardwaretastatur im
+                                                               Simulator testen. Dazu müssen Sie den Menüpunkt <span class="cscreenelement">Hardware</span> · <span class="cscreenelement">Hardware-Tastatur simulieren</span> einschalten. Der Simulator zeigt dann keine Tastatur an, wenn Sie auf ein Texteingabeelement
+                                                               klicken.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Cocoa Touch kann Sie aber auch über das Erscheinen und Verschwinden der Tastatur informieren.
+                                                   Das geschieht über mehrere Benachrichtigungen:
+                                                </p>
+                                                <ul class="gp">
+                                                   <li><span class="clisting">UIKeyboardWillShowNotification</span> sendet das iOS, bevor die Tastatur erscheint.
+                                                   </li>
+                                                   <li><span class="clisting">UIKeyboardDidShowNotification</span> wird nach dem Erscheinen der Tastatur gesendet.
+                                                   </li>
+                                                   <li><span class="clisting">UIKeyboardWillHideNotification</span> wird gesendet, bevor die Tastatur verschwindet.
+                                                   </li>
+                                                   <li><span class="clisting">UIKeyboardDidShowNotification</span> sendet das iOS nach dem Verschwinden der Tastatur.
+                                                   </li>
+                                                </ul>
+                                                <p>Diese Benachrichtigungen verschickt iOS in bestimmten Fällen aber auch bei angeschlossener
+                                                   Hardware-Tastatur, und zwar dann, wenn das Eingabefeld einen <span class="cbegriff">Input-Accessory-View</span><a class="indexterm" id="dodtpa5fa6fc0-774f-44aa-a087-87cb3eb4098f"></a> verwendet. Damit können Sie zusätzliche Eingabemöglichkeiten an der Tastatur bereitstellen.
+                                                   Da diese aber natürlich nicht an der Hardware-Tastatur vorhanden sind, zeigt Cocoa
+                                                   Touch diesen zusätzlichen View bei angeschlossener Hardware-Tastatur auf dem Display
+                                                   an.
+                                                </p>
+                                                <p>Für die Behandlung der Tastaturanzeige registriert sich die Klasse <span class="clisting">ItemViewController</span> für zwei Benachrichtigungen in der Methode <span class="clisting">viewDidAppear</span>:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">NSNotificationCenter *theCenter =<br>    [NSNotificationCenter defaultCenter];<br>[theCenter addObserver:self<br>    selector:@selector(keyboardWillAppear:)<br>    name:UIKeyboardWillShowNotification object:nil];<br>[theCenter addObserver:self<br>    selector:@selector(keyboardWillDisappear:)<br>    name:UIKeyboardWillHideNotification object:nil];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.17   </strong>Registrierung für Tastaturbenachrichtigungen
+                                                </p>
+                                                <p>Die Benachrichtigung liefert im Userinfo-Dictionary mehrere Informationen. Über den
+                                                   Schlüssel <span class="clisting">UIKeyboardFrameEndUserInfoKey</span> können Sie den Rahmen der Tastatur relativ zu den Koordinaten des Fensters ermitteln.
+                                                   Da die Struktur <span class="clisting">CGRect</span> aber keine Objective-C-Klasse ist, kann ein Dictionary diese Werte nicht direkt aufnehmen.
+                                                   Cocoa Touch verpackt sie deswegen in ein Objekt der Klasse <span class="clisting">NSValue</span>.
+                                                </p>
+                                                <p>Die Methode <span class="clisting">keyboardWillAppear:</span> rechnet zunächst dieses Rechteck in das Koordinatensystem des Hauptviews um. Aus
+                                                   diesem Rechteck berechnet sie dann das freie Rechteck oberhalb der Tastatur. Das ist
+                                                   genau der Platz, den der Textview während des Editiervorgangs belegen soll. Sie müssen
+                                                   dieses Rechteck noch in das Koordinatensystem des Superviews des Textviews umrechnen,
+                                                   da ja dessen Frame relativ dazu ist.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)keyboardWillAppear:(NSNotification *)inNotification {<br>    NSValue *theValue = [inNotification.userInfo         valueForKey:UIKeyboardFrameEndUserInfoKey];<br>    UIView *theView = self.view;<br>    CGRect theFrame = [theView.window convertRect:<br>        [theValue CGRectValue] toView:theView];<br><br>    theFrame = CGRectMake(0.0, 0.0,         CGRectGetWidth(self.view.frame),         CGRectGetMinY(theFrame));<br>    theFrame = [theView convertRect:theFrame         toView:textView.superview];<br>    [UIView beginAnimations:nil context:nil];<br>    self.textView.frame = theFrame;<br>    [UIView commitAnimations];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.18   </strong>Koordinatenanpassung beim Erscheinen der Tastatur
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Hinweis
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Das Listing verwendet für die Berechnung die Y-Koordinate des Tastaturrechtecks und
+                                                               nicht dessen Höhe. Wenn eine Hardware-Tastatur angeschlossen ist, zeigt Cocoa Touch
+                                                               die Software-Tastatur nicht an. Das Rechteck hat aber trotzdem die volle Größe &#8211; also
+                                                               Input-Accessory-View und Software-Tastatur. Der View wird aber nur so weit hoch geschoben,
+                                                               dass nur der Input-Accessory-View zu sehen ist.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Diese Koordinatenberechnung gibt Listing 4.18 wieder. Darin weist die vorletzte Anweisung
+                                                   das berechnete Rechteck dem Textview als neuen Frame zu. Diese Zuweisung befindet
+                                                   sich in einem Animationsblock, den die Klassenmethoden <span class="clisting">beginAnimations:context:</span> und <span class="clisting">commitAnimations:</span> begrenzen.
+                                                </p>
+                                                <p>Mit diesem Konstrukt können Sie sehr einfach implizite Animationen erzeugen. Sie brauchen
+                                                   dabei nur den neuen Wert einer animierbaren Property in einem Animationsblock zu setzen.
+                                                   Cocoa Touch führt dann die notwendigen Schritte für die Animation automatisch durch,
+                                                   indem es zwischen dem alten und dem neuen Wert der Property interpoliert. Das fünfte
+                                                   Kapitel geht aber noch genauer auf Animationen ein.
+                                                </p><a id="dodtp896ab40b-40e5-46da-8751-56265f00f981" name="dodtp896ab40b-40e5-46da-8751-56265f00f981"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Die Tastatur verschwindet</span></h4>
+                                                <p>Wenn iOS die Tastatur vom Bildschirm entfernt, soll der Textview wieder seine alte
+                                                   Position zugewiesen bekommen. Dieses Rechteck können Sie allerdings nicht über das
+                                                   Tastaturrechteck berechnen. In vielen Fällen müssen Sie sich die ursprünglichen Koordinaten
+                                                   merken. Im Beispielprogramm haben die Ränder des Textviews feste Abstände zu den Rändern
+                                                   seines Superviews. Die Methode <span class="clisting">keyboardWillDisappear:</span> macht sich diesen Umstand zunutze und berechnet aus den Bounds des Superviews den
+                                                   Frame des Textviews:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)keyboardWillDisappear:(NSNotification *)inNotification {<br>    [UIView beginAnimations:nil context:nil];<br>    textView.frame = CGRectInset(textView.superview.bounds,<br>                                 10.0, 10.0);<br>    [UIView commitAnimations];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.19   </strong>Koordinatenanpassung beim Verschwinden der Tastatur
+                                                </p>
+                                                <p>Dazu verwendet die Methode die Funktion <span class="clisting">CGRectInset()</span>. Sie berechnet aus dem angegebenen Rechteck und einem horizontalen sowie vertikalen
+                                                   Abstand ein neues Rechteck. Es liegt innerhalb des ursprünglichen Rechtecks und hat
+                                                   zu diesem jeweils die gewünschten Abstände.
+                                                </p>
+                                                <p>Sie können jetzt beim Ausblenden der Tastatur die ursprünglichen Koordinaten des Textviews
+                                                   wieder herstellen. Aber wie bringen Sie Cocoa Touch dazu, die Tastatur verschwinden
+                                                   zu lassen? Textfelder und Textviews besitzen dafür kein Standardeingabeelement. Viele
+                                                   Apps verwenden dafür die Returntaste mit der Beschriftung <span class="cscreenelement">Done</span>.
+                                                </p>
+                                                <p>Das Beispielprogramm verwendet hierfür einen Input-Accessory-View, da sich hierdurch
+                                                   mehrere Möglichkeiten bieten. Diesen Hilfsview zeigt Cocoa Touch immer oberhalb der
+                                                   Tastatur an. Das Fototagebuch verwendet dafür eine Werkzeugleiste<a class="indexterm" id="dodtpeba28da2-92ad-4569-89d2-d7cbd1d65b97"></a>, aber Sie können auch beliebige andere Views verwenden. Ein eigener Abschnitt innerhalb
+                                                   von Abschnitt 4.6, »Containerviewcontroller«, geht noch genauer auf Werkzeugleisten
+                                                   ein.
+                                                </p><a href="bilder/04_010.png" rel="lightbox" title="Tastatur mit Input-Accessory-View"><img class="bild" border="1" src="bilderklein/klein04_010.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.10   </strong>Tastatur mit Input-Accessory-View
+                                                </p>
+                                                <p>Einen Input-Accessory-View müssen Sie getrennt von der View-Hierarchie erstellen und
+                                                   der Property <span class="clisting">inputAccessoryView</span><a class="indexterm" id="dodtpc7ceeab1-7383-4d2c-9427-afcf0af4cf94"></a> des Textfelds oder Textviews zuweisen. In der NIB-Datei des Itemviewcontrollers finden
+                                                   Sie zwei Views der Klasse <span class="clisting">UIToolBar</span><a class="indexterm" id="dodtp9e9b4fa1-a523-424e-b3c0-4ce4cc8f86c1"></a>, wovon der zweite der Input-Accessory-View des Textviews ist. Eine Möglichkeit ist,
+                                                   die Werkzeugleiste über eine Outlet-Property mit dem Viewcontroller zu verbinden und
+                                                   in der Methode <span class="clisting">viewDidLoad</span> des Controllers den Input-Accessory-View des Textviews zu setzen.
+                                                </p>
+                                                <p>Sie können sich durch einen kleinen Trick dieses zusätzliche Outlet aber sparen. Die
+                                                   Property <span class="clisting">inputAccessoryView</span> ließe sich ja mit der Werkzeugleiste schon im Interface Builder verbinden, wenn sie
+                                                   eine Outlet-Property wäre. Dieser Mangel lässt sich aber relativ einfach durch eine
+                                                   Kategorie beheben. Das Beispielprojekt enthält dafür die Kategoriedeklaration <span class="clisting">UITextView(Outlets)</span> in der Datei <span class="cdateipfad">UITextView+Outlets.h</span> (siehe Listing 4.20).
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">@interface UITextView(Outlets)<br>@property(readwrite, retain) IBOutlet UIView *inputAccessoryView;<br>@end<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.20   </strong>Nachträgliche Deklaration eines Outlets
+                                                </p>
+                                                <p>Eine Implementierung dieser Kategorie ist nicht notwendig. Falls Sie die Kategorie
+                                                   aber erweitern möchten und eine Implementierung für andere Methoden brauchen, sollten
+                                                   Sie die Property dort über <span class="clisting">@dynamic inputAccessoryView</span> definieren. Wenn Sie jetzt den Verbindungsinspektor des Textviews im Interface Builder
+                                                   öffnen, finden Sie dort auch ein Outlet für den Input-Accessory-View.
+                                                </p>
+                                                <p>Die Werkzeugleiste enthält drei Elemente: Jeweils einen Button zum Sichern und Abbrechen
+                                                   sowie einen unsichtbaren Zwischenraum. Der Zwischenraum sorgt dafür, dass die Werkzeugleiste
+                                                   den <span class="cscreenelement">Abbrechen</span>-Button an den rechten Rand drückt. Die Buttons sind mit den Action-Methoden <span class="clisting">saveText:</span> beziehungsweise <span class="clisting">revertText:</span> verbunden. Beide Methoden lassen dabei die Tastatur über den Aufruf der Methode <span class="clisting">endEditing:</span> verschwinden.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (IBAction)saveText:(id)inSender {<br>    [self.view endEditing:YES];<br>    self.item.text = self.textView.text;<br>    [self saveItem];<br>}<br><br>- (IBAction)revertText:(id)inSender {<br>    [self.view endEditing:YES];<br>    self.textView.text = self.item.text;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.21   </strong>Methoden zum Beenden der Texteingabe
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp1742cc84-080e-4401-bb5f-8199ed8adfe7" name="dodtp1742cc84-080e-4401-bb5f-8199ed8adfe7"></a><h3 class="t3"><span class="cfett">4.4.2</span><span class="cfett"> Fotos aufnehmen</span><a href="#dodtp742013f6-5218-4c2b-94a5-35d471354bd2"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp896ab40b-40e5-46da-8751-56265f00f981"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Neben einem Text kann ein Tagebucheintrag auch ein Bild enthalten. Der Eintrag enthält
+                                                   aber die Bilddaten nicht in einem Attribut. Er verweist über die Relationship <span class="clisting">media</span> auf weitere Entitäten, die Bilder, Töne oder auch andere Medieninhalte aufnehmen
+                                                   können. Die Entitäten des Typs <span class="clisting">Medium</span> enthalten nicht nur die Binärdaten des Mediums, sondern auch dessen Medientyp.
+                                                </p>
+                                                <p>Die Vorgehensweise, die Mediendaten von den Daten des Eintrags zu trennen, hat einige
+                                                   Vorteile. Der wichtigste ist, dass die Mediendaten nicht automatisch mit den Eintragsdaten
+                                                   geladen werden müssen. Die Bild- und Tondaten belegen selbst in komprimierter Form
+                                                   schnell einige hundert Kilobyte, was bei einem größeren Tagebuch schnell zu Laufzeit-
+                                                   und Speicherproblemen führen kann. Außerdem ist diese Struktur flexibel. Sie können
+                                                   relativ einfach neue Medientypen (z. B. für Videos) hinzufügen, ohne das Datenmodell
+                                                   ändern zu müssen. Vielleicht wollen Sie die App auch so verändern, dass sie mehrere
+                                                   Bilder pro Tagebucheintrag speichern kann. Auch das lässt sich über diese Struktur
+                                                   relativ einfach verwirklichen.
+                                                </p>
+                                                <p>In der hier vorgestellten Version gibt es aber zu jedem Medientyp nur jeweils ein
+                                                   Medienobjekt pro Eintrag. Deshalb besitzt die Klasse <span class="clisting">DiaryEntry</span> zwei Methoden, die den Zugriff über den Medientyp erlauben. Die Methode <span class="clisting">mediumForType:</span> liefert zu einem Medientyp das passende Objekt, während die Methode <span class="clisting">removeMediumForType:</span> das zum Medientyp passende Objekt löscht. Außerdem gibt es noch eine Methode zum
+                                                   Hinzufügen und Entfernen eines Mediums. Diese vier Methoden sind dank Core Data mit
+                                                   wenigen Codezeilen wie folgt implementiert:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (Medium *)mediumForType:(NSString *)inType {<br>    for(Medium *theMedium in self.media) {<br>        if([[theMedium type] isEqualToString:inType]) {<br>            return theMedium;<br>        }<br>    }<br>    return nil;<br>}<br>- (void)removeMediumForType:(NSString *)inType {<br>    Medium *theMedium = [self mediumForType:inType];<br><br>    [self removeMedium:theMedium];<br>}<br>- (void)addMedium:(Medium *)inMedium {<br>    if(inMedium != nil) {<br>        [self removeMediumForType:inMedium.type];<br>        [self addMediaObject:inMedium];<br>    }<br>}<br>- (void)removeMedium:(Medium *)inMedium {<br>    if(inMedium != nil) {<br>        inMedium.diaryEntry = nil;<br>        [self.managedObjectContext deleteObject:inMedium];<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.22   </strong>Verwaltung der Medien über den Tagebucheintrag
+                                                </p>
+                                                <p>Damit haben Sie die Grundlage für die Verwaltung der Medien eines Tagebucheintrags.
+                                                   Diese Implementierung stellt sicher, dass es immer nur maximal ein Medium eines Typs
+                                                   zu einem Eintrag gibt. Wenn Sie beispielsweise ein zweites Foto zu einem Eintrag über
+                                                   die Methode <span class="clisting">addMedium:</span> hinzufügen, löscht sie automatisch den vorhandenen Eintrag.
+                                                </p><a id="dodtp12ec3b49-b813-477d-857a-83ee2aae060a" name="dodtp12ec3b49-b813-477d-857a-83ee2aae060a"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Zugriff auf die Kamera</span></h4>
+                                                <p>Sie können über die Klasse <span class="clisting">UIImagePickerController</span> relativ einfach Bilder oder Filme aufnehmen. Diese Klasse ist ein fertiger Viewcontroller,
+                                                   den Sie nur noch konfigurieren und anzeigen müssen. Außerdem müssen Sie natürlich
+                                                   nach der Auswahl oder Aufnahme das Bild zum Tagebucheintrag hinzufügen.
+                                                </p>
+                                                <p>Der Imagepicker unterstützt drei Eingabequellen:</p>
+                                                <ul class="gp">
+                                                   <li><span class="clisting">UIImagePickerControllerSourceTypeCamera</span>: <br>die im Gerät eingebauten Kameras
+                                                   </li>
+                                                   <li><span class="clisting">UIImagePickerControllerSourceTypeSavedPhotosAlbum</span>: <br>das Fotoalbum mit den Aufnahmen der Kamera &#8211; also eine virtuelle Filmpatrone der Kamera.
+                                                      Wenn das Gerät keine Kamera besitzt, zeigt der Controller alle Alben des Geräts an.
+                                                   </li>
+                                                   <li><span class="clisting">UIImagePickerControllerSourceTypePhotoLibrary</span>: <br>alle auf dem Gerät vorhandenen Fotoalben inklusive der Filmpatrone, sofern das Gerät
+                                                      eine Kamera besitzt.
+                                                   </li>
+                                                </ul>
+                                                <p>Wenn Sie den Imagepicker verwenden möchten, sollten Sie zuerst prüfen, ob das Gerät
+                                                   die gewünschte Eingabequelle besitzt. Falls Sie diesen Schritt unterlassen, kann der
+                                                   Zugriff auf eine nicht vorhandene Quelle zum Absturz Ihrer App führen. Die Klasse
+                                                   <span class="clisting">UIImagePickerController</span> stellt für den Test die Klassenmethode <span class="clisting">isSourceTypeAvailable:</span> bereit. Sie übergeben ihr als Parameter eine der drei oben aufgeführten Konstanten
+                                                   und erhalten <span class="clisting">YES</span> als Ergebnis, wenn die entsprechende Quelle existiert. Für die Anzeige des Controllers
+                                                   setzen Sie die Eingabequelle und bringen ihn als modalen Viewcontroller zur Anzeige.
+                                                   Das Beispielprogramm erzeugt den Imagepicker in der Methode <span class="clisting">viewDidLoad</span> und hält diesen über die Property <span class="clisting">imagePicker</span>. Es setzt außerdem die Property <span class="clisting">allowsEditing</span>, damit Sie die Größe und den Ausschnitt der Bilder im Picker bearbeiten können (siehe
+                                                   Listing 4.24).
+                                                </p><a id="dodtpbf7eebcd-f67c-4142-9041-9ec6270753a1" name="dodtpbf7eebcd-f67c-4142-9041-9ec6270753a1"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Modale Viewcontroller und Popover</span></h4>
+                                                <p>Auf einem iPhone oder einem iPod müssen Sie den Imagepicker als modalen View anzeigen,
+                                                   während Sie auf dem iPad ein Popover dafür verwenden müssen. Sie haben hierfür leider
+                                                   keine Wahl (und deshalb aber auch keine Qual).
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Modale Dialoge
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Ein modaler Dialog sperrt alle anderen Eingabemöglichkeiten einer Applikation. Sie
+                                                               müssen zuerst diesen Dialog bearbeiten, bevor Sie mit der Applikation weiterarbeiten
+                                                               können. Typische modale Dialoge unter OS X sind die Dateiauswahlboxen. Beispiele für
+                                                               nichtmodale Dialoge unter OS X sind die Dateiinformationsfenster des Finders.
+                                                               
+                                                               Auf dem iPhone sperrt ein modaler Dialog alle anderen Eingaben des Viewcontrollers,
+                                                               der ihn anzeigt, indem er ihn komplett verdeckt. Das geht auch auf dem iPad. Allerdings
+                                                               muss er dort nicht den ganzen Bildschirm bedecken.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <div class="listing"><pre class="prettyprint">- (void)showPickerWithSourceType:<br>    (UIImagePickerControllerSourceType)inType<br>    barButtonItem:(UIBarButtonItem *)inItem {<br>    if([UIImagePickerController isSourceTypeAvailable:inType]) {<br>        self.imagePicker.sourceType = inType;<br>        if(self.popoverController == nil) {<br>            [self presentModalViewController:self.imagePicker<br>                                    animated:YES];<br>        }<br>        else if(!self.popoverController.popoverVisible) {<br>            [self.popoverController<br>                presentPopoverFromBarButtonItem:inItem<br>                       permittedArrowDirections:<br>                           UIPopoverArrowDirectionAny<br>                                       animated:YES];<br>        }<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.23   </strong>Anzeige des Imagepickers
+                                                </p><a href="bilder/04_011.png" rel="lightbox" title="Ein Imagepicker in einem Popover"><img class="bild" border="1" src="bilderklein/klein04_011.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.11   </strong>Ein Imagepicker in einem Popover
+                                                </p>
+                                                <p>Für die modale Anzeige des Imagepickers verwendet Listing 4.23 die Methode <span class="clisting">presentModalViewController:animated:</span> aus der Klasse <span class="clisting">UIViewController</span>. Über diese Methode können Sie beliebige Viewcontroller darstellen. Wie Sie den Imagepicker
+                                                   anzeigen, ist aber abhängig von der Gerätefamilie, auf der Ihre App läuft. Für das
+                                                   iPad verwendet die Methode einen <span class="clisting">UIPopoverViewController</span>. Das sind die iPad-typischen Fenster mit der Pfeilspitze (siehe Abbildung 4.11).
+                                                </p>
+                                                <p>Über die Property <span class="clisting">modalTransitionStyle</span> können Sie die Animation für das Erscheinen und Verschwinden des modalen Views festlegen.
+                                                   Die Animation für das Verschwinden ist dabei jeweils entgegengesetzt zu der Animation
+                                                   für das Erscheinen. Es gibt folgende Auswahlmöglichkeiten:
+                                                </p>
+                                                <ul class="gp">
+                                                   <li><span class="clisting">UIModalTransitionStyleCoverVertical</span> schiebt den Viewcontroller von unten nach oben in den Bildschirm. Das ist die Standardanimation.
+                                                   </li>
+                                                   <li><span class="clisting">UIModalTransitionStyleFlipHorizontal</span> dreht die Views an der zentralen, vertikalen Achse umeinander, wie Sie es vielleicht
+                                                      schon von den Dashboard-Widgets kennen.
+                                                   </li>
+                                                   <li><span class="clisting">UIModalTransitionStyleCrossDissolve</span> blendet den aktuellen View aus und gleichzeitig den modalen View durch einen Überblendeffekt
+                                                      ein.
+                                                   </li>
+                                                   <li><span class="clisting">UIModalTransitionStylePartialCurl</span> rollt den aktuellen View wie das oberste Blatt eines Kalenders nach oben.
+                                                   </li>
+                                                </ul>
+                                                <p>Das Fototagebuch legt den Transitionstyp schon bei der Erzeugung des Imagepickers
+                                                   fest:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">self.imagePicker = [[[UIImagePickerController alloc] init]<br>                    autorelease];<br>self.imagePicker.allowsEditing = YES;<br>self.imagePicker.modalTransitionStyle =<br>    UIModalTransitionStyleFlipHorizontal;<br>self.imagePicker.delegate = self;<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.24   </strong>Erzeugung des Imagepickers
+                                                </p>
+                                                <p>Nach der Auswahl oder Aufnahme eines Bildes müssen Sie die Anzeige des Dialogs beenden.
+                                                   Dazu verwenden Sie die Methode <span class="clisting">dismissModalViewControllerAnimated:</span>. Sie können diese Methode entweder beim Viewcontroller des modalen Views oder bei
+                                                   dem Viewcontroller aufrufen, der den modalen Dialog geöffnet hat.
+                                                </p>
+                                                <p>Den Imagepicker können Sie auf dem iPad nicht über einen modalen Dialog anzeigen lassen.
+                                                   Sie müssen stattdessen ein Popover verwenden, die es aber nur auf dem iPad gibt. Ein
+                                                   Popover zeichnet einen schwarzen Rahmen mit einer Pfeilspitze um den View. Die Pfeilspitze
+                                                   zeigt in der Regel auf den View, über den Sie das Popover geöffnet haben. Wenn Sie
+                                                   den Bildschirm außerhalb des Popovers berühren, schließt iOS das Popover. Dieses Verhalten
+                                                   können Sie verhindern, indem Sie die Property <span class="clisting">modalInPopover</span> auf <span class="clisting">YES</span> setzen.
+                                                </p>
+                                                <p>Das Fototagebuch erzeugt den Controller für das Popover nur, wenn Sie es auf einem
+                                                   iPad starten. Für diese Unterscheidung können Sie die Property <span class="clisting">userInterfaceIdiom</span> des Singletons <span class="clisting">UIDevice</span> auswerten. Die entsprechende Logik dazu finden Sie in <span class="clisting">viewDidLoad</span>:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">if([[UIDevice currentDevice] userInterfaceIdiom] ==<br>    UIUserInterfaceIdiomPad) {<br>    self.popoverController = [[[UIPopoverController alloc]<br>        initWithContentViewController:self.imagePicker]<br>              autorelease];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.25   </strong>Erzeugung des Popovercontrollers
+                                                </p>
+                                                <p>Für die Anzeige des Popovers gibt es zwei Möglichkeiten. Entweder geben Sie einen
+                                                   Button aus der Navigationsleiste oder der Tabbar an, auf den die Nase zeigen soll.
+                                                   Diese Variante verwendet Listing 4.23. Alternativ können Sie aber auch dafür einen
+                                                   View mit einem Rechteck angeben. Außerdem müssen Sie mögliche Richtungen angeben,
+                                                   in die die Spitze zeigen darf.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Tipp
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie sollten für die Ausrichtung der Pfeilspitze immer sinnvolle Werte angeben. Andernfalls
+                                                               kann Cocoa Touch das Popover schon mal an ungewöhnlichen Stellen positionieren. Am
+                                                               einfachsten verwenden Sie die Konstante <span class="clisting">UIPopoverArrowDirectionAny</span>. Dann wählt iOS automatisch eine geeignete Ausrichtung.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Im Gegensatz zum modalen View des Imagepickers auf dem iPhone oder iPod schließt das
+                                                   iPad das Popover automatisch, wenn Sie ein Bild auswählen oder den Dialog abbrechen.
+                                                   Falls Sie einen eigenen View in einem Popover darstellen, können Sie es über die Methode
+                                                   <span class="clisting">dismissPopoverAnimated:</span> schließen.
+                                                </p><a id="dodtp86e967c5-a496-477b-b3a9-3929a1fe9be9" name="dodtp86e967c5-a496-477b-b3a9-3929a1fe9be9"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Verarbeitung von Aufnahmen</span></h4>
+                                                <p>Der Imagepicker bietet für die Verarbeitung der Aufnahmen das Delegateprotokoll <span class="clisting">UIImagePickerDelegate</span> an. Über die Methode <span class="clisting">imagePickerControllerDidCancel:</span> teilt der Controller Ihnen mit, dass der Anwender die Aufnahme beziehungsweise Bildauswahl
+                                                   abgebrochen hat. Nach einer Aufnahme oder Bildauswahl ruft der Imagepicker die Delegatemethode
+                                                   <span class="clisting">imagePickerController: didFinishPickingMediaWithInfo:</span> auf. Dabei übergibt der Picker im zweiten Parameter ein Dictionary mit dem Bild und
+                                                   anderen Daten. Für die Einträge im Dictionary gibt es vordefinierte Konstanten:
+                                                </p>
+                                                <ul class="gp">
+                                                   <li><span class="clisting">UIImagePickerControllerMediaType</span> enthält den Medientyp der Aufnahme. Dieser Wert entspricht einer der Konstanten <span class="clisting">kUTTypeImage</span> (Bild) oder <span class="clisting">kUTTypeMovie</span> (Film).
+                                                   </li>
+                                                   <li><span class="clisting">UIImagePickerControllerOriginalImage</span> enthält das unbearbeitete Bild der Klasse <span class="clisting">UIImage</span> der Aufnahme.
+                                                   </li>
+                                                   <li><span class="clisting">UIImagePickerControllerMediaMetadata</span> enthält ein weiteres Dictionary mit Metadaten des Bildes. Diesen Eintrag unterstützen
+                                                      aber nur die iOS-Versionen ab 4.1.
+                                                   </li>
+                                                   <li><span class="clisting">UIImagePickerControllerMediaURL</span> existiert auch erst seit iOS 4.1 und nur, wenn Sie ein Bild aus Ihren Fotoalben ausgewählt
+                                                      haben. Dieser Eintrag enthält eine URL auf den Eintrag des Fotoalbums, den Sie ausgewählt
+                                                      haben.
+                                                   </li>
+                                                </ul>
+                                                <p>Wenn Sie das Bearbeiten der Bilder im Imagepicker erlaubt haben, erhalten Sie noch
+                                                   Einträge über die Ausschnittsauswahl:
+                                                </p>
+                                                <ul class="gp">
+                                                   <li><span class="clisting">UIImagePickerControllerEditedImage</span> enthält das bearbeitete Bild der Aufnahme &#8211; also den vom Anwender gewählten Ausschnitt.
+                                                   </li>
+                                                   <li><span class="clisting">UIImagePickerControllerCropRect</span> enthält ein <span class="clisting">CGRect</span> in einem <span class="clisting">NSValue</span>-Objekt mit dem Auswahlrechteck.
+                                                   </li>
+                                                </ul>
+                                                <p>Das Fototagebuch liest in der Delegatemethode das bearbeitete Bild aus und wandelt
+                                                   es in JPEG-Daten um. Dazu verwendet es die Funktion <span class="clisting">UIImageJPEGRepresentation</span>, die zwei Parameter hat. Der erste ist das <span class="clisting">UIImage</span>-Objekt, aus dem die Funktion die JPEG-Daten erzeugen soll. Der zweite Parameter ist
+                                                   ein Fließkommawert zwischen 0 (niedrig) und 1 (hoch), der die Bildqualität nach der
+                                                   JPEG-Komprimierung beschreibt. Die Funktion liefert ein Objekt der Klasse <span class="clisting">NSData</span> zurück, die eine Hülle für Bytearrays ist.
+                                                </p>
+                                                <p>Sie können dieses <span class="clisting">NSData</span>-Objekt der Property <span class="clisting">data</span> einer Entität der Klasse <span class="clisting">Medium</span> zuweisen. Im Beispielprogramm passiert das in der Methode <span class="clisting">updateMediumData:withMediumType</span>:, die das Programm auch für die Speicherung der Audiodaten verwendet:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)updateMediumData:(NSData *)inData<br>          withMediumType:(NSString *)inType {<br>    if(inData.length == 0) {<br>        [self.item removeMediumForType:inType];<br>    }<br>    else {<br>        Medium *theMedium = [NSEntityDescription<br>            insertNewObjectForEntityForName:@"Medium"<br>            inManagedObjectContext:self.managedObjectContext];<br>        theMedium.type = inType;<br>        theMedium.data = inData;<br>        [self.item addMedium:theMedium];<br>    }<br>    [self saveItem];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.26   </strong>Speicherung von Mediendaten
+                                                </p>
+                                                <p>Die Tabellenansicht des Fototagebuchs stellt die Aufnahmen in einem kleineren Format
+                                                   (60 × 60 Pixel) dar. Die App erzeugt die Bilddaten für dieses Icon, indem sie das
+                                                   Bild entsprechend verkleinert. Die Entität <span class="clisting">DiaryEntry</span> besitzt eine Property <span class="clisting">icon</span>, in der sie diese Bilddaten ablegt.
+                                                </p>
+                                                <p>Die Skalierung des Bildes geschieht über zwei Methoden der Kategorie <span class="clisting">UIImage(ImageTools)</span>. Die Methode <span class="clisting">sizeToAspectFitInSize:</span> berechnet die Größe für das Bild, sodass das Bild komplett in die angegebene Größe
+                                                   passt. Die berechnete Bildgröße besitzt dabei das gleiche Seitenverhältnis wie das
+                                                   Bild.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (CGSize)sizeToAspectFitInSize:(CGSize)inSize {<br>    CGSize theSize = self.size;<br>    CGFloat theWidthFactor = inSize.width / theSize.width;<br>    CGFloat theHeightFactor = inSize.height / theSize.height;<br>    CGFloat theFactor = fmin(theWidthFactor, theHeightFactor);<br>    return CGSizeMake(theSize.width * theFactor,<br>                      theSize.height * theFactor);<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.27   </strong>Größenberechnung mit festem Seitenverhältnis
+                                                </p>
+                                                <p>Die Methode in Listing 4.27 berechnet jeweils den Skalierungsfaktor, um das Bild auf
+                                                   die Breite beziehungsweise die Höhe des Zielrechtecks zu bringen. Wenn Sie das Rechteck
+                                                   mit diesen beiden Faktoren skalieren, entstehen zwei neue Rechtecke, von denen eines
+                                                   genau die Breite und das andere genau die Höhe des Zielrechtecks hat. Von diesen beiden
+                                                   Rechtecken passt nun genau das mit dem kleineren Skalierungsfaktor in das Zielrechteck.
+                                                </p><a href="bilder/04_012.png" rel="lightbox" title="Größenberechnung mit festem Seitenverhältnis"><img class="bild" border="1" src="bilderklein/klein04_012.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.12   </strong>Größenberechnung mit festem Seitenverhältnis
+                                                </p>
+                                                <p>Sie können ein Beispiel dafür in Abbildung 4.12 sehen. Das Seitenverhältnis der Breite
+                                                   des Zielrechtecks zu der Breite des Bildrechtecks ist dreiviertel und analog für die
+                                                   Höhen anderthalb. Wie Sie an der Abbildung sehen können, passt genau das Rechteck
+                                                   mit dem kleineren Skalierungsfaktor in das Zielrechteck.
+                                                </p>
+                                                <p>Die Methode <span class="clisting">scaledImageWithSize:</span> der Kategorie berechnet ein skaliertes Bild, das genau die angegebene Größe hat.
+                                                   Dafür verwendet sie Core-Graphics-Funktionen und einen Image-Kontext.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (UIImage *)scaledImageWithSize:(CGSize)inSize {<br>    CGRect theFrame = CGRectMake(0.0, 0.0,                                  inSize.width, inSize.height);<br>    UIImage *theImage;<br>    UIGraphicsBeginImageContext(inSize);<br>    [self drawInRect:theFrame];<br>    theImage = UIGraphicsGetImageFromCurrentImageContext();<br>    UIGraphicsEndImageContext();<br>    return theImage;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.28   </strong>Skalierung eines Bildes
+                                                </p>
+                                                <p>In Listing 4.28 sehen Sie die Implementierung dieser Methode. Sie erstellt über die
+                                                   Funktion <span class="clisting">UIGraphicsBeginImageContext()</span> einen Image-Kontext in der gewünschten Größe. Einen Image-Kontext können Sie genau
+                                                   wie einen Grafikkontext verwenden, den Sie bereits im letzten Kapitel kennengelernt
+                                                   haben. Die Funktion liefert allerdings den <span class="clisting">CGContextRef</span>-Verweis nicht direkt zurück. Sie müssen ihn über die Funktion <span class="clisting">UIGraphicsGetCurrentContext()</span> ermitteln. Core Graphics verwaltet seine Kontexte in einem Stack, weswegen Sie den
+                                                   Image-Kontext über die Funktion <span class="clisting">UIGraphicsEndImageContext()</span> am Ende der Methode wieder freigeben müssen. Das Bild zeichnen Sie über die Methode
+                                                   <span class="clisting">drawInRect:</span> in den Grafikkontext. Die Funktion <span class="clisting">UIGraphicsGetImageFromCurrentImageContext()</span> des UIKits wandelt schließlich diesen Grafikkontext wieder in ein Bild um.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp742013f6-5218-4c2b-94a5-35d471354bd2" name="dodtp742013f6-5218-4c2b-94a5-35d471354bd2"></a><h3 class="t3"><span class="cfett">4.4.3</span><span class="cfett"> Töne aufnehmen und abspielen</span><a href="#"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp86e967c5-a496-477b-b3a9-3929a1fe9be9"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Im Gegensatz zu Bildern und Videos gibt es unter iOS keine grafische Standardkomponente
+                                                   für die Aufnahme von Tönen. Dieser Abschnitt beschreibt eine mögliche Umsetzung eines
+                                                   einfachen Controllers für diesen Zweck.
+                                                </p><a id="dodtpc24199a7-a87b-42f8-bc10-ea924485cd4b" name="dodtpc24199a7-a87b-42f8-bc10-ea924485cd4b"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Subviewcontroller</span></h4>
+                                                <p>Wenn Sie den View eines Viewcontrollers anzeigen möchten, dann geschieht das über
+                                                   die Controllerschicht. Sie haben dafür bereits drei Möglichkeiten kennengelernt. Den
+                                                   Viewcontroller des Startviews Ihrer App legen Sie über die Property <span class="clisting">rootViewController</span> der Klasse <span class="clisting">UIWindow</span> fest. Modale Dialoge können Sie auf dem iPhone über <span class="clisting">presentModalViewController:animated:</span> anzeigen und auf dem iPad auh über Popovercontroller. Cocoa Touch bietet aber noch
+                                                   weitere Möglichkeiten, die Sie im Verlauf des Buches kennenlernen werden.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Viewcontroller und die Verwaltung von Subviews
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Die Views der Unterklassen von <span class="clisting">UIViewController</span> sollten Sie immer über die Controllerschicht anzeigen lassen (z. B. als modalen Dialog).
+                                                               Bei iOS-Versionen vor 5 sollten Sie diese Views nicht selber direkt über <span class="clisting">addSubview:</span> oder <span class="clisting">insertSubview</span>-Methoden in die Viewhierarchie einfügen. Dieses Vorgehen ist unsauber, da dadurch
+                                                               die Methoden des Anzeigezyklus des Viewcontrollers nicht aufgerufen werden.
+                                                               <br><br>
+                                                               Die einzige Ausnahme bildete vor iOS 4.0 der Root-Viewcontroller, dessen View direkt
+                                                               zum Fenster hinzugefügt wurde. Mit der Einführung der Property <span class="clisting">rootViewController</span> der Klasse <span class="clisting">UIWindow</span> ist aber auch das nicht mehr nötig.
+                                                               <br><br>
+                                                               Mit iOS 5 können UIViewController-Objekte auch Subviews verwalten. Dazu müssen Sie
+                                                               dem Viewcontroller mitteilen, dass er einen Subview verwaltet. Abschnitt 4.6.4 geht
+                                                               genauer darauf ein.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Ein Viewcontroller verwaltet immer den kompletten View, der an ihm hängt. Es gibt
+                                                   aber häufig Fälle, in denen Sie eine feinere Unterteilung haben möchten. Ein typisches
+                                                   Beispiel sind Subviews, die Sie in unterschiedlichen Hauptviews verwenden möchten.
+                                                   Ein anderes Beispiel sind Controller, die ihren Hauptview in mehrere Einheiten unterteilen.
+                                                </p>
+                                                <p>Für die Verwaltung solcher Subviews sollten Sie &#8211; zumindest bis iOS 5 &#8211; keine Unterklassen
+                                                   von <span class="clisting">UIViewController</span> verwenden. Sie können dafür aber Unterklassen von <span class="clisting">NSObject</span> erstellen. Das Beispielprogramm enthält zwei Controller für die Anzeige und Verwaltung
+                                                   von Subviews. Der eine ist für die Aufnahme und der andere für das Abspielen von Tönen
+                                                   zuständig. Die gemeinsamen Eigenschaften der Controller fasst deren Oberklasse <span class="clisting">SubviewController</span> zusammen.
+                                                </p>
+                                                <p>Die Klasse ahmt über die Propertys <span class="clisting">view</span> und <span class="clisting">nibName</span> sowie die Methode <span class="clisting">loadView</span> den Lademechanismus der Klasse <span class="clisting">UIViewController</span> nach. Das ist nicht unbedingt notwendig, aber auch nicht sehr aufwendig (siehe Listing
+                                                   4.29). Sie können den View dieser Subviewcontroller aber auch über ein Outlet setzen.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (NSString *)nibName {<br>    if(nibName == nil) {<br>        self.nibName = NSStringFromClass([self class]);<br>    }<br>    return nibName;<br>}<br>- (UIView *)view {<br>    if(view == nil) {<br>        [self loadView];<br>    }<br>    return view;<br>}<br>- (void)loadView {<br>    NSBundle *theBundle = [NSBundle mainBundle];<br>    [theBundle loadNibNamed:self.nibName owner:self options:nil];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.29   </strong>View-Lademechanismus für Subviewcontroller
+                                                </p>
+                                                <p>Der Controller implementiert die beiden Propertys als Lazy-Getter, wobei er für den
+                                                   Namen der NIB-Datei der Namen der Controller-Klasse zurückgibt, wenn Sie keinen Namen
+                                                   gesetzt haben. Die Methode <span class="clisting">loadView</span> lädt die NIB-Datei über die Methode <span class="clisting">loadNibNamed:owner:options:</span> der Klasse <span class="clisting">NSBundle</span>. Dabei verwendet sie den Controller als Eigentümer. Da ein Outlet den View mit der
+                                                   Property <span class="clisting">view</span> des <span class="cbegriff">File&#8217;s Owners</span> verbindet, setzt dieser Methodenaufruf implizit den View des Controllers.
+                                                </p>
+                                                <p>Über die Methode <span class="clisting">addViewToViewController:</span> können Sie den View des Subviewcontrollers zu dem View eines beliebigen Viewcontrollers
+                                                   hinzufügen. Der Controller steuert die Sichtbarkeit des Subviews über dessen Alpha-Wert,
+                                                   der eine Fließkommazahl ist. Dabei bedeutet der Wert 0, dass der View und alle seine
+                                                   Subviews transparent sind und keine Berührungen verarbeiten. Ein Alphawert von 1 stellt
+                                                   den View normal dar, und er verarbeitet auch die Berührungen. Sie können die Sichtbarkeit
+                                                   des Subviews über die Property <span class="clisting">visible</span> und die Methode <span class="clisting">setVisible:animated:</span> des Subviewcontrollers steuern.
+                                                </p><a id="dodtpa4cfea85-ca2a-4e38-857d-0a911bfa03b7" name="dodtpa4cfea85-ca2a-4e38-857d-0a911bfa03b7"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Eigene Delegate-Protokolle erstellen</span></h4>
+                                                <p>Außerdem besitzt der Subviewcontroller ein Delegateprotokoll mit zwei Methoden, die
+                                                   er vor dem Ein- beziehungsweise Ausblenden des Subviews aufruft. Das Protokoll deklariert
+                                                   beide Methoden als optional, sodass das Delegate sie nicht implementieren muss. Der
+                                                   Aufruf der Delegatemethoden erfolgt aus der Methode <span class="clisting">setVisible:</span> heraus, die Listing 4.30 enthält.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)setVisible:(BOOL)inVisible {<br>    UIView *theView = self.view;<br>    SEL theSelector;<br><br>    theView.frame = theView.superview.bounds;<br>    if(inVisible) {<br>        theView.alpha = 1.0;<br>        theSelector = @selector(subviewControllerWillAppear:);<br>        [theView.superview bringSubviewToFront:theView];<br>    }<br>    else {<br>        theView.alpha = 0.0;<br>        theSelector = @selector(subviewControllerWillDisappear:);<br>    }<br>    [self clear];<br>    if([self.delegate respondsToSelector:theSelector]) {<br>        [self.delegate performSelector:theSelector<br>                            withObject:self];<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.30   </strong>Aufruf der Delegatemethoden
+                                                </p>
+                                                <p>Die Methode weist dabei der Variablen <span class="clisting">theSelector</span> abhängig von der neuen Sichtbarkeit den entsprechenden Selektor der aufzurufenden
+                                                   Delegatemethode zu. Sie prüft dann über die Methode <span class="clisting">respondsToSelector:</span>, ob das Delegate diese Methode auch implementiert. In diesem Fall ruft sie die Methode
+                                                   über <span class="clisting">performSelector:withObject:</span> des Delegates auf.
+                                                </p><a id="dodtpe985e92d-9eaa-4510-8d4d-4136d3bb1753" name="dodtpe985e92d-9eaa-4510-8d4d-4136d3bb1753"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Play it again, Sam: Töne abspielen</span></h4>
+                                                <p>Im zweiten Kapitel haben Sie bereits eine Möglichkeit kennenlernt, Töne abzuspielen.
+                                                   Diese Wiedergabemöglichkeit ist aber für das Fototagebuch nicht sehr geeignet. Denn
+                                                   Sie benötigen eine URL, die auf die Sounddatei verweist. Die Töne des Fototagebuchs
+                                                   liegen aber in Attributen von Core-Data-Entitäten, für die es keine URLs gibt. Wenn
+                                                   Sie einen Ton über die Funktion <span class="clisting">AudioServicesPlaySystemSound</span> abspielen, können Sie die Wiedergabe nicht steuern. Sie können die Wiedergabe weder
+                                                   pausieren lassen noch an eine bestimmte Stelle springen. Es ist nur die Wiedergabe
+                                                   des kompletten Tons vom Anfang bis zum Ende möglich.
+                                                </p>
+                                                <p>Über die Klasse <span class="clisting">AVAudioPlayer</span><a class="indexterm" id="dodtp85ae7851-47c6-4d0f-aa46-695e5acdc3f7"></a> des AVFoundation-Frameworks bietet das iOS eine weitere Möglichkeit, Töne wiederzugeben.
+                                                   Zwar ist der Audioplayer auch eine Controllerkomponente, aber er ist kein Viewcontroller.
+                                                   Das Fototagebuch enthält eine Subviewcontroller-Klasse <span class="clisting">AudioPlayerController</span>, die einen Audioplayer kapselt.
+                                                </p><a href="bilder/04_013.png" rel="lightbox" title="Der Audioplayer-Controller"><img class="bild" border="1" src="bilderklein/klein04_013.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.13   </strong>Der Audioplayer-Controller
+                                                </p>
+                                                <p>Der View des Audioplayer-Controllers zeigt in der Mitte einen Slider an, der die aktuelle
+                                                   Abspielposition wiedergibt. Sie können über den Slider aber auch die Abspielposition
+                                                   wählen. Darüber zeigt er den aktuellen Lautstärkepegel grafisch an. Da die Initialisierung
+                                                   des Audioplayers einige Sekunden benötigen kann, besitzt der View für die Überbrückung
+                                                   der Wartezeit auch noch einen <span class="cbegriff">Activityindicator</span><a class="indexterm" id="dodtpf5a380cb-4b6e-4e13-bb9b-03fccd1e12bf"></a>. Die Initialisierung des Audioplayers erfolgt in der Methode <span class="clisting">startAudioPlayer</span>:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)startAudioPlayer {<br>    NSError *theError = nil;<br>    AVAudioPlayer *thePlayer = [[AVAudioPlayer alloc]<br>        initWithData:self.audioMedium.data error:&amp;theError];<br><br>    if(thePlayer == nil) {<br>        NSLog(@"playAudio: %@", theError);<br>        self.loading = NO;<br>    }<br>    else {<br>        self.audioPlayer = thePlayer;<br>        thePlayer.delegate = self;<br>        thePlayer.meteringEnabled = YES;<br>        self.time = slider.value;<br>        slider.maximumValue = thePlayer.duration;<br>        self.loading = NO;<br>        [self updateTime:nil];<br>        [self startTimer];<br>        [thePlayer play];<br>    }<br>    [thePlayer release];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.31   </strong>Erzeugung und Initialisierung eines Audioplayers
+                                                </p>
+                                                <p>Im Fehlerfall liefert die Initializer-Methode <span class="clisting">initWithData:error:</span> im zweiten Parameter einen Verweis auf einen Fehler zurück, und die Variable <span class="clisting">thePlayer</span> verweist dann auf <span class="clisting">nil</span>. Da der Controller den Lautstärkepegel anzeigen soll, müssen Sie über die Property
+                                                   <span class="clisting">meteringEnabled</span> die Messung dieser Werte einschalten.
+                                                </p>
+                                                <p>Die Länge des Tons können Sie über die Property <span class="clisting">duration</span> des Audioplayers ermitteln, um damit den maximalen Wert des Sliders zu setzen. Da
+                                                   der Controller sowohl den Slider als auch die Anzeige des Lautstärkepegels regelmäßig
+                                                   aktualisieren muss, startet er dafür einen Timer. Die Aktualisierung dieser Werte
+                                                   erfolgt in der Methode <span class="clisting">updateTime:</span>.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)updateTime:(NSTimer *)inTimer {<br>    NSTimeInterval theTime = self.audioPlayer.currentTime;<br><br>    [self.audioPlayer updateMeters];<br>    meterView.value =<br>        [self.audioPlayer averagePowerForChannel:0];<br>    slider.value = theTime;<br>    [self updateTimeLabel];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.32   </strong>Aktualisierung der Lautstärkepegel- und Positionsanzeige
+                                                </p>
+                                                <p>Der Audioplayer misst den Lautstärkepegel für jeden Kanal getrennt. Um die aktuellen
+                                                   Werte zu erhalten, müssen Sie zuerst die Methode <span class="clisting">updateMeters</span> aufrufen, bevor Sie den Wert für die einzelnen Kanäle über <span class="clisting">averagePowerForChannel:</span> abrufen. Der Rückgabewert dieser Methode liegt zwischen &#8211;160 und 0. Die Klasse <span class="clisting">MeterView</span> rechnet diesen Wert in ihrer Methode <span class="clisting">drawRect:</span> um und zeichnet abhängig von dem Wert ein Bild flexibler Breite.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)drawRect:(CGRect)inRect {<br>    CGRect theBounds = self.bounds;<br>    CGFloat theValue = theBounds.size.width * self.value / WIDTH;<br>    UIImage *theImage = [UIImage imageNamed:@"meter.png"];<br>    theBounds.size.width += theValue;<br>    [theImage drawAsPatternInRect:theBounds];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.33   </strong>Zeichnen des Lautstärkepegels
+                                                </p>
+                                                <p>Die Methode zeichnet den Balken durch eine gekachelte Darstellung eines Bildes über
+                                                   die Methode <span class="clisting">drawAsPatternInRect:</span>.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Tipp
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Vielleicht sind Ihnen die abgerundeten Ecken der Lautstärkepegelanzeige aufgefallen.
+                                                               Diese Darstellung können Sie relativ elegant über den Layer des Views realisieren,
+                                                               der eine Property <span class="clisting">cornerRadius</span> besitzt. Außerdem müssen Sie das Clipping einschalten. Die Klasse <span class="clisting">MeterView</span> setzt diese Werte in der Methode <span class="clisting">awakeFromNib</span>.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>
+                                                               <div class="listing"><pre class="prettyprint">- (void)awakeFromNib {<br>    [super awakeFromNib];<br>    self.layer.cornerRadius = 5;<br>    self.layer.masksToBounds = YES;<br>}<br></pre></div>
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Das nächste Kapitel geht genauer auf die Möglichkeiten der Layer ein.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die Methode <span class="clisting">updateTime:</span> aktualisiert außerdem den Wert des Sliders, um die aktuelle Abspielposition anzuzeigen.
+                                                   Sie liest dazu die Zeit über die Property <span class="clisting">currentTime</span> aus und setzt diesen Wert in die Property <span class="clisting">value</span> des Sliders.
+                                                </p><a id="dodtp574b179c-f029-4e07-a107-a79e2ffa0262" name="dodtp574b179c-f029-4e07-a107-a79e2ffa0262"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Aktivitätsanzeige und länger laufende Operationen</span></h4>
+                                                <p>Der Audioplayer benötigt für das Laden und Initialisieren der Audiodaten einige Sekunden
+                                                   Zeit. Der Nutzer sollte in dieser Zeit eine Rückmeldung von der App erhalten, dass
+                                                   sie beschäftigt ist. Dazu verwendet sie eine Aktivitätsanzeige; das ist ein View der
+                                                   Klasse <span class="clisting">UIActivityIndicator</span>.
+                                                </p><a href="bilder/04_014.png" rel="lightbox" title="Audioplayer mit Aktivitätsanzeige"><img class="bild" border="1" src="bilderklein/klein04_014.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.14   </strong>Audioplayer mit Aktivitätsanzeige
+                                                </p>
+                                                <p>Sie können die Animation der Anzeige über die Methode <span class="clisting">startAnimating</span> starten und über <span class="clisting">stopAnimating</span> stoppen.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (BOOL)loading {<br>    return activityIndicator.isAnimating;<br>}<br>- (void)setLoading:(BOOL)inLoading {<br>    if(inLoading) {<br>        [self.activityIndicator startAnimating];<br>        [toolbar setEnabled:NO];<br>    }<br>    else {<br>        [self.activityIndicator stopAnimating];<br>        [toolbar setEnabled:YES];<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.34   </strong>Steuerung der Aktivitätsanzeige
+                                                </p>
+                                                <p>Wenn Sie die Property <span class="clisting">hidesWhenStopped</span> auf <span class="clisting">YES</span> setzen, zeigt Cocoa Touch den Indikator nur während der Animation an. Einen Indikator
+                                                   ohne Animation versteckt Cocoa also automatisch. Die Animation beginnt aber nicht
+                                                   sofort durch den Aufruf der Methode <span class="clisting">startAnimating</span>, sondern erst, nachdem die Programmausführung in die Runloop des Threads zurückgekehrt
+                                                   ist. Das können Sie dadurch erreichen, dass Ihr Programm alle Methoden verlässt, die
+                                                   Sie erstellt haben.
+                                                </p>
+                                                <p>Das bedeutet für den Audioplayer, dass Sie Ihre Methoden verlassen müssen, bevor Sie
+                                                   den Audioplayer initialisieren. Das können Sie durch einen verzögerten Aufruf der
+                                                   Methode erreichen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">[self performSelector:@selector(startAudioPlayer)<br>           withObject:nil afterDelay:0.0];<br></pre></div>
+                                                <p>Die Methode <span class="clisting">perfomSelector:withObject:afterDelay:</span> stellt die Klasse <span class="clisting">NSObject</span> bereit. Sie ruft die Methode mit dem angegebenen Selektor und dem Parameterobjekt
+                                                   im Empfänger nach der angegebenen Verzögerung auf. Diese Methode fügt den Methodenaufruf
+                                                   immer in die Runloop ein &#8211; auch bei einer Verzögerung von 0 Sekunden. Cocoa Touch
+                                                   bekommt so die Möglichkeit, die Animation der Aktivitätsanzeige zu aktivieren.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Animationen und Zeichnen
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Cocoa Touch führt alle Zeichen- und Animationsoperationen über die Runloop aus. Diese
+                                                               Methoden markieren die Objekte für die entsprechende Operation. Wenn die Reihenfolge
+                                                               von diesen Operationen im Zusammenhang mit anderen Operationen wichtig ist, müssen
+                                                               Sie also zwischendurch die Runloop zum Zuge kommen lassen. Sie können dazu im einfachsten
+                                                               Fall die Methode <span class="clisting">performSelector:withObject:afterDelay:</span> verwenden. Die Methode <span class="clisting">performSelector:withObject:</span> eignet sich hierfür aber nicht. Wenn Sie allerdings längere Aufgaben ausführen wollen,
+                                                               sollten Sie diese lieber in eigene Threads auslagern.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die Rückkehr in die Runloop hat aber noch einen weiteren Nebeneffekt. Da sie den Autoreleasepool
+                                                   verwaltet, veranlasst sie ihn, bei der Rückkehr an alle enthaltenen Objekte ein <span class="clisting">release</span> zu schicken. Objekte, die nur der Autoreleasepool hält, erleben also den Aufruf der
+                                                   verzögerten Methode nicht. Um die Speicherverwaltung zu vereinfachen, sendet die Methode
+                                                   <span class="clisting">performSelector:withObject:afterDelay:</span> aber an den Nachrichtenempfänger und das Parameterobjekt automatisch ein <span class="clisting">retain.</span> Nach der Ausführung der verzögerten Methode bekommen diese beiden Objekte ein <span class="clisting">release</span> geschickt. Für die Parameter können Sie also ruhig Objekte im Autoreleasepool verwenden.
+                                                </p>
+                                                <p>Wenn die Operation mehr als 3 bis 5 Sekunden dauern kann, sollten Sie diese in einem
+                                                   eigenen Thread ausführen, um den Hauptthread nicht zu blockieren. Eine einfache Möglichkeit
+                                                   eine Methode in einem Hintergrundthread auszuführen, ist die Methode <span class="clisting">performSelectorInBackground:withObject:</span> der Klasse <span class="clisting">NSObject</span>. Auch diese Methode hält den Empfänger und das Parameterobjekt im Speicher. Die aufgerufene
+                                                   Methode muss immer einen eigenen Autoreleasepool für die Speicherverwaltung bereitstellen.
+                                                </p>
+                                                <p>Wenn Sie aus dieser Methode Änderungen am View vornehmen möchten, müssen Sie diese
+                                                   Operationen allerdings immer im Hauptthread ausführen. Sie können dazu die Methode
+                                                   <span class="clisting">performSelectorOnMainThread:withObject:waitUntilDone:</span> verwenden.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Tipp
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie können über die <span class="clisting">performSelector</span>-Varianten auch Methoden ohne Parameter aufrufen. Verwenden Sie dazu einfach den Selektor
+                                                               der Methode und den Parameterwert <span class="clisting">nil</span>. Wenn Sie mehrere Parameterwerte übergeben möchten, können Sie dafür auch Dictionarys
+                                                               verwenden.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <div class="listing"><pre class="prettyprint">- (void)startVeryLongTask {<br>    NSDictionary *theParameters = [NSDictionary<br>        dictionaryWithObjectsAndKeys:[NSDate date], @"date",<br>            ..., nil];<br>    [self.activityIndicator startAnimating];<br>    [self performSelectorInBackground:@selector(veryLongTask:)<br>                           withObject:theParameters];<br>}<br>- (void)veryLongTask:(NSDictionary *)inParameters {<br>    NSAutoreleasePool *thePool =<br>        [[NSAutoreleasePool alloc] init];<br>    NSDate *theDate = [inParameters objectForKey:@"date"];<br>    ...<br>    [self.textLabel<br>        performSelectorOnMainThread:@selector(setText:)<br>        withObject:theText waitUntilDone:NO];<br>    ...<br>    [activityIndicator<br>        performSelectorOnMainThread:@selector(stopAnimating)<br>        withObject:nil waitUntilDone:NO];<br>    [thePool release];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.35   </strong>Starten eines Hintergrundtasks
+                                                </p>
+                                                <p>Listing 4.35 stellt die Ausführung einer Methode in einem eigenen Thread schematisch
+                                                   dar. Der Hintergrundtask führt die Methode <span class="clisting">veryLongTask:</span> aus. Sie erzeugt in der ersten Zeile den notwendigen Autoreleasepool, den sie in
+                                                   ihrer letzten Zeile auch wieder frei gibt. In ARC-konformem Code verwenden Sie statt
+                                                   der ersten und letzten Zeile natürlich einen Autoreleasepool-Block:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)veryLongTask:(NSDictionary *)inParameters {<br>    @autoreleasepool {<br>        ...<br>    }<br>}<br></pre></div>
+                                                <p>Die Übergabe der Parameter erfolgt über ein Dictionary, das die Methode <span class="clisting">startVeryLongTask</span> entsprechend verpackt. Die Methode <span class="clisting">veryLongTask:</span> kann dann die Parameter aus diesem Dictionary wieder auslesen. Die Methode aktualisiert
+                                                   außerdem ein Label und stoppt die Aktivitätsanzeige, bevor sie endet. Diese beiden
+                                                   Aufrufe führt sie über den Hauptthread durch, weil sie ja die Anzeige aktualisieren.
+                                                </p><a id="dodtp55ad7530-7f53-4b98-85f5-5e509ba6cabb" name="dodtp55ad7530-7f53-4b98-85f5-5e509ba6cabb"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Achtung, Aufnahme: Töne aufzeichnen</span></h4>
+                                                <p>Auch für Tonaufnahmen gibt es eine fertige Controller-Komponente in Cocoa Touch. Das
+                                                   ist die Klasse <span class="clisting">AVAudioRecorder</span><a class="indexterm" id="dodtp08ba85f6-d444-4683-a275-03bec35b23e1"></a> aus dem AVFoundation-Framework. Wie der Audioplayer ist auch der Audiorecorder aber
+                                                   kein Viewcontroller, und Sie müssen dafür selbst eine Bedienungsoberfläche erstellen.
+                                                   Das Fototagebuch besitzt dafür einen Subviewcontroller der Klasse <span class="clisting">AudioRecorderController</span> für Audio-Aufnahmen, dessen View ähnlich dem View des Audioplayer-Controllers aussieht.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               1, 2, 3 &#8211; hallo, hallo &#8211; 1, 2, 3...
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Bevor Sie eine Audioaufnahme unter iOS starten, sollten Sie überprüfen, ob das Gerät
+                                                               dazu auch in der Lage ist. Dazu stellt das Singleton <span class="clisting">AVAudioSession</span><a class="indexterm" id="dodtp3fca8782-5724-4034-a9df-1c4b0ce09953"></a> die Methode <span class="clisting">inputIsAvailable</span> bereit. Im Beispielprojekt sperrt der Itemviewcontroller den Button für den Aufruf
+                                                               des Recorders, wenn keine Audioaufnahme möglich ist. Das geschieht über die folgende
+                                                               Zuweisung in <span class="clisting">viewDidLoad</span>:
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>
+                                                               <div class="listing"><pre class="prettyprint">self.recordButton.enabled =<br>    [[AVAudioSession sharedInstance] inputIsAvailable];<br></pre></div>
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Da Sie bei einer Aufnahme nicht die Aufnahmeposition festlegen können, verwendet der
+                                                   Recorder einen Fortschrittsbalken anstatt eines Sliders. Damit die Audiodaten nicht
+                                                   zu groß werden können, begrenzt der Controller die maximale Aufnahmezeit auf 30 Sekunden,
+                                                   die die Konstante <span class="clisting">kMaximalRecordingTime</span> festlegt. Sie brauchen also nur den Wert dieser Konstanten verändern, um eine andere
+                                                   maximale Aufnahmezeit festzulegen. Der Fortschrittsbalken zeigt Ihnen während der
+                                                   Aufnahme den Anteil der verbrauchten Aufnahmezeit an.
+                                                </p><a href="bilder/04_015.png" rel="lightbox" title="Der Audiorecorder-Controller"><img class="bild" border="1" src="bilderklein/klein04_015.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.15   </strong>Der Audiorecorder-Controller
+                                                </p>
+                                                <p>Der Controller erzeugt den Audiorecorder in der Methode <span class="clisting">startRecording</span>. Sie müssen bei der Erzeugung eine URL auf eine Datei im Dateisystem angeben, in
+                                                   die der Recorder die aufgenommenen Daten schreibt.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)startRecorder {<br>    NSError *theError = nil;<br>    AVAudioRecorder *theRecorder = [[AVAudioRecorder alloc]<br>        initWithURL:self.fileURL<br>        settings:self.audioRecorderSettings error:&amp;theError];<br>    if(theRecorder == nil) {<br>        NSLog(@"startRecording: %@", theError);<br>        self.preparing = NO;<br>    }<br>    else {<br>        theRecorder.delegate = self;<br>        self.audioRecorder = theRecorder;<br>        if([self.audioRecorder<br>            recordForDuration:kMaximalRecordingTime]) {<br>            [self updateRecordButton];<br>            [self startTimer];<br>            self.preparing = NO;<br>        }<br>    }<br>    [theRecorder release];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.36   </strong>Anlegen und Initialisieren des Audiorecorders
+                                                </p>
+                                                <p>Da Ihre App unter iOS in einer Sandbox<a class="indexterm" id="dodtpea57b025-e702-4a2c-b7df-3e78355679c6"></a> läuft, können Sie die Datei nicht einfach irgendwo in das Dateisystem des Geräts
+                                                   schreiben. Sie müssen erst ein Verzeichnis ermitteln, in das Sie die Datei schreiben
+                                                   können. Da Sie die Audiodatei nicht länger speichern müssen, können Sie Datei in das
+                                                   Verzeichnis für temporäre Dateien<a class="indexterm" id="dodtp04189b11-acb1-4aea-9338-38ce6857f0a4"></a> schreiben. Um das zu ermitteln, verwenden Sie die Funktion <span class="clisting">NSTemporaryDirectory()</span> aus dem Foundation-Framework.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (NSURL *)fileURL {<br>    NSString *theDirectory = NSTemporaryDirectory();<br>    return [NSURL fileURLWithPath:<br>        [NSString stringWithFormat:@"%@/recording.caf",<br>            theDirectory]];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.37   </strong>URL-Bestimmung für die Audiodatei
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Dateiablage unter iOS
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie sollten keine Dateien in das Ressourcenverzeichnis<a class="indexterm" id="dodtp468ea5c9-a78e-47a9-9d61-e470dc7a57cb"></a> Ihrer App schreiben. Das funktioniert zwar im Simulator, unter iOS ist dieser Ordner
+                                                               aber geschützt.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Sie müssen dem Audiorecorder bei der Initialisierung außerdem noch das Audioformat
+                                                   beschreiben, in dem Sie aufzeichnen möchten. Hier gibt es eine Fülle von möglichen
+                                                   Parametern, die sich wahrscheinlich nicht alle sinnvoll in einer Methodensignatur
+                                                   unterbringen lassen. Aus diesem Grund bekommt der Initialisierer diese Parameter in
+                                                   einem Dictionary, das die Methode <span class="clisting">audioRecorderSettings</span> erzeugt. Das Fototagebuch nimmt die Töne mit einem Kanal (Mono) in dem Format IMA
+                                                   4:1 ADPCM von Apple mit der Sampling-Rate 16000 auf, was einen guten Kompromiss zwischen
+                                                   Qualität und Dateigröße darstellt.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (NSDictionary *)audioRecorderSettings {<br>    return [NSDictionary dictionaryWithObjectsAndKeys:<br>        [NSNumber numberWithInt:kAudioFormatAppleIMA4],<br>            AVFormatIDKey,<br>        [NSNumber numberWithFloat:16000.0], AVSampleRateKey,<br>        [NSNumber numberWithInt:1], AVNumberOfChannelsKey,<br>        nil];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.38   </strong>Erzeugung der Parameter für die Audioaufnahme
+                                                </p>
+                                                <p>Der Recorder hält die Aufnahme entweder nach 30 Sekunden <span class="footnote"><a id="dodtp33a586ed-84b9-4858-864b-fc5c49556c30">[20](Das ist der Wert der Konstanten <span class="clisting">kMaximalRecordingTime</span> in Listing 4.36.)</a></span> automatisch an oder indem das Programm die Methode <span class="clisting">pause</span> aufruft. Nach der Aufnahme müssen Sie die Daten aus der Datei in ein <span class="clisting">NSData</span>-Objekt lesen, wozu Sie den Convenience-Konstruktor <span class="clisting">dataWithContentsOfURL:</span> verwenden können. Dieses Datenobjekt können Sie dann der bereits besprochenen Methode
+                                                   <span class="clisting">updateMediumData:withMediumType:</span> übergeben, um es an den Tagebucheintrag anzuhängen. Der Aufruf erfolgt in der Delegatemethode
+                                                   <span class="clisting">audioRecorder:didRecordToData:</span> im Itemviewcontroller.
+                                                </p>
+                                                <p>Die Aktualisierung der Fortschritts-, der Lautstärkepegel- und der Zeitanzeige erfolgt
+                                                   analog zum Audioplayer über einen Timer.
+                                                </p><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_04_004.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="4 Daten, Tabellen und Controller"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_04_003.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_04_005.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

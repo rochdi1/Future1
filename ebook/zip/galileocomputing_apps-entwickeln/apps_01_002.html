@@ -1,0 +1,963 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 1 Einführung">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 1 Einführung">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 1 Einführung</title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_01_001.html">
+      <link rel="next" href="apps_01_003.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_01_001.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_01_003.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d" class="navnav">1 Einführung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_01_001.html#dodtp09544318-027e-49d8-b540-d500a5a0466a" class="navnav">1.1 iOS</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_001.html#dodtpfcb897ba-43f9-4d32-ac13-3c595ad156e4" class="navnav">1.1.1 Core OS</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_001.html#dodtp0e11e484-6693-405b-89ff-1ded25147320" class="navnav">1.1.2 Core Services</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_001.html#dodtp20883528-7664-468b-a665-c46562b01a2d" class="navnav">1.1.3 Media</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_001.html#dodtp7507e3ce-f82f-478c-8413-0c6d5a665e8c" class="navnav">1.1.4 Cocoa Touch</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_01_002.html#dodtp856d8bd6-bac7-44c4-ab9a-668b2dd46ef4" class="navh">1.2 iOS-SDK</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_002.html#dodtp9056909a-c65c-4a16-9521-a378c9d4977f" class="navh">1.2.1 Xcode</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_002.html#dodtp88a5527c-df8d-4b6d-80fe-0bcd29c62d04" class="navh">1.2.2 Instruments</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_002.html#dodtpb35df4b8-a3d9-4def-9921-ae5f5bb11de9" class="navh">1.2.3 Simulator</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_002.html#dodtp494e6160-5148-44e6-a18f-eb96a3833bd0" class="navh">1.2.4 Test auf dem iPhone</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_01_003.html#dodtp184dbb2d-6bb3-469a-959f-95400215b7a3" class="navnav">1.3 iOS-Hardware</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_01_004.html#dodtpc91326c4-6d00-45d0-b1a2-8bb44ed8c33d" class="navnav">1.4 Besonderheiten der Programmierung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_004.html#dodtp267dd6f8-528f-495a-b1c3-0e666a1f6004" class="navnav">1.4.1 Speicher</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_004.html#dodtp68361c54-1935-4c84-a9d8-b7e7593b98c4" class="navnav">1.4.2 Akkulaufzeit</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_004.html#dodtp0835827b-0692-4ed0-b858-42cafe0d6d90" class="navnav">1.4.3 Benutzerschnittstelle</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_004.html#dodtpa353e98a-6861-471b-b99d-32c60450ccce" class="navnav">1.4.4 Sicherheit</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_004.html#dodtp7ed53210-3803-4f0f-a418-d6585ba261c2" class="navnav">1.4.5 Der App Store</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_01_005.html#dodtpe233b555-f8a0-4ed8-b5c2-8a004ae98aae" class="navnav">1.5 Objektorientierte Programmierung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_005.html#dodtp990ae56c-1eaf-4c70-9533-1b0a1e76ede9" class="navnav">1.5.1 Objekte</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_005.html#dodtp855e588a-1f28-4a3a-ac8d-12ebc6f26462" class="navnav">1.5.2 Vererbung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_005.html#dodtp22886c17-3a02-4b08-bb5d-2ec4e4f7374e" class="navnav">1.5.3 Nachrichten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_005.html#dodtp04b2af78-efab-4635-a2d9-525424fcf797" class="navnav">1.5.4 Objective-C</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main"><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp856d8bd6-bac7-44c4-ab9a-668b2dd46ef4" name="dodtp856d8bd6-bac7-44c4-ab9a-668b2dd46ef4"></a><h2 class="t2"><span class="cfett">1.2</span><span class="cfett"> iOS-SDK</span><a href="#dodtp9056909a-c65c-4a16-9521-a378c9d4977f"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h2>
+                                                <p>Apple stellt Programmierern zum Entwickeln von iOS-Applikationen das iOS-SDK zur Verfügung.
+                                                   Es enthält auch die Entwicklungsumgebung für Mac OS X. Es besteht aus einer Reihe
+                                                   von Tools, die einen bequemen Zugriff auf die Kommandozeilenprogramme wie den Compiler,
+                                                   den Linker<a class="indexterm" id="dodtpf5b9373b-59df-4d89-ab19-31c0c5a3b3ea"></a>, das Codesign<a class="indexterm" id="dodtp87d81365-6b39-4c86-82c6-7c5f3b813c9c"></a> und den Paketbuilder<a class="indexterm" id="dodtp02cb3bda-c15a-41a5-b0af-94ac2df07107"></a> ermöglichen.
+                                                </p>
+                                                <p>Das iOS-SDK beinhaltet neben einer IDE zahlreiche grafische Tools, mit denen die Entwicklung
+                                                   von iOS-Applikationen leicht von der Hand geht. Das Schöne an der Sache ist: Das iOS-SDK
+                                                   ist für registrierte Entwickler kostenlos. Es läuft nur unter Mac OS X und setzt Apple-Rechner
+                                                   mit Intel-Prozessoren voraus. Alte Macs mit PowerPC<a class="indexterm" id="dodtpd093d33d-8dcd-4fbf-88a9-d1629e131896"></a>-CPUs sind daher ebenso außen vor wie Rechner mit anderen Betriebssystemen. Das SDK
+                                                   enthält einen Simulator, der das Testen von selbst geschriebenen Applikationen für
+                                                   die verschiedenen Gerätetypen (iPhone oder iPad) und Displaygrößen direkt auf dem
+                                                   Entwicklungssystem erlaubt. Der Simulator ist allerdings kein Ersatz für das Testen
+                                                   auf den Endgeräten.
+                                                </p>
+                                                <p>Das SDK ist im <span class="cbegriff">iOS Dev Center</span><a class="indexterm" id="dodtp9f8d1f4b-8ffb-48cd-8118-1fe50e4dd7f1"></a> <span class="footnote"><a id="dodtp6b8695d8-c884-4cd4-89ac-ff4727f782cc">[2](http://developer.apple.com/iphone/)</a></span> und im Mac App Store<a class="indexterm" id="dodtp674b2691-5913-4969-8a83-52eaca015272"></a> erhältlich. Voraussetzung für das iOS Dev Center ist eine kostenlose Registrierung,
+                                                   mit der Sie allerdings nur die alte Entwicklungsumgebung (Xcode 3) erhalten. <span class="footnote"><a id="dodtp9d4a6aa0-9e18-45d6-b340-9a20307c0402">[3](Der Link befindet sich unauffällig am unteren Ende des Downloadbereichs im iOS Dev Center (Looking for Xcode 3 for Snow Leopard? Download).)</a></span> Für OS X 10.7 (Lion) können Sie die kostenlose Version 4.1 aus dem Mac App Store
+                                                   herunterladen. Wenn Sie unter Snow Leopard<a class="indexterm" id="dodtp5671e5a4-1020-480e-b3a1-7b5f9471c002"></a> mit Xcode 4 entwickeln möchten, müssen Sie sich leider kostenpflichtig registrieren
+                                                   und die Version 4.0 verwenden. Zu welchem Preis Apple die Version 4.2 von Xcode vertreibt,
+                                                   war bei Drucklegung (Anfang September 2011) noch nicht bekannt. Tabelle 1.1 gibt Ihnen
+                                                   einen Überblick über die verfügbaren Xcode-Versionen.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <caption class="tabunter">
+                                                      <p class="ptabellenunter"><strong>Tabelle 1.1   </strong>Übersicht der Xcode-Versionen
+                                                      </p>
+                                                   </caption>
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf">
+                                                            
+                                                            
+                                                            
+                                                            <span class="cfett">OS X-Version</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">Xcode-Version</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">Bezugsquelle</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">Verfügbarkeit</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext" rowspan="3">10.6 (Snow Leopard)
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">3.2.6
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext" rowspan="2">iOS Dev Center
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Kostenlose Mitgliedschaft
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">4.0.2
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Kostenpflichtige Mitgliedschaft
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">4.2
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Wahrscheinlich Mac App Store und iOS Dev Center
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Stand bei Drucklegung noch nicht fest.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext" rowspan="2">10.7 (Lion)
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">4.1
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Mac App Store
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Kostenlos
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">4.2
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Wahrscheinlich Mac App Store und iOS Dev Center
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Stand bei Drucklegung noch nicht fest.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Das Developer Center erlaubt Ihnen auch, auf die umfangreiche Entwickler-Dokumentation
+                                                   zuzugreifen. Diese besteht neben einer vollständigen API-Referenz aus Tutorials, Getting-Started-Dokumenten,
+                                                   Videos und Beispiel-Code.
+                                                </p>
+                                                <p>Möchten Sie Ihre selbst geschriebenen Applikationen nicht nur im iOS-Simulator verwenden,
+                                                   sondern auf dem eigenen iPhone testen, ist eine Mitgliedschaft im <span class="cbegriff">iOS Developer Program</span><a class="indexterm" id="dodtp7f6b0cad-4305-4f61-9b7f-23d46cff9b4a"></a> erforderlich. Für 79 &euro; pro Jahr bekommen Sie dort ein Zertifikat, mit dem Sie eigene Applikationen signieren und diese auf bis zu 100 dafür registrierte iOS-Geräte aufspielen können. Die Teilnahme am iOS Developer Program ist überdies die Voraussetzung dafür, Apps in den App Store einstellen zu können.
+                                                </p>
+                                                <p>Das iOS Developer Program existiert in zwei Ausprägungen: <span class="cbegriff">Individual</span><a class="indexterm" id="dodtp28eb356c-f3de-4431-b629-40268d7944c5"></a> und <span class="cbegriff">Company</span><a class="indexterm" id="dodtpcd1b33ca-1883-409e-8159-77c1c2e429c3"></a>. Die Company-Version unterscheidet sich von der Individual-Version durch die Fähigkeit,
+                                                   Entwicklerteams verwalten zu können, bietet dem Programmierer aber keine weiteren
+                                                   Vorteile.
+                                                </p>
+                                                <p>Die Mitgliedschaft <span class="cbegriff">iOS Enterprise Program</span><a class="indexterm" id="dodtpc9e14725-4cbe-4062-8972-9ca39314ab2b"></a>, die 279 &euro; jährlich kostet, ermöglicht ebenfalls die Installation selbst geschriebener Programme auf über 100 eigenen Geräten. Mit diesem Programm können Sie aber keine Apps in den App-Store hochladen. Das Programm ist nur für Firmen mit einer DUNS-Nummer <span class="footnote"><a id="dodtpb8997efb-0912-48af-bcb8-f0985504e83b">[4](http://www.dnb.ch/htm/690/de/Eindeutige-Identifikation.htm)</a></span> zugänglich. Für private oder selbstständige Entwickler sowie kleine Firmen ist dieses
+                                                   Programm also uninteressant.
+                                                </p>
+                                                <p>Nutzer aus dem akademischen Bereich können am kostenlosen <span class="cbegriff">iOS Developer University Program</span><a class="indexterm" id="dodtp3286ef8e-a999-4aaa-bf5b-f3e2388410cb"></a> teilnehmen, das zwar den Test von selbst geschriebenen Apps auf Endgeräten erlaubt,
+                                                   aber keine Veröffentlichung im App-Store.
+                                                </p>
+                                                <p>Wichtiger Hinweis: Bei allen kostenpflichtigen Programmen sind zwei Supportanfragen
+                                                   pro Jahr beim technischen Entwicklersupport von Apple enthalten. Sie können sich damit
+                                                   von Apple also bei der Entwicklung Ihrer Programme individuell unterstützen lassen.
+                                                   Weitere Supportanfragen können Sie als Mitglied im Entwicklerprogramm kostenpflichtig
+                                                   erwerben.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Voraussetzungen für dieses Buch
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Um die in diesem Buch gezeigten Beispiele nachzuprogrammieren, reicht das iOS-SDK
+                                                               ohne die kostenpflichte Registrierung als Entwickler aus. Alle Beispiele laufen, zumindest
+                                                               mit Einschränkungen, im Simulator. Voraussetzung dafür ist lediglich die kostenlose
+                                                               Anmeldung im iOS Dev Center und das Herunterladen und Installieren des jeweils aktuellen
+                                                               iOS-SDK oder der Kauf des SDK im Mac App Store.
+                                                               
+                                                               Wir haben alle Anleitungen für Xcode 4 geschrieben und auch alle Screenshots dieses
+                                                               Buches damit erstellt. Es unterscheidet sich in vielen Bereichen sehr stark von der
+                                                               Version 3, die Sie über die kostenlose Registrierung im Developer Program erhalten.
+                                                               Wir empfehlen Ihnen die Verwendung von Xcode 4.
+                                                               
+                                                               Das iOS-SDK installiert sich standardmäßig im Verzeichnis <span class="cdateipfad">/Developer</span>. Die Programme des SDK befinden sich nach der Installation im Verzeichnis <span class="cdateipfad">/Developer/Applications</span>.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp9056909a-c65c-4a16-9521-a378c9d4977f" name="dodtp9056909a-c65c-4a16-9521-a378c9d4977f"></a><h3 class="t3"><span class="cfett">1.2.1</span><span class="cfett"> Xcode</span><a href="#dodtp88a5527c-df8d-4b6d-80fe-0bcd29c62d04"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp856d8bd6-bac7-44c4-ab9a-668b2dd46ef4"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Xcode ist die Entwicklungsumgebung oder auch IDE für die Programmierung von MacOS-X-
+                                                   und iOS-Applikationen. Xcode bietet viele Funktionen. In erster Linie ist es aber
+                                                   ein Werkzeug zur Steuerung des Erzeugungsprozesses von Programmen. Es steuert dabei
+                                                   die verschiedenen Kommandozeilenprogramme wie den Compiler, Linker und andere. Außerdem
+                                                   enthält Xcode einen umfangreichen Quellcodeeditor. Code-Vervollständigung, das Falten
+                                                   von Code-Blöcken, Textmarken und Syntax Highlighting sind nur einige der Funktionen,
+                                                   die das Programmieren erleichtern. Xcode bietet Ihnen zudem noch eine grafische Schnittstelle
+                                                   zum Debugger.
+                                                </p>
+                                                <p>Darüber hinaus ist Xcode das zentrale Tool zum Verwalten von iOS-Projekten. In der
+                                                   Projektansicht in der linken Hälfte des Xcode-Fensters sind alle Projekt-Dateien und
+                                                   -Ressourcen aufgeführt. Es bietet Integration von SCM<a class="indexterm" id="dodtpa669bed1-963d-41f2-840f-dc980b300035"></a>-Tools zur Projekt- und Versionsverwaltung und den Zugriff auf die Dokumentation zu
+                                                   Cocoa und Objective-C. An Versionsverwaltungen unterstützt Xcode mittlerweile kein
+                                                   <span class="cbegriff">CVS</span><a class="indexterm" id="dodtpdb381bb5-50ff-4900-8bfd-25772db5a0fc"></a> und <span class="cbegriff">Perforce</span><a class="indexterm" id="dodtp2a36b6e2-4705-4dc7-870a-9adefaee7212"></a> mehr, sondern nur noch <span class="cbegriff">Subversion</span><a class="indexterm" id="dodtp7e8c2da5-e374-45bd-9b97-fd034423b762"></a> und <span class="cbegriff">Git</span><a class="indexterm" id="dodtp04c50b9d-3e0f-4695-b1ea-4a2504232943"></a>. Für das Suchen in SCM-Repositorys bietet Xcode einen eigenen Browser.
+                                                </p>
+                                                <p>Das Anlegen neuer Projekte erleichtert Xcode über Projektvorlagen, die alle notwendigen
+                                                   Dateien und Einstellungen für das jeweilige Ziel enthalten. Xcode ist nicht nur die
+                                                   IDE für iPhone-Programmierung, sondern auch für die Programmierung unter Mac OS X.
+                                                   So verwendet Apple selber Xcode für die Software-Entwicklung.
+                                                </p><a href="bilder/01_004.png" rel="lightbox" title="Der Hauptbildschirm von Xcode 4"><img class="bild" border="1" src="bilderklein/klein01_004.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 1.4   </strong>Der Hauptbildschirm von Xcode 4
+                                                </p>
+                                                <p>Das Erstellen grafischer Benutzeroberflächen erfolgt ebenfalls mit Xcode. Bis zur
+                                                   Version 3 übernahm diese Funktion ein eigenständiges Programm namens <span class="cbegriff">Interface Builder</span>, ein Relikt aus den NEXTSTEP-Ursprüngen von OS X und iOS.
+                                                </p><a href="bilder/01_005.png" rel="lightbox" title="GUI-Erstellung in Xcode"><img class="bild" border="1" src="bilderklein/klein01_005.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 1.5   </strong>GUI-Erstellung in Xcode
+                                                </p>
+                                                <p>Mit Xcode 4 hat Apple das SDK komplett überarbeitet und in diesem Zuge den Interface
+                                                   Builder in Xcode integriert. Ein Wechsel zwischen beiden Programmen ist daher nicht
+                                                   mehr notwendig. Wie jedes komplexe Programm ist auch Xcode in hohem Maße individuell
+                                                   konfigurierbar. In Kapitel 7 finden Sie einen umfassenden Überblick über Xcode 4 und
+                                                   lernen Tipps und Tricks kennen, wie Sie Xcode optimal an Ihre Bedürfnisse anpassen.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp88a5527c-df8d-4b6d-80fe-0bcd29c62d04" name="dodtp88a5527c-df8d-4b6d-80fe-0bcd29c62d04"></a><h3 class="t3"><span class="cfett">1.2.2</span><span class="cfett"> Instruments</span><a href="#dodtpb35df4b8-a3d9-4def-9921-ae5f5bb11de9"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp9056909a-c65c-4a16-9521-a378c9d4977f"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Wie in Abschnitt 1.4, »Besonderheiten der Programmierung«, beschrieben wird, erfordert
+                                                   die Programmierung für iOS ein besonderes Augenmerk bezüglich Speicherfehlern und
+                                                   Ressourcenverbrauch. Praktischerweise liefert Apple mit dem Tool <span class="cbegriff">Instruments</span> im Xcode-Paket ein Programm mit, das die Analyse von laufenden Prozessen erlaubt.
+                                                   Instruments ist ein mächtiges und vielseitiges Werkzeug, das auf den Einsteiger meist
+                                                   etwas verwirrend wirkt. Allerdings ist es ratsam, sich schon von Beginn der iOS-Programmierung
+                                                   an mit Instruments zu beschäftigen, denn dies erhöht zum einen enorm das Verständnis
+                                                   für das Verhalten der eigenen Applikation, und zum anderen gewinnen Sie dadurch Routine
+                                                   in der Verwendung des Tools. Im Fall der Fälle, wenn also wirklich mal ein Problem
+                                                   mit einer eigenen Applikation auftritt, wissen Sie so die Ausgaben von Instruments
+                                                   richtig zu interpretieren. Das fünfte Kapitel geht genauer auf Instruments ein und
+                                                   erläutert dessen Verwendung an praktischen Beipielen.
+                                                </p><a href="bilder/01_006.png" rel="lightbox" title="Instruments bei der Arbeit"><img class="bild" border="1" src="bilderklein/klein01_006.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 1.6   </strong>Instruments bei der Arbeit
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpb35df4b8-a3d9-4def-9921-ae5f5bb11de9" name="dodtpb35df4b8-a3d9-4def-9921-ae5f5bb11de9"></a><h3 class="t3"><span class="cfett">1.2.3</span><span class="cfett"> Simulator</span><a href="#dodtp494e6160-5148-44e6-a18f-eb96a3833bd0"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp88a5527c-df8d-4b6d-80fe-0bcd29c62d04"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Das Testen und Debuggen von iOS-Applikationen wäre eine äußerst umständliche Angelegenheit,
+                                                   wenn es sich nur direkt auf einem Gerät ausführen ließe. Außerdem müssten sich Einsteiger
+                                                   von Beginn an kostenpflichtig registrieren, auch wenn sie nur mal in die iOS-Entwicklung
+                                                   hineinschnuppern wollen. Das würde wahrscheinlich viele potenzielle Entwickler abschrecken.
+                                                   Um diese Probleme zu umgehen, liefert Apple mit dem iOS-SDK einen Simulator mit. Dieses
+                                                   Programm simuliert in Aussehen und Verhalten ein echtes iPhone oder iPad und ist dabei
+                                                   an die Entwicklungsumgebung angebunden.
+                                                </p>
+                                                <p>Mit dem iOS-Simulator können Sie die meisten Funktionen eines iOS-Gerätes nachstellen.
+                                                   Lokalisierung<a class="indexterm" id="dodtp895ad7d9-f963-4acf-9dbc-1973363fbf66"></a> funktioniert nur auf Rechnern mit Airport. Die Kamera<a class="indexterm" id="dodtp0735a9ef-56e5-46ac-ae26-ee5004dd3713"></a>, der Bewegungssensor<a class="indexterm" id="dodtp6ba4e77d-dfe9-4e24-b527-2ae514707d18"></a>, Bluetooth<a class="indexterm" id="dodtpc5ec6422-f7f3-4f4f-a77f-2793eedb74bc"></a> und Mobilfunk<a class="indexterm" id="dodtp14f41df7-15e5-4696-afbe-207a1f17c7da"></a> funktionieren im Simulator allerdings nicht. Hierfür muss eine Applikation immer
+                                                   erst auf einem durch das iOS Developer Programm entsprechend freigeschalteten Gerät
+                                                   installiert werden.
+                                                </p><a href="bilder/01_007.png" rel="lightbox" title="Der iPhone- und iPad-Simulator"><img class="bild" border="1" src="bilderklein/klein01_007.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 1.7   </strong>Der iPhone- und iPad-Simulator
+                                                </p>
+                                                <p>Auch wenn Ihre App im Simulator perfekt laufen sollte, kommen Sie niemals um Tests
+                                                   auf mindestens einem Gerät herum. Hier ist eine &#8211; wahrscheinlich unvollständige &#8211;
+                                                   Liste mit Gründen dafür:
+                                                </p>
+                                                <ul class="gp">
+                                                   <li>Ein iOS-Gerät hat eine andere Architektur als der Simulator beziehungsweise der Mac.
+                                                      Das fängt schon mit unterschiedlichen Prozessoren an.
+                                                   </li>
+                                                   <li>Die Geschwindigkeit Ihrer App kann auf beiden Systemen stark variieren. Ein Programm,
+                                                      das im Simulator flüssig läuft, kann auf einem iPod quälend langsam dahinkriechen.
+                                                   </li>
+                                                   <li>Ihr Mac hat vermutlich wesentlich mehr Hauptspeicher zur Verfügung als die 512 MB
+                                                      eines iPhone 4. Während die App im Simulator stabil läuft, gibt sie auf dem Gerät
+                                                      andauernd Speicherwarnungen aus.
+                                                   </li>
+                                                   <li>Die Dateisysteme<a class="indexterm" id="dodtpa71b7864-21eb-43c2-8939-4f516a007eff"></a> sind verschieden aufgebaut, und Sie können viele Verzeichnisse unter iOS nicht lesen,
+                                                      geschweige denn dorthin schreiben. Das betrifft besonders das Ressourcenverzeichnis
+                                                      einer App, in das Sie auf dem iPhone nicht schreiben können, im Simulator hingegen
+                                                      schon.
+                                                   </li>
+                                                   <li>Der Simulator unterstützt nicht alle Hardware-Eigenschaften. Sie können keine Fotos
+                                                      mit der Kamera schießen, und es gibt keinen Beschleunigungs- oder Gyrosensor.
+                                                   </li>
+                                                </ul>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Tipp
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Bevor Sie Ihre App in den App-Store hochladen, sollten Sie diese ausführlich auf echten
+                                                               Geräten testen &#8211; am besten auf jedem Gerätetyp, den Ihre App unterstützt. Hierbei
+                                                               erweisen sich gerade ältere Modelle als besonders wertvolle Testgeräte. Sie sind in
+                                                               der Regel langsamer und haben weniger Arbeitsspeicher, sodass auf diesen Geräten Programmfehler
+                                                               wesentlich leichter auftreten.
+                                                               
+                                                               Wenn Ihre App kompatibel zu iOS 3 sein soll, sollte sie auf einem Gerät mit dieser
+                                                               Betriebssystemversion getestet werden. Dadurch finden Sie inkompatiblen Code am zuverlässigsten.
+                                                               
+                                                               Abschnitt 1.3, »iOS-Hardware«, zeigt die verschiedenen Hardware-Plattformen, auf denen
+                                                               iOS läuft. Daraus ergeben sich entsprechende Anforderungen an den Entwickler, der
+                                                               die verschiedenen Plattformen berücksichtigen muss, um es beim Anwender nicht zu einem
+                                                               bösen Erwachen kommen zu lassen.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp494e6160-5148-44e6-a18f-eb96a3833bd0" name="dodtp494e6160-5148-44e6-a18f-eb96a3833bd0"></a><h3 class="t3"><span class="cfett">1.2.4</span><span class="cfett"> Test auf dem iPhone</span><a href="#dodtpb35df4b8-a3d9-4def-9921-ae5f5bb11de9"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Als zahlendes Mitglied des iOS Developer Program haben Sie die Möglichkeit, ihre eigene
+                                                   App auf bis zu 100 entsprechend konfigurierten iOS-Geräten zu testen. iOS führt grundsätzlich
+                                                   nur Apps aus, die ein gültiges Zertifikat tragen. Eine in Xcode erstellte App muss
+                                                   daher vor dem Überspielen auf ein echtes Gerät signiert werden. Der <span class="cbegriff">iOS Development Guide</span><a class="indexterm" id="dodtpfd9a748b-c0c5-4685-810b-396c185125f7"></a>, den Sie im iOS-Portal der Developer-Seiten von Apple <span class="footnote"><a id="dodtp79e31618-a4cc-4853-9fe6-089dc1c4cdec">[5](http://developer.apple.com/ios)</a></span> finden, erläutert die Einrichtung gut verständlich Schritt für Schritt, sodass an
+                                                   dieser Stelle der Verweis auf die Apple-Dokumentation genügt.
+                                                </p>
+                                                <p>In aller gebotenen Kürze: Sie benötigen zum Ausführen eigener Apps auf einem iOS-Gerät
+                                                   ein Zertifikat und ein <span class="cbegriff">Provisioning Profile</span><a class="indexterm" id="dodtp8919e517-2909-4f0a-bee5-e5a6ffbb6e9d"></a>. Um das Zertifikat<a class="indexterm" id="dodtp753f3c10-40f2-4923-a952-1715e1832afa"></a> zu erhalten, müssen Sie vorher eine Zertifikatsanfrage<a class="indexterm" id="dodtp771d67d4-0931-4391-9547-89540819cb31"></a> mit dem Schlüsselbund-Programm Ihres Entwicklungsrechners erstellen. Durch die notwendigen
+                                                   Schritte zum Erstellen der Zertifikatsanfrage, des Zertifikates und des <span class="cbegriff">Provisioning Profiles</span> führt ein Online-Wizard im <span class="cbegriff">iOS Provisioning</span> Portal. Neben der Installation über Xcode, die Sie überdies in die Lage versetzt,
+                                                   direkt auf dem Gerät zu debuggen, kann iOS seit der Version 4 auch über Safari Apps
+                                                   installieren.
+                                                </p><a href="bilder/01_008.png" rel="lightbox" title="Der Provisioning-Wizard"><img class="bild" border="1" src="bilderklein/klein01_008.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 1.8   </strong>Der Provisioning-Wizard
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Jailbreak<a class="indexterm" id="dodtp3671b166-e48c-47ae-8b2d-9af100ed79dc"></a>
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         <td class="tabellentext">
+                                                            <p>Für das iPhone sowie das iPad existieren verschiedene Tools, um das Sicherheitskonzept
+                                                               und Geschäftsmodell von Apple zu umgehen. Diesen Vorgang bezeichnet man als <span class="cbegriff">Jailbreak</span>. Dabei wird das Betriebssystem des iPhone so modifiziert, dass beliebige Applikationen
+                                                               installiert werden können, der Zugriff auf gesperrte Systemfunktionen ermöglicht wird
+                                                               und die Verwendung alternativer Mobilfunkanbieter bei Geräten mit SIM-Lock möglich
+                                                               wird.</p>
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="tabellentext">  
+                                                               <p>
+                                                               Dieses Vorgehen ist rechtlich umstritten, zumindest aber von Apple nicht vorgesehen.
+                                                               Entsprechend modifizierte iPhones verhalten sich unter Umständen nicht mehr so wie
+                                                               ein originales iPhone, denn die Modifikation greift in den Kernel des Betriebssystems
+                                                               ein. Alle in diesem Buch gezeigten Beispiele beziehen sich daher ausschließlich auf
+                                                               nicht modifizierte iPhones, da nur diese Geräte den von Apple vorgesehenen vollen
+                                                               Funktionsumfang garantieren können.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_01_002.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="1 Einführung"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_01_001.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_01_003.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

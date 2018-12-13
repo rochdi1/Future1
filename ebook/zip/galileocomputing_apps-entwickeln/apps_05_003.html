@@ -1,0 +1,1793 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 5 Animationen und Layer">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 5 Animationen und Layer">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 5 Animationen und Layer</title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_05_002.html">
+      <link rel="next" href="apps_05_004.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_05_002.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_05_004.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406" class="navnav">5 Animationen und Layer</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_001.html#dodtp5efea2f9-5971-4355-9098-73d240420ae8" class="navnav">5.1 Modell und Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpbfefaccf-2786-4687-9caf-bf869a37dd09" class="navnav">5.1.1 iOS Next Topmodel</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpcdb08693-584e-460f-84d6-adbffd990377" class="navnav">5.1.2 View an Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpf43e6bf8-5b92-4faf-8de8-d852c2bdb6e7" class="navnav">5.1.3 Modell an Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpa07cc55d-58b3-412a-b67d-a83e85baebc2" class="navnav">5.1.4 Undo und Redo</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtp8755d0e5-718b-4a1b-9167-c6361491d08c" class="navnav">5.1.5 Unittests</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_002.html#dodtp1c3f3d80-581b-478e-88bc-c9ed3a708401" class="navnav">5.2 Als die Views das Laufen lernten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp9e9cf9b7-2f55-4fed-b3b6-39449f3b1d7d" class="navnav">5.2.1 Blockfunktionen in C</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp0c53305d-45fe-44c6-9852-ea8594b2c837" class="navnav">5.2.2 Animationen mit Blöcken</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp85028dc1-a1a1-40c9-bcc3-4f753ef479e3" class="navnav">5.2.3 Transitionen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp0a0f2033-6d33-4367-b1ba-3a224955f8bd" class="navnav">5.2.4 Zur Animation? Bitte jeder nur einen Block!</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_003.html#dodtpb1c7ea8c-fe2c-4936-9c9a-8ec6e345a78e" class="navh">5.3 Core Animation</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtpc7304b46-d817-4f7c-ad3a-655bdf12d064" class="navh">5.3.1 Layer</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp766676af-c5c5-4b69-bb6c-a92f38e6040d" class="navh">5.3.2 Vordefinierte Layerklassen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp13aeb6cc-99bc-4e4b-9ee7-186982cef3cb" class="navh">5.3.3 Unser Button soll schöner werden</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp66fddda2-3ee3-4e44-ae6a-6901c9f96a1e" class="navh">5.3.4 Spieglein, Spieglein an der Wand</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtpce26e4e5-0327-4743-bbd7-d6b3b9eee6d8" class="navh">5.3.5 Der bewegte Layer</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtpfb02b879-0cc7-44cd-91fb-be429ae0b56f" class="navh">5.3.6 Der View, der Layer, seine Animation und ihr Liebhaber</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp3d532cce-a949-4cbb-b90f-83cb4ca2c6e0" class="navh">5.3.7 Die 3. Dimension</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_004.html#dodtpb92345dc-dbc2-4f78-8e86-ca5d585914c1" class="navnav">5.4 Der Tabbar-Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_004.html#dodtp74751c51-49aa-4a38-a753-b920e7ddf1e4" class="navnav">5.4.1 Aufbau einer Reiternavigation</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_004.html#dodtp3dc6d335-db6c-4eeb-a3d7-2fd60f934221" class="navnav">5.4.2 Für ein paar Controller mehr</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_005.html#dodtpbb883a33-ad82-42a5-9e9b-a3878fb20332" class="navnav">5.5 Was Sie schon immer über Instruments wissen wollten, aber nie zu fragen wagten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_005.html#dodtp4af905ee-fd2f-407d-8fe3-1cf49c378f4b" class="navnav">5.5.1 Spiel mir das Lied vom Leak</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_005.html#dodtp20f3171b-12d7-4643-a316-ccfff954fba9" class="navnav">5.5.2 Ich folgte einem Zombie</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_005.html#dodtp613c16ef-6413-4c04-a7d1-268d8e43a5e9" class="navnav">5.5.3 Time Bandits</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main"><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpb1c7ea8c-fe2c-4936-9c9a-8ec6e345a78e" name="dodtpb1c7ea8c-fe2c-4936-9c9a-8ec6e345a78e"></a><h2 class="t2"><span class="cfett">5.3</span><span class="cfett"> Core Animation</span><a href="#dodtpc7304b46-d817-4f7c-ad3a-655bdf12d064"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h2>
+                                                <p>Auf den ersten Blick wirken die View-Animationen ein bisschen wie Magie. Durch einen
+                                                   zusätzlichen Methodenaufruf verwandeln Sie eine statische Veränderung des Views in
+                                                   einen eleganten Übergang, wobei Sie auch noch eine große Palette möglicher Animationen
+                                                   haben. Da fragt sich doch der neugierige Programmierer, wie das funktioniert. Die
+                                                   Antwort darauf ist relativ einfach. Dazu müssen Sie aber eine Ebene tiefer gehen.
+                                                </p>
+                                                <p><span class="cbegriff">Core Animation</span><a class="indexterm" id="dodtpce01cc81-861c-4596-b658-ff20bf2a799e"></a> ist eine Sammlung von Klassen zur Darstellung, Projektion und Animation von Grafiken.
+                                                   Der Name Core Animation ist vielleicht etwas verwirrend, da Sie Core Animation auch
+                                                   ohne Animationen sinnvoll verwenden können.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Core Animation verwenden
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Wenn Sie die Klassen aus <span class="cbegriff">Core Animation</span> in Ihren Apps verwenden möchten, müssen Sie das <span class="cbegriff">QuartzCore</span>-Framework einbinden. Außerdem müssen Sie den entsprechenden Header über
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">#import &lt;QuartzCore/QuartzCore.h&gt;<br></pre></div>
+                                                               
+                                                               in Ihre Quelldateien importieren, damit der Compiler Ihren Programmcode übersetzen
+                                                               kann.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpc7304b46-d817-4f7c-ad3a-655bdf12d064" name="dodtpc7304b46-d817-4f7c-ad3a-655bdf12d064"></a><h3 class="t3"><span class="cfett">5.3.1</span><span class="cfett"> Layer</span><a href="#dodtp766676af-c5c5-4b69-bb6c-a92f38e6040d"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpb1c7ea8c-fe2c-4936-9c9a-8ec6e345a78e"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Die Views des UIKits verwenden Core-Animation-Layer für ihre Darstellung. Ein Layer
+                                                   ist eine Zeichenebene, die Inhalte für die Anzeige bereitstellt. Die Basisklasse für
+                                                   alle Layer ist <span class="clisting">CALayer</span><a class="indexterm" id="dodtpb07e7cca-a0cb-472c-b1ff-cbdfd67f564b"></a>. Dabei ist jedem View ein Layer zugeordnet, den Sie über die Property <span class="clisting">layer</span> erhalten. Nach der Erzeugung eines Views ist dessen Layer fest, und Sie können dem
+                                                   View keinen neuen Layer zuweisen. Die Klasse <span class="clisting">UIView</span> hat aber die Klassenmethode <span class="clisting">layerClass</span><a class="indexterm" id="dodtp3d510fbe-a3dc-4e4c-b47a-af20f7ccae18"></a>, über die der View die Klasse seines Layers bestimmt. Sie können in Ihren Unterklassen
+                                                   also diese Methode implementieren, um so die Layerklasse des Views festlegen zu können.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">+ (Class)layerClass {<br>    return [PieLayer class];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.29   </strong>Festlegen der Layerklasse eines Views
+                                                </p>
+                                                <p>Layer können, analog zu Views, Sublayer haben. Wenn ein View Subviews hat, dann sind
+                                                   deren Layer die Sublayer des Layers des Views. Eine grafische Veranschaulichung des
+                                                   letzten Satzes finden Sie in Abbildung 5.11.
+                                                </p>
+                                                <p>Jedem View ist zwar ein Layer zugeordnet, aber nicht jeder Layer muss zu einem View
+                                                   gehören. Sie können also in einen Layer beliebig viele Sublayer einfügen. Die Verwaltung
+                                                   der Sublayer erfolgt dabei analog zu Views. Sie erhalten alle Sublayer eines Layers
+                                                   über die Property <span class="clisting">sublayers</span>. Durch die Methode <span class="clisting">addSublayer:</span> können Sie neue Sublayer zu einem Layer hinzufügen, und über die Property <span class="clisting">superlayer</span> haben Sie Zugriff auf den darüber liegenden Layer.
+                                                </p><a href="bilder/05_011.png" rel="lightbox" title="View- und Layer-Hierarchie"><img class="bild" border="1" src="bilderklein/klein05_011.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.11   </strong>View- und Layer-Hierarchie
+                                                </p>
+                                                <p>Layer haben noch eine Reihe weiterer Eigenschaften. Sie finden im Layer viele Propertys,
+                                                   die Sie schon von der Klasse <span class="clisting">UIView</span> kennen. Teilweise haben sie aber einen anderen Namen. Beispielsweise heißt <span class="clisting">clipsToBounds</span> im Layer <span class="clisting">masksToBounds</span>. Das Gegenstück zu der Viewproperty <span class="clisting">alpha</span> ist <span class="clisting">opacity</span>. Wenn sie den Wert 0 hat, ist der Layer transparent. Bei einem Wert von 1 ist er
+                                                   deckend.
+                                                </p>
+                                                <p>Sehr praktisch ist beispielsweise die Property <span class="clisting">cornerRadius</span> der Klasse <span class="clisting">CALayer</span>. Damit können Sie die Ecken eines Layers abrunden. Dafür müssen Sie diese Property
+                                                   auf einen Wert größer als 0 setzen. Außerdem können Sie noch einen Schatten, eine
+                                                   Rahmenfarbe und eine Rahmenbreite festlegen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">theLayer.cornerRadius = 10.0;<br>theLayer.borderColor = [UIColor blueColor].CGColor;<br>theLayer.borderWidth = 2.0;<br>theLayer.shadowColor = [UIColor blackColor].CGColor;<br>theLayer.shadowOffset = CGSizeMake(5.0, 5.0);<br>theLayer.shadowOpacity = 0.5;<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.30   </strong>Erzeugung eines Layerrahmens
+                                                </p>
+                                                <p>Wenn Sie die Propertys wie in Listing 5.30 setzen, erhalten Sie einen Rahmen um den
+                                                   Layer, wie er in Abbildung 5.12 dargestellt ist. Sie können diese Propertys natürlich
+                                                   auch bei dem Layer eines Views setzen, um die Ecken eines rechteckigen Views abzurunden.
+                                                   Das ist eine einfache Möglichkeit, um die Gestaltung der Oberflächen Ihrer Apps aufzulockern.
+                                                </p>
+                                                <p>Ein Layer kann auch ein Delegate haben. Bei den Standardlayern der Views ist das Delegate
+                                                   immer der View. Sie dürfen diesen Layern kein anderes Delegate zuweisen. Bei allen
+                                                   anderen Layern können Sie hingegen das Delegateobjekt frei wählen und über die Property
+                                                   <span class="clisting">delegate</span> setzen.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Diplomatischer Skandal: Layer-Delegation hält sich an kein Protokoll
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Es gibt kein Protokoll für das Layer-Delegate. Die Delegatemethoden finden Sie alle
+                                                               in der Klasse <span class="clisting">CALayer</span>. In deren Dokumentation sind alle Delegatemethoden durch den Zusatz <span class="cbegriff">delegate method</span><a class="indexterm" id="dodtpc79fcad1-fcde-4eb7-9cb1-3655624df46f"></a> gekennzeichnet.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Es gibt drei mögliche Wege, wie Sie den Inhalt eines Layers bereitstellen können.
+                                                   Über die Property <span class="clisting">contents</span> können Sie dem Layer ein Core-Graphics-Bild (<span class="clisting">CGImageRef</span>) zuweisen. Eine solche Referenz erhalten Sie beispielsweise über die Property <span class="clisting">CGImage</span> eines Bildes des UIKits.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">UIImage *theImage = [UIImage imageNamed:@"background.png"];<br>theLayer.contents = theImage.CGImage;<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.31   </strong>Setzen der »contents«-Property eines Layers
+                                                </p>
+                                                <p>Der Layer-Inhalt lässt sich aber auch durch Zeichenoperationen erzeugen. Sie können
+                                                   dafür entweder eine Delegatemethode verwenden oder eine Unterklasse erstellen. Für
+                                                   die Delegation implementieren Sie die Methode <span class="clisting">drawLayer: inContext:</span>, wobei Sie den Kontextparameter für Ihre Zeichenoperationen verwenden:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)drawLayer:(CALayer *)inLayer<br>        inContext:(CGContextRef)inContext {<br>    CGContextSaveGState(inContext);<br>    // beliebige Zeichenoperationen<br>    CGContextRestoreGState(inContext);<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.32   </strong>Layer-Inhalt über Delegatemethode zeichnen
+                                                </p>
+                                                <p>Cocoa Touch ruft die Methode <span class="clisting">drawRect:</span> über <span class="clisting">drawLayer:inContext:</span> auf. Sie haben also bereits &#8211; ohne es zu ahnen &#8211; Layer-Inhalte über Delegation erzeugt.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               UIView und drawLayer:inContext:
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Wenn Sie den View-Inhalt über die Delegatemethode anstatt mit <span class="clisting">drawRect:</span> zeichnen möchten, dann müssen Sie trotzdem die Methode <span class="clisting">drawRect:</span> überschreiben. Ansonsten ruft der Layer die Delegatemethode nicht auf. Es reicht
+                                                               aber aus, wenn Sie die Methode leer lassen.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Der dritte Weg zur Bereitstellung des Layer-Inhalts ist das Überschreiben der Methode
+                                                   <span class="clisting">drawInContext:</span> in einer Unterklasse von <span class="clisting">CALayer</span>. Auch hier bekommen Sie den Kontext zum Zeichnen als Parameter übergeben.
+                                                </p><a href="bilder/05_012.png" rel="lightbox" title="Das »Pie«-Beispielprogramm"><img class="bild" border="1" src="bilderklein/klein05_012.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.12   </strong>Das »Pie«-Beispielprogramm
+                                                </p>
+                                                <p>Das Beispielprojekt <span class="cdateipfad">Pie</span> auf der beiliegenden DVD stellt ein Kreissegment dar, dessen Ausschnitt Sie über
+                                                   einen Schieberegler verändern können (siehe Abbildung 5.12). Die Darstellung des Segments
+                                                   basiert auf einem Layer mit folgender Implementierung der Methode <span class="clisting">drawInContext:</span></p>
+                                                <div class="listing"><pre class="prettyprint">- (void)drawInContext:(CGContextRef)inContext {<br>    CGRect theBounds = self.bounds;<br>    CGSize theSize = theBounds.size;<br>    CGFloat thePart = self.part;<br>    CGPoint theCenter = CGPointMake(CGRectGetMidX(theBounds),<br>                                    CGRectGetMidY(theBounds));<br>    CGFloat theRadius = fminf(theSize.width, theSize.height) /<br>                              2.0 &#8211; 5.0;<br>    CGFloat theAngle = 2 * (thePart &#8211; 0.25) * M_PI;<br><br>    CGContextSaveGState(inContext);<br>    CGContextSetFillColorWithColor(inContext,                                    [UIColor redColor].CGColor);<br>    CGContextMoveToPoint(inContext, theCenter.x, theCenter.y);<br>    CGContextAddArc(inContext, theCenter.x, theCenter.y,                     theRadius, -M_PI / 2.0, theAngle, NO);<br>    CGContextAddLineToPoint(inContext, theCenter.x, theCenter.y);<br>    CGContextFillPath(inContext);<br>    CGContextRestoreGState(inContext);<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.33   </strong>Zeichnen des Kreissegments im Layer
+                                                </p>
+                                                <p>Die Property <span class="clisting">part</span> enthält die Größe des Kreissegments als Wert zwischen 0 und 1. Ein Layer kann über
+                                                   die Methoden <span class="clisting">valueForKey:</span> und <span class="clisting">setValue:forKey:</span> beliebige Werte speichern. Die Klasse <span class="clisting">PieLayer</span> speichert den Wert für die Property <span class="clisting">part</span> auch über diese Methoden. Die Deklaration dieser Property in der Klasse <span class="clisting">PieLayer</span> erfolgt zwar über ein gewohntes
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">@property (nonatomic) CGFloat part;<br></pre></div>
+                                                <p>für die Implementierung reicht aber die Anweisung <span class="clisting">@dynamic part;</span> aus. Dadurch ruft die Laufzeitumgebung immer, wenn Sie lesend oder schreibend auf
+                                                   <span class="clisting">part</span> zugreifen, die Methoden <span class="clisting">valueForKey:</span> beziehungsweise <span class="clisting">setValue:forKey:</span> mit <span class="clisting">@"part"</span> als Schlüssel auf, wobei sie den Fließkommawert auch immer schön aus einem <span class="clisting">NSNumber</span>-Objekt auspackt beziehungsweise ihn in ein solches Objekt verpackt.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Layer-Eigenschaften über Propertys
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Legen Sie die Propertys eines Layers möglichst immer dynamisch an. Sie können zwar
+                                                               auch synthetisierte Propertys verwenden oder eigene Implementierungen dafür schreiben.
+                                                               Allerdings dürfen Sie in der Implementierung nicht die Key-Value-Coding-Methoden mit
+                                                               dem Propertyname als Schlüssel verwenden. Die Implementierung
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">- (CGFloat)part {<br>    return [[self valueForKey:@"part"] floatValue];<br>}<br></pre></div>
+                                                               
+                                                               führt zu einer Endlosrekursion, da der Aufruf von <span class="clisting">valueForKey:</span> wieder die Methode <span class="clisting">part</span> aufruft. Sie bekommen aber weiteren Ärger, wenn Sie diese Propertys animieren wollen.
+                                                               Also nutzen Sie lieber das Key-Value-Coding. Das ist ein Angebot, das Sie einfach
+                                                               nicht ablehnen können.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Natürlich sollte der Layer seine Propertys auch mit Werten vorbelegen. Dafür sollten
+                                                   Sie die Klassenmethode <span class="clisting">defaultValueForKey:</span> überschreiben. Sie liefert für die Schlüssel des Layers entweder den Standardwert
+                                                   zurück oder reicht den Aufruf an die Methode der Oberklasse weiter. Da diese Methode
+                                                   den Rückgabetyp <span class="clisting">id</span> hat, muss sie den Standardwert für die Property <span class="clisting">part</span> als Objekt liefern.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">static NSString * const kPartKey = @"part";<br><br>+ (id)defaultValueForKey:(NSString *)inKey {<br>    return [kPartKey isEqualToString:inKey] ?<br>        [NSNumber numberWithFloat:0.0] : [super defaultValueForKey:inKey];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.34   </strong>Standardwert für die Property »part«
+                                                </p>
+                                                <p>Wenn Sie jetzt die Klasse <span class="clisting">PieLayer</span> verwenden, sehen Sie noch nichts &#8211; zumindest kein Tortenstück. Das könnte daran liegen,
+                                                   dass die Größe des Segments den Wert Null hat. Aber selbst mit einem anderen Standardwert
+                                                   für <span class="clisting">part</span> gibt&#8217;s immer noch keinen Kuchen und die Fläche bleibt immer noch weiß.
+                                                </p>
+                                                <p>Das liegt daran, dass niemand dem Layer gesagt hat, dass er etwas zeichnen soll. Sie
+                                                   können das erreichen, indem sie ihm die Nachricht <span class="clisting">setNeedsDisplay</span> schicken. Das müssen Sie immer machen, wenn Sie den Wert für <span class="clisting">part</span> verändern. Das ist aber sehr unpraktisch, da Sie dafür entweder die Methode <span class="clisting">setPart:</span> implementieren oder KVO verwenden müssten.
+                                                </p>
+                                                <p>Um dieses Problem zu umgehen, bietet die Layerklasse über die Klassenmethode <span class="clisting">needsDisplayForKey:</span> eine einfachere Möglichkeit an. Core Animation zeichnet den Layer bei einer Änderung
+                                                   eines Propertywertes automatisch neu, wenn die Methode für den Propertynamen <span class="clisting">YES</span> liefert. Sie können dazu diese Methode in Ihren Klassen einfach überschreiben.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">+ (BOOL)needsDisplayForKey:(NSString *)inKey {<br>    return [kPartKey isEqualToString:inKey] || [super needsDisplayForKey:inKey];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.35   </strong>Layer bei Änderung des Propertywertes neu zeichnen
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Layer-Propertys gesucht
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Core Animation ruft die Methode <span class="clisting">needsDisplayForKey:</span> einmal für jede Property der Layerklasse auf. Sie sollten auch deshalb die Layereigenschaften
+                                                               als dynamische Property deklarieren. Für Eigenschaften, die Sie als Getter und Setter
+                                                               deklariert haben, ruft Core Animation <span class="clisting">needsDisplayForKey:</span> nicht auf. Das klingt ja schon wieder nach einem Angebot, das Sie nicht ausschlagen
+                                                               können.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp766676af-c5c5-4b69-bb6c-a92f38e6040d" name="dodtp766676af-c5c5-4b69-bb6c-a92f38e6040d"></a><h3 class="t3"><span class="cfett">5.3.2</span><span class="cfett"> Vordefinierte Layerklassen</span><a href="#dodtp13aeb6cc-99bc-4e4b-9ee7-186982cef3cb"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpc7304b46-d817-4f7c-ad3a-655bdf12d064"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Core Animation stellt fertige Unterklassen von <span class="clisting">CALayer</span> für verschiedene Anwendungsfälle bereit. Den Programmcode zu den vier hier vorgestellten
+                                                   Layern finden Sie im Beispielprojekt <span class="cdateipfad">Layer</span><a class="indexterm" id="dodtpc85bd5da-e165-4877-b260-9d7570248ddb"></a> auf der beiliegenden DVD. Die Darstellung der Ausgabe der beschriebenen Layer ist
+                                                   in Abbildung 5.13 zu sehen.
+                                                </p><a href="bilder/05_013.png" rel="lightbox" title="Ausgabe der Layer-App"><img class="bild" border="1" src="bilderklein/klein05_013.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.13   </strong>Ausgabe der Layer-App
+                                                </p>
+                                                <p>Mit einem Layer der Klasse <span class="clisting">CAGradientLayer</span> können Sie Farbverläufe darstellen, die auf zwei oder mehr Farben basieren. Die Farben
+                                                   übergeben Sie an den Layer als <span class="clisting">CGColorRef</span>-Werte in einem <span class="clisting">NSArray</span>. Der Farbverlauf verläuft entlang einer Linie, die Sie über die Propertys <span class="clisting">startPoint</span> und <span class="clisting">endPoint</span> festlegen.
+                                                </p><a href="bilder/05_014.png" rel="lightbox" title="Gradientenverlauf zwischen Start- und Endpunkt"><img class="bild" border="1" src="bilderklein/klein05_014.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.14   </strong>Gradientenverlauf zwischen Start- und Endpunkt
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Relative Positionsangaben bei Layern
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Positionen oder Rechtecke innerhalb eines Layers müssen Sie in der Regel durch Werte
+                                                               zwischen 0 und 1 beschreiben und nicht durch absolute Koordinaten. Den Ankerpunkt
+                                                               eines Layers können Sie beispielsweise über die Property <span class="clisting">anchorPoint</span> festlegen. Standardmäßig ist das der Mittelpunkt des Layers, und diese Property hat
+                                                               also den Wert (0,5, 0,5).
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Abbildung 5.14 enthält zwei Gradientenverläufe mit unterschiedlichen Start- und Endpunkten.
+                                                   Die Lage der Punkte verdeutlicht dabei jeweils eine Verbindungslinie auf dem Gradienten.
+                                                   Der linke Verlauf startet in der Ecke links oben und endet unten rechts. Der Startpunkt
+                                                   hat also den Wert (0, 0) und der Endpunkt (1, 1). Der rechte Gradient verläuft von
+                                                   oben nach unten, was sich über den Startpunkt (0,5, 0) und den Endpunkt (0,5, 1) realisieren
+                                                   lässt.
+                                                </p>
+                                                <p>Über Layer der Klasse <span class="clisting">CATextLayer</span><a class="indexterm" id="dodtp16d74b72-8b59-4540-9b2e-276fe25bb05f"></a> können Sie Texte darstellen. Die Implementierung des Layers beruht auf Core Text.
+                                                   Das ist ein Low-Level-Framework für die Ausgabe von Texten. Sie können im Gegensatz
+                                                   zu einem Label über diesen Layer auch Texte mit Hervorhebungen (z. B. fett oder kursiv)
+                                                   und unterschiedlichen Schriftarten ausgeben.
+                                                </p>
+                                                <p>Die Klasse <span class="clisting">CAScrollLayer</span><a class="indexterm" id="dodtp6f751fb9-6372-48da-94e4-cf6bcdc4ec48"></a> erlaubt die Anzeige von Inhalten, die größer sind als der verfügbare Bereich für
+                                                   die Darstellung. Sie zeigen also wie ein <span class="clisting">UIScrollView</span> immer nur einen Ausschnitt des Inhalts an. Im Gegensatz zum View verarbeitet der
+                                                   Layer aber keine Gesten, und er zeigt auch keine Scrollbalken an.
+                                                </p>
+                                                <p>Sie können den angezeigten Ausschnitt des Scrolllayers über die Methoden <span class="clisting">scrollToPoint:</span> und <span class="clisting">scrollToRect:</span> festlegen. Über <span class="clisting">scrollToPoint:</span> legen Sie die linke obere Ecke des Ausschnitts für die Anzeige fest. Dabei geben
+                                                   Sie den Punkt in absoluten Koordinaten zum Layerinhalt an. Bei <span class="clisting">scrollToRect:</span> übergeben Sie ein Rechteck aus dem Koordinatensystem des Inhalts. Der Scrolllayer
+                                                   stellt dann einen Ausschnitt des Inhalts dar, der dieses Rechteck enthält.
+                                                </p>
+                                                <p>Ein Layer der Klasse <span class="clisting">CAShapeLayer</span><a class="indexterm" id="dodtp0c2c16e7-38a3-44cd-8288-bafe26ff3d56"></a> stellt einen Core-Graphics-Pfad dar. Dabei können Sie diesen Pfad über die Property
+                                                   <span class="clisting">path</span> setzen. Auch für die anderen üblichen Verdächtigen gibt es entsprechende Propertys.
+                                                   Sie können beispielsweise die Füllfarbe über <span class="clisting">fillColor</span> und die Linienfarbe über <span class="clisting">strokeColor</span> setzen.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp13aeb6cc-99bc-4e4b-9ee7-186982cef3cb" name="dodtp13aeb6cc-99bc-4e4b-9ee7-186982cef3cb"></a><h3 class="t3"><span class="cfett">5.3.3</span><span class="cfett"> Unser Button soll schöner werden</span><a href="#dodtp66fddda2-3ee3-4e44-ae6a-6901c9f96a1e"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp766676af-c5c5-4b69-bb6c-a92f38e6040d"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Die Klasse <span class="clisting">GradientButton</span> der Games-App verwendet einen Gradienten-Layer, um optisch ansprechende Buttons darzustellen.
+                                                   Dazu fügt sie in der Methode <span class="clisting">awakeFromNib</span> einen weiteren Sublayer hinzu:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)awakeFromNib {<br>    [super awakeFromNib];<br>    CALayer *theLayer = self.layer;<br>    CAGradientLayer *theBackground = [CAGradientLayer layer];<br><br>    theLayer.cornerRadius = 10.0;<br>    theLayer.masksToBounds = YES;<br>    theBackground.frame = theLayer.bounds;<br>    theBackground.startPoint = CGPointMake(0.5, 0.2);<br>    theBackground.endPoint = CGPointMake(0.5, 0.4);<br>    theBackground.colors = self.normalColors;<br>    theBackground.zPosition = &#8211;1;<br>    [theLayer addSublayer:theBackground];<br>    self.backgroundLayer = theBackground;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.36   </strong>Hinzufügen eines Layers für den Hintergrund
+                                                </p>
+                                                <p>Der Layer für den Hintergrund erhält die z-Position (siehe Abschnitt 5.3.7, »Die 3.
+                                                   Dimension«) <span class="clisting">&#8211;1</span>, damit er hinter den anderen Elementen des Buttons liegt. Da der Button einen transparenten
+                                                   Hintergrund hat, verdeckt der Button aber nicht den Hintergrundlayer. Wenn Sie den
+                                                   Button drücken, verändert sich die Farbe des Verlaufs wie beim Redo-Button in Abbildung
+                                                   5.15. Dazu besitzt die Klasse zwei Getter, die jeweils ein Array mit Farben liefern.
+                                                   Die Arrays müssen allerdings die Farbwerte als <span class="clisting">CGColorRef</span>-Werte enthalten:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (NSArray *)normalColors {<br>    return [NSArray arrayWithObjects:<br>            (id)[UIColor colorWithRed:0.0 green:0.0 blue:0.9<br>                                alpha:1.0].CGColor, [UIColor colorWithRed:0.0 green:0.0 blue:0.6 alpha:1.0].CGColor, nil];<br>}<br><br>- (NSArray *)highligthedColors {<br>    return [NSArray arrayWithObjects:<br>            (id)[UIColor colorWithRed:0.9 green:0.0 blue:0.0 alpha:1.0].CGColor,<br>            [UIColor colorWithRed:0.6 green:0.0 blue:0.0 alpha:1.0].CGColor, nil];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.37   </strong>Definition der Verlaufsfarben für den Hintergrund
+                                                </p><a href="bilder/05_015.png" rel="lightbox" title="Änderung der Hintergrundfarbe eines gedrückten Buttons"><img class="bild" border="1" src="bilderklein/klein05_015.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.15   </strong>Änderung der Hintergrundfarbe eines gedrückten Buttons
+                                                </p>
+                                                <p>Damit der Button die Farbe beim Drücken verändert, überschreiben Sie die Methode <span class="clisting">setHighlighted:</span>, die Cocoa Touch bei dieser Zustandsänderung aufruft.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)setHighlighted:(BOOL)inHighlighted {<br>    super.highlighted = inHighlighted;<br>    if(inHighlighted) {<br>        self.backgroundLayer.colors = self.highligthedColors;<br>    }<br>    else {<br>        self.backgroundLayer.colors = self.normalColors;<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.38   </strong>Änderung des Farbverlaufs beim Drücken des Buttons
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp66fddda2-3ee3-4e44-ae6a-6901c9f96a1e" name="dodtp66fddda2-3ee3-4e44-ae6a-6901c9f96a1e"></a><h3 class="t3"><span class="cfett">5.3.4</span><span class="cfett"> Spieglein, Spieglein an der Wand</span><a href="#dodtpce26e4e5-0327-4743-bbd7-d6b3b9eee6d8"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp13aeb6cc-99bc-4e4b-9ee7-186982cef3cb"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Sie können auch auf den Layer-Inhalt zugreifen, beispielsweise um eine Spiegelung
+                                                   zu erzeugen. Die beiden Spiele verwenden einen View der Klasse <span class="clisting">NumberView</span>, um ihre Spielstände anzuzeigen. In diesem View liegen jeweils drei Views der Klasse
+                                                   <span class="clisting">DigitView</span>, die jeweils die einzelnen Ziffern darstellen. Der Numberview erzeugt auch eine gespiegelte,
+                                                   abgeschwächte Kopie der Ziffern, sodass der Eindruck einer glänzenden Oberfläche entsteht.
+                                                </p><a href="bilder/05_016.png" rel="lightbox" title="Beispiel für eine Spiegelung"><img class="bild" border="1" src="bilderklein/klein05_016.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.16   </strong>Beispiel für eine Spiegelung
+                                                </p>
+                                                <p>Für einen Spiegelungseffekt müssen Sie eine vertikal gespiegelte und gestauchte Kopie
+                                                   des Originalbildes erstellen. Außerdem muss sich das gespiegelte Bild mit zunehmender
+                                                   Entfernung vom Originalbild abschwächen. Ein Beispiel für eine Spiegelung stellt Abbildung
+                                                   5.16 dar, wo Sie diese drei Effekte &#8211; spiegelverkehrte Darstellung, Stauchung und
+                                                   Abschwächung &#8211; sehen können.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Tipp
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Die Klasse <span class="clisting">NumberView</span> spiegelt nach diesem Prinzip alle enthaltenen Views. Sie können die nachfolgend beschriebenen
+                                                               Methoden aus der Kategorie <span class="clisting">UIView(MirrorImage)</span> auch in eigene View-Klassen integrieren, um Spiegelungen für beliebige Views zu erhalten.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die erste und vielleicht auch schwierigste Aufgabe, um die Spiegelung zu erzeugen,
+                                                   ist die Bestimmung des Layerinhalts. Sie müssen dazu den Inhalt in ein Bild zeichnen.
+                                                   Die Klasse <span class="clisting">CALayer</span> stellt für das Zeichnen der Layerhierarchie die Methode <span class="clisting">renderInContext:</span> zur Verfügung. Die Erzeugung des Abbildes eines Views geschieht im Beispiel über
+                                                   die nützliche Methode <span class="clisting">mirroredImageWithScale:</span> in der Kategorie <span class="clisting">UIView(MirrorImage)</span>:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (UIImage *)mirroredImageWithScale:(CGFloat)inScale {<br>    CALayer *theLayer = self.layer;<br>    CALayer *thePresentationLayer =<br>        [theLayer presentationLayer];<br>    CGRect theFrame = self.frame;<br>    CGSize theSize = theFrame.size;<br>    CGContextRef theContext;<br>    UIImage *theImage;<br><br>    if(thePresentationLayer) {<br>        theLayer = thePresentationLayer;<br>    }<br>    UIGraphicsBeginImageContext(theSize);<br>    theContext = UIGraphicsGetCurrentContext();<br>    CGContextScaleCTM(theContext, 1.0, -inScale);<br>    CGContextTranslateCTM(theContext, 0.0, -theSize.height);<br>    [theLayer setAllNeedsDisplay];<br>    [theLayer renderInContext:theContext];<br>    theImage = UIGraphicsGetImageFromCurrentImageContext();<br>    UIGraphicsEndImageContext();<br>    return theImage;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.39   </strong>Erzeugung eines gespiegelten Abbildes eines Views
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Das doppelte Layerchen
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Core Animation verwendet für die Darstellung eines Layers zwei weitere Layer. Der
+                                                               <span class="cbegriff">Präsentationslayer</span><a class="indexterm" id="dodtpb16f9e6f-6765-4c84-ad9e-9cb15cfa111e"></a> enthält den aktuellen Zustand des Layers. In der Regel ist er einfach eine Kopie
+                                                               des Layers des Views. Während einer Animation unterscheiden sich aber die Werte der
+                                                               animierten Propertys des Präsentationslayers von dem Original, da der Präsentationslayer den aktuellen Animationszustand darstellt. Da die Spiegelung
+                                                               auch mit Animationen funktionieren soll, verwendet Listing 5.39 den Präsentationslayer
+                                                               des Layers, sofern er einen besitzt.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die Erzeugung des Bildes in Listing 5.39 geschieht über einen Image-Context aus <span class="cbegriff">Core Graphics</span>, der einen negativen, vertikalen Skalierungsfaktor erhält. Das negative Vorzeichen
+                                                   und der Wert 0,6 bewirken die Spiegelung und die Stauchung des Inhalts. Vor der Befüllung
+                                                   des Kontexts über den Aufruf der Methode <span class="clisting">renderInContext:</span> müssen Sie die komplette Layerhierarchie für das Neuzeichnen markieren. Dazu senden
+                                                   Sie dem Layer und allen Sublayern die Nachricht <span class="clisting">setNeedsDisplay</span>. Eine Ausnahme sind die Layer, die ihren Inhalt über die Property <span class="clisting">contents</span> bereitstellen. Diese Aufrufe erfolgen über die rekursive Methode <span class="clisting">setAllNeedsDisplay</span> der Kategorie <span class="clisting">CALayer(MirrorImage)</span>.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)setAllNeedsDisplay {<br>    if(self.contents == nil) {<br>        [self setNeedsDisplay];<br>    }<br>    for(id theLayer in self.sublayers) {<br>        [theLayer setAllNeedsDisplay];<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.40   </strong>Rekursives Markieren zum Neuzeichnen
+                                                </p>
+                                                <p>Die Intensität der Farben des Spiegelbildes lässt mit zunehmender Entfernung vom Originalbild
+                                                   nach. Diesen Effekt können Sie in Core Graphics durch die Funktion <span class="clisting">CGContextClipToMask</span> mit einem Verlauf als Maske erreichen. Die Maske für die Spiegelung ist ein Graustufenverlauf
+                                                   von 80 % bis 0 %. Der Kontext verwendet jeweils den Grauwert der Maske als Alphawert
+                                                   für den Pixel, sodass dunklere Grauwerte zu durchsichtigeren Pixeln führen.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)drawMirrorWithScale:(CGFloat)inScale {<br>    CGRect theFrame = self.frame;<br>    CGSize theSize = theFrame.size;<br>    CGPoint thePoint = CGPointMake(<br>        CGRectGetMinX(theFrame), CGRectGetMaxY(theFrame));<br>    CGFloat theHeight = theSize.height * inScale;<br>    CGImageRef theGradient = [self createGradientImageWithSize:<br>        CGSizeMake(1.0, theHeight) gray:0.8];<br>    CGContextRef theContext = UIGraphicsGetCurrentContext();<br>    UIImage *theImage = [self mirroredImageWithScale:inScale];<br>    CGRect theRect;<br>    theRect.origin = thePoint;<br>    theRect.size = theSize;<br>    CGContextSaveGState(theContext);<br>    CGContextClipToMask(theContext, theRect, theGradient);<br>    [theImage drawAtPoint:thePoint];<br>    CGImageRelease(theGradient);<br>    CGContextRestoreGState(theContext);<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.41   </strong>Zeichnen der Spiegelung mit einer Graustufenmaske
+                                                </p>
+                                                <p>Die Methode <span class="clisting">drawMirrorWithScale:</span> positioniert die Maske und das Spiegelbild an der linken unteren Ecke des Views.
+                                                   Dabei erzeugt die Methode <span class="clisting">createGradientImageWithSize:gray:</span> einen Graustufenverlauf vom angegebenen Wert bis 0 %. Die Klasse <span class="clisting">NumberView</span> ruft <span class="clisting">drawMirrorWithScale:</span> über <span class="clisting">drawRect:</span> auf (siehe Listing 5.42).
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)drawRect:(CGRect)inRect {<br>    for(UIView *theView in self.subviews) {<br>        [theView drawMirrorWithScale:SCALE];<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.42   </strong>Spiegelung der Subviews
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpce26e4e5-0327-4743-bbd7-d6b3b9eee6d8" name="dodtpce26e4e5-0327-4743-bbd7-d6b3b9eee6d8"></a><h3 class="t3"><span class="cfett">5.3.5</span><span class="cfett"> Der bewegte Layer</span><a href="#dodtpfb02b879-0cc7-44cd-91fb-be429ae0b56f"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp66fddda2-3ee3-4e44-ae6a-6901c9f96a1e"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Sie können Layer auch mit Animationen versehen und sie so in Bewegung versetzen. Dadurch
+                                                   ergeben sich weitere Möglichkeiten für eine ansprechendere Oberflächengestaltung.
+                                                   Die Basisklasse für alle Animationen ist die Klasse <span class="clisting">CAAnimation</span><a class="indexterm" id="dodtpcb934151-35ca-48ee-9632-542f00fdf62e"></a>. Die Layer verfügen über ein Animationsverzeichnis, und Sie können über die Methode
+                                                   <span class="clisting">addAnimation:forKey:</span> dort Animationen einfügen. Durch das Einfügen animieren Sie den Layer, und Sie können
+                                                   eine Animation durch Entfernen aus diesem Verzeichnis auch wieder stoppen. Die bereits
+                                                   erwähnte Methode <span class="clisting">removeAllAnimations</span> stoppt alle Animationen eines Layers auf einmal.
+                                                </p>
+                                                <p>Die Property <span class="clisting">duration</span> legt die Dauer der Animation fest. Für eine kontinuierliche Animation setzen Sie
+                                                   entweder die Property <span class="clisting">repeatCount</span> oder <span class="clisting">repeatDuration</span> auf einen Wert größer null. Während Sie über den ersten Wert die Anzahl der Wiederholungen
+                                                   vorgeben können, können Sie über den zweiten die Dauer der Animation festlegen. Wenn
+                                                   Sie die Property <span class="clisting">autoreverses</span> auf <span class="clisting">YES</span> setzen, ändert die Animation jeweils am Ende ihre Richtung.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Gibt es ein Leben nach der Animation?
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Normalerweise entfernt der Layer eine abgelaufene Animation. Wenn Sie die Property
+                                                               <span class="clisting">removedOnCompletion</span> des Animationsobjekts allerdings auf <span class="clisting">NO</span> setzen, geschieht das nicht. Dadurch behält der Layer den Zustand bei, den er am
+                                                               Animationsende hatte. Andernfalls springt der Layer auf den Zustand, der den Werten
+                                                               seiner Propertys entspricht.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Dazu ein Beispiel: Ein Layer hat die Position (50, 50), und Sie starten eine Animation,
+                                                               die den Layer von Punkt (10, 10) zum Punkt (100, 10) verschiebt. Wenn die Animation
+                                                               endet und der Layer sie entfernt, springt der Layer an die Position (50, 50). Bleibt
+                                                               sie hingegen im Animationsverzeichnis des Layers, dann verharrt der Layer am Punkt
+                                                               (100, 10). Falls Sie aber später die Animation manuell entfernen, springt der Layer
+                                                               dann an den Punkt (50, 50).
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Core Animation stellt Ihnen drei grundlegende Animationstypen zur Verfügung:</p>
+                                                <ul class="gp">
+                                                   <li>Property-Animationen</li>
+                                                   <li>Transitionen</li>
+                                                   <li>Animationsgruppen</li>
+                                                </ul>
+                                                <p>Wir stellen Ihnen diese Typen im Folgenden genauer vor.</p><a id="dodtp9d2a4476-b197-4f35-b797-c6b15ed94932" name="dodtp9d2a4476-b197-4f35-b797-c6b15ed94932"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Property-Animationen</span></h4>
+                                                <p>Dieser Animationstyp verändert den Wert einer Layer-Property während der Ausführung.
+                                                   Er basiert auf der Klasse <span class="clisting">CAPropertyAnimation</span><a class="indexterm" id="dodtp4b0a8041-2f9a-4998-b2d2-af563dd5ec79"></a>, deren Objekten Sie den Keypath auf die zu animierende Property angeben müssen. Um
+                                                   diesen Animationstyp anzuwenden, verwenden Sie die Unterklassen <span class="clisting">CABasicAnimation</span><a class="indexterm" id="dodtpa0125024-4ca1-4031-8f04-efbadd6247ac"></a> und <span class="clisting">CAKeyframeAnimation</span><a class="indexterm" id="dodtp57a46ba6-7caa-429a-89ae-df6a37c3367f"></a>. Alternativ kann die Animation aber auch den Schlüssel aus dem Animationsverzeichnis
+                                                   verwenden. Dadurch können Sie mit einem Animationsobjekt mehrere unterschiedliche
+                                                   Propertywerte animieren. Abhängig von der Property können dabei die Interpolationswerte
+                                                   Objekte der Klassen <span class="clisting">NSNumber</span> (für Fließkommawerte) oder <span class="clisting">NSValue</span> (für die Strukturen <span class="clisting">CGPoint</span>, <span class="clisting">CGSize</span>, <span class="clisting">CGRect</span> und <span class="clisting">CATransform3D</span><a class="indexterm" id="dodtp46f1a5c5-3df4-4c3d-bf53-892e40e236bd"></a>) sein.
+                                                </p>
+                                                <p>Eine Animation der Klasse <span class="clisting">CABasicAnimation</span> interpoliert zwischen zwei Propertywerten. Sie können dabei über die Propertys <span class="clisting">fromValue</span> und <span class="clisting">toValue</span> den Start- beziehungsweise den Endwert der Animation festlegen oder über die Property
+                                                   <span class="clisting">byValue</span> den Abstand vom Start- oder Endwert angeben. Dabei sind unterschiedliche Kombinationen
+                                                   beim Setzen dieser Propertys möglich. Vier mögliche Kombinationen sind in Tabelle
+                                                   5.5 dargestellt. Dabei bedeutet ein x in den drei linken Spalten, dass Sie die entsprechende
+                                                   Property im Animationsobjekt auf einen Wert ungleich von <span class="clisting">nil</span> gesetzt haben.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <caption class="tabunter">
+                                                      <p class="ptabellenunter"><strong>Tabelle 5.5   </strong>Animationsbereich in Abhängigkeit von den gesetzten Propertys
+                                                      </p>
+                                                   </caption>
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf">
+                                                            
+                                                            
+                                                            
+                                                            <span class="cfett">fromValue</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">byValue</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">toValue</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf" colspan="2"><span class="cfett">Animation (von&#8211;nach)</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">x
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">nil</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">x
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">fromValue</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">toValue</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">x
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">x
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">nil</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">fromValue</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">fromValue</span> + <span class="clisting">byValue</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">nil</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">x
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">x
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">toValue</span> &#8211; <span class="clisting">byValue</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">toValue</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">x
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">nil</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">nil</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">fromValue</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Aktueller <br>Propertywert
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Das folgende Beispiel verschiebt einen Layer zwischen zwei Punkten. Als Propertynamen
+                                                   verwendet die Animation den Schlüssel, unter dem sie im Animationsverzeichnis des
+                                                   Layers liegt &#8211; also <span class="ckursiv">position</span>.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">CABasicAnimation *theAnimation = [CABasicAnimation animation];<br>theAnimation.fromValue =<br>    [NSValue valueWithCGPoint:CGPointMake(10.0, 10.0)];<br>theAnimation.toValue =<br>    [NSValue valueWithCGPoint:CGPointMake(100.0, 10.0)];<br>[theLayer addAnimation:theAnimation forKey:@"position"];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.43   </strong>Verschieben eines Layers über eine Animation
+                                                </p>
+                                                <p>Über die Klasse <span class="clisting">CAKeyframeAnimation</span> können Sie Propertyanimationen mit komplexeren Verläufen erzeugen. Über die Property
+                                                   <span class="clisting">values</span> übergeben Sie dabei ein Array mit den Werten für die Zwischenzustände der Animation.
+                                                   Falls Sie mit der Animation Werte vom Typ <span class="clisting">CGPoint</span> animieren wollen, können Sie auch die Property <span class="clisting">path</span> verwenden. Sie erwartet einen Core-Graphics-Pfad. Damit ist es beispielsweise einfach,
+                                                   einen Layer entlang einer Kreislinie zu bewegen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">CAKeyframeAnimation *theAnimation =<br>    [CAKeyframeAnimation animation];<br>CGMutablePathRef thePath = CGPathCreateMutable();<br>CGPathAddEllipseInRect(thePath, NULL,<br>                       CGRectMake(140.0, 150.0, 20.0, 20.0));<br>theAnimation.path = thePath;<br>theAnimation.repeatCount = 3;<br>theAnimation.autoreverses = YES;<br>theAnimation.duration = 0.5;<br>[theLayer addAnimation:theAnimation forKey:@"position"];<br>CGPathRelease(thePath);<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.44   </strong>Layer-Bewegung entlang eines Pfades
+                                                </p>
+                                                <p>Sie finden dieses und noch andere Animationsbeispiele in der Klasse <span class="clisting">PieViewController</span> im Projekt <span class="cdateipfad">Pie</span> auf der beiliegenden DVD.
+                                                </p><a id="dodtp86710143-5a8b-4eca-9d4f-149ee6b44812" name="dodtp86710143-5a8b-4eca-9d4f-149ee6b44812"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Transitionen</span></h4>
+                                                <p>Der zweite Animationstyp sind Transitionen, die Core Animation über die Klasse <span class="clisting">CATransition</span><a class="indexterm" id="dodtp0b7b3962-2f42-4190-a61a-fb4f47b88fc3"></a> abbildet. Diese Klasse unterstützt insgesamt vier unterschiedliche Transitionstypen,
+                                                   die Tabelle 5.6 auflistet. Außer in der Fade-Animation können Sie eine Richtung in
+                                                   der Property <span class="clisting">subtype</span> angeben. Diese drei Typen blenden den bestehenden View zusätzlich zur Bewegung noch
+                                                   aus.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <caption class="tabunter">
+                                                      <p class="ptabellenunter"><strong>Tabelle 5.6   </strong>Die Transitionstypen von Core Animation
+                                                      </p>
+                                                   </caption>
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf">
+                                                            
+                                                            
+                                                            
+                                                            <span class="cfett">Name</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">Beschreibung</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">kCATransitionFade</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Blendet den bestehenden Layer aus und den neuen Layer ein.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">kCATransitionMoveIn</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Schiebt den neuen Layer über den bestehenden.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">kCATransitionPush</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Schiebt den neuen Layer herein und den bestehenden gleichzeitig hinaus.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">kCATransitionReveal</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Schiebt den bestehenden Layer hinaus und gibt dadurch den neuen View frei.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Sie wenden eine Transition an, indem Sie sie in das Animationsverzeichnis desjenigen
+                                                   Layers einfügen, der die Transitionslayer enthält. Außerdem müssen Sie den bestehenden
+                                                   Layer unsichtbar machen, indem Sie ihn verstecken oder aus der Layer-Hierarchie entfernen.
+                                                   Analog müssen Sie den neuen Layer anzeigen oder in die Hierarchie einfügen. Listing
+                                                   5.45 gibt ein einfaches Beispiel für diesen Animationstyp.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">CATransition *theTransition = [CATransition animation];<br>theTransition.type = kCATransitionPush;<br>theTransition.subtype = kCATransitionFromTop;<br>[[theLayer.sublayers objectAtIndex:0] setHidden:YES];<br>[[theLayer.sublayers objectAtIndex:1] setHidden:NO];<br>[theLayer addAnimation: theTransition forKey:@"transition"];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.45   </strong>Ausführen einer Transition
+                                                </p><a id="dodtp3b52d545-e291-4378-948e-e5d16f440a87" name="dodtp3b52d545-e291-4378-948e-e5d16f440a87"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Animationsgruppen</span></h4>
+                                                <p>Die Klasse <span class="clisting">CAAnimationGroup</span><a class="indexterm" id="dodtpbbcbdeb8-afb6-47d9-8aea-7f1fc3b77c6f"></a> fasst mehrere Layeranimationen zu einer Gruppe zusammen, die Sie in einem Array an
+                                                   die Property <span class="clisting">animations</span> übergeben. Die Gruppe gibt die maximale Dauer der Animationen vor und beendet die
+                                                   Ausführung längerer Animationen gegebenenfalls vorzeitig. Eine Animationsgruppe ist
+                                                   also die Queen unter den Animationen. Wenn sie aufhört zu essen, dann müssen auch
+                                                   alle anderen den Dessertlöffel weglegen. Hat also beispielsweise die Gruppe eine Dauer
+                                                   von einer Sekunde und enthält sie eine 4 Sekunden dauernde Animation, dann wird diese
+                                                   Animation nur zu einem Viertel ausgeführt. In Listing 5.46 führt diese Konfiguration
+                                                   beispielsweise dazu, dass die Animation des Eckradius nur von 0 bis 40 anstatt bis
+                                                   160 läuft.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">CABasicAnimation *theAnimation =<br>    [CABasicAnimation animationWithKeyPath:@"cornerRadius"];<br>CAAnimationGroup *theGroup = [CAAnimationGroup animation];<br>theAnimation.toValue = [NSNumber numberWithFloat:160.0];<br>theAnimation.duration = 4.0;<br>theGroup.duration = 1.0;<br>theGroup.animations = [NSArray arrayWithObject:theAnimation];<br>theGroup.repeatCount = 3.0;<br>[theLayer addAnimation:theGroup forKey:@"group"];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.46   </strong>Erzeugung einer Animationsgruppe
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpfb02b879-0cc7-44cd-91fb-be429ae0b56f" name="dodtpfb02b879-0cc7-44cd-91fb-be429ae0b56f"></a><h3 class="t3"><span class="cfett">5.3.6</span><span class="cfett"> Der View, der Layer, seine Animation und ihr Liebhaber</span><a href="#dodtp3d532cce-a949-4cbb-b90f-83cb4ca2c6e0"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp3b52d545-e291-4378-948e-e5d16f440a87"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Mit einer Property-Animation können Sie aber nicht nur die Standardpropertys der Layer,
+                                                   sondern auch eigene Propertys animieren. Dazu sollten Sie diese Propertys analog zu
+                                                   der Property <span class="clisting">part</span> in der Klasse <span class="clisting">PieLayer</span> anlegen. Sie können also beispielsweise eine Animation der Klasse <span class="clisting">CABasicAnimation</span> mit dem Schlüssel <span class="clisting">part</span> in das Animationsverzeichnis eines Pie-Layers einfügen. Core Animation erzeugt dann
+                                                   während der Animation die entsprechenden Zwischenwerte für diese Property, sodass
+                                                   ein flüssiger Bewegungsablauf entsteht.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Bist Du flüssig?
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Die Animationen in Core Animation sind zeit- und nicht framebasiert. Das heißt, dass
+                                                               die von Ihnen vorgegebene Zeit für die Animation wichtiger ist als die Anzahl der
+                                                               Einzelbilder (<span class="cbegriff">Frames</span>). Core Animation berechnet, sofern das möglich ist, für die Animation so viele Einzelbilder,
+                                                               dass die Animation die vorgegebene Zeit nicht überschreitet und dabei trotzdem möglichst
+                                                               flüssig abläuft.
+                                                               <br><br>
+                                                               Dahinter steckt sicherlich jede Menge Hirnschmalz. Wenn Sie für Ihre Views und Layer
+                                                               Animationen brauchen, sollten Sie dafür Core Animation verwenden.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Mit den Methoden aus Abschnitt 5.2.2, »Animationen mit Blöcken«, ist es wesentlich
+                                                   einfacher, eine Animation zu erzeugen. Natürlich verwendet Cocoa Touch auch dafür
+                                                   Layeranimationen, die der Layer bei Änderungen der entsprechenden Property automatisch
+                                                   erzeugt. Dafür wäre es naheliegend, die Erzeugung der Animation in den Setter der
+                                                   Property des Views oder des Layers zu verschieben. Damit würden Sie aber die Animationserzeugung
+                                                   fest mit dem View oder dem Layer verdrahten.
+                                                </p>
+                                                <p>Core Animation stellt stattdessen für die Animationserzeugung einen eleganteren Weg
+                                                   zur Verfügung. Ein Layer kann bei der Änderung einer Property oder der Veränderung
+                                                   der Layerhierarchie eine Aktion auslösen. Eine Aktion ist dabei ein Objekt, dessen
+                                                   Klasse das Protokoll <span class="clisting">CAAction</span> implementiert. Die Propertyänderung besteht dabei aus drei Schritten. Zuerst versucht
+                                                   Core Animation über unterschiedliche Möglichkeiten eine Aktion zu erzeugen. Dann übernimmt
+                                                   der Layer den neuen Propertywert, und wenn die Erzeugung erfolgreich war, führt der
+                                                   Layer die Aktion aus (siehe Abbildung 5.17).
+                                                </p><a href="bilder/05_017.png" rel="lightbox" title="Animationserzeugung und -ausführung im Setter"><img class="bild" border="1" src="bilderklein/klein05_017.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.17   </strong>Animationserzeugung und -ausführung im Setter
+                                                </p>
+                                                <p>Die Layer-Methode <span class="clisting">actionForKey:</span> erzeugt die Aktionen des Layers. Wenn Sie die Standardaktionen eines Layers verändern
+                                                   oder neue Aktionen hinzufügen wollen, haben Sie mehrere Möglichkeiten:
+                                                </p>
+                                                <ol class="paufz">
+                                                   <li>Sie können die Methode <span class="clisting">actionForLayer:forKey:</span> im Delegate des Layers implementieren.
+                                                   </li>
+                                                   <li>Über die Property <span class="clisting">actions</span> können Sie im Layer ein Verzeichnis für Aktionen setzen.
+                                                   </li>
+                                                   <li>Der Layer durchsucht sein Style-Verzeichnis rekursiv nach Aktionen.</li>
+                                                   <li>Sie können die Klassenmethode <span class="clisting">defaultActionForKey:</span> implementieren.
+                                                   </li>
+                                                </ol>
+                                                <p>Die Methode <span class="clisting">actionForKey:</span> sucht in der angegebenen Reihenfolge nach den Aktionen. Wenn ein Suchweg dabei <span class="clisting">nil</span> liefert, sucht der Layer weiter. Ein Aktionsobjekt oder der Rückgabewert <span class="clisting">[NSNull null]</span> brechen die Suche sofort ab. Dabei bedeutet der Nullwert, dass der Layer keine Aktion
+                                                   zum angegebenen Schlüssel hat.
+                                                </p>
+                                                <p>Das Protokoll <span class="clisting">CAAction</span><a class="indexterm" id="dodtp5ef3345f-bef7-4fcf-b888-f36c113cef1c"></a> besitzt nur eine Methode <span class="clisting">runActionForKey:object: arguments:</span>, die der Layer aufruft, nachdem er den Propertywert oder die Layerhierarchie verändert
+                                                   hat. Dabei ist der Parameter <span class="clisting">object</span> der Layer, der die Aktion ausgelöst hat. Der Parameter <span class="clisting">arguments</span> ist in der Regel <span class="clisting">nil</span>. Die Klasse <span class="clisting">CAAnimation</span> implementiert das <span class="clisting">CAAction</span>-Protokoll. Die Implementierung der Action-Methode fügt dabei das Animationsobjekt
+                                                   in das Animationsverzeichnis des Layers ein. Die genaue Implementierung lagert natürlich
+                                                   in einem geheimen Safe in Cupertino, aber sie könnte ungefähr so aussehen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)runActionForKey:(NSString *)inKey object:(id)inLayer<br>    arguments:(NSDictionary *)inArguments {<br>    [inLayer addAnimation:self forKey:inKey];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.47   </strong>Action-Methode einer Animation
+                                                </p>
+                                                <p>Wenn Sie also eigene Layerpropertys automatisch animieren möchten, brauchen Sie nur
+                                                   über einen der oben beschriebenen Suchwege ein Animationsobjekt zu erzeugen. Alternativ
+                                                   können Sie in Ihrer Layerklasse aber auch die Methode <span class="clisting">actionForKey:</span> überschreiben.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (id&lt;CAAction&gt;)actionForLayer:(CALayer *)inLayer<br>    forKey:(NSString *)inKey {<br>    if([@"part" isEqualToString:inKey]) {<br>        CABasicAnimation *theAnimation =<br>            [CABasicAnimation animationWithKeyPath:inKey];<br>        theAnimation.fromValue = [inLayer valueForKey:@"part"];<br>        return theAnimation;<br>    }<br>    else {<br>        return [super actionForLayer:inLayer forKey:inKey];<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.48   </strong>Animationserzeugung für eine Layerproperty
+                                                </p>
+                                                <p>Mit der Implementierung aus Listing 5.48 führt jede Änderung der Property <span class="clisting">part</span> der Klasse <span class="clisting">PieView</span> in einem Animationsblock zu einer animierten Veränderung der Grafik. Da der Layer
+                                                   die Aktion vor der Übernahme des Propertywertes anlegt, liefert der Aufruf von <span class="clisting">valueForKey:</span> noch den alten Wert. Weil der Layer aber den Wert vor der Ausführung der Aktion übernimmt,
+                                                   reicht es nach Tabelle 5.5 aus, die Property <span class="clisting">fromValue</span> zu setzen.
+                                                </p>
+                                                <p>Das klingt ja schon mal ganz gut, hat aber noch einen kleinen Schönheitsfehler. Wenn
+                                                   Sie die Dauer des Animationsblocks verändern, ist das der Animation für die Property
+                                                   <span class="clisting">part</span> völlig schnuppe. Leider hat Apple den Zugriff auf diesen und die anderen Animationsparameter
+                                                   sehr gut versteckt, sodass Sie diese Werte nicht einfach auslesen können.
+                                                </p>
+                                                <p>Die Lösung dieses Problems ist aber einfach: <span class="ckursiv">Klauen wir gleich die ganze Animation</span>. Die Methode erzeugt also das Animationsobjekt nicht selbst, sondern lässt es sich
+                                                   für eine Standardproperty erzeugen und passt diese an.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">CABasicAnimation *theAnimation = <br>    (id)[super actionForKey:@"opacity"];<br>theAnimation.keyPath = inKey;<br>theAnimation.fromValue = self.part;<br>theAnimation.toValue = nil;<br>theAnimation.byValue = nil;<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.49   </strong>Erzeugung der Animation über eine Standardproperty
+                                                </p>
+                                                <p>Listing 5.49 gibt den entsprechenden Codeschnipsel wieder, der die Animation über
+                                                   die Animation für die Property <span class="clisting">opacity</span> erzeugt. Sie müssen in dieser Animation natürlich die Werte der Propertys <span class="clisting">keyPath</span> und <span class="clisting">fromValue</span> anpassen. Da Vorsicht bekanntlich die Mutter der Porzellankiste ist, sollten Sie
+                                                   die Propertywerte für <span class="clisting">toValue</span> und <span class="clisting">byValue</span> löschen. Sie können damit jetzt auch die Property <span class="clisting">part</span> der Klasse <span class="clisting">PieView</span> in einem Animationsblock setzen, um die Änderung zu animieren:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">[UIView animateWithDuration:0.75 animations:^{<br>    self.pieView.part = 0.6;<br>}];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.50   </strong>Animation einer selbst definierten Property
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Verwendung der Delegatemethode
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie können dieses Vorgehen natürlich auch über die Delegatemethode <span class="clisting">actionForLayer:forKey:</span> realisieren. Allerdings sollten Sie hier nicht die Delegatemethode der Superklasse,
+                                                               sondern die Methode <span class="clisting">actionForKey:</span> des Layers aufrufen, um die Standardanimation zu erzeugen. Das hat zwei Gründe. Einerseits
+                                                               starten Sie hier eine neue Anfrage für eine andere Property, und dafür sollten Sie
+                                                               nicht die Delegatemethode, sondern die Methode des Layers verwenden. Für die Property
+                                                               <span class="clisting">opacity</span> des Programmbeispiels soll der Layer ja alle Möglichkeiten der Animationserzeugung
+                                                               durchprobieren. Außerdem liefert Ihnen die Delegatemethode ein Objekt der Klasse <span class="clisting">NSNull</span>, wenn Sie die Property nicht in einem Animationsblock verändern.
+                                                                                                                              
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>
+                                                               <div class="listing"><pre class="prettyprint">- (id&lt;CAAction&gt;)actionForLayer:(CALayer *)inLayer<br>                        forKey:(NSString *)inKey {<br>    if([kPartKey isEqualToString:inKey]) {<br>        CABasicAnimation *theAnimation =<br>            (id)[inLayer actionForKey:@"opacity"];<br>        theAnimation.keyPath = inKey;<br>              theAnimation.fromValue =<br>                  [inLayer valueForKey:kPartKey];              theAnimation.toValue = nil;<br>        theAnimation.byValue = nil;<br>        return theAnimation;<br>    }<br>    else {<br>        return [super actionForLayer:inLayer forKey:inKey];<br>    }<br>}<br></pre></div>
+                                                               
+                                                               Die Erzeugung der Aktion für die Standardpropertys erfolgt aber über den Superaufruf,
+                                                               da hier der Aufruf zu einer Endlosrekursion führen würde.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp3d532cce-a949-4cbb-b90f-83cb4ca2c6e0" name="dodtp3d532cce-a949-4cbb-b90f-83cb4ca2c6e0"></a><h3 class="t3"><span class="cfett">5.3.7</span><span class="cfett"> Die 3. Dimension</span><a href="#dodtpfb02b879-0cc7-44cd-91fb-be429ae0b56f"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Im Gegensatz zu einem View befinden sich Layer in einem dreidimensionalen Raum. Über
+                                                   die Property <span class="clisting">zPosition</span><a class="indexterm" id="dodtp2999b12f-57b0-4fe2-878c-130a7f109801"></a> legen Sie die Tiefenposition eines Layers fest, deren Standardwert null ist. Core
+                                                   Animation beschreibt also die Position eines Layers in einem dreidimensionalen Koordinatensystem,
+                                                   wie es Abbildung 5.18 darstellt.
+                                                </p><a href="bilder/05_018.png" rel="lightbox" title="Dreidimensionales Koordinatensystem der Layer"><img class="bild" border="1" src="bilderklein/klein05_018.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.18   </strong>Dreidimensionales Koordinatensystem der Layer
+                                                </p>
+                                                <p>Sie können zwar die Layer darin räumlich transformieren (drehen, strecken oder verschieben).
+                                                   Aber die Layer selber bleiben natürlich flach. Beispielsweise verschwindet ein um
+                                                   90° um die y-Achse gedrehter Layer. Die Transformation eines Layers beschreibt die
+                                                   C-Struktur <span class="clisting">CATransform3D</span><a class="indexterm" id="dodtpd4d48192-0e5a-4e2c-8bc1-69a926315e02"></a>, die eine 4×4-Matrix darstellt und auf die Sie über die Property <span class="clisting">transform</span> zugreifen können.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Layer mit Tiefgang
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Wenn Sie einen Layer drehen, sieht das aber nach wie vor flach aus. Eine Drehung um
+                                                               die x- oder y-Achse sieht eher wie eine Stauchung in y- beziehungsweise x-Richtung
+                                                               aus. Die Layer liegen zwar in einem dreidimensionalen Raum. Der hat aber noch keine
+                                                               Perspektive.
+                                                               
+                                                               Eine perspektivische Darstellung können Sie erreichen, wenn Sie einen kleinen Anteil
+                                                               der z-Position zu jeweils der x- und der y-Position hinzuaddieren. Das verkleinert
+                                                               weiter hinten liegende Layer und vergrößert weiter vorne liegende. Bei Layern mit
+                                                               Tiefe erzeugt das eine perspektivische Darstellung.
+                                                               
+                                                               Sie können bei einem Layer über die Property <span class="clisting">sublayerTransform</span><a class="indexterm" id="dodtp441cb6ac-5b01-407c-9b9a-53ec308e17d4"></a> eine Transformation für die Sublayer des Layers festlegen. Da Core Animation diese
+                                                               Transformation zusätzlich zu der Transformation des Sublayers anwendet, können Sie
+                                                               damit die Perspektivenberechnung durchführen.
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">CATransform3D theTransform = CATransform3DIdentity;<br>theTransform.m34 = 0.0005;<br>theParentLayer.sublayerTransform = theTransform;<br></pre></div>
+                                                               
+                                                               Mit dieser Transformation stellt <span class="clisting">theParentLayer</span> alle um die x- oder y-Achse gedrehten Sublayer perspektivisch dar.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die 3D-Transformationen können Sie über Core-Animation-Funktionen erzeugen. Das geht
+                                                   ähnlich wie bei den 2D-Transformationen aus Core Graphics. Die Layer-Property <span class="clisting">transform</span> lässt sich auch über Property-Animationen verändern. Dazu erzeugen Sie über den Convenience-Konstruktor
+                                                   <span class="clisting">valueWithCATransform3D:</span> die gewünschten Werte.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">CATransform3D theTransformation = CATransform3DMakeRotation(<br>    M_PI / 3.0, 1.0, 1.0, 0.0);<br>CABasicAnimation *theAnimation = [CABasicAnimation animation];<br>theTransform = CATransform3DScale(theTransform, 0.5, 0.5, 0.5);<br>theAnimation.fromValue =<br>    [NSValue valueWithCATransform3D:CATransform3DIdentity];<br>theAnimation.toValue =<br>    [NSValue valueWithCATransform3D:theTransform];<br>[theLaver addAnimation:theAnimation forKey:@"transform"];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.51   </strong>Dreidimensionale Layer-Animation
+                                                </p>
+                                                <p>Die Anweisungen in Listing 5.51 erzeugen eine Animation mit einer 60°-Drehung ( /
+                                                   3) und Stauchung auf die halbe Größe. Bei der Erzeugung einer Drehung im dreidimensionalen
+                                                   Raum müssen Sie die Rotationsachse beschreiben. Dies geschieht über drei Werte, die
+                                                   einen Punkt im Raum darstellen. Die Rotationsachse ist die (gedachte) Verbindungslinie
+                                                   des Nullpunkts mit diesem Punkt &#8211; das nennt man auch einen <span class="cbegriff">Vektor</span>.<a class="indexterm" id="dodtp55df5573-0a8b-4074-a2be-d5aa7e24e85f"></a></p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Drehungen über die Hauptachsen
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Vorsicht, der Inhalt dieses Kastens kann Spuren von Mathematik enthalten. Das Lesen
+                                                               kann zu abstraktem Denken führen. Sie können Rotationen um einen beliebigen Vektor
+                                                               auch durch ein bis drei Rotationen an den Hauptachsen<a class="indexterm" id="dodtpabf303a9-53eb-4f8c-a6aa-c8d9a8e9634e"></a> x, y und z beschreiben, indem Sie den Rotationsvektor auch durch Drehungen darstellen.
+                                                               Die Linie des Vektors (1, 1, 0) hat beispielsweise den Winkel 45° zur x-Achse, und
+                                                               somit können Sie diesen Vektor als 45°-Drehung um die z-Achse ausdrücken. Die Rotation
+                                                               aus Listing 5.51 können Sie also auch wie folgt beschreiben:
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">CATransform3D theTransformation = CATransform3DMakeRotation(<br>    M_PI / 3.0, 1.0, 0.0, 0.0);<br>theTransform = CATransform3DRotate(theTransform,<br>    M_PI / 4.0, 0.0, 0.0, 1.0);<br></pre></div>
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>In vielen Fällen reichen aber Rotationen, Skalierungen und Translationen an den drei
+                                                   Hauptachsen aus, die Sie über spezielle Animationspfade auch einfacher beschreiben
+                                                   können. Die Pfade haben einen ähnlichen Aufbau. Sie beginnen mit dem Wort <span class="clisting">transform</span>, darauf folgen die Operation und der Name der Achse. Als Operationen stehen <span class="clisting">rotate</span>, <span class="clisting">scale</span> und <span class="clisting">translate</span> zur Verfügung. Eine einfache Rotation können Sie beispielsweise so beschreiben:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">CABasicAnimation *theAnimation = [CABasicAnimation animation];<br>theAnimation.fromValue = [NSNumber numberWithFloat:0.0];<br>theAnimation.toValue = [NSNumber numberWithFloat:M_PI / 2.0];<br>[theLayer addAnimation:theAnimation<br>                forKey:@"transform.rotate.x"];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.52   </strong>Dreidimensionale Animation über einen Animationspfad
+                                                </p>
+                                                <p>Sie können den Namen der Achse auch weglassen, um die Werte für mehrere Achsen gleichzeitig
+                                                   zu setzen. Die Werte in den Property-Animationen müssen Sie dann als <span class="clisting">NSArray</span> mit jeweils drei <span class="clisting">NSValue</span>-Objekten übergeben:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">CABasicAnimation *theAnimation = [CABasicAnimation animation];<br>theAnimation.fromValue = [NSArray arrayWithObjects:<br>                          [NSNumber numberWithFloat:0.0],<br>                          [NSNumber numberWithFloat:0.0],<br>                          [NSNumber numberWithFloat:0.0], nil];<br>theAnimation.toValue = [NSArray arrayWithObjects:<br>                          [NSNumber numberWithFloat:0.5],<br>                          [NSNumber numberWithFloat:0.5],<br>                          [NSNumber numberWithFloat:0.5], nil];<br>[theLayer addAnimation:theAnimation forKey:@"transform.scale"];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.53   </strong>Animierte Skalierung entlang mehrerer Achsen
+                                                </p><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_05_003.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="5 Animationen und Layer"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_05_002.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_05_004.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

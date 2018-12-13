@@ -1,0 +1,977 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 6 Programmieren, aber sicher">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 6 Programmieren, aber sicher">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 6 Programmieren, aber sicher</title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_06_004.html">
+      <link rel="next" href="apps_07_001.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_06_004.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_07_001.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc" class="navnav">6 Programmieren, aber sicher</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_06_001.html#dodtp9bb446a1-10f8-48a3-8504-b5309c79f533" class="navnav">6.1 Sicherheitsmechanismen von iOS</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_06_002.html#dodtp5da473d5-7bc2-4dc8-a5c6-3c4bdf300fa1" class="navnav">6.2 Bedrohungen, Angriffe, Sicherheitslücken und Maßnahmen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_002.html#dodtpf29db50d-93e7-4822-a8b7-c705b2b29f19" class="navnav">6.2.1 Arten von Sicherheitslücken</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_06_003.html#dodtp21ffc54b-5739-4ddb-92ed-79f8f96b90a4" class="navnav">6.3 Threat Modeling</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_003.html#dodtpf06cd0f1-b808-43ee-818c-be62f2bc3bed" class="navnav">6.3.1 Erstellen eines Datenflussdiagramms</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_003.html#dodtp6d61e005-ec61-4479-a43e-849f77052ea9" class="navnav">6.3.2 STRIDE</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_003.html#dodtp005251fe-3785-49e9-a6cb-42a877ac080b" class="navnav">6.3.3 Generische Design-Grundsätze</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_003.html#dodtpf23a67d0-5e00-4cbd-84e1-1cd0fb768925" class="navnav">6.3.4 Threat Modeling aus der Tube &#8211; das Microsoft SDL Threat Modeling Tool</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_06_004.html#dodtp5fe3191e-192d-4c54-a562-1de71d237d21" class="navnav">6.4 Sicherer Entwicklungszyklus</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_004.html#dodtp9c2bbc2e-c2ae-4a0e-9d5d-b36f3dc0f8cb" class="navnav">6.4.1 Awareness</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_004.html#dodtpca2b3682-17cc-4e60-8c85-0713a610e95f" class="navnav">6.4.2 Umgebung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_004.html#dodtp97c1e188-a7a7-496d-aee4-ef36af7b5399" class="navnav">6.4.3 Training</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_004.html#dodtp2b368d13-7bad-47ba-a3dd-49e85b629971" class="navnav">6.4.4 Dokumentation</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_004.html#dodtpde7b3169-cebb-4034-b4c7-9902637dd226" class="navnav">6.4.5 Requirements</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_004.html#dodtp7689a7bf-e82a-42b3-815f-6c6915cbfb4b" class="navnav">6.4.6 Design</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_004.html#dodtpe22b5f78-aa61-4220-b4e4-841dcd5b5d36" class="navnav">6.4.7 Implementierung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_004.html#dodtp79caf1a0-2194-41b0-b45e-caefa12e903f" class="navnav">6.4.8 Security-Testing</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_004.html#dodtp78d69e47-dd19-493b-a7c2-5123b327957e" class="navnav">6.4.9 Deployment</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_004.html#dodtpddceacd6-6fa6-45bc-af28-a77ea15e28d6" class="navnav">6.4.10 Security Response</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_004.html#dodtp33bdceff-267d-459c-b5e9-57d086e309ba" class="navnav">6.4.11 Sicherheitsmetriken</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_004.html#dodtpce7f4cbb-c831-40d1-83e1-9a3624a683e9" class="navnav">6.4.12 Abschließende Bemerkung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_06_005.html#dodtpd5a768d8-85ad-4aed-b55b-7562bb49d1a9" class="navh">6.5 Sicherheit in der iOS-API</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_005.html#dodtp224c1a46-0511-4f47-95dc-bbec9de23a43" class="navh">6.5.1 Keychain</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_005.html#dodtp964542f4-4374-465e-8977-0f212c436bac" class="navh">6.5.2 Dateiattribute</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_005.html#dodtpc9ab10b9-a832-4b41-8869-ecd6b9b54dbb" class="navh">6.5.3 Jailbreak-Erkennung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_06_005.html#dodtp59c339e9-9e08-4b62-b7a0-62d62224eceb" class="navh">6.5.4 Event-Handling</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main"><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpd5a768d8-85ad-4aed-b55b-7562bb49d1a9" name="dodtpd5a768d8-85ad-4aed-b55b-7562bb49d1a9"></a><h2 class="t2"><span class="cfett">6.5</span><span class="cfett"> Sicherheit in der iOS-API</span><a href="#dodtp224c1a46-0511-4f47-95dc-bbec9de23a43"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h2>
+                                                <p>Auf die Sicherheit von iOS selbst können Sie als Programmierer keinen Einfluss nehmen.
+                                                   Sie können aber die vom Betriebssystem zur Verfügung gestellten Sicherheitsmechanismen
+                                                   nutzen, um Ihre App und die von ihr verarbeiteten und abgespeicherten Daten gegen
+                                                   unbefugten Zugriff zu sichern. Das Betriebssystem stellt Ihnen dazu zwei elementare
+                                                   Mechanismen zur Verfügung. Der eine Mechanismus ist die <span class="cbegriff">Keychain</span>, in der Sie sensible Daten wie z. B. Passwörter und Benutzerkennungen ablegen können
+                                                   und sollten.
+                                                </p>
+                                                <p>Der zweite Mechanismus ist die <span class="cbegriff">Verschlüsselung</span> von Dateien über entsprechende Attribute. Sowohl die Keychain als auch die Verschlüsselung
+                                                   der Dateien sind mit dem Benutzercode des Anwenders verknüpft. Einen hinreichend starken
+                                                   Code vorausgesetzt, lassen sich Daten auf dem iPhone angemessen schützen.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp224c1a46-0511-4f47-95dc-bbec9de23a43" name="dodtp224c1a46-0511-4f47-95dc-bbec9de23a43"></a><h3 class="t3"><span class="cfett">6.5.1</span><span class="cfett"> Keychain</span><a href="#dodtp964542f4-4374-465e-8977-0f212c436bac"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpd5a768d8-85ad-4aed-b55b-7562bb49d1a9"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Die Sicherheit der Keychain resultiert aus einem mehrstufigen Verschlüsselungskonzept.
+                                                   Jede Tabelle &#8211; die Keychain legt Daten in Form relationaler Datenbanktabellen ab &#8211;
+                                                   besitzt eine verschlüsselte Spalte, in der die verschlüsselt abzulegenden Daten liegen.
+                                                   Diese Daten sind mit einem gerätespezifischen Schlüssel versehen, der den transparenten
+                                                   Zugriff auf die Daten auf das jeweilige Gerät beschränkt. Ein Angreifer, der sich
+                                                   der Datenbankdaten der Keychain bemächtigt, kann die Verschlüsselung (AES 128) außerhalb
+                                                   des Gerätes nicht brechen. Die Keychain ist also grundsätzlich dagegen geschützt,
+                                                   von einem Gerät extrahiert und per Brute-Force-Angriff, beispielsweise mit einem GPU-Cluster
+                                                   oder einer leistungsfähigen Cloud, dechiffriert zu werden. Nichtsdestotrotz besteht
+                                                   die Gefahr, dass ein Angreifer auf einem Gerät mit Jailbreak oder über eine Sicherheitslücke
+                                                   im iOS Zugriff auf die Keychain bekommt und unbefugt Daten ausliest.
+                                                </p>
+                                                <p>Daher ist die Keychain ab iOS 4 zusätzlich zum Geräteschlüssel noch mit dem Benutzercode
+                                                   des Anwenders verschlüsselt. Das heißt, der Zugriff auf die verschlüsselten Daten
+                                                   ist nur möglich, wenn der Anwender den Benutzercode beim Entsperren des iPhones eingegeben
+                                                   hat. Das schützt neben dem oben genannten Angriffsvektor der Extraktion der Keychain
+                                                   vom Gerät auch gegen den Angriffsvektor, dass sich ein Unbefugter auf dem Gerät selbst
+                                                   Zugriff auf die Keychain verschafft, um Daten auszulesen.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Die Bedeutung des Benutzercodes<a class="indexterm" id="dodtp08c77740-ca91-4ffb-ad14-18159cc3e9ea"></a> in iOS
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Der Benutzercode, mit dem ein Anwender sein iPhone gegen unbefugten Zugriff schützen
+                                                               kann und der dem Passwort von Desktop-PCs entspricht, hat dem Konzept der Keychain
+                                                               zufolge nicht nur die Aufgabe, das Gerät vor unbefugtem Zugriff zu schützen, sondern
+                                                               fließt auch in die Verschlüsselung sensibler Daten mit ein. Daher ist es dringend
+                                                               angeraten, immer einen Benutzercode zu verwenden. Je nach Schutzbedarf ist die Verwendung
+                                                               des standardmäßig auf vier Zahlen eingestellten Benutzercodes nicht ausreichend. Dann
+                                                               sollte ein komplexerer und längerer Benutzercode zum Einsatz kommen. Wenn Sie als
+                                                               App-Entwickler im Auftrag eine App für die Verarbeitung sensibler Daten erstellen,
+                                                               sollten Sie Ihren Auftraggeber auf diesen Umstand hinweisen. Gerade im Unternehmens-Einsatz
+                                                               ist die Verwendung starker Passwörter nicht unüblich.
+                                                               <br><br>
+                                                               Der lokale Angriff auf den Benutzercode über das Booten eines modifizierten Jailbreaks<span class="footnote"><a id="dodtpeeacc09a-c1fa-4db2-8c22-56c98532c16c">[32](http://www.heise.de/ct/inhalt/2011/15/154/)</a></span> dauert bei einem vierstelligen, aus Zahlen bestehenden Benutzercode auf einem iPhone
+                                                               4 knapp 30 Minuten &#8211; ein nahezu wirkungsloser Schutz. Ein Benutzercode aus 5 Zahlen
+                                                               verlängert die maximal notwendige Zeit für einen Brute-Force-Angriff auf knapp 5 Jahre.
+                                                               Man muss die Benutzer also gar nicht mit langen und komplexen Benutzercodes nerven,
+                                                               weniger ist hierbei häufig mehr.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die Keychain kennt vier Arten von Informationen:</p>
+                                                <ul class="gp">
+                                                   <li><span class="cbegriff">Generic Passwords</span><a class="indexterm" id="dodtpf2607b7b-328e-4488-96ec-40a037910cc2"></a></li>
+                                                   <li><span class="cbegriff">Internet Passwords</span><a class="indexterm" id="dodtp6a48ab8a-dfbd-4114-ae33-22b96a799b08"></a></li>
+                                                   <li><span class="cbegriff">Certificates</span><a class="indexterm" id="dodtpf23ac914-868c-4983-b1c5-0d48550273dd"></a></li>
+                                                   <li><span class="cbegriff">Keys</span><a class="indexterm" id="dodtpc5dca2cb-c356-4b79-b7db-7ac86d8cfdfe"></a></li>
+                                                </ul>
+                                                <p><span class="cbegriff">Generic Passwords</span> ist die Klasse für App-Programmierer, die Kombinationen aus Benutzername und Passwort
+                                                   sicher ablegen möchten (Key-Value-Paare). <span class="cbegriff">Internet Passwords</span> ist der Speicher für Systemdienste von iOS, z. B. das <span class="cbegriff">Mail</span>-Programm oder Safari. Dort liegen die Zugangsdaten zu Mailkonten, Exchange-Server,
+                                                   Anmeldedaten für Webseiten etc. In der Klasse <span class="cbegriff">Certificates</span> speichert iOS alle Zertifikate ab, die der Benutzer auf das Gerät bringt, also z.
+                                                   B. S/MIME oder VPN-Zertifikate. <span class="cbegriff">Keys</span> ist ein Systembereich, mit dem man als App-Programmierer keine Berührung hat.
+                                                </p>
+                                                <p>Jede App darf nur auf die Keychain-Einträge zugreifen, die sie selber angelegt hat.
+                                                   Dieser Zugriff wird von iOS über Entitlements<a class="indexterm" id="dodtpb7ca5290-78d9-4b0c-84da-0077f7e71df2"></a> geregelt. Sie als Programmierer müssen sich darum also nicht kümmern. Ein wichtiger
+                                                   Punkt, um den Sie sich allerdings kümmern müssen, ist der Schutz der einzelnen Einträge
+                                                   Ihrer App in der Keychain. Dies ist sogar der wichtigste Punkt in Bezug auf die Sicherheit
+                                                   der Keychain, sodass Sie diesen Mechanismus gut kennen sollten, um die Daten Ihrer
+                                                   App bestmöglich gegen unbefugten Zugriff zu schützen. Beim Anlegen eines Eintrages
+                                                   kann und sollte man eines der folgenden Attribute (<span class="cbegriff">Protection class</span><a class="indexterm" id="dodtpcf310941-7fee-4cec-bead-6e9448cc4e4e"></a>) übergeben, die den Zugriff auf den Eintrag regeln:
+                                                </p>
+                                                <ul class="gp">
+                                                   <li><span class="clisting">kSecAttrAccessibleAfterFirstUnlock</span><a class="indexterm" id="dodtpa95c2eb9-985a-46ee-ba98-44768f2d91b9"></a></li>
+                                                   <li><span class="clisting">kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly</span><a class="indexterm" id="dodtpeefaa682-fc52-4418-a9f2-bed0b4dae71b"></a></li>
+                                                   <li><span class="clisting">kSecAttrAccessibleAlways</span><a class="indexterm" id="dodtp657c9fff-4976-4c26-8c91-94d3a6b9d5c6"></a></li>
+                                                   <li><span class="clisting">kSecAttrAccessibleAlwaysThisDeviceOnly</span><a class="indexterm" id="dodtp2fc1f0c6-9d53-4ab0-ad26-ddfd96a8ec1c"></a></li>
+                                                   <li><span class="clisting">kSecAttrAccessibleWhenUnlocked</span><a class="indexterm" id="dodtpf1a467e8-279b-4b87-8748-66cd3471545b"></a></li>
+                                                   <li><span class="clisting">kSecAttrAccessibleWhenUnlockedThisDeviceOnly</span><a class="indexterm" id="dodtpe63cffd3-ad70-4a25-80b1-8012147320dd"></a></li>
+                                                </ul>
+                                                <p>Die Bedeutung der Konstanten ist wie folgt:</p><a id="dodtp196e8e89-e761-4535-8d95-05741543c095" name="dodtp196e8e89-e761-4535-8d95-05741543c095"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> kSecAttrAccessibleAfterFirstUnlock</span></h4>
+                                                <p>Der Eintrag ist nach dem Booten von iOS erst dann zugänglich, wenn der Benutzer seinen
+                                                   Benutzercode korrekt eingegeben hat. Wird das Gerät gesperrt, bleibt der Eintrag zugänglich.
+                                                   Nach einem Neustart des Gerätes muss der Benutzer erst wieder den korrekten Benutzercode
+                                                   eingeben, damit iOS den Eintrag entschlüsselt.
+                                                </p><a id="dodtp3a6bc3a4-aef1-47ca-b0ce-9717f575bc88" name="dodtp3a6bc3a4-aef1-47ca-b0ce-9717f575bc88"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly</span></h4>
+                                                <p>Dieses Attribut entspricht dem vorherigen, allerdings mit dem Unterschied, dass der
+                                                   damit geschützte Eintrag ausschließlich auf dem Gerät verbleibt, auf dem er angelegt
+                                                   worden ist. Installiert der Benutzer ein Geräte-Backup auf ein neues Gerät, wandert
+                                                   der Eintrag nicht mit.
+                                                </p><a id="dodtp845b2361-0752-4adb-b8be-a3bf6fedc6d0" name="dodtp845b2361-0752-4adb-b8be-a3bf6fedc6d0"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> kSecAttrAccessibleAlways</span></h4>
+                                                <p>Der Eintrag ist immer zugänglich. Bei der Migration auf ein neues Gerät wandert der
+                                                   Eintrag mit, wenn die Migration über ein in iTunes verschlüsseltes Backup läuft. Dies
+                                                   ist das Attribut mit der schlechtesten Schutzfunktion, und Sie sollten es entweder
+                                                   gar nicht oder nur nach sehr sorgfältiger Abwägung verwenden. Leider bekleckert Apple
+                                                   sich an dieser Stelle nicht mit Ruhm und speichert durchaus sensible Daten wie WLAN-Schlüssel,
+                                                   Zugangsdaten für Exchange-und Mail-Konten und Passwörter von Webseiten mit diesem
+                                                   Attribut ab. Nehmen Sie sich dieses Verhalten nicht zum Vorbild!
+                                                </p><a id="dodtp05e1ae70-afed-47b7-bed5-e3e52871d2f9" name="dodtp05e1ae70-afed-47b7-bed5-e3e52871d2f9"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> kSecAttrAccessibleAlwaysThisDeviceOnly</span></h4>
+                                                <p>Dieses Attribut entspricht dem vorherigen, beschränkt den Eintrag aber auf das originäre
+                                                   Gerät. Der Eintrag wandert bei einem Backup nicht mit auf das neue Gerät, auch nicht
+                                                   beim Einsatz eines verschlüsselten Backups.
+                                                </p><a id="dodtpc7af709c-3ec7-444a-94b0-ca1e4c9ccaca" name="dodtpc7af709c-3ec7-444a-94b0-ca1e4c9ccaca"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> kSecAttrAccessibleWhenUnlocked</span></h4>
+                                                <p>Dieses Attribut legt fest, dass ein Eintrag nur dann zugänglich ist, wenn das Gerät
+                                                   entsperrt ist. Jedes Sperren des Gerätes verschlüsselt den Eintrag, unabhängig davon,
+                                                   ob das Gerät nach einem Reboot gesperrt wurde oder vom Benutzer oder durch die automatische
+                                                   Bildschirmsperre.
+                                                </p><a id="dodtp78d20a7c-49ff-46bb-8395-cfd3f45a0127" name="dodtp78d20a7c-49ff-46bb-8395-cfd3f45a0127"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> kSecAttrAccessibleWhenUnlockedThisDeviceOnly</span></h4>
+                                                <p>Dieses Attribut entspricht dem vorherigen, beschränkt den Eintrag aber auch auf das
+                                                   Gerät, auf dem der Eintrag erzeugt wurde.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Praktische Arbeit mit der Keychain
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Das Arbeiten mit der Keychain im Simulator funktioniert nicht. Sie müssen Zugriffe
+                                                               auf die Keychain daher auf einem echten iOS-Gerät testen. Prinzipbedingt ist die Überprüfung
+                                                               der Funktionalität schwierig, da man sich den Inhalt der Keychain nicht ohne Weiteres
+                                                               angucken kann. Der Einstieg in die Keychain-Programmierung kann daher bisweilen holperig
+                                                               sein.
+                                                               <br><br>
+                                                               Eine praktische Hilfe ist die App <span class="cbegriff">KeychainViewer</span> vom <span class="cbegriff">iphone-dataprotection</span><a class="indexterm" id="dodtpb43d65e7-7e1c-4776-8676-57ff97837b82"></a>-Projekt<span class="footnote"><a id="dodtp6187042b-f765-4b26-a1b7-8b315d3a2af2">[33](https://code.google.com/p/iphone-dataprotection/)</a></span>. Mit dieser App können Sie alle Einträge in der Keychain auf einem iPhone betrachten.
+                                                               <br><br>
+                                                               Einziger Nachteil ist dabei, dass der KeychainViewer nur auf einem Gerät mit Jailbreak
+                                                               funktioniert &#8211; was wiederum beruhigend ist, da dies die Sicherheit von Apples Keychain-Konzept
+                                                               bestätigt.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Abbildung 6.20 zeigt die Klassen der Keychain in der Übersicht des <span class="cbegriff">KeychainViewer</span><a class="indexterm" id="dodtp566dc33f-4f92-437a-859d-5557735dde75"></a>.
+                                                </p><a href="bilder/06_020.png" rel="lightbox" title="Die Keychain in der Ansicht des KeychainViewer"><img class="bild" border="1" src="bilderklein/klein06_020.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 6.20   </strong>Die Keychain in der Ansicht des KeychainViewer
+                                                </p>
+                                                <p>Durch Auswahl einer der Klassen erlaubt der <span class="cbegriff">KeychainViewer</span> das Betrachten von Einträgen. Abbildung 6.21 zeigt die Zugangsdaten zu einem WLAN,
+                                                   mit dem sich das iPhone erfolgreich verbunden hat.
+                                                </p><a href="bilder/06_021.png" rel="lightbox" title="Zugangsdaten zu einem WLAN &#8211; leider ungeschützt"><img class="bild" border="1" src="bilderklein/klein06_021.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 6.21   </strong>Zugangsdaten zu einem WLAN &#8211; leider ungeschützt
+                                                </p>
+                                                <p>Der Zugriff auf die Keychain ist nicht kompliziert, und daher sollten Sie die Keychain
+                                                   aufgrund der im Betriebssystem implementierten Schutzmechanismen immer als Speicherort
+                                                   für sensible Daten verwenden. Es lohnt sich schlichtweg nicht, einen eigenen Keystore
+                                                   zu programmieren und selber Kryptografie zu implementieren &#8211; so etwas wird zwangsläufig
+                                                   schiefgehen.
+                                                </p>
+                                                <p>Der Zugriff auf die Keychain ist im Security-Framework<a class="indexterm" id="dodtp36c216b3-1f87-4947-8f80-7143f52567a7"></a> gekapselt. Um die Keychain verwenden zu können, müssen Sie daher zunächst die Header-Datei
+                                                   des Security-Frameworks importieren:
+                                                </p>
+                                                <p><div class="listing"><pre class="prettyprint">#import &lt;Security/Security.h&gt;</pre></div></p>
+                                                <p>Anschließend fügen Sie das Framework in den Build-Settings (<span class="cscreenelement">Targets</span> · <span class="cscreenelement">Summary</span>) von Xcode zum Projekt hinzu (siehe Abbildung 6.22 und Abbildung 6.23).
+                                                </p><a href="bilder/06_022.png" rel="lightbox" title="Auswahl des Security-Frameworks in den Build-Settings"><img class="bild" border="1" src="bilderklein/klein06_022.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 6.22   </strong>Auswahl des Security-Frameworks in den Build-Settings
+                                                </p><a href="bilder/06_023.png" rel="lightbox" title="Das Security-Framework in den Projekt-Einstellungen"><img class="bild" border="1" src="bilderklein/klein06_023.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 6.23   </strong>Das Security-Framework in den Projekt-Einstellungen
+                                                </p>
+                                                <p>Die folgende Methode <span class="clisting">writeKeychainData</span> demonstriert das Schreiben in die Keychain. Dazu legt die Methode ein <span class="cbegriff">Generic Password</span> mit den folgenden, fest kodierten Werten an:
+                                                </p>
+                                                <ul class="gp">
+                                                   <li><span class="clisting">Service</span>: »1337-service«
+                                                   </li>
+                                                   <li><span class="clisting">Label</span>: foolabel
+                                                   </li>
+                                                   <li><span class="clisting">Account</span>: fooname
+                                                   </li>
+                                                   <li><span class="clisting">Password</span>: foopass
+                                                   </li>
+                                                   <li><span class="clisting">Protection class</span>: kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
+                                                   </li>
+                                                </ul>
+                                                <p>Das Schreiben in die Keychain erfolgt über ein <span class="clisting">NSMutableDictionary</span><a class="indexterm" id="dodtp61f652a2-faa5-4645-ac64-52bddaa9d99e"></a>, in dem die Bezeichner samt Werten abgelegt werden. Der Aufruf, um den Inhalt des
+                                                   <span class="clisting">NSMutableDictionary</span> in die Keychain zu schreiben, ist <span class="clisting">SecItemAdd</span><a class="indexterm" id="dodtp2ef62288-c418-44a7-b039-f303e5b68b6d"></a>. Dieser Aufruf schlägt fehlt, wenn bereits ein Eintrag mit denselben Werten vorhanden
+                                                   ist. Daher löscht die Beispiel-Methode vor dem Schreiben des Eintrages einen eventuell
+                                                   vorhandenen Eintrag mit <span class="clisting">SecItemDelete</span><a class="indexterm" id="dodtp30eed819-b7da-4f00-9bdc-e6c97f2ecc66"></a>. In der Praxis sinnvoller wäre es in diesem Fall, den vorhandenen Eintrag zu erneuen.
+                                                   Dazu gibt es die Methode <span class="clisting">SecItemUpdate</span>.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">-(BOOL)writeKeychainData<br>{<br>    NSLog(@"[+] %@", NSStringFromSelector(_cmd));<br>    NSString *dump = [[NSString alloc] initWithFormat:@"[+] %@", NSStringFromSelector(_cmd)];<br>    thisTextView.text = dump;<br><br>    NSString *service = [[NSString alloc] initWithString:@"1337-Service"];<br>    NSString *label = [[NSString alloc] initWithString:@"foolabel"];<br>    NSString *account = [[NSString alloc] initWithString:@"fooname"];<br>    NSString *input = [[NSString alloc] initWithString:@"foopass"];<br><br>    NSMutableDictionary *query = [NSMutableDictionary dictionary];<br>    [query setObject:(id)kSecClassGenericPasswordforKey:(id)kSecClass];<br>    [query setObject:service forKey:(id)kSecAttrService];<br>    [query setObject:label forKey:(id)kSecAttrLabel];<br>    [query setObject:account forKey:(id)kSecAttrAccount];<br>    [query setObject:(id)kSecAttrAccessibleAfterFirstUnlockThisDeviceOnlyforKey:(id)kSecAttrAccessible];<br>    [query setObject:[inputdataUsingEncoding:NSUTF8StringEncoding] forKey:(id)kSecValueData];<br><br>    OSStatus status = SecItemDelete((CFDictionaryRef)query);<br>    NSLog(@"[+] status deleting keychain item: %ld", status);<br><br>    status = SecItemAdd((__bridge CFDictionaryRef)query, NULL);<br>    NSLog(@"[+] keychain write status: %ld", status);<br><br>    if (status != noErr)<br>    {<br>        return NO;<br>    }<br>    return  YES;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 6.1   </strong><span class="clisting">SecItemUpdate</span>.
+                                                </p>
+                                                <p>In der Konsole ist die Ausgabe unspektakulär:</p>
+                                                <p><div class="listing"><pre class="prettyprint">22:59:25.429 keychaingucker[1232:607] [+] writeKeychainData<br>22:59:25.473 keychaingucker[1232:607] [+] status deleting key chain item: 0<br>22:59:25.515 keychaingucker[1232:607] [+] keychain write  status: 0</pre></div></p>
+                                                </p>
+                                                <p>Das Auslesen eines Eintrages in der Keychain erfolgt über die Methode <span class="clisting">SecItemCopyMatching</span>. Die folgende Methode, <span class="clisting">geKeychainData</span>, veranschaulicht das Vorgehen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">-(BOOL)getKeychainData<br>{<br>    NSLog(@"[+] %@", NSStringFromSelector(_cmd));<br><br>    NSArray *keys = [NSArray arrayWithObjects:(NSString  *)kSecClass, kSecAttrAccount, kSecAttrService, kSecReturnData, nil];<br>    NSArray *objects = [NSArray arrayWithObjects:(NSString  *)kSecClassGenericPassword, @"fooname", @"1337-Service",  kCFBooleanTrue, nil];<br><br>    NSMutableDictionary *query = [NSMutableDictionary dictionaryWithObjects:objects forKeys:keys];<br><br>    NSData *pw = NULL;<br>    OSStatus status = SecItemCopyMatching((CFDictionaryRef)query, (CFTypeRef *)&amp;pw);<br>    NSLog(@"[+] keychain read status: %ld", status);<br><br>    if (status != noErr)<br>    {<br>        return NO;<br>    }<br><br>    NSString *password = [[NSString alloc] initWithData:pw encoding:NSUTF8StringEncoding];<br>    NSLog(@"[+] password from keychain: %@", password);<br>    return  YES;<br>}<br></pre></div>
+                                                <p><span class="clisting">geKeychainData</span> Zum Suchen in der Keychain kommt ebenfalls ein <span class="clisting">NSDictionary</span><a class="indexterm" id="dodtpa8518c34-acde-4280-ab0b-b2c600235814"></a> zum Einsatz. Die Konsolen-Ausgabe ergibt:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">22:59:25.520 keychaingucker[1232:607] [+] getKeychainData<br>22:59:25.535 keychaingucker[1232:607] [+] keychain read status: 0<br>22:59:25.540 keychaingucker[1232:607] [+] password from keychain:  foopass<br></pre></div>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Rückgabetypen von SecItemCopyMatching<a class="indexterm" id="dodtp3670aef8-c377-4585-9aae-eb5608fb2d9c"></a>
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Eine bekannt-beliebte Fehlerquelle beim Auslesen von Werten aus der Keychain ist die
+                                                               Verwendung eines falschen bzw. unerwarteten Rückgabetyps. Sie können den Typ der Rückgabe
+                                                               über Attribute in dem <span class="clisting">NSDictionary</span> definieren, das an <span class="clisting">SecItemCopyMatching</span> übergeben wird. Besitzt der Schlüssel <span class="clisting">kSecReturnData</span> wie im Beispiel den Wert <span class="clisting">kCFBooleanTrue</span><a class="indexterm" id="dodtp5ba65400-e4ac-4744-8768-52535073bf96"></a>, erfolgt die Rückgabe als <span class="clisting">NSData</span>. Ist hingegen <span class="clisting">kSecReturnAttributes</span><a class="indexterm" id="dodtp3c27d1fe-7ea3-4684-95a2-f125e2f256c1"></a> auf <span class="clisting">kCFBooleanTrue</span> gesetzt, so erfolgt die Rückgabe als <span class="clisting">NSDictionary</span>. Weitere Informationen dazu enthält die API-Dokumentation der Keychain.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp964542f4-4374-465e-8977-0f212c436bac" name="dodtp964542f4-4374-465e-8977-0f212c436bac"></a><h3 class="t3"><span class="cfett">6.5.2</span><span class="cfett"> Dateiattribute</span><a href="#dodtpc9ab10b9-a832-4b41-8869-ecd6b9b54dbb"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp78d20a7c-49ff-46bb-8395-cfd3f45a0127"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Der Schutz von Dateien auf dem iPhone erfolgt ähnlich wie der Schutz der Keychain-Einträge.
+                                                   Auch hier ist eine mögliche Verschlüsselung an den Benutzercode des Benutzers gekoppelt.
+                                                   Mit iOS 4 hat Apple mit dem <span class="clisting">NSFileProtectionKey</span><a class="indexterm" id="dodtp0e9dd4e7-337a-4c48-a914-98c3d6fc30ab"></a> zwei mögliche Schutzklassen eingeführt:
+                                                </p>
+                                                <ul class="gp">
+                                                   <li><span class="clisting">NSFileProtectionNone</span><a class="indexterm" id="dodtpc1e1b608-3d84-40e4-8847-a89fae56155d"></a>: Die Datei ist nicht verschlüsselt und immer lesbar.
+                                                   </li>
+                                                   <li><span class="clisting">NSFileProtectionComplete</span><a class="indexterm" id="dodtp879f065f-d127-4918-b4e4-951aa985ac87"></a>: Die Datei ist verschlüsselt und kann nicht gelesen werden, während das Betriebssystem
+                                                      startet oder das Gerät gesperrt ist.
+                                                   </li>
+                                                </ul>
+                                                <p>Mit iOS 5 sind zwei weitere Schutzklassen hinzugekommen, die eine feinere Granulierung
+                                                   der Zugriffsrechte erlauben:
+                                                </p>
+                                                <ul class="gp">
+                                                   <li><span class="clisting">NSFileProtectionCompleteUnlessOpen</span><a class="indexterm" id="dodtpe451ec3e-4424-434c-9466-656f0290590e"></a>: Die Datei ist verschlüsselt und kann nur entschlüsselt werden, während das Gerät
+                                                      entsperrt ist. Danach bleibt die Datei entschlüsselt.
+                                                   </li>
+                                                   <li><span class="clisting">NSFileProtectionCompleteUntilFirstUserAuthentication</span><a class="indexterm" id="dodtpadfd746a-bd41-4bf2-a2d4-4c9e0c9d19ca"></a>: Die Datei ist verschlüsselt und wird nach dem Start des Betriebssystems erst durch
+                                                      Eingabe des Benutzercodes entschlüsselt. Danach verbleibt die Datei unverschlüsselt
+                                                      bis zum nächsten Neustart.
+                                                   </li>
+                                                </ul>
+                                                <p>Die Verwendung der Schutzklassen ist unkompliziert. Sie erstellen ein <span class="clisting">NSDictionary</span> mit Attributen, das Sie dem <span class="clisting">NSFileManager</span> beim Anlegen der betreffenden Datei als Parameter für den <span class="clisting">NSFileProtectionKey</span> übergeben:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">NSDictionary *attr = [NSDictionary dictionaryWithObject:  NSFileProtectionCompleteUnlessOpen forKey:NSFileProtectionKey];<br>        if (![[NSFileManager defaultManager] setAttributes:attr          ofItemAtPath:fileerror:&amp;error]) {<br>            ...<br>        }<br></pre></div>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Verwendung des NSFileProtectionKey<a class="indexterm" id="dodtp6fc16e5d-d82d-49f5-93ed-81d1cfe4e013"></a>
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Die sichere Ablage von Dateien über den <span class="clisting">NSFileProtectionKey</span> ist mit einer zusätzlichen Zeile Code erledigt. Es gibt also keine sinnvolle Ausrede
+                                                               dafür, Dateien nicht zu schützen. Für die Wirksamkeit des Schutzes gilt das für den
+                                                               Schutz der Keychain bereits Gesagte: Die Stärke der Verschlüsselung hängt direkt von
+                                                               der Stärke des Benutzercodes ab.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpc9ab10b9-a832-4b41-8869-ecd6b9b54dbb" name="dodtpc9ab10b9-a832-4b41-8869-ecd6b9b54dbb"></a><h3 class="t3"><span class="cfett">6.5.3</span><span class="cfett"> Jailbreak-Erkennung</span><a href="#dodtp59c339e9-9e08-4b62-b7a0-62d62224eceb"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp964542f4-4374-465e-8977-0f212c436bac"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Wie am Anfang dieses Kapitels bereits gesagt wurde, ist ein über einen Jailbreak manipuliertes
+                                                   Gerät als grundsätzlich unsicher zu betrachten. Nicht nur, dass ein Jailbreak die
+                                                   wichtigsten Sicherheitsmechanismen von iOS außer Kraft setzt, überdies erfordert die
+                                                   Installation eines Jailbreaks die Verwendung einer aus unbekannten Quellen erstellten
+                                                   Firmware. Ein Jailbreak kann, wenngleich dies bis jetzt noch nicht passiert ist, von
+                                                   einem Angreifer über eine Sicherheitslücke auf ein iPhone appliziert werden, ohne
+                                                   dass der Anwender etwas davon bemerkt.
+                                                </p>
+                                                <p>Sie sollten daher als App-Programmierer Vorsorge treffen, um Geräte mit Jailbreak
+                                                   zu erkennen und ggf., je nach Sensibilität der von der App verarbeiteten Daten, geeignete
+                                                   Maßnahmen treffen, um auf einen Jailbreak zu reagieren. Die Verwendung einer App für
+                                                   Online-Banking ist auf einem Gerät ebenso wenig zu empfehlen wie Online-Banking auf
+                                                   einem PC, der mit einem Trojaner befallen ist.
+                                                </p>
+                                                <p>Alle bisher implementierten Jailbreaks zeichnen sich durch verschiedene Merkmale aus,
+                                                   die Sie in Ihrer App abfragen können. Leider hat Apple den API-Aufruf zur Erkennung
+                                                   von Jailbreaks wieder aus iOS entfernt, sodass Sie die Überprüfung »zu Fuß« vornehmen
+                                                   müssen. Die grundlegendste Eigenschaft eines Jailbreaks ist das Deaktivieren der Signaturprüfung
+                                                   im Kernel. Ein möglicher Test auf einen Jailbreak wäre daher das Ausführen unsignierten
+                                                   Codes aus der eigenen App heraus. Da diese Prüfung aber nicht durch Apples Review-Prozess
+                                                   für den App Store gelangen würde, sind die folgenden sechs Prüfschritte eine sinnvolle
+                                                   Herangehensweise:
+                                                </p>
+                                                <ol class="paufz">
+                                                   <li>Überprüfung der Attribute der root-Partition in der Datei <span class="cdateipfad">/etc/fstab</span>. Wenn die Partition mit rw gemountet ist, liegt ein Jailbreak vor, da die root-Partition standardmäßig readonly
+                                                      gemountet ist (Attribut r in <span class="cdateipfad">/etc/fstab</span>).
+                                                   </li>
+                                                   <li>Schreiben einer Datei auf die root-Partition, sinnvollerweise ins Verzeichnis <span class="cdateipfad">/tmp</span>. Gelingt dies, liegt ein Jailbreak vor. Diese doppelte Prüfung der root-Partition
+                                                      beugt der Möglichkeit vor, dass ein Jailbreak die Prüfung der Datei <span class="cdateipfad">/etc/fstab</span> unterbindet und falsche Werte zurückliefert.
+                                                   </li>
+                                                   <li>Prüfen auf das Vorhandensein der <span class="cbegriff">Cydia</span>-App. Cydia ist der App Store für gejailbreakte iPhones und daher mit großer Wahrscheinlichkeit
+                                                      auf jedem Gerät mit Jailbreak installiert.
+                                                   </li>
+                                                   <li>Prüfen auf das Vorhandensein des OpenSSH-Servers (<span class="cdateipfad">/usr/sbin/sshd</span>). Dieser ist nur bei gejailbreakten iPhones vorhanden (Installation über Cydia).
+                                                   </li>
+                                                   <li>Prüfen auf das Vorhandensein des <span class="cbegriff">apt</span>-Paketmanagers, den Cydia verwendet (<span class="cdateipfad">/private/var/lib/apt</span>)
+                                                   </li>
+                                                   <li>Prüfen auf das Vorhandensein der Bash-Shell (<span class="cdateipfad">/bin/bash</span>)
+                                                   </li>
+                                                </ol>
+                                                <p>Ergibt einer oder mehrere der vorstehenden Prüfschritte ein positives Ergebnis, liegt
+                                                   ein Jailbreak vor. Die aus dieser Erkenntnis abzuleitende Reaktion hängt von der Art
+                                                   Ihrer App, den Vorstellungen der Kunden und dem Schutzbedarf der Daten ab, die Ihre
+                                                   App verarbeitet.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Erkennen von Schadsoftware<a class="indexterm" id="dodtp9f99d9ea-0b8f-4ca3-a110-133149f03907"></a>
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Aus der PC-Welt weiß man, dass sich Schadsoftware, die auf Kernel-Ebene agiert, beliebig
+                                                               tarnen und somit alle Versuche, ihr auf die Schliche zu kommen, ins Leere führen kann.
+                                                               Eine über einen Jailbreak entsprechend modifizierte Firmware könnte dies auch mit
+                                                               den vorstehend beschriebenen Prüfschritten tun. Bis heute ist aber noch keine solche
+                                                               Firmware bekannt geworden. Daher liefert die manuelle Prüfung auf einen Jailbreak
+                                                               innerhalb der App zurzeit eine verlässliche Aussage.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Der folgende Code führt die Prüfung auf einen Jailbreak aus. Er ist in die Methode
+                                                   <span class="clisting">checkJailbreak</span> gekapselt, sodass Sie den Code einfach in eine Utility-Klasse übernehmen und in Ihre
+                                                   App integrieren können.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">-(BOOL)checkJailbreak<br>{<br>    // check for jailbreak<br>    // result not guaranteed, rootkits may disable any check<br>    // feature, not a bug: simulator appears always to be jailbroken (as using OS X resources)<br>    // remove logging for convenience<br>    // (c) 2011 by &lt;klaus@rodewig.de&gt;<br><br>    NSLog(@"[+] %@", NSStringFromSelector(_cmd));<br><br>    NSInteger forecast = 0;<br><br>    // first check: root partition rw<br>    NSError *error = nil;<br>    NSString *fstab = [NSString stringWithContentsOfFile:@"/etc/fstab" encoding:NSISOLatin1StringEncoding error:&amp;error];<br>    NSRange textRange;<br>    NSString *substring = [NSString stringWithString:@" / hfs rw"];<br>    textRange =[[fstab lowercaseString] rangeOfString:[substring lowercaseString]];<br><br>    if(textRange.location != NSNotFound)<br>    {<br>        NSLog(@"[+] / writeable");<br>        forecast += 25;<br>    } else {<br>        NSLog(@"[+] / not writeable");<br>    }<br><br>    // second check: locate Cydia<br>    NSString *docsDir = @"/Applications/";<br>    NSFileManager *localFileManager=[[NSFileManager alloc] init];<br>    error =nil;<br>    NSArray *dirEnum = [localFileManager contentsOfDirectoryAtPath:docsDir error:&amp;error];<br><br>    for(id object in dirEnum){<br>        if([object isEqual:@"Cydia.app"]){<br>           forecast += 25;<br>            NSLog(@"[+] Cydia found");<br>        }<br>    }<br><br>    // third check: write in /<br>    if([localFileManager createDirectoryAtPath:@"/tmp/..."withIntermediateDirectories:NO attributes:nil error:&amp;error]){<br>        forecast += 25;<br>        NSLog(@"[+] could write to /tmp");<br>        [localFileManager removeItemAtPath:@"/tmp/..."error:&amp;error];<br>    } else {<br>        NSLog(@"[+] error creating dir: %@", error);<br>    }<br><br><br>    // forth check: find sshd<br>    if([localFileManager fileExistsAtPath:@"/usr/sbin/sshd"]){<br>        forecast += 25;<br>        NSLog(@"[+] sshd found");<br>    }<br><br>    // fifth check: find apt<br>    if([localFileManagerfileExistsAtPath:@"/private/var/lib/apt"]){<br>        forecast += 25;<br>        NSLog(@"[+] apt found");<br>    }<br><br>    // sixth check: find bash<br>    if([localFileManager fileExistsAtPath:@"/bin/bash"]){<br>        forecast += 25;<br>        NSLog(@"[+] bash found");<br>    }<br><br>    [localFileManager release];<br><br>    NSLog(@"[+] forecast: %d%%", forecast);<br><br>    if(forecast &gt;= 50) // adjust for probability<br>        return YES;<br>    else<br>        return NO;<br>}<br></pre></div>
+                                                <p>Prüfung auf einen Jailbreak Jeder Prüfschritt erhöht bei einem positiven Ergebnis
+                                                   den Zähler <span class="clisting">forecast</span> um 25 Punkte. Am Ende der Methode wird überprüft, ob mindestens zwei Prüfschritte
+                                                   positiv verlaufen sind (<span class="clisting">forecast &gt;= 50</span>). Ist dies der Fall, liegt ein Jailbreak vor, und die Methode gibt den booleschen
+                                                   Wert <span class="clisting">YES</span> zurück.
+                                                </p>
+                                                <p>Auf einem Gerät mit Jailbreak sieht die Konsolen-Ausgabe dann wie folgt aus:</p>
+                                                <div class="listing"><pre class="prettyprint">22:59:25.546 keychaingucker[1232:607] [+] checkJailbreak<br>22:59:25.553 keychaingucker[1232:607] [+] / writeable<br>22:59:25.560 keychaingucker[1232:607] [+] Cydia found<br>22:59:25.570 keychaingucker[1232:607] [+] could write to /tmp<br>22:59:25.580 keychaingucker[1232:607] [+] sshd found<br>22:59:25.587 keychaingucker[1232:607] [+] apt found<br>22:59:25.594 keychaingucker[1232:607] [+] bash found<br>22:59:25.600 keychaingucker[1232:607] [+] forecast: 150 %<br>22:59:25.606 keychaingucker[1232:607] [+] Device jailbroken!<br></pre></div>
+                                                <p>Auf einem Gerät ohne Jailbreak führt der Schreibversuch auf der root-Partition zu
+                                                   einem Fehler, und auch die anderen Prüfungen laufen ins Leere:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">23:04:49.794 keychaingucker[1639:707] [+] checkJailbreak<br>23:04:49.799 keychaingucker[1639:707] [+] / not writeable<br>23:04:49.830 keychaingucker[1639:707] [+] error creating dir:<br>Error Domain=NSCocoaErrorDomain Code=513<br>"The operation couldn&#8217;t be completed. (Cocoa error 513.)"<br>UserInfo=0x1bb060 {NSFilePath=/tmp/..., NSUnderlyingError=0x1baa50<br>"The operation couldn&#8217;t be completed. Operation not permitted"}<br>23:04:49.838 keychaingucker[1639:707] [+] forecast: 0 %<br>23:04:49.841 keychaingucker[1639:707] [+] No Jailbreak<br></pre></div><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp59c339e9-9e08-4b62-b7a0-62d62224eceb" name="dodtp59c339e9-9e08-4b62-b7a0-62d62224eceb"></a><h3 class="t3"><span class="cfett">6.5.4</span><span class="cfett"> Event-Handling</span><a href="#dodtpc9ab10b9-a832-4b41-8869-ecd6b9b54dbb"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Ein zentrales Bestandteil der App-Sicherheit ist der richtige Umgang mit Events. Das
+                                                   betrifft zum einen das Abfangen von Fehlermeldungen (<span class="cbegriff">Informations disclosure</span>), zum anderen auch den korrekten Umgang mit Events. Eine App, die aus Sicherheitsgründen
+                                                   eine eigene Authentisierung implementiert, sollte ihre GUI beim Wechsel in den Hintergrund
+                                                   sperren, um unbefugten Zugriff zu verhindern. Auch sollte die App in diesem Fall sensible
+                                                   Daten bereinigen oder verschlüsseln, um zu verhindern, dass diese Daten unbemerkt,
+                                                   z. B. über das automatische iTunes-Backup, das Gerät verlassen.
+                                                </p><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_06_005.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="6 Programmieren, aber sicher"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_06_004.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_07_001.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

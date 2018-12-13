@@ -1,0 +1,888 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 1 Einführung">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 1 Einführung">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 1 Einführung</title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_01_003.html">
+      <link rel="next" href="apps_01_005.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_01_003.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_01_005.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d" class="navnav">1 Einführung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_01_001.html#dodtp09544318-027e-49d8-b540-d500a5a0466a" class="navnav">1.1 iOS</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_001.html#dodtpfcb897ba-43f9-4d32-ac13-3c595ad156e4" class="navnav">1.1.1 Core OS</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_001.html#dodtp0e11e484-6693-405b-89ff-1ded25147320" class="navnav">1.1.2 Core Services</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_001.html#dodtp20883528-7664-468b-a665-c46562b01a2d" class="navnav">1.1.3 Media</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_001.html#dodtp7507e3ce-f82f-478c-8413-0c6d5a665e8c" class="navnav">1.1.4 Cocoa Touch</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_01_002.html#dodtp856d8bd6-bac7-44c4-ab9a-668b2dd46ef4" class="navnav">1.2 iOS-SDK</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_002.html#dodtp9056909a-c65c-4a16-9521-a378c9d4977f" class="navnav">1.2.1 Xcode</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_002.html#dodtp88a5527c-df8d-4b6d-80fe-0bcd29c62d04" class="navnav">1.2.2 Instruments</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_002.html#dodtpb35df4b8-a3d9-4def-9921-ae5f5bb11de9" class="navnav">1.2.3 Simulator</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_002.html#dodtp494e6160-5148-44e6-a18f-eb96a3833bd0" class="navnav">1.2.4 Test auf dem iPhone</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_01_003.html#dodtp184dbb2d-6bb3-469a-959f-95400215b7a3" class="navnav">1.3 iOS-Hardware</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_01_004.html#dodtpc91326c4-6d00-45d0-b1a2-8bb44ed8c33d" class="navh">1.4 Besonderheiten der Programmierung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_004.html#dodtp267dd6f8-528f-495a-b1c3-0e666a1f6004" class="navh">1.4.1 Speicher</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_004.html#dodtp68361c54-1935-4c84-a9d8-b7e7593b98c4" class="navh">1.4.2 Akkulaufzeit</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_004.html#dodtp0835827b-0692-4ed0-b858-42cafe0d6d90" class="navh">1.4.3 Benutzerschnittstelle</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_004.html#dodtpa353e98a-6861-471b-b99d-32c60450ccce" class="navh">1.4.4 Sicherheit</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_004.html#dodtp7ed53210-3803-4f0f-a418-d6585ba261c2" class="navh">1.4.5 Der App Store</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_01_005.html#dodtpe233b555-f8a0-4ed8-b5c2-8a004ae98aae" class="navnav">1.5 Objektorientierte Programmierung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_005.html#dodtp990ae56c-1eaf-4c70-9533-1b0a1e76ede9" class="navnav">1.5.1 Objekte</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_005.html#dodtp855e588a-1f28-4a3a-ac8d-12ebc6f26462" class="navnav">1.5.2 Vererbung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_005.html#dodtp22886c17-3a02-4b08-bb5d-2ec4e4f7374e" class="navnav">1.5.3 Nachrichten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_01_005.html#dodtp04b2af78-efab-4635-a2d9-525424fcf797" class="navnav">1.5.4 Objective-C</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main"><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpc91326c4-6d00-45d0-b1a2-8bb44ed8c33d" name="dodtpc91326c4-6d00-45d0-b1a2-8bb44ed8c33d"></a><h2 class="t2"><span class="cfett">1.4</span><span class="cfett"> Besonderheiten der Programmierung</span><a href="#dodtp267dd6f8-528f-495a-b1c3-0e666a1f6004"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h2>
+                                                <p>Die technischen Möglichkeiten des iPhone bieten Ihnen viele Möglichkeiten, innovative
+                                                   Applikationen zu erstellen. Allerdings bekommen Sie dabei auch nichts geschenkt. Die
+                                                   Vielzahl der Möglichkeiten auf einem so kompakten Gerät stellt besondere Anforderungen
+                                                   an effiziente und ressourcenschonende Programmierung. Im Gegensatz zu Applikationen,
+                                                   die auf Desktop- und Server-Systemen laufen, sind die Ressourcen, insbesondere die
+                                                   Stromversorgung und der Speicher, auf dem iPhone begrenzt. Dies stellt für Einsteiger
+                                                   in der Regel kein Problem dar, sie können sich von Anfang an eine ressourcenschonende
+                                                   Art der Programmierung aneignen. Anders sieht es allerdings häufig mit Programmierern
+                                                   aus, die vorher Desktop-Applikationen programmiert haben. Je billiger leistungsfähige
+                                                   CPUs, Speicher und Festplatten werden, desto weniger wird die Tugend der schlanken
+                                                   Programmierung gepflegt und geschätzt. War in der Anfangszeit der Desktop-PCs der
+                                                   verfügbare Speicher noch auf 640 KB beschränkt (auf x86-PCs), haben aktuelle Desktop-PCs
+                                                   Hauptspeichergrößen im Gigabyte-Bereich. Einen Programmierer auf nicht benutzte Variablen
+                                                   oder unnötige Iterationen im Code aufmerksam zu machen, ist in Zeiten von Quad-Core-CPUs
+                                                   und nahezu unbegrenztem Speicher ein ziemlich aussichtsloses Unterfangen.
+                                                </p>
+                                                <p>Anders sieht es auf dem iPhone aus. In Bezug auf Ressourcen sorglose Programmierer
+                                                   machen beim Einstieg in die iPhone-Programmierung die schmerzliche Erfahrung, dass
+                                                   die Ressourcen des iPhone im Vergleich zu aktuellen Desktop- oder Server-Systemen
+                                                   sehr begrenzt sind. Sowohl in Bezug auf Speicherplatz als auch auf die Verwendung
+                                                   effizienter Algorithmen stellt das iPhone hohe Anforderungen an den Programmierer.
+                                                   Ein schlecht programmierter, ineffizienter Such-Algorithmus mag auf einem Desktop-PC
+                                                   nicht negativ auffallen, da genügend Hauptspeicher vorhanden ist und die fehlende
+                                                   Optimierung durch pure Rechenleistung ausgeglichen wird. Auf dem iPhone geht einer
+                                                   schlecht programmierten Applikation schnell der Speicher aus, und eine erhöhte Rechenleistung
+                                                   erfordert einen erhöhten Stromverbrauch, was bei einem tragbaren Gerät wie dem iPhone
+                                                   ein wichtiger Faktor ist.
+                                                </p>
+                                                <p>Aber keine Sorge, Sie müssen nicht gleich jede geschriebene Anweisung auf die Goldwaage
+                                                   legen und immer nach noch besseren Lösungen suchen. Sie sollten vielmehr einen pragmatischen
+                                                   Ansatz wählen und Ihr Programm zuerst so schreiben, dass es funktioniert und es danach
+                                                   optimieren. <span class="cbegriff">Instruments</span> bietet Ihnen eine Menge Möglichkeiten, die Schwachstellen in Ihrem Code zu entdecken.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp267dd6f8-528f-495a-b1c3-0e666a1f6004" name="dodtp267dd6f8-528f-495a-b1c3-0e666a1f6004"></a><h3 class="t3"><span class="cfett">1.4.1</span><span class="cfett"> Speicher</span><a href="#dodtp68361c54-1935-4c84-a9d8-b7e7593b98c4"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpc91326c4-6d00-45d0-b1a2-8bb44ed8c33d"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Einem Programm steht unter iOS nicht mehr als der physische Speicher zur Verfügung.
+                                                   Wenn bei einer Applikation der Speicher knapp wird, sendet iOS zunächst Speicherwarnungen<a class="indexterm" id="dodtp78c331c3-d17a-48ee-8118-5506492b8df3"></a> und beendet im äußersten Fall die App. Dieses Verhalten kommt bei Desktop- und Serverbetriebssystemen
+                                                   extrem selten vor. Dort kann eine Applikation so viel Speicher belegen, wie Hauptspeicher
+                                                   und Swap-Platz hergeben. Die vollständige Belegung führt zwar auch dort häufig zu
+                                                   einem Absturz der Applikation, allerdings ist die Menge an verfügbarem Speicher um
+                                                   ein Vielfaches größer als beim iPhone.
+                                                </p>
+                                                <p>Über spezielle Delegate-Methoden und Benachrichtigungen informiert das iOS darüber,
+                                                   dass nur noch wenig Speicher zur Verfügung steht. Eine Applikation sollte diese Informationen
+                                                   entgegennehmen und möglichst viel nicht benötigten Speicher freigeben.
+                                                </p>
+                                                <p>Speicher sollte im Programmverlauf stets so früh wie möglich freigegeben werden. Mehr
+                                                   zum Speichermanagement enthält Kapitel 2. Bei der Arbeit mit Dateien ist es angezeigt,
+                                                   diese über <span class="cbegriff">Memory Mapping</span> anzusprechen und nicht komplett in den Arbeitsspeicher einzulesen. Dies gilt insbesondere
+                                                   für Dateien unbekannter Herkunft, wie z. B. RSS-Feeds. Sind solche Dateien zu groß,
+                                                   wird der Speicher knapp, und über ausreichend große Dateien kann das iPhone lahmgelegt
+                                                   werden &#8211; ein effizienter Denial-of-Service-Angriff.
+                                                </p>
+                                                <p>Speichersparende Programmierung umfasst nicht nur den bedachten Umgang mit Variablen
+                                                   und externen Datenquellen, sondern beinhaltet auch ein entsprechendes Design der Benutzeroberfläche.
+                                                   Ein gutes Beispiel dafür ist das <span class="cbegriff">Mail</span>-Programm des iPhone. Dieses zeigt &#8211; je nach Konfiguration &#8211; nur die Kopfzeilen der erhaltenen E-Mails an. Es belegt dabei natürlich auch nur den Speicherplatz für die Anzeige der Kopfzeilen. Erst beim Auswählen einer E-Mail wird die entsprechende Mail in den Speicher geladen und verarbeitet. Beim Schließen dieser E?Mail gibt <span class="cbegriff">Mail</span> den entsprechenden Speicher wieder frei. Das Speichermanagement hat beim iPhone also
+                                                   einen großen Stellenwert.
+                                                </p>
+                                                <p>Dazu gehört auch, bei fertigen Applikationen nachzuprüfen, ob Speicherlecks vorhanden
+                                                   sind. Xcode (siehe Abschnitt 1.2) stellt dafür entsprechende Werkzeuge zur Verfügung.
+                                                   Fehlerhafter Umgang mit Speicher kann darüber hinaus zu instabilen Programmen führen.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp68361c54-1935-4c84-a9d8-b7e7593b98c4" name="dodtp68361c54-1935-4c84-a9d8-b7e7593b98c4"></a><h3 class="t3"><span class="cfett">1.4.2</span><span class="cfett"> Akkulaufzeit</span><a href="#dodtp0835827b-0692-4ed0-b858-42cafe0d6d90"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp267dd6f8-528f-495a-b1c3-0e666a1f6004"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Neben dem stark beschränkten Speicher ist die Stromversorgung die zweite Schwachstelle
+                                                   bei mobilen Geräten, so auch beim iPhone. Insbesondere bei voll aktivierten Netzwerkfunktionen
+                                                   (UMTS, WLAN, Bluetooth und Push-Dienste) hält der Akku nur kurze Zeit. Daher gilt
+                                                   für den Programmierer auch hier, dass das aktive Schonen der vorhandenen Ressourcen
+                                                   sehr wichtig ist. Der größte Stromfresser beim iPhone ist die Datenübertragung. Daraus
+                                                   ergibt sich, dass eine Applikation nur dann Daten übertragen sollte, wenn es wirklich
+                                                   notwendig ist. Ein RSS-Reader beispielsweise sollte die Verbindung ins Internet nur
+                                                   einmal aufbauen, um die RSS-Feeds zu laden. Danach ist keine Netzwerkverbindung mehr
+                                                   notwendig, wenn er die Feed-Inhalte zwischenspeichert. Dasselbe gilt für das <span class="cbegriff">Mail</span>-Programm des iOS. Beim Start lädt das Programm die Header der ungelesenen E-Mails und geht danach in den Offline-Modus. Erst beim Anwählen einer E?Mail zum Lesen baut es eine Verbindung zum E-Mail-Server auf und lädt die E?Mail herunter. Es ist für die Nutzer übrigens auch sehr angenehm, wenn sie auf die bereits geladenen Inhalte auch ohne aktive Internetverbindung zugreifen können. Gerade beim iPod touch und dem iPad ohne UMTS können Sie nicht immer eine aktive Onlineverbindung voraussetzen.
+                                                </p>
+                                                <p>Auch sollte möglichst vermieden werden, UMTS-Verbindungen intensiv zu nutzen. Das
+                                                   Verwenden der UMTS-Funktionalität des iOS ist ein großer Stromfresser. Viele Benutzer
+                                                   haben auch gar kein UMTS aktiviert, da zum täglichen Gebrauch, also um E-Mails und
+                                                   Nachrichten zu lesen, EDGE vollkommen ausreichend ist und die Akkulaufzeit des iPhone
+                                                   sich vergrößert, wenn UMTS deaktiviert ist. Wie bei der Verwendung des Speichers gilt
+                                                   daher auch bei den Netzwerkfunktionen: So sparsam wie möglich einsetzen. Ein zu starker
+                                                   Datenaustausch über mobile Verbindungen kann übrigens auch zu einer Ablehnung der
+                                                   App im App-Store führen.
+                                                </p>   
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Datenverbindungen<a class="indexterm" id="dodtpff41bc7f-5bb9-4a0f-981c-cc9a35321b9f"></a> und der Freigabeprozess
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Apple gibt Programme für den App-Store nicht frei, wenn sie mehr als 1 MB pro Minute
+                                                               über das Mobilfunknetz laden. Sie können das relativ einfach nachprüfen, indem Sie
+                                                               in den iOS-Einstellungen unter <span class="cscreenelement">Allgemein</span> · <span class="cscreenelement">Benutzung</span> auf <span class="cscreenelement">Statistiken zurücksetzen</span> drücken. Starten Sie danach Ihre App auf dem Gerät, und benutzen Sie sie 5 Minuten
+                                                               lang. In den Einstellungen können Sie dann unter dem Punkt <span class="cscreenelement">Empfangen</span> sehen, welche Datenmenge Ihre App geladen hat. Dieser Wert darf nicht größer als
+                                                               5 MB sein.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Diese Datenmenge erreicht eine App aber meistens nur durch den Download von Multimedia-Inhalten.
+                                                               Achten Sie also bei Bildern darauf, dass sie genau die Ausmaße der jeweiligen Anzeige
+                                                               haben. Für Fotos sollten Sie das Format JPG verwenden, das die besten Komprimierungsraten
+                                                               hat. Für Videos unterstützt iOS ein bandbreiten-abhängiges Format namens <span class="cbegriff">M3U</span>, bei dem Sie eine Videodatei in mehreren Bitraten und somit Datengrößen bereitstellen
+                                                               können. Apple stellt zu diesem Thema ein Dokument mit dem Titel <span class="cbegriff">HTTP Live Streaming Overview</span><span class="footnote"><a id="dodtpb93c015b-c681-4a25-ad54-460da2617d93">[8](http://developer.apple.com/library/ios/#documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/Introduction/Introduction.html)</a></span> zur Verfügung.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp0835827b-0692-4ed0-b858-42cafe0d6d90" name="dodtp0835827b-0692-4ed0-b858-42cafe0d6d90"></a><h3 class="t3"><span class="cfett">1.4.3</span><span class="cfett"> Benutzerschnittstelle</span><a href="#dodtpa353e98a-6861-471b-b99d-32c60450ccce"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp68361c54-1935-4c84-a9d8-b7e7593b98c4"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Die Benutzerschnittstelle des iPhone unterscheidet sich fundamental von der eines
+                                                   herkömmlichen PC. Es gibt keine Maus und keine Tastatur, stattdessen interagiert der
+                                                   Benutzer mit dem Multitouch-Display und gegebenenfalls über Gerätebewegungen. Daraus
+                                                   ergeben sich ganz neue Anforderungen an den Programmierer, denn zum einen muss er
+                                                   die Besonderheiten dieser Benutzerschnittstellen beachten und nutzen, zum anderen
+                                                   muss er sich bei der Gestaltung einer Applikation an ein völlig neues Benutzerverhalten
+                                                   gewöhnen.
+                                                </p>
+                                                <p>Die Philosophie hinter iOS ist, dass es für jeden Anwendungsfall eine eigene Applikation
+                                                   gibt. Dies macht bereits Apple vor: <span class="cbegriff">Mail, Kalender, iPod, Safari, Wetter</span> und <span class="cbegriff">Aktien</span> sind alles getrennte Applikationen und keine Eier legende Wollmilchsäue. Eine Applikation
+                                                   sollte für einen einzigen bestimmten Anwendungszweck konzipiert und implementiert
+                                                   sein. Bis zur Version 4 bot das iOS auch kein Multitasking &#8211; von den Systemdiensten,
+                                                   dem Telefon und der iPod-Funktionalität abgesehen. Multitasking im Sinne gleichzeitig
+                                                   ablaufender Programme, zwischen denen der Anwender hin- und herschalten kann, war
+                                                   nicht vorgesehen. Bei der Erstellung von Applikationen ist dieser Umstand daher abhängig
+                                                   von der Zielplattform zu beachten. Auf Geräten mit den Vorgängerversionen von iOS
+                                                   4 beendet das Drücken der Home-Taste stets das aktuell laufende Programm. Sie müssen
+                                                   also entsprechende Vorkehrungen treffen und beispielsweise den aktuellen Programmstatus
+                                                   speichern. Multitasking unterstützen nur die iPhone-Modelle 3GS und neuer, die iPod-Modelle
+                                                   ab der dritten Generation sowie alle iPad-Modelle. Einen Sonderfall stellt das iPhone
+                                                   3G dar, auf dem zwar iOS 4 läuft, das aber kein Multitasking unterstützt.
+                                                </p>
+                                                <p>Abbildung 1.10 zeigt den Lebenszyklus einer iPhone-Applikation ohne Multitasking,
+                                                   also unter iOS vor der Version 4 oder wenn sie kein Multitasking unterstützt. Sobald
+                                                   der Benutzer das Applikations-Icon angetippt hat, lädt das iPhone OS die <span class="clisting">main</span>-Funktion der Applikation. Diese ist lediglich ein Wrapper für <span class="clisting">UIApplicationMain()</span> und lädt neben dieser Funktion nur noch einen Autorelease-Pool und gibt diesen nach
+                                                   Programmbeendigung wieder frei. Was sich dahinter verbirgt, behandelt Kapitel 3 im
+                                                   Abschnitt »Speicherverwaltung und Outlets«.
+                                                </p><a href="bilder/01_010.png" rel="lightbox" title="Lebenszyklus einer iOS-Applikation unter iOS vor Version 4"><img class="bild" border="1" src="bilderklein/klein01_010.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 1.10   </strong>Lebenszyklus einer iOS-Applikation unter iOS vor Version 4
+                                                </p>
+                                                <p>Die Funktion <span class="clisting">UIApplicationMain</span><a class="indexterm" id="dodtpf7e5cb73-867f-4f8c-8356-0256df4cf7d1"></a><span class="clisting">()</span> ruft die Methode <span class="clisting">applicationDidFinishLaunching:withOptions:</span><a class="indexterm" id="dodtp72738bb7-449b-4287-864f-d02298018bf6"></a> im Application-Delegate auf. Danach wartet die Applikation in der <span class="cbegriff">Run-Loop</span> auf <span class="cbegriff">Events</span> (<span class="cbegriff">Ereignisse</span>). Diese können sowohl Benutzereingaben als auch programmierte Aktionen oder Trigger
+                                                   über Schnittstellen sein &#8211; hier findet der eigentliche Programmablauf statt.
+                                                </p>
+                                                <p>Komplizierter sieht der Lebenszyklus ab iOS 4 und mit Multitaskingunterstützung aus,
+                                                   denn dort bleibt die App nach Betätigung des Home-Buttons im Hintergrund, sodass es
+                                                   für den Programmierer mehr Zustände und Entscheidungen abzufangen gibt (siehe Abbildung
+                                                   1.11).
+                                                </p><a href="bilder/01_011.png" rel="lightbox" title="Lebenszyklus einer iOS-Applikation unter iOS ab Version 4"><img class="bild" border="1" src="bilderklein/klein01_011.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 1.11   </strong>Lebenszyklus einer iOS-Applikation unter iOS ab Version 4
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Die Home-Taste<a class="indexterm" id="dodtpf740949d-2b42-4bce-a4c3-9508a474f25c"></a>
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Das Drücken der Home-Taste sendet das aktive Programm in den Hintergrund. Diese Aktion
+                                                               beendet das Programm unter älteren iOS-Versionen oder falls es kein Multitasking unterstützt.
+                                                               Durch die Spezialisierung der iOS-Programme auf eng begrenzte Aufgaben ist der häufige
+                                                               Wechsel von Applikationen typisch für die Bedienung von iOS. Darüber hinaus ist die
+                                                               Home-Taste schnell gedrückt, wenn eine Applikation nicht auf Anhieb das verspricht,
+                                                               was sich der Benutzer erhofft hat. Der typische iOS-Benutzer hat dabei wahrscheinlich
+                                                               ähnlich wenig Geduld wie viele Internet-Surfer. Daher sollten Sie Ihre Applikation
+                                                               so gestalten, dass sie den Benutzer auf Anhieb anspricht und die gewünschten Informationen
+                                                               schnell und übersichtlich zeigt.
+                                                              </p>
+                                                         </td>
+                                                      </tr>    
+
+                                                      <tr>
+                                                         <td class="tabellentext">
+                                                            <p>
+                                                               Apple fasst in dem Dokument <span class="cbegriff">iOS Human Interface Guidelines</span> auf 150 Seiten die Philosophie der iOS-Benutzeroberfläche zusammen. Dieses Dokument
+                                                               stellt Ihnen eine Anleitung zur Verfügung, iOS-Applikationen benutzer- und hardwaregerecht
+                                                               zu gestalten.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpa353e98a-6861-471b-b99d-32c60450ccce" name="dodtpa353e98a-6861-471b-b99d-32c60450ccce"></a><h3 class="t3"><span class="cfett">1.4.4</span><span class="cfett"> Sicherheit</span><a href="#dodtp7ed53210-3803-4f0f-a418-d6585ba261c2"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp0835827b-0692-4ed0-b858-42cafe0d6d90"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Das iOS startet eine Applikation in einer <span class="cbegriff">Sandbox</span><a class="indexterm" id="dodtp1cd6f60a-93a3-4f0c-bf20-5d2dc3429105"></a>. Das ist ein geschützter Bereich, aus dem die Applikation nicht ausbrechen kann.
+                                                   Sie kann also nicht auf die Speicherbereiche und Dateien anderer Apps zugreifen. Damit
+                                                   verhindert das iOS, dass eine Applikation das System oder andere Applikationen kompromittiert.
+                                                   Die Sandbox erschwert die Programmierung von Viren wie Trojanern, die ja gerade die
+                                                   Daten (z. B. Kontonummern, Passwörter) anderer Applikationen auslesen wollen. Trotz
+                                                   des Multitaskings ist auch eine gegenseitige Beeinflussung der Applikationen untereinander
+                                                   nicht möglich, da nur die aktive Applikation die volle Rechenleistung beanspruchen
+                                                   kann. Die im Hintergrund laufenden Programme haben nur eine sehr begrenzte Rechenzeit
+                                                   zur Verfügung. Unter den iOS-Versionen 2 und 3 war das Ausführen von Hintergrundprozessen
+                                                   für Applikationen generell nicht möglich.
+                                                </p>
+                                                <p>Die Apple-Dokumentation erwähnt Sicherheit häufig im Zusammenhang mit dem Security
+                                                   Framework, beispielsweise für die Datenverschlüsselung, die Benutzung des Schlüsselbundes
+                                                   und die Arbeit mit Zertifikaten. Ein weiterer Aspekt ist die Sicherheit einer Applikation
+                                                   selber. Er wird im <span class="cbegriff">Secure Coding Guide</span> von Apple behandelt, der auf eine Vielzahl gängiger Implementierungsfehler bei der
+                                                   Programmierung eingeht. Dass eine Applikation innerhalb ihrer eigenen Sandbox läuft,
+                                                   schützt sie aber nicht unbedingt vor Implementierungsfehlern, mit denen ein Angreifer
+                                                   auf die Daten der Applikation zugreifen oder eigenen Code auf einem fremden Gerät
+                                                   ausführen kann.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Faustregeln für die iOS-Programmierung
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Die wichtigsten Regeln für Neueinsteiger, die mit der Programmierung für das iPhone
+                                                               nicht vertraut sind, sind die folgenden:
+                                                               
+                                                               
+                                                               <ul class="gp">
+                                                                  <li>Sparsam mit Speicher umgehen.</li>
+                                                                  <li>Speicherlecks suchen.</li>
+                                                                  <li>Speicher so früh wie möglich freigeben.</li>
+                                                                  <li>Netzwerkfunktionen nur benutzen, wenn es notwendig ist.</li>
+                                                                  <li>Speichern des Applikationsstatus beim Beenden oder Unterbrechen.</li>
+                                                                  <li>Apples Vorgaben für die Gestaltung beachten.</li>
+                                                                  <li>Benutzer sind ungeduldig &#8211; ein Applikation muss gut aussehen und funktionieren.</li>
+                                                                  <li>Zeitaufwendige Algorithmen optimieren, um CPU-Zeit zu sparen.</li>
+                                                               </ul>
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp7ed53210-3803-4f0f-a418-d6585ba261c2" name="dodtp7ed53210-3803-4f0f-a418-d6585ba261c2"></a><h3 class="t3"><span class="cfett">1.4.5</span><span class="cfett"> Der App Store</span><a href="#dodtpa353e98a-6861-471b-b99d-32c60450ccce"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Zur Verteilung von iOS-Applikationen auf beliebige Geräte von privaten Anwendern sieht
+                                                   Apple ausschließlich den App-Store vor. Er ist, wie der iTunes Music Store, in iTunes
+                                                   integriert. Es ist die wichtigste Möglichkeit, iOS-Applikationen unters Volk zu bringen.
+                                                   Große Firmen haben außerdem die Möglichkeit, firmenspezifische Apps zu erstellen und
+                                                   über Ad-hoc-Distributionen direkt auf die Geräte ihrer Mitarbeiter zu verteilen. Möchten
+                                                   Sie Ihre Applikation im App-Store veröffentlichen, müssen Sie sie bei Apple zur Prüfung
+                                                   einreichen. Die Prüfkriterien waren anfangs sehr undurchsichtig und haben häufig Grund
+                                                   zur Beanstandung gegeben. Inzwischen gibt es mit den <span class="cbegriff">App Store Review Guidelines</span> <span class="footnote"><a id="dodtp1b391791-e7f2-45ae-b534-0ab689a4be10">[9](Sie können darauf nur zugreifen, wenn Sie einen kostenpflichtigen Entwickleraccount besitzen.)</a></span> ein Dokument, das zumindest die wichtigsten Richtlinien für eine erfolgreiche Veröffentlichung
+                                                   beschreibt.
+                                                </p>
+                                                <p>Die Prüfung von Applikationen vor ihrer Veröffentlichung im App-Store durch Apple
+                                                   sollten Sie nicht als Qualitäts- oder Sicherheitskontrolle verstehen. Sie ersetzt
+                                                   keinesfalls die eigene Sorgfalt in Design und Implementierung. Die Review Guidelines
+                                                   enthalten eine Reihe handfester Regeln, an die Sie sich bei der Programmierung Ihrer
+                                                   App halten sollten. Spätestens, wenn eine App im Kundenauftrag entsteht oder Grundlage
+                                                   einer Geschäftsidee ist, sollte das strenge Entwickeln entlang der Vorgaben von Apple
+                                                   erfolgen, um eine Ablehnung zu vermeiden.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Ablehnung der App
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Trotz der strikten Befolgung aller Regeln kann es trotzdem passieren, dass Apple Ihre
+                                                               App ablehnt. Sie erhalten dann eine E-Mail, die den genauen Ablehnungsgrund enthält.
+                                                               Das ist in vielen Fällen eine Kleinigkeit. Verzagen Sie nicht, sondern nehmen Sie
+                                                               es sportlich. Beheben Sie das Problem, und reichen Sie die App erneut ein. Falls Sie
+                                                               den Ablehnungsgrund nicht nachvollziehen können, scheuen Sie sich nicht, bei Apple
+                                                               nachzufragen.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_01_004.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="1 Einführung"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_01_003.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_01_005.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

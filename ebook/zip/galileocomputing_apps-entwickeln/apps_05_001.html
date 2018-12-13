@@ -1,0 +1,1450 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 5 Animationen und Layer">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 5 Animationen und Layer">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 5 Animationen und Layer</title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_04_006.html">
+      <link rel="next" href="apps_05_002.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_04_006.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_05_002.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406" class="navh">5 Animationen und Layer</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_001.html#dodtp5efea2f9-5971-4355-9098-73d240420ae8" class="navh">5.1 Modell und Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpbfefaccf-2786-4687-9caf-bf869a37dd09" class="navh">5.1.1 iOS Next Topmodel</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpcdb08693-584e-460f-84d6-adbffd990377" class="navh">5.1.2 View an Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpf43e6bf8-5b92-4faf-8de8-d852c2bdb6e7" class="navh">5.1.3 Modell an Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpa07cc55d-58b3-412a-b67d-a83e85baebc2" class="navh">5.1.4 Undo und Redo</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtp8755d0e5-718b-4a1b-9167-c6361491d08c" class="navh">5.1.5 Unittests</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_002.html#dodtp1c3f3d80-581b-478e-88bc-c9ed3a708401" class="navnav">5.2 Als die Views das Laufen lernten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp9e9cf9b7-2f55-4fed-b3b6-39449f3b1d7d" class="navnav">5.2.1 Blockfunktionen in C</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp0c53305d-45fe-44c6-9852-ea8594b2c837" class="navnav">5.2.2 Animationen mit Blöcken</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp85028dc1-a1a1-40c9-bcc3-4f753ef479e3" class="navnav">5.2.3 Transitionen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp0a0f2033-6d33-4367-b1ba-3a224955f8bd" class="navnav">5.2.4 Zur Animation? Bitte jeder nur einen Block!</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_003.html#dodtpb1c7ea8c-fe2c-4936-9c9a-8ec6e345a78e" class="navnav">5.3 Core Animation</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtpc7304b46-d817-4f7c-ad3a-655bdf12d064" class="navnav">5.3.1 Layer</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp766676af-c5c5-4b69-bb6c-a92f38e6040d" class="navnav">5.3.2 Vordefinierte Layerklassen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp13aeb6cc-99bc-4e4b-9ee7-186982cef3cb" class="navnav">5.3.3 Unser Button soll schöner werden</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp66fddda2-3ee3-4e44-ae6a-6901c9f96a1e" class="navnav">5.3.4 Spieglein, Spieglein an der Wand</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtpce26e4e5-0327-4743-bbd7-d6b3b9eee6d8" class="navnav">5.3.5 Der bewegte Layer</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtpfb02b879-0cc7-44cd-91fb-be429ae0b56f" class="navnav">5.3.6 Der View, der Layer, seine Animation und ihr Liebhaber</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp3d532cce-a949-4cbb-b90f-83cb4ca2c6e0" class="navnav">5.3.7 Die 3. Dimension</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_004.html#dodtpb92345dc-dbc2-4f78-8e86-ca5d585914c1" class="navnav">5.4 Der Tabbar-Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_004.html#dodtp74751c51-49aa-4a38-a753-b920e7ddf1e4" class="navnav">5.4.1 Aufbau einer Reiternavigation</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_004.html#dodtp3dc6d335-db6c-4eeb-a3d7-2fd60f934221" class="navnav">5.4.2 Für ein paar Controller mehr</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_005.html#dodtpbb883a33-ad82-42a5-9e9b-a3878fb20332" class="navnav">5.5 Was Sie schon immer über Instruments wissen wollten, aber nie zu fragen wagten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_005.html#dodtp4af905ee-fd2f-407d-8fe3-1cf49c378f4b" class="navnav">5.5.1 Spiel mir das Lied vom Leak</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_005.html#dodtp20f3171b-12d7-4643-a316-ccfff954fba9" class="navnav">5.5.2 Ich folgte einem Zombie</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_005.html#dodtp613c16ef-6413-4c04-a7d1-268d8e43a5e9" class="navnav">5.5.3 Time Bandits</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main">
+                                                <p class="anleser"><em><span class="ckursiv">»Ach, er will doch nur spielen.«<br>&#8211; Unbekannter Hundebesitzer</span></em></p><a id="dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406" name="dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406"></a><h1 class="t1"><span class="cfett">5</span><span class="cfett"> Animationen und Layer</span><a href="#dodtp5efea2f9-5971-4355-9098-73d240420ae8"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h1>
+                                                <p>Animationen sind ein wichtiger, aber leider häufig auch unterschätzter Bestandteil
+                                                   einer grafischen Benutzerschnittstelle. Durch Animationen können Sie die Aktionen
+                                                   der Applikation hervorheben und so dem Nutzer eine zusätzliche Rückmeldung geben.
+                                                </p>
+                                                <p>Eine gute Animation hebt die Veränderungen auf dem Bildschirm hervor und verlängert
+                                                   den Wahrnehmungszeitraum für den Nutzer. Wenn Sie beispielsweise in der Tabellenansicht
+                                                   des Fototagebuchs einen Eintrag auswählen, dann schiebt der Navigation-Controller
+                                                   die Detailansicht auf den Bildschirm. Diese Animation hebt einerseits den View-Wechsel
+                                                   hervor. Sie erklärt andererseits auch den Zurück-Button in der Detailansicht: Sie
+                                                   sind durch eine Bewegung nach rechts in diese Ansicht gelangt. Also gelangen Sie mit
+                                                   dem Pfeil nach links wieder zurück.
+                                                </p>
+                                                <p>Sie können aber Animationen nicht nur für den Wechsel kompletter Screens verwenden,
+                                                   sondern sie auch auf einzelne Views und deren Darstellungsschicht, den Layern, anwenden.
+                                                   In diesem Kapitel lernen Sie Layer und die verschiedenen Animationsmöglichkeiten von
+                                                   Cocoa Touch kennen.
+                                                </p>
+                                                <p>Das Beispielprogramm <span class="cdateipfad">Games</span><a class="indexterm" id="dodtp9e2033f6-cf76-463f-ad03-06b742b876a6"></a> dieses Kapitels enthält zwei einfache Spiele, an denen sich die Funktionsweise von
+                                                   Animationen besonders gut verdeutlichen lässt. Die Spiele kennen Sie wahrscheinlich.
+                                                   Das erste ist ein Schiebepuzzle, bei dem Sie Bildteile auf einer quadratischen Fläche
+                                                   so lange verschieben müssen, bis die Teile zu einem Gesamtbild verschmelzen. Bei dem
+                                                   zweiten Spiel handelt es sich um das bekannte Memory-Spiel.
+                                                </p>
+                                                <p>Die Modelle der Spiele geben weitere Beispiele für die Implementierung eines Modells
+                                                   im Model-View-Controller-Muster. Das Modell des Fototagebuchs ist eher passiv. Seine
+                                                   Hauptaufgabe ist die Speicherung der Daten. Im Gegensatz dazu speichern die Modelle
+                                                   der Spiele nicht nur die Daten, sondern sie müssen den Controller bei Datenänderungen
+                                                   auch informieren.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp5efea2f9-5971-4355-9098-73d240420ae8" name="dodtp5efea2f9-5971-4355-9098-73d240420ae8"></a><h2 class="t2"><span class="cfett">5.1</span><span class="cfett"> Modell und Controller</span><a href="#dodtpbfefaccf-2786-4687-9caf-bf869a37dd09"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h2>
+                                                <p>Dieser Abschnitt soll die Modellschicht im Model-View-Controller-Muster von einer
+                                                   anderen Seite darstellen. Modelle, die auf Core-Data basieren, bilden in erster Linie
+                                                   größere Datenmengen gleichartiger Objekte ab. Die <span class="cbegriff">Konsistenz</span><a class="indexterm" id="dodtp0c94b8fd-e662-46f8-8008-63316dc31c3f"></a> der Daten, also deren Gültigkeit, lässt sich durch relativ wenige und einfache Regeln
+                                                   beschreiben. Beispielsweise muss im Fototagebuch jedes Medium einen Tagebucheintrag
+                                                   haben.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpbfefaccf-2786-4687-9caf-bf869a37dd09" name="dodtpbfefaccf-2786-4687-9caf-bf869a37dd09"></a><h3 class="t3"><span class="cfett">5.1.1</span><span class="cfett"> iOS Next Topmodel</span><a href="#dodtpcdb08693-584e-460f-84d6-adbffd990377"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp5efea2f9-5971-4355-9098-73d240420ae8"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Die Modelle zu den Spielen in diesem Kapitel bestehen aus relativ wenigen Daten. Das
+                                                   Modell des Schiebepuzzles besteht beispielsweise nur aus einem Objekt. Andererseits
+                                                   muss es auch die Konsistenz der Spieledaten sicherstellen, und das ist komplizierter
+                                                   als bei vielen Core-Data-Datenmodellen. Das Modell des Schiebepuzzles stellt die Gültigkeit
+                                                   sicher, indem es nur erlaubte Operationen auf den Daten zulässt.
+                                                </p>
+                                                <p>Die Klasse <span class="clisting">Puzzle</span> im Projekt Games stellt das Modell des Schiebepuzzles dar. Sie verwendet dazu ein
+                                                   C-Array von <span class="clisting">NSUInteger</span>-Werten. Dabei stellt jeder Wert ein Puzzleteil dar, während die Position eines Wertes
+                                                   im Array dessen Position im Spielfeld angibt.
+                                                </p><a href="bilder/05_001.png" rel="lightbox" title="Modell des Schiebepuzzles"><img class="bild" border="1" src="bilderklein/klein05_001.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.1   </strong>Modell des Schiebepuzzles
+                                                </p>
+                                                <p>Das linke Bild in Abbildung 5.1 stellt das gelöste Puzzle &#8211; die <span class="cbegriff">Ausgangsstellung</span> &#8211; dar. Jeder Wert befindet sich dabei an der Position mit dem gleichen Index &#8211; also
+                                                   Wert 0 an Position 0 und so weiter. Der Wert 15 repräsentiert das leere Feld. Wenn
+                                                   Sie die Steine entlang des Pfeiles jeweils auf das leere Feld schieben, erhalten Sie
+                                                   die Puzzledarstellung des rechten Bildes. Die Werte haben also im Array des Modellobjekts
+                                                   die folgende Anordnung: [0, 1, 2, 3, 4, 15, 6, 7, 8, 5, 9, 11, 12, 13, 10, 14].
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Konsistenz des Schiebepuzzles
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Das Modell eines Schiebepuzzles ist <span class="cbegriff">konsistent</span><a class="indexterm" id="dodtpbe894601-b731-415e-b88f-3c37628327e6"></a>, wenn sich die Anordnung der Werte in dessen Array durch beliebige Schiebeoperationen
+                                                               aus der Ausgangsstellung erzeugen lässt. Die Puzzledarstellung [0, 1, 2, 3, 4, 15,
+                                                               6, 7, 8, 5, 9, 11, 12, 13, 10, 14] (rechtes Bild in Abbildung 5.1) ist also konsistent,
+                                                               da sie sich aus der Ausgangsdarstellung erzeugen lässt.
+                                                               
+                                                               Ein mögliches Beispiel für ein inkonsistentes Puzzle hat das Array [1, 0, 2, 3, 4,
+                                                               5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]. Das ist ein Puzzle in der Ausgangsstellung,
+                                                               bei dem die ersten beiden Teile vertauscht sind. Sie können die Teile eines konsistenten
+                                                               Puzzles beliebig oft verschieben, aber Sie können nie diese Anordnung der Teile erreichen.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Um die Konsistenz des Puzzlemodells sicherzustellen, liegen ihm folgende Regeln zugrunde:</p>
+                                                <ol class="paufz">
+                                                   <li>Ein neues Puzzle hat immer die Ausgangsstellung.</li>
+                                                   <li>Alle Methoden, die die Anordnung der Teile verändern, <br>basieren auf erlaubten Spielzügen.
+                                                   </li>
+                                                   <li>Alle anderen Methoden lesen die Daten nur aus oder <br>basieren auf Methoden der zweiten Regel.
+                                                   </li>
+                                                </ol>
+                                                <p>Das Puzzle besitzt eine private Property <span class="clisting">items</span>, die das Array mit den Werten enthält. Die Länge des Arrays speichert das Modell
+                                                   in der Property <span class="clisting">size</span>. Die erste Regel lässt sich sehr einfach herstellen. Wenn die Klasse das Array anlegt,
+                                                   setzt sie alle Einträge entsprechend:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">NSUInteger theSize = self.size;<br>for(NSUInteger i = 0; i &lt; theSize; ++i) {<br>    self.items[i] = i;<br>}<br>self.freeIndex = theSize &#8211; 1;<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.1   </strong>Initialisierung des Arrays des Modells
+                                                </p>
+                                                <p>Im Beispielprogramm finden Sie diese Schleife in der internen Methode <span class="clisting">clear</span> des Puzzlemodells. Das Puzzle merkt sich in der Property <span class="clisting">freeIndex</span> den Index des freien Feldes im Array.
+                                                </p>
+                                                <p>Die Puzzle-Klasse besitzt zwei Methoden, mit denen Sie die Anordnung der Puzzleteile
+                                                   verändern können. Die beiden Methoden bilden die Steuerungsmöglichkeiten des Spiels
+                                                   ab. Sie können das iPhone in vier Richtungen kippen, um die Teile zu bewegen. Diese
+                                                   Steuerungsmöglichkeit implementiert die Methode <span class="clisting">tiltToDirection:</span>. Sie können außerdem einen Stein berühren und ihn auf das freie Feld ziehen, was
+                                                   die Methode <span class="clisting">moveItemAtIndex:toDirection:</span> abbildet.
+                                                </p>
+                                                <p>Für die Richtungen verwendet das Modell einen eigenen Aufzählungstyp <span class="clisting">PuzzleDirection</span>. Abbildung 5.2 stellt die möglichen Spielzüge des Feldes mit dem Index 6 dar. Das
+                                                   freie Feld befindet sich dabei jeweils in dem Feld, auf das der Pfeil zeigt. Wenn
+                                                   Sie beispielsweise das Puzzle nach oben kippen, dann muss das freie Feld den Index
+                                                   2 haben. Oder andersherum: Wenn Sie das Puzzle nach oben kippen und der Index des
+                                                   freien Feldes ist 2, dann muss die Methode <span class="clisting">tiltToDirection:</span> Feld 2 und Feld 6 vertauschen. Daraus können Sie die Regeln für das Kippen herleiten:
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <caption class="tabunter">
+                                                      <p class="ptabellenunter"><strong>Tabelle 5.1   </strong>Regeln für das Kippen des Puzzles
+                                                      </p>
+                                                   </caption>
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf">
+                                                            
+                                                            
+                                                            
+                                                            <span class="cfett">Kipprichtung</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">Index des Feldes für den Tausch</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Links
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">freeIndex + 1</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Rechts
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">freeIndex</span> &#8211; <span class="clisting">1</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Oben
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">freeIndex + 4</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Unten
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">freeIndex</span> &#8211; <span class="clisting">4</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><a href="bilder/05_002.png" rel="lightbox" title="Spielzüge im Puzzle"><img class="bild" border="1" src="bilderklein/klein05_002.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.2   </strong>Spielzüge im Puzzle
+                                                </p>
+                                                <p>Es gibt aber auch ungültige Züge. Angenommen, das freie Feld befindet sich an Position
+                                                   12 und Sie kippen das Puzzle nach rechts. Nach den Regeln aus Tabelle 5.1 müssten
+                                                   Sie dann die Felder 11 und 12 miteinander vertauschen (gestrichelter Pfeil in Abbildung
+                                                   5.2). Das ist aber natürlich kein gültiger Zug, weil der Stein dabei die Zeile und
+                                                   Spalte auf einmal wechselt. Bei einem gültigen Zug müssen also die Indizes des freien
+                                                   Feldes und des Tauschfeldes entweder in der gleichen Zeile oder in der gleichen Spalte
+                                                   liegen.
+                                                </p>
+                                                <p>Den Zeilen- oder Spaltenindex zu einem Feldindex können Sie über eine <span class="cbegriff">Division mit Rest</span> mit 4 als Teiler ermitteln. Dazu ein paar Beispiele: Wenn Sie 13 durch 4 mit Rest
+                                                   teilen, erhalten Sie 13 = 3 * 4 + 1 also 3 mit Rest 1 als Ergebnis, und 5 = 1 * 4
+                                                   + 1 ist 1 mit Rest 1. Da der Divisionsrest bei beiden Rechnungen gleich ist, liegen
+                                                   beide Werte in der gleichen Spalte. Hingegen ist 15 = 3 * 4 + 3 also 3 Rest 3. Die
+                                                   Divisionsreste von 13 und 15 sind zwar unterschiedlich, aber bei beiden Werten ist
+                                                   der Quotient 3. Also liegen diese Zahlen in der gleichen Zeile. Wenn Sie das nicht
+                                                   glauben, dann schauen Sie doch in Abbildung 5.2.
+                                                </p>
+                                                <p>Außerdem kann es bei der Anwendung der Regeln aus Tabelle 5.1 passieren, dass der
+                                                   berechnete Index nicht zwischen 0 und 15 liegt. Da das Modell für Indexwerte vorzeichenlose
+                                                   Zahlen vom Typ <span class="clisting">NSUInteger</span> verwendet, können bei einer Subtraktion aber keine negativen Zahlen entstehen. Stattdessen
+                                                   findet ein Überlauf statt &#8211; mit einer sehr großen Zahl als Ergebnis. Wenn die Applikation
+                                                   beispielsweise 4 von 3 abzieht, ist das Ergebnis 4294967295. Die Gültigkeit eines
+                                                   Kippzuges des Puzzles können Sie also durch folgende Bedingung überprüfen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">theIndex &lt; self.size &amp;&amp; (<br>  (self.freeIndex / self.length) == (theIndex / self.length) ||<br>  (self.freeIndex % self.length) == (theIndex % self.length))<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.2   </strong>Gültigkeitsprüfung eines Zuges
+                                                </p>
+                                                <p>Dabei enthält <span class="clisting">theIndex</span> die Position des Feldes für die Vertauschung mit dem leeren Feld. Der Ausdruck <span class="clisting">self.length</span> liefert die Breite beziehungsweise Höhe des Puzzles &#8211; also 4. Wenn die Bedingung
+                                                   aus Listing 5.2 wahr ist, vertauscht die Methode <span class="clisting">tiltToDirection:</span> die Werte in den Feldern mit den Indizes <span class="clisting">freeIndex</span> und <span class="clisting">theIndex</span>.
+                                                </p>
+                                                <p>Die Logik der Methode <span class="clisting">moveItemAtIndex:toDirection:</span> ist verglichen mit <span class="clisting">tiltToDirection:</span> wesentlich einfacher. Der Indexparameter gibt das Feld für die Vertauschung mit dem
+                                                   leeren Feld an. Sie brauchen also nur zu prüfen, ob das leere Feld in der angegebenen
+                                                   Richtung vom angegebenen Feld liegt. Dazu berechnet die Methode den Index des Feldes
+                                                   in der angegebenen Richtung analog zur Methode <span class="clisting">tiltToDirection:</span>. Wenn dieser Wert mit dem angegebenen Index übereinstimmt, vertauscht die Methode
+                                                   die beiden Felder.
+                                                </p>
+                                                <p>Das Modell speichert neben den Positionen der Puzzleteile auch die Anzahl der durchgeführten
+                                                   Züge. Dazu stellt die Klasse die nur-lesbare Property <span class="clisting">moveCount</span> zur Verfügung. Mit der Methode <span class="clisting">shuffle</span> können Sie das Puzzle durchschütteln. Sie ermittelt mehrmals eine Pseudozufallszahl
+                                                   und schiebt das freie Feld durch mehrfache Aufrufe der Methode <span class="clisting">tiltToDirection:</span> auf das Feld mit diesem Index.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpcdb08693-584e-460f-84d6-adbffd990377" name="dodtpcdb08693-584e-460f-84d6-adbffd990377"></a><h3 class="t3"><span class="cfett">5.1.2</span><span class="cfett"> View an Controller</span><a href="#dodtpf43e6bf8-5b92-4faf-8de8-d852c2bdb6e7"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpbfefaccf-2786-4687-9caf-bf869a37dd09"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Das Puzzlespiel bietet zwei Möglichkeiten, die Steine zu verschieben. Zum einen können
+                                                   Sie die Steine per Finger verschieben. Das realisiert die App über vier Gesturerecognizer,
+                                                   die die Methode <span class="clisting">viewDidLoad</span> mit der Hilfsmethode <span class="clisting">addSwipeGestureRecognizerWithDirection:action:</span> erzeugt:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)addSwipeGestureRecognizerWithDirection:<br>    (UISwipeGestureRecognizerDirection)inDirection<br>                                        action:(SEL)inAction {<br>    UISwipeGestureRecognizer *theRecognizer =<br>        [[UISwipeGestureRecognizer alloc] initWithTarget:self<br>            action:inAction];<br><br>    theRecognizer.direction = inDirection;<br>    [self.puzzleView addGestureRecognizer:theRecognizer];<br>    [theRecognizer release];<br>}<br><br>- (void)viewDidLoad {<br>    [super viewDidLoad];<br>...<br>    [self addSwipeGestureRecognizerWithDirection:<br>        UISwipeGestureRecognizerDirectionLeft<br>        action:@selector(handleLeftSwipe:)];<br>    [self addSwipeGestureRecognizerWithDirection:<br>        UISwipeGestureRecognizerDirectionRight<br>        action:@selector(handleRightSwipe:)];<br>    [self addSwipeGestureRecognizerWithDirection:<br>        UISwipeGestureRecognizerDirectionUp<br>        action:@selector(handleUpSwipe:)];<br>    [self addSwipeGestureRecognizerWithDirection:<br>        UISwipeGestureRecognizerDirectionDown<br>        action:@selector(handleDownSwipe:)];<br>    [self clear];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.3   </strong>Erzeugung und Initialisierung der Swipe-Gesturerecognizer
+                                                </p>
+                                                <p>In Xcode 4.2 können Sie die Gesturerecognizer natürlich auch über den Interface Builder
+                                                   anlegen und zu dem Puzzleview hinzufügen. Die Auswertung der Swipe-Gesten erfolgt
+                                                   über jeweils eine Methode pro Richtung und eine Hilfsmethode:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)handleGestureRecognizer:<br>    (UIGestureRecognizer *)inRecognizer<br>                  withDirection:(PuzzleDirection)inDirection {<br>    UIView *thePuzzleView = self.puzzleView;<br>    Puzzle *thePuzzle = self.puzzle;<br>    CGPoint thePoint =<br>        [inRecognizer locationInView:thePuzzleView];<br>    NSUInteger theLength = thePuzzle.length;<br>    CGSize theViewSize = thePuzzleView.frame.size;<br>    NSUInteger theRow =<br>        thePoint.y * theLength / theViewSize.height;<br>    NSUInteger theColumn =<br>        thePoint.x * theLength / theViewSize.width;<br>    NSUInteger theIndex = theRow * theLength + theColumn;<br><br>    [thePuzzle moveItemAtIndex:theIndex toDirection:inDirection];<br>}<br><br>- (void)handleLeftSwipe:(UISwipeGestureRecognizer *)inRecognizer {<br>    [self handleGestureRecognizer:inRecognizer<br>                    withDirection:PuzzleDirectionLeft];<br>}<br><br>- (void)handleRightSwipe:(UISwipeGestureRecognizer *)inRecognizer {<br>    [self handleGestureRecognizer:inRecognizer<br>                    withDirection:PuzzleDirectionRight];<br>}<br><br>- (void)handleUpSwipe:(UISwipeGestureRecognizer *)inRecognizer {<br>    [self handleGestureRecognizer:inRecognizer<br>                    withDirection:PuzzleDirectionUp];<br>}<br><br>- (void)handleDownSwipe:(UISwipeGestureRecognizer *)inRecognizer {<br>    [self handleGestureRecognizer:inRecognizer<br>                    withDirection:PuzzleDirectionDown];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.4   </strong>Auswertung der Swipe-Gesten
+                                                </p>
+                                                <p>Die Methode <span class="clisting">handleGestureRecognizer:withDirection:</span> bestimmt zunächst aus der Position den Index des Feldes. Mit der übergebenen Richtung
+                                                   ruft sie dann die Methode <span class="clisting">moveItemAtIndex:toDirection:</span> auf.
+                                                </p>
+                                                <p>Sie können aber auch die Puzzlesteine über Kippbewegungen des Gerätes verschieben.
+                                                   Dafür verwendet die App den Beschleunigungssensor des Gerätes, auf den Sie über das
+                                                   Singleton <span class="clisting">UIAccelerometer</span> zugreifen können. Dazu müssen Sie in dem Singleton ein Delegate übergeben. Das geschieht
+                                                   in der Methode <span class="clisting">viewDidAppear:</span>, und die Methode <span class="clisting">viewWillDisappear:</span> setzt es wieder auf <span class="clisting">nil</span>. Das hat zwei Gründe. Zum einen können mit diesem Vorgehen auch andere View-Controller
+                                                   den Bewegungssensor nutzen, denn es kann sich ja immer nur der gerade angezeigte Controller
+                                                   als Delegate setzen. Zum anderen darf der ausgeblendete View-Controller auch keine
+                                                   Werte empfangen. Ansonsten würde ja der Controller fröhlich weiter Änderungen an das
+                                                   Modell senden, wenn Sie das iPhone bewegen.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)viewDidAppear:(BOOL)inAnimated {<br>    [super viewDidAppear:inAnimated];<br>    UIAccelerometer *theAccelerometer =<br>        [UIAccelerometer sharedAccelerometer];<br>    theAccelerometer.delegate = self;<br>    theAccelerometer.updateInterval = 0.05;<br>}<br>- (void)viewWillDisappear:(BOOL)inAnimated {<br>    UIAccelerometer *theAccelerometer =<br>        [UIAccelerometer sharedAccelerometer];<br>    theAccelerometer.delegate = nil;<br>    [super viewWillDisappear:inAnimated];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.5   </strong>An- und Abmeldung des Delegates beim Accelerometer
+                                                </p>
+                                                <p>Der Beschleunigungssensor liefert die Werte in einem Objekt der Klasse <span class="clisting">UIAcceleration</span> an die Delegatemethode. Dieses Objekt enthält die g-Werte entlang der drei Hauptachsen
+                                                   x, y und z (siehe Abbildung 5.3). Die Werte für diese Achsen geben dabei deren Ausrichtung
+                                                   zur Erdmitte an. Wenn das iPhone mit dem Display nach oben horizontal auf dem Tisch
+                                                   liegt, liefert der Sensor im Idealfall die Werte x = 0, y = 0 und z = &#8211;1. Halten Sie
+                                                   hingegen das Telefon genau senkrecht, um ein Foto zu schießen, dann erhalten Sie die
+                                                   Werte x = 0, y = &#8211;1, z = 0. Es hat also immer diejenige Achse einen Wert von +/&#8211;1,
+                                                   die nach unten zeigt, wobei das Vorzeichen dem Vorzeichen an der Achsenbeschriftung
+                                                   entspricht.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Do it yourself
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Apple stellt das Beispielprogramm <span class="cdateipfad">AccelerometerGraph</span> mit der Dokumentation zur Verfügung. Damit können Sie sich die Werte des Beschleunigungssensors
+                                                               auf Ihrem iPhone anzeigen lassen. Dieses Programm ist sehr praktisch, wenn Sie eigene
+                                                               Programme mit Beschleunigungssensorunterstützung entwickeln wollen.
+                                                               
+                                                               Um es in Xcode zu öffnen, rufen Sie die Hilfe über den Menüpunkt <span class="cscreenelement">Help</span> · <span class="cscreenelement">Documentation and API Reference</span> oder <span class="ctastatur"><img align="top" src="keys/ctastatur_KEFMVCk=.gif" alt="ALT" title="ALT"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KENNRCk=.gif" alt="CMD" title="CMD"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KD8p.gif" alt="?" title="?"></span> (beziehungsweise <span class="ctastatur"><img align="top" src="keys/ctastatur_KFNISUZUKQ==.gif" alt="SHIFT" title="SHIFT"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KEFMVCk=.gif" alt="ALT" title="ALT"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KENNRCk=.gif" alt="CMD" title="CMD"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur___4oAN8AKQA=.gif" alt="ß" title="ß"></span> auf einer deutschen Tastatur) auf und geben in das Suchfeld »AccelerometerGraph«
+                                                               ein. Das Projekt finden Sie dann unter der Rubrik <span class="cscreenelement">Sample Code</span> in der Ergebnisliste. Alternativ können Sie das Projekt auch über die URL <a href="http://developer.apple.com/library/ios/samplecode/AccelerometerGraph/" target="_blank">http://developer.apple.com/library/ios/samplecode/AccelerometerGraph/</a> öffnen. Diese App ist allerdings nur auf einem iOS-Gerät sinnvoll, da der Simulator
+                                                               keinen Beschleunigungssensor besitzt und diesen auch nicht nachahmen kann.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><a href="bilder/05_003.png" rel="lightbox" title="Die Achsen eines Acceleration-Objekts"><img class="bild" border="1" src="bilderklein/klein05_003.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.3   </strong>Die Achsen eines Acceleration-Objekts
+                                                </p>
+                                                <p>Um die Messwerte des Beschleunigungssensors empfangen und auswerten zu können, muss
+                                                   das Delegate die Methode <span class="clisting">accelerometer:didAccelerate:</span> implementieren.
+                                                </p>
+                                                <p>Das Puzzle soll die Kippbewegungen folgendermaßen auswerten. Wenn Sie das Gerät aus
+                                                   der horizontalen Lage in eine Richtung kippen, soll die App den passenden Stein auf
+                                                   das freie Feld schieben. Danach müssen Sie das Gerät erst wieder in die Ausgangslage
+                                                   bringen, um den nächsten Stein verschieben zu können. Um das zu verwirklichen, merkt
+                                                   sich der Controller die letzte Kipprichtung in der privaten Property <span class="clisting">lastDirection</span>. Neben den vier Richtungen für oben, unten, links und rechts gibt es noch einen Wert
+                                                   für <span class="cbegriff">keine Richtung</span>. Nur wenn die letzte Kipprichtung diesen Wert hat, führt der Controller einen Spielzug
+                                                   aus.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)accelerometer:(UIAccelerometer *)inAccelerometer<br>        didAccelerate:(UIAcceleration *)inAcceleration {<br>    float theX = inAcceleration.x;<br>    float theY = inAcceleration.y;<br><br>    if(self.lastDirection == PuzzleNoDirection) {<br>        Puzzle *thePuzzle = self.puzzle;<br><br>        if(fabs(theX) &gt; kHorizontalMaximalThreshold) {<br>            self.lastDirection = theX &lt; 0 ?<br>                PuzzleDirectionLeft : PuzzleDirectionRight;<br>        }<br>        else if(fabs(theY) &gt; kVerticalMaximalThreshold) {<br>            self.lastDirection = theY &lt; 0 ?<br>                PuzzleDirectionDown : PuzzleDirectionUp;<br>        }<br>        [thePuzzle tiltToDirection:self.lastDirection];<br>    }<br>    else if(fabs(theX) &lt; kHorizontalMinimalThreshold &amp;&amp;<br>        fabs(theY) &lt; kVerticalMinimalThreshold) {<br>        self.lastDirection = PuzzleNoDirection;<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.6   </strong>Auswertung der Beschleunigungssensorwerte
+                                                </p>
+                                                <p>Für die Auswertung sind nur die x- und y-Werte interessant. Sie lassen sich direkt
+                                                   in Links/rechts- beziehungsweise Unten/oben-Bewegungen übersetzen. Diese Auswertung
+                                                   veranschaulicht Abbildung 5.4. Wenn der x- und der y-Wert im grauen Quadrat liegen
+                                                   und somit das Gerät nicht weit genug gekippt wurde, dann setzt die Methode den Propertywert
+                                                   <span class="clisting">lastDirection</span> auf <span class="clisting">PuzzleNoDirection</span>. Die Methode setzt den Propertywert jeweils auf die Konstante, in deren Bereich sich
+                                                   der x- und der y-Wert befindet. Außerdem sendet sie diese Richtung natürlich auch
+                                                   als Kippbewegung an das Puzzle. Nur bei dem Bereich um das graue Quadrat verändert
+                                                   die Methode den Propertywert nicht.
+                                                </p><a href="bilder/05_004.png" rel="lightbox" title="Auswertungsbereiche für Beschleunigungswerte"><img class="bild" border="1" src="bilderklein/klein05_004.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.4   </strong>Auswertungsbereiche für Beschleunigungswerte
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpf43e6bf8-5b92-4faf-8de8-d852c2bdb6e7" name="dodtpf43e6bf8-5b92-4faf-8de8-d852c2bdb6e7"></a><h3 class="t3"><span class="cfett">5.1.3</span><span class="cfett"> Modell an Controller</span><a href="#dodtpa07cc55d-58b3-412a-b67d-a83e85baebc2"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpcdb08693-584e-460f-84d6-adbffd990377"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Der Controller übersetzt also alle Eingaben der Gesturerecognizer und des Beschleunigungssensors
+                                                   in Methodenaufrufe des Modells. Er muss aber nicht nur das Modell, sondern auch den
+                                                   View aktualisieren. Es wäre naheliegend, wenn Sie dazu in den Controller entsprechende
+                                                   Methodenaufrufe für den View einfügten. Dieses Vorgehen würde aber zu Methoden mit
+                                                   einem sehr ähnlichen Aufbau führen. Der erste Schritt aktualisiert das Modell und
+                                                   der zweite den View, was aber einige Nachteile hat:
+                                                </p>
+                                                <ol class="paufz">
+                                                   <li>Durch den ähnlichen Aufbau entsteht die Gefahr von Code-Doppelungen.</li>
+                                                   <li>Sie können komplexere Veränderungen des Modells unter Umständen nur sehr schlecht
+                                                      über dieses Vorgehen abbilden. Die Methode <span class="clisting">shuffle</span> führt beispielsweise sehr viele Vertauschungsoperationen durch.
+                                                   </li>
+                                                   <li>Wenn nicht nur ein, sondern mehrere Controller das Modell verändern können, können
+                                                      Modellinhalt und Viewdarstellung voneinander differieren.
+                                                   </li>
+                                                </ol>
+                                                <p>Diese Probleme lassen sich vermeiden, wenn das Modell den View automatisch über die
+                                                   Veränderungen benachrichtigt. Das Modell darf aber auf keinen Fall eine Abhängigkeit
+                                                   zum Controller oder View haben, weswegen Sie vom Modell nicht einfach auf diese Schichten
+                                                   zugreifen können. Außerdem sollte ja das Modell beliebig viele Controller und Views
+                                                   über Zustandsänderungen informieren können.
+                                                </p>
+                                                <p>Stattdessen kann auch das Modell bei jeder Veränderung entsprechende Benachrichtigungen
+                                                   versenden, die in Kapitel 4 vorgestellt wurden. Die vom Modellzustand abhängigen Controller
+                                                   lauschen auf diese Benachrichtigungen und aktualisieren sich und den View entsprechend.
+                                                </p>
+                                                <p>Das Modell des Schiebepuzzles versendet zwei Benachrichtigungen mit jeweils gleich
+                                                   aufgebautem Info-Dictionary. Die Methode <span class="clisting">tiltToDirection:</span> versendet die Benachrichtigung <span class="clisting">kPuzzleDidTiltNotification</span>, während <span class="clisting">moveItemAtIndex:toDirection:</span> die Benachrichtigung <span class="clisting">kPuzzleDidModeNotification</span> versendet. Das Directory <span class="clisting">userInfo</span> in der Benachrichtigung enthält dabei die folgenden Schlüssel:
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <caption class="tabunter">
+                                                      <p class="ptabellenunter"><strong>Tabelle 5.2   </strong>Schlüssel des User-Info-Dictionarys
+                                                      </p>
+                                                   </caption>
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf">
+                                                            
+                                                            
+                                                            
+                                                            <span class="cfett">Schlüssel</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">Wert</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">kPuzzleDirectionKey</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Die Bewegungsrichtung des Puzzleteils
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">kPuzzleFromIndexKey</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Der ursprüngliche Index des Puzzleteils
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">kPuzzleToIndexKey</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Der neue Index des Puzzleteils
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die Werte in der Tabelle haben alle den Typ <span class="clisting">NSUInteger</span>. Sie müssen diese Werte in <span class="clisting">NSNumber</span>-Objekten kapseln, um sie in einem <span class="clisting">NSDictionary</span> verwenden zu können.
+                                                </p>
+                                                <p>Abbildung 5.5 stellt das Vorgehen zur Aktualisierung des Views grafisch dar. Wenn
+                                                   der Nutzer eine Eingabe macht, läuft die Verarbeitung vom View über den Controller
+                                                   ins Modell. Das Modell schickt dann eine Benachrichtigung, die genau den umgekehrten
+                                                   Weg nimmt. Dieses Vorgehen erinnert ein bisschen an das Spielen über Bande beim Billard
+                                                   und wirkt umständlich. Der Vorteil dabei ist, dass der View keine Änderung des Modells
+                                                   verpassen kann. Wenn beispielsweise ein anderer Controller &#8211; symbolisiert durch das
+                                                   Fragezeichen &#8211; das Modell verändert, benachrichtigt es immer den View. Der View passt
+                                                   sich also immer dem Modell an.
+                                                </p><a href="bilder/05_005.png" rel="lightbox" title="Aktualisierung des Views über Modellaktualisierungen"><img class="bild" border="1" src="bilderklein/klein05_005.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.5   </strong>Aktualisierung des Views über Modellaktualisierungen
+                                                </p>
+                                                <p>Das Modell speichert außerdem die Anzahl der Züge. Auch hier soll die Anzeige des
+                                                   Spielstands automatisch bei einer Änderung erfolgen. Das Modell könnte hierzu auch
+                                                   Benachrichtigungen verwenden. Da es hierbei aber um die Beobachtung eines einzelnen
+                                                   Wertes geht, ist hierfür <span class="cbegriff">Key-Value-Observing</span><a class="indexterm" id="dodtpa72f72fb-cdc2-4134-bfcb-2c4c301835f0"></a> (KVO<a class="indexterm" id="dodtp9c886beb-ae54-46d8-b22f-4ee956a339e4"></a>) besser geeignet.
+                                                </p>
+                                                <p>Key-Value-Observing hat gegenüber Benachrichtigungen den Vorteil, dass Sie dafür nichts
+                                                   am Modell ändern müssen. Die Möglichkeit, Werte eines Objekts zu beobachten, ist bei
+                                                   den beobachteten Objekten in Cocoa sozusagen schon eingebaut. Sie brauchen nur noch
+                                                   den Beobachter einzurichten. Das machen Sie über die Methode <span class="clisting">addObserver:forKeyPath:options:context:</span>.
+                                                </p>
+                                                <p>Der <span class="clisting">PuzzleViewController</span> registriert sich beim Puzzlemodell als Beobachter für die Property <span class="clisting">moveCount</span> über den folgenden Aufruf:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">[self.puzzle addObserver:self<br>              forKeyPath:@"moveCount"<br>                 options:0<br>                 context:nil];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.7   </strong>Registrierung als Beobachter
+                                                </p>
+                                                <p>Bei jeder Änderung der Property <span class="clisting">moveCount</span> ruft dann Cocoa automatisch die Methode <span class="clisting">observeValueForKeyPath:ofObject:change:context:</span> des Beobachters auf. Dabei enthalten die ersten beiden Parameter den Namen der beobachteten
+                                                   Eigenschaft (hier <span class="clisting">moveCount</span>) beziehungsweise das beobachtete Objekt (also das Puzzle). Der Parameter <span class="clisting">change</span> enthält ein Dictionary mit verschiedenen Werten der Property. Sie können darüber
+                                                   beispielsweise den Wert vor der Änderung ermitteln. Dazu müssen Sie allerdings bei
+                                                   der Registrierung im Parameter <span class="clisting">options</span> allerdings den Wert <span class="clisting">NSKeyValueObservingOptionOld</span> angeben. Das Dictionary enthält diesen Wert dann unter dem Schlüssel <span class="clisting">NSKeyValueChangeOldKey</span>.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpa07cc55d-58b3-412a-b67d-a83e85baebc2" name="dodtpa07cc55d-58b3-412a-b67d-a83e85baebc2"></a><h3 class="t3"><span class="cfett">5.1.4</span><span class="cfett"> Undo und Redo</span><a href="#dodtp8755d0e5-718b-4a1b-9167-c6361491d08c"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpf43e6bf8-5b92-4faf-8de8-d852c2bdb6e7"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Beim Lösen eines Puzzles machen Sie sicherlich den ein oder anderen Zug, den Sie am
+                                                   liebsten sofort wieder zurücknehmen möchten. Sie können natürlich das zuletzt bewegte
+                                                   Teil wieder zurückschieben. Allerdings erhöht das Modell für diese Rücknahme auch
+                                                   den Zugzähler. Das Puzzle soll aber in dieser Situation auch ein Auge zudrücken können
+                                                   und dem Nutzer die Rücknahme seines letzten Zuges erlauben. Das Puzzle ist in dieser
+                                                   Hinsicht sogar sehr großzügig. Sie können beliebig viele Züge zurücknehmen.
+                                                </p>
+                                                <p>Das Foundation-Framework stellt für diesen Zweck die Klasse <span class="clisting">NSUndoManager</span><a class="indexterm" id="dodtpdf014d0e-8385-4b21-9fcc-6398c7cdf08a"></a> bereit, mit der Sie eine Undo- und Redo-Verwaltung implementieren können. Sie müssen
+                                                   dazu bei jedem Spielzug einen Methodenaufruf registrieren, der diesen Spielzug zurücknimmt.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Methodenaufrufe speichern
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Der Undo-Manager merkt sich Methodenaufrufe für die Undo-Operationen, wobei er sie
+                                                               natürlich nicht ausführt. Für das Merken verwendet er Objekte der Klasse <span class="clisting">NSInvocation</span><a class="indexterm" id="dodtpccb895b3-548d-4b58-8644-260941d9a3c5"></a>, die einen Empfänger, einen Selektor und die Parameter eines Methodenaufrufs speichern
+                                                               kann. Die Methode <span class="clisting">invoke</span> führt einen in einem Invocation-Objekt enthaltenen Methodenaufruf aus.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Für die Registrierung von Undo-Operationen stellt der Undo-Manager zwei Methoden zur
+                                                   Verfügung. Wenn Sie eine Methode mit nur einem Parameter registrieren möchten, können
+                                                   Sie dazu die Methode <span class="clisting">registerUndoWithTarget: selector:object:</span> verwenden. Sie erhält den Empfänger, den Selektor und das Parameterobjekt als Parameter.
+                                                   Die registrierten Methodenaufrufe verwaltet der Undo-Manager intern über einen Stapel
+                                                   (<span class="cbegriff">Last-In-First-Out</span><a class="indexterm" id="dodtp8880dc16-cc77-462d-91ea-3b4eb3acf8a7"></a> oder kurz <span class="cbegriff">LIFO</span><a class="indexterm" id="dodtpcfe23211-61fd-47ce-928d-e9bcbd2881a5"></a>) oder auch <span class="cbegriff">Undo-Stack</span><a class="indexterm" id="dodtp4b5406f5-2aef-4cf6-9810-d2e560af36c9"></a>. Beispielsweise können Sie damit folgendermaßen die Undo-Operation für einen Setteraufruf
+                                                   registrieren:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)setTitle:(NSString *)inTitle {<br>    if(title != inTitle) {<br>        [self.undoManager registerUndoWithTarget:self             selector:@selector(setTitle:) object:title];<br>        [title release];<br>        title = [inTitle retain];<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.8   </strong>Setter mit Undo-Manager
+                                                </p>
+                                                <p>Der Setter registriert im Undo-Manager einen Setter-Aufruf mit dem alten Property-Wert.
+                                                   Sie können den Manager durch einen Aufruf der Methode <span class="clisting">undo</span> dazu veranlassen, die zuletzt registrierte Undo-Operation auszuführen. Wenn das der
+                                                   Setter aus Listing 5.8 war, dann ruft der Undo-Manager erneut diesen Setter auf. Hierbei
+                                                   übergibt er aber den alten Wert, sodass das Objekt wieder den Titel vor dem ersten
+                                                   Setter-Aufruf hat.
+                                                </p>
+                                                <p>Zu dem Zeitpunkt, an dem der Setter die Undo-Operation aufruft, registriert er einen
+                                                   neuen Methodenaufruf. Dadurch kommt der Undo-Stack durcheinander! Aus dieser Not hat
+                                                   Apple eine Tugend gemacht. Während der Ausführung von Undo-Operationen zeichnet der
+                                                   Undo-Manager alle Methodenregistrierungen als Redo-Operationen auf. Eine Redo-Operation
+                                                   macht eine Undo-Anweisung rückgängig, und Sie können sie durch die Methode <span class="clisting">redo</span> im Undo-Manager ausführen. Der Undo-Manager verwaltet die Redo-Operationen über einen
+                                                   eigenen Stapel &#8211; dem <span class="cbegriff">Redo-Stack</span><a class="indexterm" id="dodtp00b7eca4-7cec-495a-8ba4-c0d3a8bbd990"></a>.
+                                                </p>
+                                                <p>In Abbildung 5.6 ist die Interaktion des Setters aus Listing 5.8 mit dem Undo-Manager
+                                                   abgebildet. Der dargestellte Ablauf entspricht dabei den folgenden Programmanweisungen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">[theObject setTitle:@"Neu"];<br>[theObject.undoManager undo];<br>[theObject.undoManager redo];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.9   </strong>Programmablauf zu Abbildung 5.6
+                                                </p>
+                                                <p>Die gestrichelten Pfeile in der Abbildung stellen die Registrierung der Undo- und
+                                                   Redo-Operationen dar. Die durchgezogenen Pfeile sind mit der aufgerufenen Methode
+                                                   des Undo-Managers beschriftet und zeigen die Herkunft des ausgeführten Methodenaufrufs
+                                                   an.
+                                                </p><a href="bilder/05_006.png" rel="lightbox" title="Interaktion des Setters mit dem Undo-Manager"><img class="bild" border="1" src="bilderklein/klein05_006.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.6   </strong>Interaktion des Setters mit dem Undo-Manager
+                                                </p>
+                                                <p>Um nun den Undo-Manager in das Puzzlemodell zu integrieren, muss jede Kippoperation
+                                                   die Kippoperation in die entsprechende Gegenrichtung beim Undo-Manager registrieren.
+                                                   Allerdings erhöht die Methode <span class="clisting">tiltToDirection:</span> den Zugzähler immer um eins. Sie brauchen also eine Methode, die wie <span class="clisting">tiltToDirection:</span> die Puzzleteile verschiebt, aber den Zugzähler um eins verringert. Aber anstatt die
+                                                   Methode zu kopieren und abzuändern, verwendet das Puzzle die interne Hilfsmethode
+                                                   <span class="clisting">tiltToDirection:withCountOffset:</span>. Den Wert des zweiten Parameters addiert die Methode zu dem Zugzähler. Sie können
+                                                   also hier den Wert 1 bei normalen Spielzügen und &#8211;1 bei Undo-Operationen angeben.
+                                                </p>
+                                                <p>Diese Methode können Sie aber nicht über die Methode <span class="clisting">registerUndoWithTarget:selector:object:</span> beim Undo-Manager registrieren. Sie hat erstens zwei Parameter, und das sind zweitens
+                                                   auch noch einfache Datentypen. Es gibt aber noch eine weitere Möglichkeit, um Undo-Methoden
+                                                   zu registrieren. Wenn Sie jetzt denken, dass Sie das Invocation-Objekt selber bauen
+                                                   müssen, dann sind Sie aber auf dem Holzweg. Der Undo-Manager stellt die Methode <span class="clisting">prepareWithInvocationTarget:</span> zur Verfügung. Sie müssen diese Methode mit dem Methodenempfänger aufrufen und an
+                                                   das Ergebnis den Methodenaufruf für die Undo-Operation senden. Sie können damit die
+                                                   Registrierung aus Listing 5.8 so schreiben:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">[[self.undoManager prepareWithInvocationTarget:self] setTitle:title];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.10   </strong>Alternative Registrierungsmöglichkeit einer Undo-Operation
+                                                </p>
+                                                <p>Auch dieser Code führt nicht die Methode <span class="clisting">setTitle:</span> aus. Was auf den ersten Blick wie Zauberei aussieht, ist bei genauerem Hinsehen aber
+                                                   nur ein geschickter Trick &#8211; wie das bei Magiern ja auch meistens der Fall ist.
+                                                </p>
+                                                <p>Des Rätsels Lösung liegt in der Antwort auf die Frage, was passiert, wenn ein Objekt
+                                                   eine ihm unbekannte Methode empfängt. Das Laufzeitsystem ruft in diesem Fall die Methode
+                                                   <span class="clisting">forwardInvocation:</span> des Objekts auf. Sie bekommt ein Invocationobjekt für den fehlerhaften Methodenaufruf
+                                                   als Parameter übergeben.
+                                                </p>
+                                                <p>Der Undo-Manager nutzt diesen Umstand aus. In der Methode <span class="clisting">prepareWithInvocationTarget:</span> merkt er sich einfach das Target-Objekt und gibt sich selbst zurück. Außerdem überschreibt
+                                                   er <span class="clisting">forwardInvocation:</span>. Darin ersetzt er im Invocation-Object das Invocation-Target und legt das Objekt
+                                                   auf den Undo- beziehungsweise Redo-Stack. Das Ganze klingt sehr kompliziert, ist aber
+                                                   recht einfach:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (id)prepareWithInvocationTarget:(id)inTarget {<br>    self.preparedTarget = inTarget;<br>    return self;<br>}<br>- (void)forwardInvocation:(NSInvocation *)inoutInvocation {<br>    [inoutInvocation setTarget:self.preparedTarget];<br>    self.preparedTarget = nil;<br>    // inoutInvoction auf Undo- oder Redo-Stack<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.11   </strong>Invocation-Erzeugung über Proxy-Aufruf
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Proxys
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Dieses Vorgehen basiert auf dem <span class="cbegriff">Proxymuster</span><a class="indexterm" id="dodtpd5b37444-a346-4c1d-b23e-5692ccc76cb4"></a>. Ein <span class="cbegriff">Proxy</span><a class="indexterm" id="dodtpd7977a69-469e-4870-8236-3b4b7d2b4ba1"></a> ist ein Objekt, das ein anderes Objekt kapselt und dessen Methodenaufrufe entgegennimmt.
+                                                               Der Proxy ist dabei für den Methodenaufrufer vollkommen transparent. Durch das Proxyobjekt
+                                                               besteht die Möglichkeit, die Methodenaufrufe zu modifizieren. Im Fall des Undo-Managers
+                                                               ist das die Speicherung der Methodenaufrufe.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Vielleicht kennen Sie ja den Begriff <span class="cbegriff">Proxy</span> von den Netzwerkeinstellungen in Mac OS X oder von Ihrem Internetbrowser. Dort können
+                                                               Sie Ihre Webseitenaufrufe durch einen Proxyserver leiten. Der Proxyserver speichert
+                                                               die aufgerufenen Seiten, um den Traffic zu mindern und die Seitenaufrufe zu beschleunigen.<span class="footnote"><a id="dodtp0108cccb-6e14-404b-b73d-7815bfc33660">[22](Meistens machen die Web-Proxys im Gegensatz zum Entwurfsmuster aber einfach auch nur viel Ärger.)</a></span> Das ist das gleiche Prinzip wie bei dem Entwurfsmuster.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p> 
+                                                </p>
+                                                <p>Mit der Methode <span class="clisting">tiltToDirection:withCountOffset:</span> können Sie jetzt die vollständige Undo- und Redo-Funktionalität des Puzzles implementieren.
+                                                   Dabei erfolgt die Registrierung der Undo-Operation folgendermaßen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">Puzzle *thePuzzle = [self.undoManager<br>                        prepareWithInvocationTarget:self];<br>...<br>[thePuzzle tiltToDirection:theReverseDirection<br>           withCountOffset:-inOffset];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.12   </strong>Registrierung der Undo-Operation im Puzzle
+                                                </p>
+                                                <p>Durch das Negieren des Offsets verhält sich die Methode nicht nur bei Undo-, sondern
+                                                   auch bei Redo-Aufrufen richtig. Denn Letzteres muss ja den Zugzähler wieder erhöhen.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp8755d0e5-718b-4a1b-9167-c6361491d08c" name="dodtp8755d0e5-718b-4a1b-9167-c6361491d08c"></a><h3 class="t3"><span class="cfett">5.1.5</span><span class="cfett"> Unittests</span><a href="#dodtpa07cc55d-58b3-412a-b67d-a83e85baebc2"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Sie haben jetzt für das Puzzle ein Modell, das auf theoretischen Überlegungen zu dem
+                                                   Spiel beruht. Aber macht es denn auch das, was es soll? Normalerweise testen Sie während
+                                                   der Programmerstellung komplette Funktionen Ihrer App. Sie kippen beispielsweise das
+                                                   iPhone und überprüfen, ob die Puzzle-App auch das richtige Teil verschiebt. Diese
+                                                   Funktionstests sind sehr wichtig, und Sie kommen nicht um sie herum.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Funktionstests
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie sollten Ihre App vor der Veröffentlichung von mehreren anderen Nutzern testen
+                                                               lassen. Tester finden häufig die erstaunlichsten Fehler in den Apps. Optimalerweise
+                                                               lassen Sie Ihre App nicht nur von verschiedenen Personen, sondern auch auf verschiedenen
+                                                               Geräten überprüfen.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Es ist bei komplexen Programmen inzwischen üblich, automatisierte Testverfahren zu
+                                                   erstellen und regelmäßige Testläufe durchzuführen. Mit Xcode 4 hat Apple die Erstellung
+                                                   und Ausführung von <span class="cbegriff">Modul-</span><a class="indexterm" id="dodtp448bea14-23d8-4a82-8694-ddecbc9bb175"></a> oder auch <span class="cbegriff">Unittests</span><a class="indexterm" id="dodtp7fcef94b-6b73-45c1-9480-c04caee9b8a9"></a> erheblich vereinfacht. Wenn Sie ein neues Projekt anlegen, brauchen Sie nur die Checkbox
+                                                   <span class="cscreenelement">Include Unit Tests</span> anzuklicken. Xcode legt dann ein weiteres <span class="cbegriff">Target</span><a class="indexterm" id="dodtp91b881a5-41f3-470e-8eda-c9e1b57d350a"></a> für die Tests in dem neuen Projekt an. Dieses Target enthält eine Klasse, in die
+                                                   Sie Ihre Testmethoden schreiben können.
+                                                </p>
+                                                <p>Sie können das Target für die Tests aber auch noch später erstellen oder in Ihrem
+                                                   Programm auch mehrere Testtargets anlegen. Wählen Sie dazu den Menüpunkt <span class="cscreenelement">File</span> · <span class="cscreenelement">New Target...</span> aus. Es erscheint der in Abbildung 5.7 dargestellte Dialog. Selektieren Sie dort
+                                                   in der linken Spalte unter <span class="cscreenelement">iOS</span> den Punkt <span class="cscreenelement">Other</span> und dann in der Übersicht das Template <span class="cscreenelement">Cocoa Touch Unit Testing Bundle</span>.
+                                                </p><a href="bilder/05_007.png" rel="lightbox" title="Anlegen eines neuen Targets"><img class="bild" border="1" src="bilderklein/klein05_007.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.7   </strong>Anlegen eines neuen Targets
+                                                </p>
+                                                <p>Wenn Sie auf den Button <span class="cscreenelement">Next</span> des Dialogs klicken, erscheint der in Abbildung 5.8 dargestellte Dialog. Dort können
+                                                   Sie den Namen und weitere Optionen des neuen Targets festlegen. Nachdem Sie auf den
+                                                   Buttons <span class="cscreenelement">Finish</span> geklickt haben, enthält das Projekt eine neue Gruppe mit dem Namen des Targets. In
+                                                   der Gruppe finden Sie eine Klasse, die ebenfalls den Namen des Targets hat und die
+                                                   Oberklasse <span class="clisting">SenTestCase</span> besitzt.
+                                                </p>
+                                                <p>Die Klasse enthält bereits die drei Methoden:</p>
+                                                <ol class="paufz">
+                                                   <li>Das Testframework ruft Methode <span class="clisting">setUp</span> jeweils vor der Ausführung jeder Testmethode auf. Sie sollten innerhalb von <span class="clisting">setUp</span> durch <span class="clisting">[super setUp];</span> immer als Erstes die Methode in der Oberklasse aufrufen. Danach können Sie Ihre Testklasse
+                                                      für den Test initialisieren.
+                                                   </li>
+                                                   <li>Die Methode <span class="clisting">tearDown</span> ruft das Testframework nach der Ausführung einer Testmethode auf. Sie sollte immer
+                                                      als letzte Anweisung <span class="clisting">[super tearDown];</span> enthalten. In dieser Methode können Sie die Ressourcen Ihrer Testklasse wieder freigeben.
+                                                   </li>
+                                                   <li>Alle Testmethoden beginnen mit dem Präfix <span class="clisting">test</span> und haben keine Parameter. Die Methode <span class="clisting">testExample</span> ist ein Beispiel für eine Testmethode.
+                                                   </li>
+                                                </ol><a href="bilder/05_008.png" rel="lightbox" title="Eingabe der Target-Optionen"><img class="bild" border="1" src="bilderklein/klein05_008.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.8   </strong>Eingabe der Target-Optionen
+                                                </p>
+                                                <p>Sie können in eine Testmethode beliebigen, lauffähigen Code hineinschreiben. Sie müssen
+                                                   aber alle Klassen Ihres Programms, die Sie testen wollen, zu diesem neuen Target hinzufügen.
+                                                   Dazu brauchen Sie im Dateiinspektor unter der Rubrik <span class="cscreenelement">Target Membership</span> einfach nur das entsprechende Target anzuklicken (siehe Abbildung 5.9). Das Gleiche
+                                                   gilt natürlich auch für die verwendeten Frameworks.
+                                                </p>
+                                                <p>Zusätzlich stellt das <span class="cbegriff">SenTestKit</span>-Framework, auf dem die Testumgebung basiert, noch Makros bereit, um die Anweisungen
+                                                   zu testen. Sie können mit dem Makro <span class="clisting">STAssertTrue(</span><span class="ckursiv">Bedingung</span>, <span class="ckursiv">Fehlermeldung</span>, <span class="clisting">...)</span> prüfen, ob die angegebene Bedingung wahr ist. Falls sie falsch ist, gibt das Makro
+                                                   die Fehlermeldung aus. In der Meldung können Sie die üblichen Platzhalter verwenden,
+                                                   die Sie auch von <span class="clisting">stringWithFormat:</span> kennen. Falls Sie stattdessen erwarten, dass die Bedingung falsch ist, können Sie
+                                                   <span class="clisting">STAssertFalse(</span><span class="ckursiv">Bedingung</span>, <span class="ckursiv">Fehlermeldung</span>, <span class="clisting">...)</span> verwenden.
+                                                </p>
+                                                <p>Das Testprojekt nutzt die Unittests, um die Modellklassen zu prüfen. Als Grundlage
+                                                   der Tests dient das logische Modell der Puzzleklasse. Der erste Test überprüft die
+                                                   Konstruktion eines neuen Puzzlemodells. Wenn Sie ein neues Modell erzeugen, soll es
+                                                   die Ausgangsstellung haben. Damit die Testklasse das Modell nach den Tests immer freigeben
+                                                   kann, besitzt sie eine Property <span class="clisting">puzzle</span>, die das Modell der Tests enthält.
+                                                </p><a href="bilder/05_009.png" rel="lightbox" title="Datei zum Target mit den Unittests hinzufügen"><img class="bild" border="1" src="bilderklein/klein05_009.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.9   </strong>Datei zum Target mit den Unittests hinzufügen
+                                                </p>
+                                                <p>Die Testmethode in Listing 5.13 überprüft zunächst, ob das Puzzle die richtige Länge
+                                                   und die richtige Größe besitzt. Das Puzzle befindet sich in der Ausgangsstellung,
+                                                   wenn sich jedes Puzzleteil an der Position befindet, die seinem Wert entspricht.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)testCreation {<br>    self.puzzle = [Puzzle puzzleWithLength:4];<br>    STAssertTrue(self.puzzle.length == 4, @"invalid length = %d", self.puzzle.length);<br>    STAssertTrue(self.puzzle.size == 16, @"invalid size = %d", self.puzzle.size);<br>    for(NSUInteger i = 0; i &lt; self.puzzle.size; ++i) {<br>        NSUInteger theValue = [self.puzzle valueAtIndex:i];<br><br>        STAssertTrue(theValue == i,<br>            @"invalid value %d at index %d", theValue, i);<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.13   </strong>Unittest für die Ausgangsstellung des Puzzles
+                                                </p>
+                                                <p>Xcode zeigt die nicht erfüllten Testbedingungen nach der Ausführung der Testmethode
+                                                   als rote Fehlermeldungen im Quelltext an. Die Testmethode <span class="clisting">testCreation</span> ist sehr sinnvoll. Sie können jetzt immer davon ausgehen, dass ein neues Puzzle sich
+                                                   in der Ausgangsposition befindet. Das ist eine gute Basis für weitere Testmethoden.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Das geht Sie nichts an
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Ihre Testmethoden<a class="indexterm" id="dodtp4ffeed2b-f091-4534-b95d-aca5eef55400"></a> sollten die Testobjekte<a class="indexterm" id="dodtpb2e4236c-de15-4439-af32-c8612f4027a3"></a> immer wie eine <span class="cbegriff">Blackbox</span> behandeln. Sie dürfen also nicht auf die Interna der zu testenden Klassen zugreifen,
+                                                               sondern nur auf die öffentlichen Methoden und Propertys der Klassen. Dadurch können
+                                                               Sie die Implementierung der Klassen jederzeit (ver-)ändern, ohne den Testcode anpassen
+                                                               zu müssen.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Abbildung 5.1 enthält ein Beispiel für die Veränderung des Puzzlemodells durch eine
+                                                   Zugfolge aus der Ausgangsstellung. Ein Puzzle in Ausgangsstellung, das Sie nach rechts,
+                                                   unten, rechts und wieder nach unten kippen, hat ein Array mit der Anordnung: [0, 1,
+                                                   2, 3, 4, 15, 6, 7, 8, 5, 9, 11, 12, 13, 10, 14]. Das lässt sich wunderbar in einer
+                                                   Testmethode umsetzen.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)testComplexMove {<br>    static NSUInteger theValues[] = {<br>        0, 1, 2, 3, 4, 15, 6, 7, 8, 5, 9, 11, 12, 13, 10, 14 };<br><br>    self.puzzle = [Puzzle puzzleWithLength:4];<br>    STAssertTrue([self.puzzle<br>        tiltToDirection:PuzzleDirectionRight],<br>        @"Can't tilt right.");<br>    STAssertTrue([self.puzzle<br>        tiltToDirection:PuzzleDirectionDown],<br>        @"Can't tilt down.");<br>    STAssertTrue([self.puzzle<br>        tiltToDirection:PuzzleDirectionRight],<br>        @"Can't tilt right.");<br>    STAssertTrue([self.puzzle<br>        tiltToDirection:PuzzleDirectionDown],<br>        @"Can't tilt down.");<br>    STAssertTrue(self.puzzle.freeIndex == 5,<br>        @"invalid free index: %u", self.puzzle.freeIndex);<br>    for(NSUInteger i = 0; i &lt; self.puzzle.size; ++i) {<br>        NSUInteger theValue = [self.puzzle valueAtIndex:i];<br><br>        STAssertTrue(theValue == theValues[i],<br>            @"invalid value %d (%d) at index %d",<br>            theValue, theValues[i], i);<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.14   </strong>Testmethode zu Abbildung 5.1
+                                                </p>
+                                                <p>Die Testmethode in Listing 5.14 führt zunächst die vier Kippzüge aus. Dabei prüft
+                                                   sie auch, ob das Modell auch jeden Zug erfolgreich ausgeführt hat. Danach vergleicht
+                                                   die Methode die Anordnung der Teile im Modell (Ist-Wert) mit den Soll-Werten des Arrays
+                                                   <span class="clisting">theValues</span>.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Aus Fehlern lernen
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Ihr Programm hat einen Fehler? Wenn Sie die Fehlersituation in einem Testfall nachbilden,
+                                                               haben Sie eine gute Möglichkeit, den Fehler einfacher und schneller zu analysieren.
+                                                               Sie können ihn mit der Testmethode sozusagen unter Laborbedingungen untersuchen. Die
+                                                               Testbedingungen müssen natürlich das richtige Verhalten des Programms prüfen. Außerdem
+                                                               können Sie mithilfe der Testmethode prüfen, ob Sie den Fehler aus Ihrem Code eliminiert
+                                                               haben. Denn Ihre Testmethode zeigt so lange Fehler an, bis Ihr Code richtig funktioniert.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die beschriebenen Tests gehen davon aus, dass der Nutzer nur gültige Züge macht. Das
+                                                   sieht in der Praxis aber meistens anders aus. Auch diesen Fall sollten Sie in den
+                                                   Testfällen berücksichtigen. Beispielsweise darf das Kippen eines Puzzles in der Ausgangsstellung
+                                                   nach links das Puzzle nicht verändern. In diesem Fall muss die Methode <span class="clisting">tiltToDirection:</span> den Wert <span class="clisting">NO</span> liefern.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)testInvalidMoves {<br>    self.puzzle = [Puzzle puzzleWithLength:4];<br>    STAssertFalse([self.puzzle<br>        tiltToDirection:PuzzleDirectionLeft], @"tilt left.");<br>    STAssertNil(self.notification, @"notification sent");<br>    STAssertTrue(self.puzzle.solved, @"puzzle not solved");<br>    STAssertFalse([self.puzzle<br>        tiltToDirection:PuzzleDirectionUp], @"tilt up.");<br>    STAssertNil(self.notification, @"notification sent");<br>    STAssertTrue(self.puzzle.solved, @"puzzle not solved");<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.15   </strong>Testen unerlaubter Züge
+                                                </p>
+                                                <p>Für nicht ausgeführte Züge darf das Modell natürlich auch keine Benachrichtigungen
+                                                   versenden. Um die Benachrichtigungen überprüfen zu können, registriert sich die Testklasse
+                                                   beim Notification-Center und speichert die gesendeten Benachrichtigungen in der Property
+                                                   <span class="clisting">notification</span>. Mit dem Makro <span class="clisting">STAssertNil(</span><span class="ckursiv">Ausdruck</span>, <span class="ckursiv">Fehlermeldung</span>, <span class="clisting">...)</span> können Sie überprüfen, ob ein Ausdruck <span class="clisting">nil</span> ist.
+                                                </p>
+                                                <p>Natürlich sollten die Tests auch den erfolgreichen Versand überprüfen. Da die Überprüfung
+                                                   einer Benachrichtigung mehrere Tests an verschiedenenen Stellen umfasst, enthält die
+                                                   Testklasse dafür die Methode <span class="clisting">checkNotificationWithName:fromIndex:toIndex:</span>. Sie können damit die Testmethode <span class="clisting">testComplexMove</span> entsprechend erweitern:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">STAssertTrue([self.puzzle tiltToDirection:PuzzleDirectionRight],<br>             @"Can't tilt right.");<br>[self checkNotificationWithName:kPuzzleDidTiltNotification<br>                      fromIndex:14 toIndex:15];<br>STAssertTrue([self.puzzle tiltToDirection:PuzzleDirectionDown],<br>             @"Can't tilt down.");<br>[self checkNotificationWithName:kPuzzleDidTiltNotification<br>                      fromIndex:10 toIndex:14];<br>STAssertTrue([self.puzzle tiltToDirection:PuzzleDirectionRight],<br>             @"Can't tilt right.");<br>[self checkNotificationWithName:kPuzzleDidTiltNotification<br>                      fromIndex:9 toIndex:10];<br>STAssertTrue([self.puzzle tiltToDirection:PuzzleDirectionDown],<br>             @"Can't tilt down.");<br>[self checkNotificationWithName:kPuzzleDidTiltNotification<br>                      fromIndex:5 toIndex:9];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.16   </strong>Überprüfung der Benachrichtigungen
+                                                </p>
+                                                <p>Sie sehen schon: Das Testen eines Programms &#8211; und sei es nur eine Modellklasse &#8211; ist
+                                                   wie ein Fass ohne Boden.
+                                                </p><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_05_001.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="5 Animationen und Layer"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_04_006.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_05_002.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

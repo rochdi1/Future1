@@ -1,0 +1,922 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 4 Daten, Tabellen und Controller">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 4 Daten, Tabellen und Controller">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 4 Daten, Tabellen und Controller</title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_04_001.html">
+      <link rel="next" href="apps_04_003.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_04_001.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_04_003.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6" class="navnav">4 Daten, Tabellen und Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_001.html#dodtp161390c7-9a37-4c74-9595-2265118b8a9d" class="navnav">4.1 Benachrichtigungen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_001.html#dodtp944a9e6e-1cbf-401f-ab3b-c6f85b6c876d" class="navnav">4.1.1 Benachrichtigungen empfangen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_001.html#dodtpad52d840-8b9f-495b-8a2a-35e4047330dd" class="navnav">4.1.2 Eigene Benachrichtigungen verschicken</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_002.html#dodtpb57c4bb1-6c65-41ad-89c1-3b7576ac3d40" class="navh">4.2 Core Data</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtpe1e9b8ac-e5e8-4efb-a42d-3b2d94c7f1fe" class="navh">4.2.1 Datenmodellierung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtpfe1fabf9-75f8-485c-87ce-e94464e26740" class="navh">4.2.2 Implementierung von Entitätstypen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp04f7af7a-9e1e-4cde-bd50-4948972b41c4" class="navh">4.2.3 Einbindung von Core Data</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp711fd6f8-9d0b-43f7-b7df-59135a212956" class="navh">4.2.4 Der Objektkontext</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp2ba4af9f-2546-41d4-b686-0ffb17d12850" class="navh">4.2.5 Die Nachrichten des Objektkontexts</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp94b638ad-f337-4d8a-b0e4-505a32faba95" class="navh">4.2.6 Anlegen und Ändern von Entitäten in der Praxis</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_003.html#dodtpf45f1df5-53c6-4a69-a3ed-d229d0003cff" class="navnav">4.3 View-Rotationen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_003.html#dodtp5345ec09-8314-4638-b388-9dc3d0a6983d" class="navnav">4.3.1 Flexible Views dank der Autoresizingmask</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_003.html#dodtpb891c5b3-4a6e-4b5e-948d-d111012768e1" class="navnav">4.3.2 Lang lebe das Rotationsprinzip</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_003.html#dodtpd1dcc312-26bd-4cb1-bb4c-02bbae967f9e" class="navnav">4.3.3 Anpassung des Layouts</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_004.html#dodtp4879682b-5be3-4bc3-ac97-1ba88bf23d21" class="navnav">4.4 Texte, Bilder und Töne verwalten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_004.html#dodtp4d2a8cd8-a7fd-43f6-97f5-5e8ce021411a" class="navnav">4.4.1 Die Tastatur betritt die Bühne</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_004.html#dodtp1742cc84-080e-4401-bb5f-8199ed8adfe7" class="navnav">4.4.2 Fotos aufnehmen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_004.html#dodtp742013f6-5218-4c2b-94a5-35d471354bd2" class="navnav">4.4.3 Töne aufnehmen und abspielen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_005.html#dodtpc3f5f98e-3fa0-4ded-b3a1-091f17c3d7f1" class="navnav">4.5 Tableviews und Core Data</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp4173eb94-717b-41c2-bf9b-9b9909cbbd9d" class="navnav">4.5.1 Tableviews</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtpac0189cc-2f13-478f-a1c4-c4ff25a79da7" class="navnav">4.5.2 Tabellenzellen gestalten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtpe33951e6-7013-4dab-96e0-1e4ef4c73ca3" class="navnav">4.5.3 Buttons in Tabellenzellen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp04982a99-ada3-4624-aa0c-879217a1b0b1" class="navnav">4.5.4 Zellen löschen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp26fdab25-043f-47e3-9d67-3f4b5fd3614b" class="navnav">4.5.5 Core Data II: Die Rückkehr der Objekte</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp71d9a2c1-d96b-4401-9885-7307c2ff22d4" class="navnav">4.5.6 Prädikate</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp0437a63c-3e9d-4a27-8595-255fa2fc4555" class="navnav">4.5.7 Aktualisierung des Tableviews</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp34c90a04-f378-49e9-bd0b-db542c8f1874" class="navnav">4.5.8 Das Delegate des Fetchedresultscontrollers</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp93db3543-20d8-4787-95a7-bf305df55e41" class="navnav">4.5.9 Tabelleneinträge suchen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_006.html#dodtp7af46a15-51ff-4fcc-b2c4-b30e36461622" class="navnav">4.6 Containerviewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtpbdcb129d-0df5-43de-a8fa-0dbcdfbaa055" class="navnav">4.6.1 Der Navigationcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtp3216b28c-3a06-4dee-a7dd-4ba43a860410" class="navnav">4.6.2 Splitviewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtp42a6570b-bf63-47d9-8397-a69f74153e47" class="navnav">4.6.3 Der Pageviewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtp9d49c8ad-9181-4db0-8db3-4376f11656ac" class="navnav">4.6.4 Subview- und Containerviewcontroller</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main"><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpb57c4bb1-6c65-41ad-89c1-3b7576ac3d40" name="dodtpb57c4bb1-6c65-41ad-89c1-3b7576ac3d40"></a><h2 class="t2"><span class="cfett">4.2</span><span class="cfett"> Core Data</span><a href="#dodtpe1e9b8ac-e5e8-4efb-a42d-3b2d94c7f1fe"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h2>
+                                                <p>Das Beispielprogramm dieses Kapitels besitzt im Gegensatz zum analogen Wecker eine
+                                                   Modellschicht mit eigenen Klassen. Sie stellen die Daten des Fototagebuchs dar. Die
+                                                   Applikation kann diese Daten aber nicht nur anzeigen und bearbeiten, sondern auch
+                                                   im nichtflüchtigen Speicher des Gerätes ablegen und von dort auch wieder laden. Das
+                                                   Fototagebuch verwendet für die Datenmodellierung und -speicherung das Apple-Framework
+                                                   <span class="cbegriff">Core Data</span><a class="indexterm" id="dodtpeb45785a-0b99-49e8-8700-3a6ca91603bf"></a>.
+                                                </p>
+                                                <p>Core Data ist eine Technologie, um persistente Objektgraphen in Applikationen zu implementieren.
+                                                   Ein <span class="cbegriff">Objektgraph</span><a class="indexterm" id="dodtpabdebef9-a4ba-4b12-a95c-8fcfda01e3cf"></a> besteht aus durch <span class="cbegriff">Relationships</span><a class="indexterm" id="dodtpff3faf90-3260-4987-b4b5-b1671b90a968"></a> miteinander verbundenen Objekten, und <span class="cbegriff">Persistenz</span><a class="indexterm" id="dodtp66734235-c8f6-4bd6-a9a3-94c6cc8a0a3f"></a> ist die dauerhafte Speicherung von Daten. Core Data stellt Relationships durch entsprechende
+                                                   Propertys dar. Jede Applikation lässt natürlich nur bestimmte Objektgraphen zu. Wie
+                                                   die zulässigen Graphen eines Programms aussehen, legt das Datenmodell fest.
+                                                </p>
+                                                <p>Solche Datenmodelle lassen sich am einfachsten durch Graphen beschreiben. Vielleicht
+                                                   kennen Sie ja auch schon Entity-Relationship-Diagramme (ER-Diagramme) oder UML-Klassendiagramme,
+                                                   die Ähnliches leisten. In Xcode ist einen Datenmodelleditor integriert, der sowohl
+                                                   eine graphische als auch eine dialogorientierte Erstellung und Bearbeitung von Datenmodellen
+                                                   erlaubt. Die graphische Darstellung orientiert sich dabei an ER-Diagrammen.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpe1e9b8ac-e5e8-4efb-a42d-3b2d94c7f1fe" name="dodtpe1e9b8ac-e5e8-4efb-a42d-3b2d94c7f1fe"></a><h3 class="t3"><span class="cfett">4.2.1</span><span class="cfett"> Datenmodellierung</span><a href="#dodtpfe1fabf9-75f8-485c-87ce-e94464e26740"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpb57c4bb1-6c65-41ad-89c1-3b7576ac3d40"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Im Projekt <span class="cdateipfad">PhotoDiary</span> auf der beiliegenden DVD finden Sie in der Gruppe <span class="cscreenelement">Resources</span> die Datei <span class="cdateipfad">Model.xcdatamodeld</span>. Sie enthält das Datenmodell des Fototagebuchs. Wenn Sie die Datei auswählen, sehen
+                                                   Sie das Datenmodell, wie in Abbildung 4.1 dargestellt.
+                                                </p><a href="bilder/04_001.png" rel="lightbox" title="Das Datenmodell in der Dialogdarstellung"><img class="bild" border="1" src="bilderklein/klein04_001.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.1   </strong>Das Datenmodell in der Dialogdarstellung
+                                                </p>
+                                                <p>Unter <span class="cscreenelement">Entities</span> finden Sie die Entitätstypen des Datenmodells. Ein <span class="cbegriff">Entitätstyp</span><a class="indexterm" id="dodtp8991b876-d943-4ee7-a245-532078a99c77"></a> &#8211; häufig fälschlicherweise auch nur Entität genannt &#8211; beschreibt eine Objektklasse
+                                                   in einem Datenmodell. Sie enthält Attribute und ist durch Relationships mit anderen
+                                                   Entitätstypen verbunden. Im Fototagebuch ist jedem Entitätstyp eine gleichnamige Klasse
+                                                   zugeordnet. Das muss aber nicht immer so sein. Die Basisklasse aller Entitätstypen,
+                                                   <span class="clisting">NSManagedObject</span>, reicht als Implementierung beliebiger Entitätstypen aus. Die Unterscheidung zwischen
+                                                   Entitätstypen und Klassen ist allerdings in der Praxis sekundär. Sie können sich also
+                                                   unter einem Entitätstyp ruhig so etwas wie eine Klasse vorstellen, die allerdings
+                                                   keine eigenen Methoden besitzt.
+                                                </p>
+                                                <p>Durch die Buttongruppe <span class="cscreenelement">Editor Style</span> unten rechts im Xcode-Fenster können Sie auf die grafische Darstellung des Datenmodells
+                                                   umschalten. Die Diagrammdarstellung sehen Sie in Abbildung 4.2. Das Diagramm stellt
+                                                   Entitätstypen durch Kästen und Relationships durch Linien mit Pfeilenden dar. Die
+                                                   Kästen der Entitätstypen enthalten deren Namen als Titel und darunter die Namen der
+                                                   Attribute. Darunter sind die Namen der Relationships aufgeführt.
+                                                </p><a href="bilder/04_002.png" rel="lightbox" title="Diagrammdarstellung des Datenmodells"><img class="bild" border="1" src="bilderklein/klein04_002.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.2   </strong>Diagrammdarstellung des Datenmodells
+                                                </p>
+                                                <p>Das Datenmodell enthält zwei Entitätstypen: <span class="clisting">DiaryEntry</span> und <span class="clisting">Medium</span>. Während der erste Typ Tagebucheinträge beschreibt, dient der zweite zur Ablage von
+                                                   Mediendaten. In dem Tagebuch sind das Bilder und Tonaufnahmen. Über den Button <span class="cscreenelement">Add Entity</span> können Sie dem Modell weitere Entitätstypen hinzufügen. Über den <span class="cbegriff">Datenmodellinspektor</span><a class="indexterm" id="dodtp0c65110b-9680-4a7c-82a4-49b5cde2554d"></a> (<span class="ctastatur"><img align="top" src="keys/ctastatur_KEFMVCk=.gif" alt="ALT" title="ALT"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KENNRCk=.gif" alt="CMD" title="CMD"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KDMp.gif" alt="3" title="3"></span>) können Sie den Klassennamen festlegen, und über das Dropdownmenü <span class="cscreenelement">Parent Entity</span> den Obertyp eines Entitätstyps festlegen. Sie haben also in einem Datenmodell auch
+                                                   die Möglichkeit der Vererbung.
+                                                </p>
+                                                <p>Im Modell des Fototagebuchs verbinden zwei Relationships die beiden Entitätstypen
+                                                   miteinander, die eine Verbindungslinie darstellt. Das liegt daran, dass die beiden
+                                                   Relationships zueinander invers sind. In Core Data sollte jede Relationship auch immer
+                                                   ein inverses Pendant haben. Neue Relationships legen Sie in der Diagrammdarstellung
+                                                   analog zu Outlets im Interface Builder an, indem Sie bei gedrückter rechter Maustaste
+                                                   eine Verbindung zwischen den beteiligten Entitätstypen ziehen. Wenn Sie eine Relationship
+                                                   durch das Ziehen einer Verbindung erzeugen, legt der Modelleditor automatisch die
+                                                   inverse Relationship an.
+                                                </p>
+                                                <p>Natürlich enthalten beide Entitätstypen auch noch einige Attribute, deren Datentypen
+                                                   Sie in der Dialogansicht direkt festlegen können. Weitere Einstellungsmöglichkeiten
+                                                   zu jedem Attribut finden Sie im Datenmodellinspektor. Dazu wählen Sie das Attribut
+                                                   aus, drücken <span class="ctastatur"><img align="top" src="keys/ctastatur_KEFMVCk=.gif" alt="ALT" title="ALT"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KENNRCk=.gif" alt="CMD" title="CMD"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KDMp.gif" alt="3" title="3"></span> oder öffnen die Inspektorspalte auf der rechten Seite von Xcode und wählen dort das
+                                                   Icon ganz rechts aus (siehe Abbildung 4.3).
+                                                </p>
+                                                <p>Bei allen Attributen können Sie drei boolesche Eigenschaften setzen:</p>
+                                                <ul class="gp">
+                                                   <li>Ein <span class="cbegriff">transientes</span> Attribut<a class="indexterm" id="dodtpa637b0a5-4db1-41ef-8888-1fb478f77f17"></a> wird nicht persistent gespeichert. Es geht also spätestens nach Programmende verloren.
+                                                   </li>
+                                                   <li>Ein <span class="cbegriff">optionales</span> Attribut<a class="indexterm" id="dodtp2b21b6e2-c911-4e91-a09d-44b6ad37a867"></a> darf auch den Wert <span class="clisting">nil</span> annehmen. Wenn Sie hingegen versuchen, ein nichtoptionales Attribut mit dem Wert
+                                                      <span class="clisting">nil</span> zu speichern, liefert Core Data einen Fehler.
+                                                   </li>
+                                                   <li>Für <span class="cbegriff">indizierte</span> Attribute<a class="indexterm" id="dodtp7d50f19f-3693-47b1-9206-bcd5f3e0c028"></a> legt Core Data einen Index an. Er kann Suchanfragen beschleunigen, die nach diesem
+                                                      Attribut filtern.
+                                                   </li>
+                                                </ul>
+                                                <p>Neben der Festlegung des Datentyps erlaubt der Inspektor auch noch datentypabhängige
+                                                   Einstellungen für einen Standardwert und Werteinschränkungen. Bei Strings können Sie
+                                                   beispielsweise eine minimale und maximale Länge sowie einen regulären Ausdruck festlegen,
+                                                   auf den die Werte passen müssen.
+                                                </p><a href="bilder/04_003.png" rel="lightbox" title="Der Datenmodellinspektor für ein Stringattribut"><img class="bild" border="1" src="bilderklein/klein04_003.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.3   </strong>Der Datenmodellinspektor für ein Stringattribut
+                                                </p>
+                                                <p>Der Entitätstyp verweist über die <span class="cbegriff">One-To-Many-Relationship</span><a class="indexterm" id="dodtp95e6a239-b7e5-41dd-ac9e-08a321c8626e"></a> <span class="clisting">media</span> auf die zugehörigen Medien. Ein wichtiges Unterscheidungskriterium für Relationships
+                                                   sind die möglichen Anzahlen der Elemente an beiden Enden. Wenn die Relationship auf
+                                                   höchstens ein Element verweist, können Sie sie durch eine Property des Zieltyps darstellen.
+                                                   Ist hingegen mehr als ein Element möglich, müssen Sie dafür einen Sammlungstyp verwenden;
+                                                   in Core Data ist das <span class="clisting">NSSet</span><a class="indexterm" id="dodtpea2ef044-e5fe-406b-bb36-5ccbc2992830"></a>. Bei der One-To-Many-Relationship <span class="clisting">media</span> kann also immer ein Tagebucheintrag auf mehrere Medien verweisen.
+                                                </p>
+                                                <p>Die <span class="cbegriff">Many-To-One-Relationship</span><a class="indexterm" id="dodtp1ce8018a-7823-4381-9520-94b753433498"></a> <span class="clisting">diaryEntry</span> weist jedem Medium genau einen Tagebucheintrag zu. Sie ist die inverse Relationship
+                                                   zu <span class="clisting">media</span>. Es gibt außerdem noch <span class="cbegriff">Many-To-Many-Relationships</span><a class="indexterm" id="dodtpdda7c8a5-1679-478b-93c1-19cf7f48c74b"></a>, die dieses Datenmodell allerdings nicht verwendet. Die Pfeilenden an der verknüpften
+                                                   Entität zeigen die Wertigkeit der Relationships an. To-One- haben eine einfache und
+                                                   To-Many-Relationships haben eine doppelte Pfeilspitze. Sie können die Wertigkeit über
+                                                   den Datenmodellinspektor für die Relationship setzen (siehe Abbildung 4.4).
+                                                </p>
+                                                <p>Bei Relationships können Sie neben dem Zielentitätstyp auch die inverse Relationship
+                                                   festlegen. Wie Attribute können Relationships ebenfalls transient und optional sein.
+                                                   Sie können im Inspektor nicht nur festlegen, ob es sich um eine To-One- oder To-Many-Relationship
+                                                   handelt, sondern auch bestimmen, auf wie viele Elemente sie mindestens und höchstens
+                                                   verweisen darf. Die <span class="cscreenelement">Delete Rule</span> legt schließlich fest, was mit dem Objekt bei Löschung des Zielobjekts passiert.
+                                                   Es stehen vier Möglichkeiten zur Auswahl, wie Core Data bei einer Löschung des Ursprungsobjekts
+                                                   mit den Zielobjekten umgehen soll:
+                                                </p>
+                                                <ul class="gp">
+                                                   <li><span class="cscreenelement">No Action</span>: Die Zielobjekte werden nicht verändert.
+                                                   </li>
+                                                   <li><span class="cscreenelement">Nullify</span>: Core Data löscht den Verweis der inversen Relationship auf das Ursprungsobjekt.
+                                                   </li>
+                                                   <li><span class="cscreenelement">Cascade</span>: Löscht auch alle Zielobjekte, auf die das Objekt verweist.
+                                                   </li>
+                                                   <li><span class="cscreenelement">Deny</span>: Core Data löscht das Objekt nur, wenn keine Zielobjekte existieren.
+                                                   </li>
+                                                </ul><a href="bilder/04_004.png" rel="lightbox" title="Der Datenmodellinspektor für Relationships"><img class="bild" border="1" src="bilderklein/klein04_004.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.4   </strong>Der Datenmodellinspektor für Relationships
+                                                </p>
+                                                <p>Die Relationship <span class="clisting">media</span> verwendet kaskadierendes Löschen, weil die Medienobjekte zu dem jeweiligen Tagebucheintrag
+                                                   gehören. Wenn der Tagebucheintrag nicht mehr existiert, werden die Medien auch nicht
+                                                   mehr gebraucht. Wenn Sie hingegen ein Medium löschen, soll es aus der Medienmenge
+                                                   des Tagebucheintrags nur entfernt werden. Der Tagebucheintrag bleibt aber bestehen.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpfe1fabf9-75f8-485c-87ce-e94464e26740" name="dodtpfe1fabf9-75f8-485c-87ce-e94464e26740"></a><h3 class="t3"><span class="cfett">4.2.2</span><span class="cfett"> Implementierung von Entitätstypen</span><a href="#dodtp04f7af7a-9e1e-4cde-bd50-4948972b41c4"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpe1e9b8ac-e5e8-4efb-a42d-3b2d94c7f1fe"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Das Fototagebuch stellt die Entitätstypen durch eigene Klassen dar, die Xcode direkt
+                                                   aus dem Datenmodell erzeugen kann. Dazu wählen Sie im Dialog zum Anlegen einer neuen
+                                                   Datei das Template <span class="cscreenelement">NSManagedObject subclass</span> unter dem Punkt <span class="cscreenelement">Core Data</span> aus.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Tipp
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Den Ablauf dieses Dialogs können Sie verkürzen, in dem Sie vor dem Aufruf den zugrunde
+                                                               liegenden Entitätstyp auswählen. In diesem Fall brauchen Sie nämlich nur den Dateinamen
+                                                               festzulegen. Wenn Sie hingegen keinen Entitätstyp auswählen, können Sie die Klassen
+                                                               für mehrere Entitätstypen auf einmal erzeugen. Xcode zeigt Ihnen dazu entsprechende
+                                                               Auswahldialoge an.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die erzeugte Klasse enthält für jedes Attribut des Entitätstyps eine Property-Deklaration,
+                                                   für die Sie in der Implementierung aber keine Synthesize-Anweisung finden. Stattdessen
+                                                   enthält die Datei für jede Property eine Dynamic-Anweisung:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">@dynamic icon;<br>@dynamic creationTime;<br>@dynamic updateTime;<br>@dynamic text;<br>@dynamic media;<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.5   </strong>Dynamic-Anweisungen für die Propertys der Klasse »DiaryEntry«
+                                                </p>
+                                                <p>Im Gegensatz zu den Synthesize-Anweisungen haben diese Anweisungen keine Auswirkung
+                                                   auf das erzeugte Programm. Sie zeigen dem Compiler lediglich an, dass der Implementierungsteil
+                                                   der Klasse für diese Propertys keine expliziten Methodendefinitionen enthält. Stattdessen
+                                                   erfolgt der Zugriff auf die Attributwerte über Key-Value-Coding, wofür die Oberklasse
+                                                   <span class="clisting">NSManagedObject</span> von <span class="clisting">DiaryEntry</span> die entsprechenden Implementierungen besitzt.
+                                                </p>
+                                                <p>Außerdem enthält die Headerdatei noch eine Kategorie mit vier Methoden, über die Sie
+                                                   die Objekte der Relationship <span class="clisting">media</span> verändern können:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">@interface DiaryEntry (CoreDataGeneratedAccessors)<br>- (void)addMediaObject:(Medium *)value<br>- (void)removeMediaObject:(Medium *)value<br>- (void)addMedia:(NSSet *)value<br>- (void)removeMedia:(NSSet *)value<br>@end<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.6   </strong>Kategorie mit Methoden
+                                                </p>
+                                                <p>Auch diese Methoden implementiert Core Data über Key-Value-Coding. Da der Tagebucheintrag
+                                                   aber noch andere Operationen bei der Veränderung der Relationship ausführen soll,
+                                                   befindet sich diese Kategorie in der Implementierungsdatei der Klasse. Diese Methoden
+                                                   sind also privat.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp04f7af7a-9e1e-4cde-bd50-4948972b41c4" name="dodtp04f7af7a-9e1e-4cde-bd50-4948972b41c4"></a><h3 class="t3"><span class="cfett">4.2.3</span><span class="cfett"> Einbindung von Core Data</span><a href="#dodtp711fd6f8-9d0b-43f7-b7df-59135a212956"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpfe1fabf9-75f8-485c-87ce-e94464e26740"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Um einen Objektgraphen mit Core Data persistent speichern zu können, müssen Sie drei
+                                                   Objekte anlegen. Das Datenmodell repräsentiert ein Objekt der Klasse <span class="clisting">NSManagedObjectModel</span>, das das Fototagebuch über einen Lazy-Getter des Application-Delegates aus dem Ressourcenordner
+                                                   der Applikation lädt:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (NSManagedObjectModel *)managedObjectModel {<br>    if(managedObjectModel == nil) {<br>        NSURL *theURL = [[NSBundle mainBundle]<br>            URLForResource:@"Model" withExtension:@"momd"];<br><br>        self.managedObjectModel =<br>            [[[NSManagedObjectModel alloc]<br>                initWithContentsOfURL:theURL] autorelease];<br>    }<br>    return managedObjectModel;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.7   </strong>Laden des Datenmodells
+                                                </p>
+                                                <p>Analog zu den XIB-Dateien übersetzt Xcode während des Buildprozesses die Modelldateien
+                                                   in ein anderes Format, das für die Ausführung günstiger ist. Aus diesem Grund hat
+                                                   die Ressource jetzt die Dateiendung <span class="cdateipfad">.momd</span> und nicht mehr <span class="cdateipfad">.xcdatamodeld</span>.
+                                                </p>
+                                                <p>Das Application-Delegate erzeugt außerdem ein Objekt der Klasse <span class="clisting">NSPersistentStoreCoordinator</span> über einen Lazy-Getter. Der Store-Koordinator verbindet die Entitätstypen eines Datenmodells
+                                                   mit einem Ablageort, den Unterklassen von <span class="clisting">NSPersistentStore</span> beschreiben. In iOS gibt es drei mögliche Arten von Stores: SQLite-Datenbanken, Binärdateien
+                                                   und die nichtpersistente Ablage im Hauptspeicher. Das Fototagebuch verwendet eine
+                                                   SQLite-Datenbank. Neben dem Typ müssen Sie außerdem eine URL auf eine Datei im lokalen
+                                                   Dateisystem angeben. Die App legt diese Datei <span class="cdateipfad">Diary.sqlite</span> in ihrem Dokumentenordner ab. Diesen Ordner können Sie so, wie in Listing 4.8 angegeben
+                                                   ist, ermitteln.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (NSURL *)applicationDocumentsURL {<br>    NSFileManager *theManager = [NSFileManager defaultManager];<br>    return [[theManager URLsForDirectory:NSDocumentDirectory<br>        inDomains:NSUserDomainMask] lastObject];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.8   </strong>Bestimmung des Dokumentenordners einer Applikation
+                                                </p>
+                                                <p>Ein Store-Koordinator kann die Entitäten eines Datenmodells in unterschiedlichen Stores
+                                                   ablegen. Das können Sie über Konfigurationen festlegen. Das Fototagebuch macht davon
+                                                   allerdings keinen Gebrauch. Das Fototagebuch verwendet einen SQLite-Store. Es legt
+                                                   also die Entitäten in Tabellen einer SQL-Datenbank ab. Sie können einen neuen Store
+                                                   über die Methode
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">addPersistentStoreWithType:configuration:URL:options:error:<br></pre></div>
+                                                <p>des Store-Koordinators anlegen. Sofern Sie Ihre Entitäten alle im gleichen Store ablegen
+                                                   möchten, dürfen Sie den Wert <span class="clisting">nil</span> für den Konfigurationsparameter verwenden. Die URL gibt den Ablageort des Stores
+                                                   an. Momentan unterstützt Core Data nur Dateien im lokalen Dateisystem, weswegen Sie
+                                                   hier immer eine Datei-URL angeben müssen. Sie erkennen diese URLs an dem Protokoll
+                                                   beziehungsweise dem Präfix <a href="file" target="_blank">file</a>.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (NSPersistentStoreCoordinator *)storeCoordinator {<br>    if(storeCoordinator == nil) {<br>        NSURL *theURL = [[self applicationDocumentsURL]<br>            URLByAppendingPathComponent:@"Diary.sqlite"];<br>        NSError *theError = nil;<br>        NSPersistentStoreCoordinator *theCoordinator =<br>            [[NSPersistentStoreCoordinator alloc]<br>                initWithManagedObjectModel:<br>                    self.managedObjectModel];<br><br>        if([theCoordinator<br>            addPersistentStoreWithType:NSSQLiteStoreType<br>                configuration:nil URL:theURL options:nil error:&amp;theError]) {<br>            self.storeCoordinator = theCoordinator;<br>        }<br>        else {<br>            NSLog(@"storeCoordinator: %@", theError);<br>        }<br>        [theCoordinator release];<br>    }<br>    return storeCoordinator;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.9   </strong>Erzeugung des Store-Koordinators
+                                                </p>
+                                                <p>Mit dem Store-Koordinator können Sie einen Objektkontext erstellen, über den Sie Ihre
+                                                   Objekte verwalten.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp711fd6f8-9d0b-43f7-b7df-59135a212956" name="dodtp711fd6f8-9d0b-43f7-b7df-59135a212956"></a><h3 class="t3"><span class="cfett">4.2.4</span><span class="cfett"> Der Objektkontext</span><a href="#dodtp2ba4af9f-2546-41d4-b686-0ffb17d12850"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp04f7af7a-9e1e-4cde-bd50-4948972b41c4"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Der <span class="cbegriff">Objektkontext</span><a class="indexterm" id="dodtp359e5cf2-fc47-445a-8515-63ff84e978b1"></a> ist eine Art Raum, in dem ihre persistenten Objekte leben. Sie können in den Kontext
+                                                   Objekte aus der Datenhaltung hineinladen, neue Objekte erzeugen und enthaltene Objekte
+                                                   verändern oder löschen. Sie können die Änderungen schrittweise zurücknehmen (<span class="cbegriff">Undo</span><a class="indexterm" id="dodtp4c7f4dd7-9a94-4e18-a907-1897233411be"></a>) und auch die Rücknahme wieder zurücknehmen (<span class="cbegriff">Redo</span><a class="indexterm" id="dodtp2c4c3545-1533-4315-8ff5-8b5fa0275195"></a>). Das alles hat aber zunächst keine Auswirkungen auf die Datenhaltung. Um die Änderungen
+                                                   Ihres Objektgraphen dauerhaft zu machen, müssen Sie den kompletten Objektkontext sichern.
+                                                   Der Objektkontext ist also ein »Schmierpapier«, auf dem Sie Ihren Objektgraphen verändern
+                                                   können, und nur, wenn Ihnen das Ergebnis gefällt, machen Sie eine Reinzeichnung von
+                                                   dem Graphen. Die Erzeugung eines Objektkontextes ist denkbar einfach. Sie erzeugen
+                                                   ein Objekt der Klasse <span class="clisting">NSManagedObjectContext</span><a class="indexterm" id="dodtp55e5e0c9-f87f-4040-9c01-630e5cbc28dc"></a> und weisen diesem über die Property <span class="clisting">persistentStoreCoordinator</span> einen Store-Koordinator zu.
+                                                </p>
+                                                <p>Eine neue Entität &#8211; so heißen die Objekte eines Entitätstyps &#8211; erzeugen Sie aber nicht
+                                                   über eine Alloc-Init-Kette, sondern lassen sie über die Klassenmethode <span class="clisting">insertNewObjectForEntityForName:inManagedObjectContext:</span> der Klasse <span class="clisting">NSEn</span>tityDescription<a class="indexterm" id="dodtp4366b36e-3d05-4615-b28d-3e09b2c03e0d"></a> anlegen. Der erste Parameter enthält dabei den Namen des gewünschten Entitätstyps
+                                                   und der zweite den Objektkontext, der das neue Objekt aufnimmt. Sie brauchen danach
+                                                   das Objekt also nicht mehr selber in einen Kontext einfügen. Jedes Objekt kann aber
+                                                   nur zu einem Kontext gehören.
+                                                </p>
+                                                <p>Über die Methode <span class="clisting">deleteObject:</span> können Sie ein Objekt aus einem Objektkontext löschen. Für die Aktualisierung von
+                                                   Objekten gibt es keine gesonderten Methoden im Objektkontext. Sie weisen den Propertys
+                                                   des Objekts einfach nur neue Werte zu. Der Objektkontext bekommt diese Änderungen
+                                                   automatisch mit.
+                                                </p>
+                                                <p>Die Änderungen des Objektgraphen im Objektkontext können Sie dauerhaft durch einen
+                                                   Aufruf der Methode <span class="clisting">save:</span> sichern. Das Fototagebuch schreibt also durch diesen Aufruf alle Änderungen in die
+                                                   SQLite-Datenbank. Der Parameter ist ein Zeiger auf eine Objektreferenz der Klasse
+                                                   <span class="clisting">NSError</span>. Über diesen gibt die Methode eventuell aufgetretene Fehler beim Speichern zurück.
+                                                   Typische Fehler sind hierbei die Verletzung der <span class="cbegriff">Integritätsbedingungen</span><a class="indexterm" id="dodtp149eec86-5331-4c93-b29d-e341e28d556d"></a> des Entitätstyps. Wenn Sie beispielsweise versuchen, einen Tagebucheintrag ohne Erzeugungszeit
+                                                   zu speichern, liefert der Aufruf einen Fehler, da dieses Attribut obligatorisch ist.
+                                                </p>
+                                                <p>Falls die genaue Fehlerursache Sie nicht interessiert, dürfen Sie auch <span class="clisting">NULL</span> für diesen Parameter angeben. Sie können auch aus dem Rückgabewert des Methodenaufrufs
+                                                   den Erfolg ermitteln. Ein typischer Methodenaufruf mit Rückgabe des Fehlerobjekts
+                                                   sieht also so aus:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">NSError *theError = nil;<br>if(![theContext save:&amp;theError]) {<br>    // Verarbeitung des Fehlers<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.10   </strong>Sichern eines Objektkontextes mit Fehlerermittlung
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Zeiger auf Objektreferenzen
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>In Cocoa Touch gibt es viele Methoden, die wie die Methode <span class="clisting">save:</span> einen Zeiger auf eine Objektreferenz übergeben bekommen. Diese Zeiger sind C-Pointer
+                                                               und keine Objektreferenzen, weswegen Sie dafür <span class="clisting">NULL</span> und nicht <span class="clisting">nil</span> verwenden sollten. Umgekehrt sollten Sie Objektreferenzen auch nicht auf <span class="clisting">NULL</span> setzen. Diese Unterscheidung ist eine Konvention, und ihre Missachtung führt (derzeit)
+                                                               zu keinen Compiler- oder Laufzeitfehlern. Es zeugt aber von gutem Stil, wenn Sie sich
+                                                               daran halten.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Über die Methode <span class="clisting">reset</span> können Sie alle Änderungen in einem Objektkontext rückgängig machen. Dabei werden
+                                                   alle Objekte aus dem Kontext entfernt. Der Kontext befindet sich also nach dem Aufruf
+                                                   in seinem ursprünglichen Zustand.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp2ba4af9f-2546-41d4-b686-0ffb17d12850" name="dodtp2ba4af9f-2546-41d4-b686-0ffb17d12850"></a><h3 class="t3"><span class="cfett">4.2.5</span><span class="cfett"> Die Nachrichten des Objektkontexts</span><a href="#dodtp94b638ad-f337-4d8a-b0e4-505a32faba95"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp711fd6f8-9d0b-43f7-b7df-59135a212956"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Sie können sich über Änderungen Ihrer Objekte im Objektkontext informieren lassen.
+                                                   Delegates sind dafür aber ungeeignet, da der Kontext ja Modellobjekte verwaltet. Stattdessen
+                                                   versendet er Benachrichtigungen, sodass er auch mehrere Controller auf einmal benachrichtigen
+                                                   kann. Es gibt drei Arten von Benachrichtigungen.
+                                                </p>
+                                                <p>Der Objektkontext sendet eine Benachrichtigung vom Typ <span class="clisting">NSManagedObjectContextObjectsDidChangeNotification</span>, wenn Sie die Attribute einer Entität im Kontext verändern. Vor dem Sichern versendet
+                                                   er eine Benachrichtigung vom Typ <span class="clisting">NSManagedObjectContextWillSaveNotification</span> und danach eine <span class="clisting">NSManagedObjectContextDidSaveNotification</span>. Das Objekt der Benachrichtigung ist dabei immer der Objektkontext. Außer bei der
+                                                   Will-Save-Notification enthält das User-Info-Dictionary die geänderten Objekte unter
+                                                   den Schlüsseln <span class="clisting">NSInsertedObjectsKey</span>, <span class="clisting">NSUpdatedObjectsKey</span> und <span class="clisting">NSDeletedObjectsKey</span>. Diese Benachrichtigungen erleichtern es Ihnen, die Anzeigen in Ihren Viewcontrollern
+                                                   aktuell zu halten. Sie können beispielsweise die Zellen in einem Tableview relativ
+                                                   einfach über diese Benachrichtigungen aktualisieren lassen. Wie das geht, beschreibt
+                                                   Abschnitt 4.5, »Tableviews und Core Data«.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp94b638ad-f337-4d8a-b0e4-505a32faba95" name="dodtp94b638ad-f337-4d8a-b0e4-505a32faba95"></a><h3 class="t3"><span class="cfett">4.2.6</span><span class="cfett"> Anlegen und Ändern von Entitäten in der Praxis</span><a href="#dodtp2ba4af9f-2546-41d4-b686-0ffb17d12850"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>In dem Beispielprogramm <span class="cdateipfad">Fototagebuch</span> gibt es einen eigenen Viewcontroller für die Bearbeitung eines Tagebucheintrags.
+                                                   Er hat die Klasse <span class="clisting">ItemViewController</span>. Über diesen Controller können Sie neue Einträge anlegen und bestehende Einträge
+                                                   bearbeiten.
+                                                </p><a href="bilder/04_005.png" rel="lightbox" title="Anlegen eines neuen Eintrags"><img class="bild" border="1" src="bilderklein/klein04_005.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.5   </strong>Anlegen eines neuen Eintrags
+                                                </p>
+                                                <p>Ein Eintrag kann einen Text, ein Bild und einen Ton enthalten. Außerdem enthält der
+                                                   Eintrag noch das Erzeugungs- und das Aktualisierungsdatum. Diese beiden Werte setzt
+                                                   der Eintrag automatisch vor dem Speichern. Da der Controller einen Eintrag verwaltet,
+                                                   besitzt er eine Property <span class="clisting">diaryEntry</span> der Klasse <span class="clisting">DiaryEntry</span>. Diese Property kapselt den Zugriff auf eine interne Property <span class="clisting">item</span>, die den Tagebucheintrag hält. Außerdem besitzt der Controller eine private Property
+                                                   <span class="clisting">managedObjectContext</span>, die auf seinen eigenen Objektkontext verweist, den die Methode <span class="clisting">awakeFromNib</span> erzeugt und initialisiert.
+                                                </p>
+                                                <p>Bei der Anzeige des Controllers gibt es zwei Fälle. Entweder möchte der Nutzer einen
+                                                   neuen Eintrag anlegen oder einen bestehenden verändern. Vor der Anzeige setzt der
+                                                   Aufrufer dazu die Property <span class="clisting">diaryEntry</span> entsprechend &#8211; entweder auf den zu verändernden Eintrag oder auf <span class="clisting">nil</span>. Anhand des Wertes kann der Setter entscheiden, wie er den Objektkontext verändern
+                                                   muss.
+                                                </p>
+                                                <p>Wenn der Wert <span class="clisting">nil</span> ist, muss er einen neuen Eintrag erzeugen und in den Objektkontext legen. Andernfalls
+                                                   muss er überprüfen, ob der Eintrag bereits in dem Objektkontext des Controllers liegt.
+                                                   Falls das nicht der Fall ist, muss er das Objekt in den Kontext laden. Dazu verwendet
+                                                   die Implementierung die Methode <span class="clisting">objectWithID:</span> des Kontexts. Jede CoreData-Entität hat eine eindeutige Kennung. Sie können diese
+                                                   über die Methode <span class="clisting">objectID</span> der Klasse <span class="clisting">NSManagedObject</span> jeder Entität abfragen. Den auf diese Weise geladenen Eintrag müssen Sie natürlich
+                                                   der Property <span class="clisting">item</span> zuweisen, da Sie ja mit ihm weiterarbeiten möchten. Den Code zur Vorbereitung des
+                                                   Objektkontextes finden Sie in Listing 4.11.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)setDiaryEntry:(DiaryEntry *)inDiaryEntry {<br>    [self.managedObjectContext reset];<br>    if(inDiaryEntry == nil) {<br>        self.item = [NSEntityDescription<br>            insertNewObjectForEntityForName:@"DiaryEntry"<br>            inManagedObjectContext:self.managedObjectContext];<br>    }<br>    else {<br>        self.item = inDiaryEntry;<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.11   </strong>Vorbereitung des Objektkontexts
+                                                </p>
+                                                <p>Das Speichern des Eintrags ist dagegen sehr einfach. Sie rufen dafür die Methode <span class="clisting">save:</span> des Objektkontexts des Controllers auf. Das geschieht im Controller in der Methode
+                                                   <span class="clisting">saveItem</span>, die die Methode <span class="clisting">viewWillDisapper:</span> aufruft. Sie speichert allerdings keine leeren Einträge.
+                                                </p>
+                                                <p>Der Controller kann jetzt den Eintrag verändern, indem er die Attribute des Eintrags
+                                                   setzt. Der Eintrag hat zwei Zeitstempel für den Erzeugungs- und den letzten Aktualisierungszeitpunkt
+                                                   des Eintrags. Diese Werte können Sie automatisch setzen, indem Sie in der Klasse <span class="clisting">DiaryEntry</span> zwei Methoden der Klasse <span class="clisting">NSManagedObject</span> überschreiben. Wenn Sie ein neues Objekt in einen Objektkontext einfügen, ruft Core
+                                                   Data die Methode <span class="clisting">awakeFromInsert</span> des Objekts auf. Sie können diese Methode dazu verwenden, die Erzeugungs- und Aktualisierungszeit
+                                                   zu setzen.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)awakeFromInsert {<br>    [super awakeFromInsert];<br>    NSDate *theDate = [NSDate date];<br>    [self setPrimitiveValue:theDate forKey:@"creationTime"];<br>    [self setPrimitiveValue:theDate forKey:@"updateTime"];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.12   </strong>Vorbelegung der Erzeugungs- und Aktualisierungszeit
+                                                </p>
+                                                <p>Die Aktualisierungszeit muss außerdem beim Sichern des Objekts aufgefrischt werden.
+                                                   Das können Sie über die Methode <span class="clisting">willSave</span> bewerkstelligen. Der Name dieser Methode ist allerdings etwas missverständlich. Core
+                                                   Data ruft sie auf, bevor die Änderungen des Objekts in der Datenhaltung gesichert
+                                                   werden. Dazu zählt auch das Löschen der Entität. Sie können diesen Sonderfall aber
+                                                   über die Methode <span class="clisting">isDeleted</span> abfragen.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)willSave {<br>    [super willSave];<br>    if(!self.isDeleted) {<br>        NSDate *theDate = [NSDate date];<br>        [self setPrimitiveValue:theDate forKey:@"updateTime"];<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.13   </strong>Erneuerung der Aktualisierungszeit beim Sichern
+                                                </p>
+                                                <p>Die Methoden in Listing 4.12 und Listing 4.13 benutzen beide die Methode <span class="clisting">setPrimitiveValue:forKey:</span> anstatt der Setter. Der Setter hat hier Nebeneffekte, die im Falle der Methode <span class="clisting">willSave</span> sogar zu einer Endlosrekursion führen.
+                                                </p><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_04_002.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="4 Daten, Tabellen und Controller"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_04_001.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_04_003.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

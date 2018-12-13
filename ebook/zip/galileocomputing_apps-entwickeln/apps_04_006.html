@@ -1,0 +1,1663 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 4 Daten, Tabellen und Controller">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 4 Daten, Tabellen und Controller">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 4 Daten, Tabellen und Controller</title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_04_005.html">
+      <link rel="next" href="apps_05_001.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_04_005.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_05_001.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6" class="navnav">4 Daten, Tabellen und Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_001.html#dodtp161390c7-9a37-4c74-9595-2265118b8a9d" class="navnav">4.1 Benachrichtigungen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_001.html#dodtp944a9e6e-1cbf-401f-ab3b-c6f85b6c876d" class="navnav">4.1.1 Benachrichtigungen empfangen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_001.html#dodtpad52d840-8b9f-495b-8a2a-35e4047330dd" class="navnav">4.1.2 Eigene Benachrichtigungen verschicken</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_002.html#dodtpb57c4bb1-6c65-41ad-89c1-3b7576ac3d40" class="navnav">4.2 Core Data</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtpe1e9b8ac-e5e8-4efb-a42d-3b2d94c7f1fe" class="navnav">4.2.1 Datenmodellierung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtpfe1fabf9-75f8-485c-87ce-e94464e26740" class="navnav">4.2.2 Implementierung von Entitätstypen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp04f7af7a-9e1e-4cde-bd50-4948972b41c4" class="navnav">4.2.3 Einbindung von Core Data</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp711fd6f8-9d0b-43f7-b7df-59135a212956" class="navnav">4.2.4 Der Objektkontext</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp2ba4af9f-2546-41d4-b686-0ffb17d12850" class="navnav">4.2.5 Die Nachrichten des Objektkontexts</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp94b638ad-f337-4d8a-b0e4-505a32faba95" class="navnav">4.2.6 Anlegen und Ändern von Entitäten in der Praxis</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_003.html#dodtpf45f1df5-53c6-4a69-a3ed-d229d0003cff" class="navnav">4.3 View-Rotationen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_003.html#dodtp5345ec09-8314-4638-b388-9dc3d0a6983d" class="navnav">4.3.1 Flexible Views dank der Autoresizingmask</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_003.html#dodtpb891c5b3-4a6e-4b5e-948d-d111012768e1" class="navnav">4.3.2 Lang lebe das Rotationsprinzip</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_003.html#dodtpd1dcc312-26bd-4cb1-bb4c-02bbae967f9e" class="navnav">4.3.3 Anpassung des Layouts</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_004.html#dodtp4879682b-5be3-4bc3-ac97-1ba88bf23d21" class="navnav">4.4 Texte, Bilder und Töne verwalten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_004.html#dodtp4d2a8cd8-a7fd-43f6-97f5-5e8ce021411a" class="navnav">4.4.1 Die Tastatur betritt die Bühne</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_004.html#dodtp1742cc84-080e-4401-bb5f-8199ed8adfe7" class="navnav">4.4.2 Fotos aufnehmen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_004.html#dodtp742013f6-5218-4c2b-94a5-35d471354bd2" class="navnav">4.4.3 Töne aufnehmen und abspielen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_005.html#dodtpc3f5f98e-3fa0-4ded-b3a1-091f17c3d7f1" class="navnav">4.5 Tableviews und Core Data</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp4173eb94-717b-41c2-bf9b-9b9909cbbd9d" class="navnav">4.5.1 Tableviews</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtpac0189cc-2f13-478f-a1c4-c4ff25a79da7" class="navnav">4.5.2 Tabellenzellen gestalten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtpe33951e6-7013-4dab-96e0-1e4ef4c73ca3" class="navnav">4.5.3 Buttons in Tabellenzellen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp04982a99-ada3-4624-aa0c-879217a1b0b1" class="navnav">4.5.4 Zellen löschen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp26fdab25-043f-47e3-9d67-3f4b5fd3614b" class="navnav">4.5.5 Core Data II: Die Rückkehr der Objekte</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp71d9a2c1-d96b-4401-9885-7307c2ff22d4" class="navnav">4.5.6 Prädikate</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp0437a63c-3e9d-4a27-8595-255fa2fc4555" class="navnav">4.5.7 Aktualisierung des Tableviews</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp34c90a04-f378-49e9-bd0b-db542c8f1874" class="navnav">4.5.8 Das Delegate des Fetchedresultscontrollers</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp93db3543-20d8-4787-95a7-bf305df55e41" class="navnav">4.5.9 Tabelleneinträge suchen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_006.html#dodtp7af46a15-51ff-4fcc-b2c4-b30e36461622" class="navh">4.6 Containerviewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtpbdcb129d-0df5-43de-a8fa-0dbcdfbaa055" class="navh">4.6.1 Der Navigationcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtp3216b28c-3a06-4dee-a7dd-4ba43a860410" class="navh">4.6.2 Splitviewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtp42a6570b-bf63-47d9-8397-a69f74153e47" class="navh">4.6.3 Der Pageviewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtp9d49c8ad-9181-4db0-8db3-4376f11656ac" class="navh">4.6.4 Subview- und Containerviewcontroller</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main"><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp7af46a15-51ff-4fcc-b2c4-b30e36461622" name="dodtp7af46a15-51ff-4fcc-b2c4-b30e36461622"></a><h2 class="t2"><span class="cfett">4.6</span><span class="cfett"> Containerviewcontroller</span><a href="#dodtpbdcb129d-0df5-43de-a8fa-0dbcdfbaa055"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h2>
+                                                <p>Das UIKit enthält mittlerweile mehrere Arten von <span class="cbegriff">Containerviewcontrollern</span><a class="indexterm" id="dodtp73b4b6c9-42a9-42a9-bbca-0d8d26979943"></a>, die zur Anzeige weiterer Viewcontroller dienen. Sie haben bereits den Popoverviewcontroller<a class="indexterm" id="dodtp3555df40-826f-42fd-9c7c-1eeaaab0e97e"></a> kennengelernt, der auch zu dieser Kategorie gehört. Das Fototagebuch verwendet in
+                                                   der iPhone-Variante aber noch zwei und auf dem iPad sogar drei andere Containerviewcontroller.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpbdcb129d-0df5-43de-a8fa-0dbcdfbaa055" name="dodtpbdcb129d-0df5-43de-a8fa-0dbcdfbaa055"></a><h3 class="t3"><span class="cfett">4.6.1</span><span class="cfett"> Der Navigationcontroller</span><a href="#dodtp3216b28c-3a06-4dee-a7dd-4ba43a860410"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp7af46a15-51ff-4fcc-b2c4-b30e36461622"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Sie haben bereits die beiden wichtigsten Viewcontroller des Fototagebuchs kennengelernt.
+                                                   Es fehlt aber noch die Verbindung zwischen diesen beiden Controllern. Der Photodiaryviewcontroller
+                                                   muss ja den Itemviewcontroller anzeigen, wenn Sie einen neuen Eintrag anlegen oder
+                                                   einen bestehenden bearbeiten wollen.
+                                                </p>
+                                                <p>Sie können natürlich den Itemviewcontroller als modalen Dialog anzeigen, was aber
+                                                   sehr untypisch für iOS-Apps wäre. Apps mit Tableview schieben in dieser Situation
+                                                   vielmehr den neuen View von rechts in den Bildschirm und stellen oberhalb des Views
+                                                   eine Navigationsleiste<a class="indexterm" id="dodtpd51950d1-5f0a-4710-b074-e1f7d2dd5d1e"></a> dar. Diese Darstellung erfolgt in den meisten Fällen über einen Viewcontroller der
+                                                   Klasse <span class="clisting">UINavigationController</span><a class="indexterm" id="dodtpc6383f76-acb7-41e1-8d61-7b0e07f79d93"></a> (siehe Abbildung 4.19).
+                                                </p><a href="bilder/04_019.png" rel="lightbox" title="Navigationcontroller und -bar im Interface Builder"><img class="bild" border="1" src="bilderklein/klein04_019.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.19   </strong>Navigationcontroller und -bar im Interface Builder
+                                                </p>
+                                                <p>Ein Navigationcontroller<a class="indexterm" id="dodtp7dfcee72-5498-44b6-b93b-25f4f9ebb7a1"></a> verwaltet eine Hierarchie von mehreren Viewcontrollern, die er über einen internen
+                                                   Stapel verwaltet. Dabei zeigt er aber immer nur den obersten Controller an. Die Hierarchie
+                                                   muss immer mindestens einen Viewcontroller enthalten. Über die Methode <span class="clisting">pushViewController:animated:</span><a class="indexterm" id="dodtpf6e0bf9b-7123-4570-953f-4e03317d5407"></a> können Sie einen anderen Viewcontroller über den obersten Controller legen. Der Navigationcontroller
+                                                   schiebt dabei den neuen View von rechts herein, wenn Sie für den Parameter <span class="clisting">animated</span> den Wert <span class="clisting">YES</span> übergeben.
+                                                </p>
+                                                <p>Über die Methode <span class="clisting">popViewControllerAnimated:</span><a class="indexterm" id="dodtp3130364d-9f5c-4867-8e71-ca158768ac83"></a> können Sie den obersten Viewcontroller wieder aus der Hierarchie entfernen. Bei eingeschalteter
+                                                   Animation schiebt der Navigationcontroller den obersten View nach rechts aus dem Bildschirm.
+                                                   Nach dem Entfernen zeigt der Navigationcontroller wieder den vorherigen View an.
+                                                </p>
+                                                <p>Die Klasse <span class="clisting">UIViewController</span> besitzt die Property <span class="clisting">navigationController</span>. Diese Property verweist auf den Navigationcontroller, auf dem der Viewcontroller
+                                                   liegt. Sie hat den Wert <span class="clisting">nil</span>, wenn sich der Viewcontroller nicht auf dem Stapel eines Navigationcontrollers befindet.
+                                                   Die iPhone-Variante des Fototagebuchs verwendet einen Navigationcontroller als <span class="cbegriff">Rootviewcontroller</span><a class="indexterm" id="dodtp1a44647b-be35-42d7-ba8c-60539c0c5d6f"></a>, in dem der Photodiaryviewcontroller als unterstes Element liegt. Nach dem Start
+                                                   zeigt das Fenster der App den Rootviewcontroller &#8211; also den Navigationcontroller mit
+                                                   dem Photodiaryviewcontroller als oberstem Element &#8211; an, und der Photodiaryviewcontroller
+                                                   zeigt den Itemviewcontroller über dem Navigationcontroller an. Abbildung 4.20 stellt
+                                                   diese Hierarchie schematisch dar.
+                                                </p><a href="bilder/04_020.png" rel="lightbox" title="Hierarchie der Viewcontroller"><img class="bild" border="1" src="bilderklein/klein04_020.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.20   </strong>Hierarchie der Viewcontroller
+                                                </p>
+                                                <p>Wenn Sie eine Zelle in dem Tableview berühren, ruft der Tableview die Delegatemethode
+                                                   <span class="clisting">tableView:didSelectRowAtIndexPath:</span> auf, die den Itemviewcontroller auf den Navigationstack schiebt. Sie müssen aber
+                                                   vorher den Tagebucheintrag an den Itemviewcontroller übergeben, damit er die richtigen
+                                                   Werte anzeigt. Dazu können Sie dessen Property <span class="clisting">diaryEntry</span> verwenden.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)tableView:(UITableView *)inTableView<br>    didSelectRowAtIndexPath:(NSIndexPath *)inIndexPath {<br>    DiaryEntry *theItem = [self entryForTableView:inTableView atIndexPath:inIndexPath];<br><br>    self.itemViewController.item = theItem;<br>    [self.navigationController<br>        pushViewController:self.itemViewController animated:YES];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.59   </strong>Anzeige eines Eintrags über den Navigationcontroller
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Datenweitergabe zwischen Viewcontrollern
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Verwenden Sie öffentliche Propertys, um Daten zwischen verschiedenen Controllern zu
+                                                               übertragen. In der Methode, die den neuen Viewcontroller aufruft, brauchen Sie dann
+                                                               nur die Werte für die Propertys zu setzen.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><a id="dodtpbb10d5bf-08d0-410a-8ec8-950786a1a6bd" name="dodtpbb10d5bf-08d0-410a-8ec8-950786a1a6bd"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Die Navigationsleiste</span></h4>
+                                                <p>Der Navigationcontroller verwaltet aber nicht nur die Viewcontroller, sondern auch
+                                                   die Navigationsleiste<a class="indexterm" id="dodtp6dff30c7-f5c9-4b32-b9e5-8892507ff969"></a>. Sie können diese im Interface Builder konfigurieren. Wenn Sie in der XIB-Datei einen
+                                                   Navigationcontroller anlegen, enthält er automatisch einen View der Klasse <span class="clisting">UINavigationBar</span><a class="indexterm" id="dodtpc033eb6f-5e97-4c08-bac0-5caa6a7a4b24"></a> (siehe Abbildung 4.19).
+                                                </p>
+                                                <p>In der Navigationsleiste können Sie verschiedene Elemente anzeigen lassen. Diese Elemente
+                                                   legen Sie nicht direkt in die Navigationsleiste sondern in einen <span class="cbegriff">Navigationitem</span><a class="indexterm" id="dodtpbd760bb7-9ff9-46c4-9b7b-e9ff74fb8978"></a>. Die Klasse <span class="clisting">UIViewController</span> besitzt eine Property <span class="clisting">navigationItem</span>, über die jeder Viewcontroller einen eigenen Navigationitem halten kann, den der
+                                                   Interface Builder in der Baumdarstellung innerhalb des Viewcontrollers darstellt.
+                                                </p>
+                                                <p>Die Navigationsleiste zeigt die Elemente des Navigationitems des obersten Viewcontrollers
+                                                   an. Der Navigationcontroller tauscht also die Elemente in der Navigationsleiste automatisch
+                                                   aus, wenn Sie einen Viewcontroller auf den Stapel des Navigationcontrollers legen
+                                                   oder ihn davon entfernen.
+                                                </p>
+                                                <p>Die Navigationsleiste hat dabei einen festen Aufbau. Es gibt vier Positionen, an denen
+                                                   Sie Elemente anzeigen lassen können. Dabei legt die Leiste das Layout fest.
+                                                </p><a href="bilder/04_021.png" rel="lightbox" title="Die Elemente der Navigationsleiste"><img class="bild" border="1" src="bilderklein/klein04_021.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.21   </strong>Die Elemente der Navigationsleiste
+                                                </p>
+                                                <p>Alternativ kann sie auf der linken Seite auch einen Zurück-Button anzeigen, dessen
+                                                   Standardlayout von den anderen Buttons abweicht.
+                                                </p><a href="bilder/04_022.png" rel="lightbox" title="Zurück-Button im Fototagebuch"><img class="bild" border="1" src="bilderklein/klein04_022.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.22   </strong>Zurück-Button im Fototagebuch
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <caption class="tabunter">
+                                                      <p class="ptabellenunter"><strong>Tabelle 4.5   </strong>Die Elemente der Navigationsleiste
+                                                      </p>
+                                                   </caption>
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf">
+                                                            
+                                                            
+                                                            
+                                                            <span class="cfett">Element</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">Typ</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">Beschreibung</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Linker und rechter Button
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">UIBarButtonItem</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Das sind einfache Buttons, die die Leiste auf der linken und der rechten Seite anzeigt.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Titel
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">NSString</span>, <span class="clisting">UIView</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Der Titel ist in der Regel ein einfacher Text. Sie können dafür aber auch einen beliebigen
+                                                            View angeben.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Prompt
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">NSString</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Das ist ein beliebiger Text, den die Leiste oberhalb der anderen Elemente anzeigt.
+                                                            Eine Navigationsleiste mit Prompt ist höher als ohne. Diese Größenanpassung geschieht
+                                                            automatisch.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Zurück-Button
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext"><span class="clisting">UIBarButtonItem</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Der Zurück-Button erscheint in der Navigationsleiste, wenn Sie auf den bereits vorhandenen
+                                                            Viewcontroller einen weiteren pushen. Sie verändern damit also die Navigationsleiste
+                                                            des darüber liegenden Views.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die Buttons in der Navigationsleiste und der Werkzeugleisten haben die Klasse <span class="clisting">UIBarButtonItem</span><a class="indexterm" id="dodtp0777dc38-c0ee-4073-a87d-3d470747776f"></a>, die aber keine Unterklasse von <span class="clisting">UIView</span> ist. Sie können das Aussehen dieser Buttons auch nur sehr begrenzt verändern. Die
+                                                   Farbe des Buttons bestimmt Cocoa Touch automatisch über die Hintergrundfarbe der Navigationsleiste
+                                                   und den Typ des Buttons. Die Schriftfarbe ist immer Weiß.
+                                                </p>
+                                                <p>Wenn Sie für den Button einen Standardtyp und für die Leiste eine der drei Standardfarben
+                                                   wählen, dann ist der Button entweder graublau (Leistenfarbe <span class="cbegriff">Default</span>, siehe Abbildung 4.21) beziehungsweise schwarz (Leistenfarbe <span class="cbegriff">Black Translucent</span> oder <span class="cbegriff">Black Opaque</span>, wie in Abbildung 4.19). Eine Ausnahme bilden die blauen Standard-Buttons <span class="cscreenelement">Save</span> und <span class="cscreenelement">Done</span> (siehe Abbildung 4.13 und Abbildung 4.15). Bei einer individuellen Hintergrundfarbe
+                                                   für die Navigationsleiste erhalten ebenfalls alle Buttons diese Farbe als Hintergrundfarbe.
+                                                   Lediglich die Farbe des <span class="cscreenelement">Save</span>- und des <span class="cscreenelement">Done</span>-Buttons ist etwas dunkler. Aber Vorsicht mit zu hellen Farben, da die Buttons immer
+                                                   eine weiße Beschriftung haben.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Lokalisierung von Bar-Button-Items
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Cocoa Touch lokalisiert automatisch die Texte in den Standardbuttons, wenn Sie für
+                                                               die entsprechende XIB-Datei eine lokalisierte Variante anlegen. Sie brauchen ansonsten
+                                                               nichts weiter zu unternehmen &#8211; die englische und die deutsche XIB-Datei können einen
+                                                               identischen Inhalt haben.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Alternativ zu den Standardtypen steht auch der Typ <span class="cbegriff">Custom</span> zur Verfügung, bei dem Sie entweder einen beliebigen Text oder ein Bild anzeigen
+                                                   lassen können. Das Bild sollte ungefähr 20 mal 20 Pixel groß sein. Der Button verwendet
+                                                   aber nur die Alphamaske des Bildes als weißes Piktogramm. Für Custom-Buttons gibt
+                                                   es drei mögliche Darstellungsarten:
+                                                </p>
+                                                <ol class="paufz">
+                                                   <li><span class="cbegriff">Plain</span>: Der Button hat keinen Rahmen. Cocoa Touch zeichnet den Titel oder das Bild direkt
+                                                      auf die Leiste.
+                                                   </li>
+                                                   <li><span class="cbegriff">Bordered</span>: Die Buttons erhalten einen Rahmen. Die meisten Beispiele in diesem Kapitel verwenden
+                                                      diese Darstellungsart.
+                                                   </li>
+                                                   <li><span class="cbegriff">Done</span>: Die Buttons erhalten einen Rahmen und eine hervorgehobene Darstellung analog zum
+                                                      <span class="cscreenelement">Start</span>- und <span class="cscreenelement">Done</span>-Button.
+                                                   </li>
+                                                </ol>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Zustandsanzeige in Barbuttonitems
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie legen den Typ eines Barbuttonitems bei der Konstruktion fest und können ihn später
+                                                               nicht mehr ändern.
+                                                               
+                                                               Die Werkzeugleiste des Audioplayers zeigt den Wiedergabezustand durch einen Wechsel
+                                                               des Buttonbildes an. Dazu verwendet der Player zwei Bilder, obwohl es dafür Standardtypen
+                                                               gibt. Diese können Sie aber nicht verwenden, da Sie den Buttontyp nachträglich nicht
+                                                               ändern können. Sie können höchstens den kompletten Button austauschen. Die Bilder
+                                                               des Buttons können Sie hingegen ändern.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Sie können auch in einem Barbuttonitem oder im Titel der Navigationsleiste nahezu
+                                                   beliebige Views anzeigen lassen. Dazu ziehen Sie im Interface Builder einfach den
+                                                   gewünschten View auf den gewünschten Platz im Navigationitem. Der Interface Builder
+                                                   weist dann diesen View der Property <span class="clisting">customView</span> des Barbuttonitems zu.
+                                                </p>
+                                                <p>Ein Barbuttonitem ist kein Control, und er verschickt auch nicht die üblichen Actionevents.
+                                                   Stattdessen gibt es im Verbindungsinspektor eine Actionverbindung namens <span class="cbegriff">selector</span>, der Sie eine Actionmethode zuweisen können. Diese Actionmethode ruft der Button
+                                                   auf, wenn Sie ihn drücken. Das gilt aber nur, sofern Sie keinen View in den Button
+                                                   gelegt haben, der die Touchevents selber verarbeitet.
+                                                </p><a id="dodtp376bf711-0b6b-43dd-8d37-16e96690587e" name="dodtp376bf711-0b6b-43dd-8d37-16e96690587e"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Der Zurück-Button</span></h4>
+                                                <p>Der Zurück-Button<a class="indexterm" id="dodtp4c344ef3-e89c-47d9-b4c0-a719c3162bcf"></a> nimmt gegenüber den anderen Elementen eines Navigation-Items eine Sonderrolle ein.
+                                                   Die Navigationsleiste zeigt niemals den Zurück-Button des aktuellen Controllers, sondern
+                                                   höchstens den des Vorgängers an. Das Fototagebuch legt beispielsweise den Itemviewcontroller
+                                                   auf den Photodiaryviewcontroller. Während die Navigationsleiste des Letzteren keinen
+                                                   Zurück-Button anzeigt, zeigt die Navigationsleiste des Itemviewcontrollers den Zurück-Button
+                                                   des Photodiaryviewcontrollers.
+                                                </p>
+                                                <p>Der Navigationitem des Photodiaryviewcontrollers legt aber keinen Zurück-Button explizit
+                                                   fest. Cocoa Touch erzeugt ihn automatisch aus dem Titel des Navigationitems des Photodiaryviewcontrollers.
+                                                   Wenn Sie den Zurück-Button drücken, entfernt er den obersten Viewcontroller vom Stapel
+                                                   des Navigationcontrollers. Er ruft aber nicht die Actionmethode auf.
+                                                </p>
+                                                <p>Sie können bis auf den Titel das Aussehen des Zurück-Buttons nicht beeinflussen. Cocoa
+                                                   Touch stellt ihn immer als Linkspfeil in der Farbe der Navigationsleiste dar. Allerdings
+                                                   zeigt die Navigationsleiste keinen Zurück-Button an, wenn Sie im Navigationitem einen
+                                                   linken Button festgelegt haben. Sie können also den linken Button im Navigationitem
+                                                   anstelle des Zurück-Buttons verwenden.
+                                                </p>
+                                                <p>Die Navigationsleiste sucht den Button für die linke Seite in der folgenden Reihenfolge.
+                                                   Sie verwendet das erste Element, das verschieden von <span class="clisting">nil</span> ist:
+                                                </p>
+                                                <ol class="paufz">
+                                                   <li>der linke Button im Navigationsitem des aktuellen Viewcontrollers</li>
+                                                   <li>der Zurück-Button im Navigationitem des Viewcontrollers unterhalb des aktuellen. Sie
+                                                      können dessen Titel im Interface Builder über den Attributinspektor des Items festlegen,
+                                                      indem Sie in das Feld <span class="cscreenelement">Back Button</span> einen Text eingeben.
+                                                   </li>
+                                                   <li>ein Zurück-Button, der aus dem Titel des Navigationitems des Viewcontrollers unter
+                                                      dem aktuellen Viewcontroller erzeugt wird.
+                                                   </li>
+                                                </ol>
+                                                <p>Die letzte Regel trifft nicht zu, wenn das Navigationitem oder dessen Titel nicht
+                                                   gesetzt ist oder der aktuelle Viewcontroller der Rootviewcontroller des Navigationcontrollers
+                                                   ist.
+                                                </p><a id="dodtpc146cc3e-69b1-438f-a207-e3f107caed8d" name="dodtpc146cc3e-69b1-438f-a207-e3f107caed8d"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Die Werkzeugleiste</span></h4>
+                                                <p>Sie haben bereits die Werkzeugleiste<a class="indexterm" id="dodtp9bc7c7a7-58a7-4eff-9bd8-ff8407e751aa"></a> für den Audioplayer und -recorder kennengelernt (siehe Abbildung 4.13 und Abbildung
+                                                   4.15). Diese Komponenten verwenden die Werkzeugleiste wie einen ganz gewöhnlichen
+                                                   View. Der Navigationcontroller kann aber auch eine Werkzeugleiste verwalten, deren
+                                                   Inhalt von dem gerade angezeigten Viewcontroller abhängt.
+                                                </p>
+                                                <p>Damit der Navigationcontroller eine Werkzeugleiste anzeigt, müssen Sie ihn entsprechend
+                                                   konfigurieren. Dazu können Sie im Interface Builder entweder einen View der Klasse
+                                                   <span class="clisting">UIToolbar</span> auf den Navigationcontroller ziehen. Alternativ können Sie auch einfach im Attributinspektor
+                                                   den Schalter <span class="cscreenelement">Shows Toolbar</span> setzen.
+                                                </p>
+                                                <p>Sie können jedem Viewcontroller über die Property <span class="clisting">toolbarItems</span><a class="indexterm" id="dodtpad191b97-c8aa-4b35-a69c-fb8f57cedf8f"></a> ein Array mit den Elementen für die Werkzeugleiste zuweisen. Die Elemente in dem
+                                                   Array müssen die Klasse <span class="clisting">UIBarButtonItem</span> haben. Der Navigationcontroller zeigt automatisch die Elemente desjenigen Viewcontrollers
+                                                   an, der zuoberst auf dem Navigationstack liegt. Die Werkzeugleiste ordnet die enthaltenen
+                                                   Elemente immer von links nach rechts an. Sie können das Layout aber über feste und
+                                                   flexible Abstände beeinflussen. Mit diesen Elementen können Sie den Abstand zwischen
+                                                   zwei Barbuttonitems vergrößern. Dabei können Sie mit einem flexiblen Abstand den kompletten
+                                                   verfügbaren Freiraum belegen und so beispielsweise die dahinter liegenden Elemente
+                                                   an den rechten Rand schieben. Sie können die Elemente zentrieren, indem Sie links
+                                                   und rechts davon einen flexiblen Abstand legen.
+                                                </p>
+                                                <p>Die Elemente für die Property <span class="clisting">toolbarItems</span> können Sie leider nicht direkt über den Interface Builder verwalten. Diesen Mangel
+                                                   können Sie aber relativ einfach umgehen, indem Sie Ihrem Viewcontroller ein Outlet
+                                                   auf eine Werkzeugleiste geben. Die Elemente in dieser Werkzeugleiste können Sie über
+                                                   den Interface Builder verwalten. Der Controller zeigt aber diese Leiste nirgendwo
+                                                   an, sondern weist deren Elemente in der Methode <span class="clisting">viewDidLoad</span> der Property <span class="clisting">toolbarItems</span> zu.
+                                                </p><a id="dodtpf8b03d92-ba6a-47cf-b5fb-450b54eb6b6c" name="dodtpf8b03d92-ba6a-47cf-b5fb-450b54eb6b6c"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Navigations- und Werkzeugleisten gestalten</span></h4>
+                                                <p>Bis auf die Farbe können Sie das Aussehen der Navigations- oder Werkzeugleiste nicht
+                                                   beeinflussen. Bei einer Änderung der Farbe verändern Sie aber leider auch immer die
+                                                   Farbe der Buttons. Mit den Standardleisten haben Sie also nur sehr eingeschränkte
+                                                   Gestaltungsmöglichkeiten.
+                                                </p>
+                                                <p>Sie können aber Unterklassen von <span class="clisting">UINavigationBar</span> und <span class="clisting">UIToolbar</span> anlegen, um mehr Gestaltungsmöglichkeiten zu erhalten. Die Unterklassen können über
+                                                   eine Implementierung der Methode <span class="clisting">drawRect:</span> eigene Hintergrundmuster und -farben zeichnen.
+                                                </p>
+                                                <p>Das Beispielprojekt <span class="cdateipfad">Bars</span> auf der beiliegenden DVD zeigt einen Navigationcontroller mit eigener Navigations-
+                                                   und Werkzeugleiste. Die Navigationsleiste hat die Klasse <span class="clisting">NavigationBar</span>, die ein Bild als Hintergrund anzeigt.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)drawRect:(CGRect)inRect {<br>    UIImage *theImage = [UIImage imageNamed:@"background.png"];<br>    [theImage drawAsPatternInRect:self.bounds];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.60   </strong>Anzeige eines Hintergrundbildes
+                                                </p>
+                                                <p>Sie können aber einem Navigationcontroller nicht einfach eine neue Navigationsleiste
+                                                   zuweisen, weil die Property <span class="clisting">navigationBar</span> nicht schreibbar ist. Wenn Sie den Navigationcontroller aber über eine NIB-Datei
+                                                   erzeugen, können Sie im Identitätsinspektor der Navigationsleiste Ihre Klasse zuordnen.
+                                                </p>
+                                                <p>Cocoa Touch legt die Farbe der Buttons auch in einer eigenen Navigationsleiste über
+                                                   deren Farbe fest. Sie können also über eine eigene Klasse für die Navigationsleiste
+                                                   auch die Farbgebung der Buttons von der Farbe der Leiste trennen.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp3216b28c-3a06-4dee-a7dd-4ba43a860410" name="dodtp3216b28c-3a06-4dee-a7dd-4ba43a860410"></a><h3 class="t3"><span class="cfett">4.6.2</span><span class="cfett"> Splitviewcontroller</span><a href="#dodtp42a6570b-bf63-47d9-8397-a69f74153e47"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpf8b03d92-ba6a-47cf-b5fb-450b54eb6b6c"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Das iPad bietet gegenüber dem iPhone eine circa fünfmal größere Anzeigefläche. Der
+                                                   vorgestellte Aufbau ist auf dem iPad aber nicht so sinnvoll, da er zum einen viel
+                                                   Platz verschenkt. Zum anderen kann das Auswechseln des kompletten Views auf der großen
+                                                   Fläche des iPads sehr unruhig wirken.
+                                                </p><a href="bilder/04_023.png" rel="lightbox" title="Splitviewcontroller in Portrait und Landscape"><img class="bild" border="1" src="bilderklein/klein04_023.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.23   </strong>Splitviewcontroller in Portrait und Landscape
+                                                </p>
+                                                <p>Das iPad bietet mit dem Splitviewcontroller<a class="indexterm" id="dodtpa385faab-07c5-4b80-9afc-339ce803154f"></a> die Möglichkeit, im Querformat zwei Viewcontroller nebeneinander anzuzeigen. Da der
+                                                   linke Viewcontroller in der Regel den Inhalt des rechten festlegt, nennt Apple den
+                                                   linken <span class="cbegriff">Master</span><a class="indexterm" id="dodtpa12654f5-a773-4c6c-b7c0-56697eff941d"></a><span class="cbegriff">-</span> und den rechten <span class="cbegriff">Detailviewcontroller</span><a class="indexterm" id="dodtp531f3cc1-0b76-4e97-aa8a-a757041968fe"></a>. Im Hochformat zeigt der Splitviewcontroller den Detailviewcontroller auf der kompletten
+                                                   Bildschirmfläche und den Masterviewcontroller optional in einem Popover an (siehe
+                                                   Abbildung 4.23). Damit das funktioniert, müssen aber beide Controller sowohl das Quer-
+                                                   als auch das Hochformat unterstützen. Für die Anzeige und die Steuerung des Popovers
+                                                   sollte der Detailviewcontroller außerdem eine Werkzeugleiste für den Button bieten.
+                                                </p>
+                                                <p>Die Klasse <span class="clisting">UISplitViewController</span><a class="indexterm" id="dodtp93b43c8c-a825-4f94-aa99-14cc0c10ed7d"></a> besitzt eine minimalistische Schnittstelle, die nur zwei Propertys enthält. Über
+                                                   <span class="clisting">viewControllers</span> können Sie die beiden enthaltenen Viewcontroller in einem Array abfragen beziehungsweise
+                                                   festlegen. Dabei ist der erste Controller im Array der Master- und der zweite der
+                                                   Detailviewcontroller. Über die zweite Property bestimmen Sie das Delegate des Splitviewcontrollers.
+                                                </p><a id="dodtpcf02f91f-e31a-45cb-add8-1ca7baaa4f14" name="dodtpcf02f91f-e31a-45cb-add8-1ca7baaa4f14"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Das Splitviewcontroller-Delegate</span></h4>
+                                                <p>Das Delegate bietet drei optionale Methoden an, die Sie über die Anzeige des Masterviewcontrollers
+                                                   infomieren. Der Splitviewcontroller ruft <span class="clisting">splitViewController:popoverController:willPresentViewController:</span> auf, bevor er den Master im übergebenen Popovercontroller anzeigt. Wenn der Splitviewcontroller
+                                                   in das Querformat wechselt, ruft er <span class="clisting">splitViewController:willShowViewController:invalidatingBarButtonItem:</span> auf und beim Wechsel in das Hochformat <span class="clisting">splitViewController:willHideViewController:withBarButtonItem:forPopoverController:</span>.
+                                                </p>
+                                                <p>Der Splitviewcontroller verwaltet aber nicht nur die beiden Viewcontroller für Sie,
+                                                   sondern auch den Popoverviewcontroller<a class="indexterm" id="dodtp0017c0bc-c87c-4cbb-b612-72f54d9ec5cd"></a> und das Barbuttonitem für dessen Anzeige. Über die beiden letztgenannten Delegatemethoden
+                                                   brauchen Sie nur die Anzeige des jeweils übergebenen Barbuttonitems verwalten, um
+                                                   den Popoverviewcontroller anzeigen zu können. Die einfachste Möglichkeit dafür ist
+                                                   eine Toolbar, in die Sie den Button einfügen beziehungsweise aus der Sie den Button
+                                                   entfernen.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)splitViewController:<br>    (UISplitViewController*)inSplitViewController<br>    willHideViewController:(UIViewController *)inMaster<br>    withBarButtonItem:(UIBarButtonItem*)inButtonItem<br>    forPopoverController:(UIPopoverController*)inPopover {<br>    NSMutableArray *theItems =<br>        [self.toolbar.items mutableCopy];<br><br>    inBarButtonItem.title = ...;<br>    [theItems insertObject:inButtonItem atIndex:0];<br>    [self.toolbar setItems:theItems animated:YES];<br>    [theItems release];<br>    self.popoverController = inPopover;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.61   </strong>Anzeige des Buttons für den Popovercontroller
+                                                </p>
+                                                <p>Listing 4.61 enthält den Programmcode zur Anzeige des Barbuttonitems, über den Sie
+                                                   den Popovercontroller anzeigen lassen können. Sie müssen aber dafür nicht unbedingt
+                                                   diesen Button verwenden. Wenn Ihr Detailviewcontroller beispielsweise keine feststehende
+                                                   Werkzeugleiste besitzt, können Sie auch einen anderen Button verwenden. Das ist beispielsweise
+                                                   beim Fototagebuch der Fall, da es unter iOS 5 einen Pageviewcontroller<a class="indexterm" id="dodtpd8afc955-ef46-4fbc-b04c-2b01bcbc43d7"></a> für die Detailanzeige verwendet (siehe Abbildung 4.24).
+                                                </p><a href="bilder/04_024.png" rel="lightbox" title="Pageviewcontroller in einem Splitviewcontroller"><img class="bild" border="1" src="bilderklein/klein04_024.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.24   </strong>Pageviewcontroller in einem Splitviewcontroller
+                                                </p>
+                                                <p>Wenn der Splitviewcontroller ins Querformat wechselt, müssen Sie den Button wieder
+                                                   aus der Werkzeugleiste entfernen. Dazu können Sie die zuletzt genannte Delegatemethode
+                                                   verwenden. Den dafür notwendigen Programmcode finden Sie in Listing 4.62.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)splitViewController:<br>    (UISplitViewController*)inSplitViewController<br>    willShowViewController:(UIViewController *)inViewController<br>    invalidatingBarButtonItem:(UIBarButtonItem *)inButtonItem {<br>    NSMutableArray *theItems = [sef.toolbar.items mutableCopy];<br><br>    [theItems removeObjectAtIndex:0];<br>    [self.toolbar setItems:theItems animated:YES];<br>    [theItems release];<br>    self.popoverController = nil;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.62   </strong>Den Button für den Popovercontroller aus der Werkzeugleiste entfernen
+                                                </p>
+                                                <p>Die iPad-Version des Fototagebuchs verwendet einen Splitviewcontroller als Rootviewcontroller,
+                                                   der über die Datei <span class="cdateipfad">MainWindow-iPad.xib</span> angelegt wird. Der Master ist dabei der Photodiaryviewcontroller, und der Detailbereich
+                                                   zeigt Itemviewcontroller an. Wenn Sie keinen Eintrag ausgewählt haben, speichert der
+                                                   Itemviewcontroller die Eingaben als neuen Eintrag ab, und bei einem ausgewählten Eintrag
+                                                   ändert er natürlich dessen Werte.
+                                                </p>
+                                                <p>Diese beiden Implementierungen reichen für Detailviewcontroller mit feststehender
+                                                   Werkzeugleiste aus. Im Fototagebuch können Sie zwischen Itemviewcontrollern blättern,
+                                                   wodurch Sie auch die Werkzeugleiste auswechseln. Da der Popovercontroller den Button
+                                                   auch als Bezugspunkt braucht, muss das Fototagebuch ihn selber verwalten. Dort ist
+                                                   das Appdelegate auch das Delegate des Splitviewcontrollers. Es speichert sowohl den
+                                                   Popovercontroller als auch den Button in den Propertys <span class="clisting">popoverController</span> beziehungsweise <span class="clisting">barButtonItem</span>. Die Delegatemethoden machen nichts weiter, als diese Propertys zu setzen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)splitViewController:<br>    (UISplitViewController *)inSplitViewController<br>    willHideViewController:(UIViewController *)inViewController<br>    withBarButtonItem:(UIBarButtonItem *)inBarButtonItem<br>    forPopoverController:(UIPopoverController *)inPopover {<br>    self.popoverController = inPopover;<br>    self.overviewButton = inBarButtonItem;<br>}<br><br>- (void)splitViewController:<br>    (UISplitViewController *)inSplitViewController<br>    willShowViewController:(UIViewController *)inViewController<br>    invalidatingBarButtonItem:(UIBarButtonItem *)inButton {<br>    self.popoverController = nil;<br>    self.overviewButton = nil;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.63   </strong>Delegatemethoden des Splitviewcontrollers im Fototagebuch
+                                                </p>
+                                                <p>Die Aktualisierung der Werkzeugleiste übernimmt der Itemviewcontroller in seiner privaten
+                                                   Methode <span class="clisting">updateOverviewButton</span>. Sie holt sich aus dem Appdelegate den Button. Falls er nicht gesetzt ist und die
+                                                   Werkzeugleiste noch den Button für das Popover enthält, entfernt die Methode den letztgenannten
+                                                   Button. Andernfalls prüft sie, ob das Appdelegate den Button enthält, es aber noch
+                                                   keinen Button in der Werkzeugleiste gibt. In diesem Fall legt die Methode einen neuen
+                                                   Button an.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)updateOverviewButton {<br>    PhotoDiaryAppDelegate *theDelegate =<br>        (PhotoDiaryAppDelegate *)<br>            [[UIApplication sharedApplication] delegate];<br>    UIBarButtonItem *theButton = theDelegate.overviewButton;<br>    NSMutableArray *theItems = [self.toolbar.items mutableCopy];<br>    id theItem = [theItems objectAtIndex:0];<br><br>    if(theButton == nil &amp;&amp; [theItem tag] == kOverviewButtonTag) {<br>        [theItems removeObjectAtIndex:0];<br>    }<br>    else if(theButton != nil &amp;&amp;<br>        [theItem tag] != kOverviewButtonTag) {<br>        theItem = [[UIBarButtonItem alloc] initWithTitle:<br>            NSLocalizedString(@"Overview", @"Overview button")<br>            style:UIBarButtonItemStyleDone target:self<br>            action:@selector(showOverview:)];<br>        [theItem setTag:kOverviewButtonTag];<br>        [theItems insertObject:theItem atIndex:0];<br>        [theItem release];<br>    }<br>    [self.toolbar setItems:theItems animated:YES];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.64   </strong>Anlegen und Löschen des Buttons für das Popover
+                                                </p>
+                                                <p>Die Methode prüft die Existenz des Buttons in der Werkzeugleiste anhand des Tags,
+                                                   dessen Wert die Konstante <span class="clisting">kOverviewButtonTag</span> festlegt. Sie vermeidet dadurch, den falschen Button zu löschen oder mehr als einen
+                                                   Button für das Popover einzufügen.
+                                                </p>
+                                                <p>Der Itemviewcontroller muss die Werkzeugleiste nach seinem Erscheinen und nach einer
+                                                   Drehung anpassen. Aus diesem Grund enthalten die Methoden <span class="clisting">viewDidAppear:</span> und <span class="clisting">didRotateFromInterfaceOrientation:</span> jeweils einen Aufruf der Methode <span class="clisting">updateOverviewButton</span>.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp42a6570b-bf63-47d9-8397-a69f74153e47" name="dodtp42a6570b-bf63-47d9-8397-a69f74153e47"></a><h3 class="t3"><span class="cfett">4.6.3</span><span class="cfett"> Der Pageviewcontroller</span><a href="#dodtp9d49c8ad-9181-4db0-8db3-4376f11656ac"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpcf02f91f-e31a-45cb-add8-1ca7baaa4f14"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Wenn Sie sich mehrere Einträge des Tagebuches ansehen möchten, kann es besonders auf
+                                                   dem iPhone sehr anstrengend sein, zwischen den Einträgen zu wechseln. Sie müssen von
+                                                   einem Eintrag immer zuerst zurück zur Übersicht, um den nächsten Eintrag betrachten
+                                                   zu können. Für den Nutzer ist es angenehmer, wenn er auch direkt von einem Eintrag
+                                                   zu dessen Vorgänger oder Nachfolger wechseln kann. Diesen Anwendungsfall setzen viele
+                                                   Apps über eine <span class="cbegriff">Wischnavigation</span><a class="indexterm" id="dodtp50628980-1f38-45f3-bedc-8844ee929ce0"></a> um, bei der Sie auf dem Bildschirm nach rechts oder links streichen, um zum vorherigen
+                                                   oder nächsten Element zu gelangen.
+                                                </p>
+                                                <p>Apple hat in iOS 5 mit der Klasse <span class="clisting">UIPageViewController</span><a class="indexterm" id="dodtpf8a28f2f-4378-4c83-8bd0-e97abaa77e6b"></a> einen weiteren Containerviewcontroller eingeführt, der das Blättern zwischen beliebig
+                                                   vielen Viewcontrollern erlaubt. Er animiert dabei den Wechsel durch eine Pagecurlanimation,
+                                                   die das Umschlagen einer Buchseite (horizontales Blättern) oder eines Kalenderblattes
+                                                   (vertikales Blättern) nachahmt. Sie können eine von drei möglichen <span class="cbegriff">Blätterpositionen</span> wählen:
+                                                </p>
+                                                <ul class="gp">
+                                                   <li><span class="clisting">UIPageViewControllerSpineLocationMin</span> der linke oder obere Rand des Views
+                                                   </li>
+                                                   <li><span class="clisting">UIPageViewControllerSpineLocationMid</span> die horizontale oder vertikale Mittelachse des Views
+                                                   </li>
+                                                   <li><span class="clisting">UIPageViewControllerSpineLocationMax</span> der rechte oder untere Rand des Views
+                                                   </li>
+                                                </ul>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Ein- und doppelseitige Darstellung
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Die doppelseitige Darstellung des Pageviewcontrollers eignet sich in der Regel nur
+                                                               in der Landscapeausrichtung beim horizontalen Blättern oder in der Portraitausrichtung
+                                                               beim vertikalen Blättern. Über die Delegatemethode <span class="clisting">pageViewController:spineLocationForInterfaceOrientation:</span> können Sie die Bezugsposition für das Blättern bei einer Viewrotation ändern.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Wenn der Pageviewcontroller<a class="indexterm" id="dodtp34305cd1-7017-4332-89b2-294aa56958e4"></a> eine Mittelachse als Bezug verwendet, stellt er immer zwei Viewcontroller gleichzeitig
+                                                   dar, ansonsten nur einen. In diesem Fall können Sie eine doppelseitige Darstellung
+                                                   über die Property <span class="clisting">doubleSided</span> wählen. Dann verwendet der Pageviewcontroller jeden zweiten Controller zur Darstellung
+                                                   der Rückseite seines Vorgängers. Das Fototagebuch verwendet aber nur eine einseitige
+                                                   Darstellung mit automatisch generierten Rückseiten. Das sind einfach stark aufgehellte
+                                                   Abbilder der Vorderseite.
+                                                </p><a id="dodtp8e8ed9e9-7697-4067-a190-040d6408ef70" name="dodtp8e8ed9e9-7697-4067-a190-040d6408ef70"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Einen Pageviewcontroller erzeugen</span></h4>
+                                                <p>Sie können einen Pageviewcontroller sowohl über Programmanweisungen als auch über
+                                                   NIBs beziehungsweise Storyboards anlegen. Falls Sie den letztgenannten Weg wählen,
+                                                   müssen Sie dem Controller aber nach der Erzeugung seine initialen Viewcontroller zuweisen.
+                                                   Das Beispielprojekt <span class="cbegriff">Page</span>, das Sie auf der beiliegenden DVD finden, erzeugt den Controller über den Quellcode.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Das Beispielprojekt Page
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Das Beispielprojekt <span class="cdateipfad">Page</span> setzt iOS 5 und Xcode 4.2 voraus, und es verwendet Automatic Reference Counting.
+                                                               Wundern Sie sich also nicht über fehlende Speicherverwaltungsaufrufe. Außerdem verwendet
+                                                               es ein Storyboard anstelle von XIB-Dateien.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Bei der Konstruktion eines Pageviewcontrollers legen Sie die Richtung und die Animation
+                                                   des Blätterns fest. Diese Werte können Sie später nicht mehr ändern. Als Animationstyp
+                                                   steht zurzeit nur <span class="clisting">UIPageViewControllerTransitionStylePageCurl</span> zur Verfügung. Da der Initializer hierfür aber einen Parameter vorsieht, plant Apple
+                                                   anscheinend zukünftig noch weitere Animationstypen zu unterstützen. Die Bezugsposition
+                                                   für das Blättern übergeben Sie in einem Dictionary unter dem Schlüssel <span class="clisting">UIPageViewControllerOptionSpineLocationKey</span>.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">UIPageViewControllerNavigationOrientation theOrientation =<br>    self.selectedNavigationOrientation;<br>UIPageViewControllerSpineLocation theLocation =<br>    [self spineLocationForInterfaceOrientation: self.interfaceOrientation navigationOrientation:theOrientation];<br>BOOL isDoubleSided =<br>    self.doubleSidedControl.selectedSegmentIndex;<br>NSDictionary *theOptions =<br>    [NSDictionary dictionaryWithObjectsAndKeys:<br>        [NSNumber numberWithInt:theLocation], UIPageViewControllerOptionSpineLocationKey, nil];<br>UIPageViewController *theController =<br>    [[UIPageViewController alloc] initWithTransitionStyle: UIPageViewControllerTransitionStylePageCurl<br>        navigationOrientation:theOrientation options:theOptions];<br>NSArray *theControllers =<br>    [self viewControllersForSpineLocation:theLocation];<br><br>theController.doubleSided = isDoubleSided ||<br>    theLocation == UIPageViewControllerSpineLocationMid;<br>theController.dataSource = self;<br>theController.delegate = self;<br>[theController setViewControllers:theControllers direction:self.selectedDirection animated:YES completion:NULL];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.65   </strong>Erzeugen eines Pageviewcontrollers
+                                                </p>
+                                                <p>Nach der Konstruktion können Sie wählen, ob der Controller eine ein- oder doppelseitige
+                                                   Darstellung verwenden soll. Allerdings dürfen Sie bei der mittleren Blätterposition
+                                                   nur die doppelseitige Darstellung angeben. Außerdem müssen Sie die Viewcontroller
+                                                   setzen, die der Pageviewcontroller nach seinem Erscheinen anzeigen soll. Auch hier
+                                                   ist die mittlere Blätterposition ein Sonderfall, da das Array hier zwei Viewcontroller
+                                                   enthalten muss. Für die anderen Positionen darf das Array hingegen immer nur ein Element
+                                                   enthalten. Diese Konfigurationsoptionen fasst Tabelle 4.6 noch einmal zusammen.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <caption class="tabunter">
+                                                      <p class="ptabellenunter"><strong>Tabelle 4.6   </strong>Konfigurationsoptionen des Pageviewcontrollers
+                                                      </p>
+                                                   </caption>
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf">
+                                                            
+                                                            
+                                                            
+                                                            <span class="cfett">Blätterposition</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">Rückseitendarstellung</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">Anzahl Viewcontroller</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Minimal
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Ein- und doppelseitig
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">1
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Mitte
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Doppelseitig
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">2
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Maximal
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Ein- und doppelseitig
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">1
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Listing 4.65 verwendet zwei Hilfsmethoden, um die Parameter für die Konstruktion und
+                                                   Konfiguration zu ermitteln. Die Methode <span class="clisting">spineLocationForInterfaceOrientation:navigationOrientation:</span> berechnet zu der Interfaceausrichtung und der Blätterrichtung die Blätterposition.
+                                                   Diese Methode liefert die mittlere Position bei den Werten Landscape und horizontal
+                                                   beziehungsweise Portrait und vertikal. Ansonsten gibt sie die Auswahl des entsprechenden
+                                                   Controls zurück. Die Methode <span class="clisting">viewControllersForSpineLocation:</span> liefert ein Array mit so vielen Viewcontrollern zurück, wie in Tabelle 4.6 angegeben
+                                                   sind.
+                                                </p>
+                                                <p>Dieses Array übergeben Sie über die Methode <span class="clisting">setViewControllers:direction: animated:completion:</span> an den Pageviewcontroller. Dabei sind die weiteren Parameter nur für bereits angezeigte
+                                                   Controller relevant. Über den Parameter <span class="clisting">animated</span> legen Sie fest, dass die neuen Seiten durch ein Umblättern erscheinen. Die Richtung
+                                                   des Blätterns können Sie über den Parameter <span class="clisting">direction</span> festlegen. Der letzte Parameter kann eine Blockfunktion enthalten, die der Controller
+                                                   nach Beendigung der Animation aufruft. Blockfunktionen stellt Kapitel 5 vor.
+                                                </p><a id="dodtp715e345b-17e4-4ee8-86dc-85292cd6e0be" name="dodtp715e345b-17e4-4ee8-86dc-85292cd6e0be"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Die Datenquelle und das Delegate</span></h4>
+                                                <p>Für das Blättern müssen Sie dem Pageviewcontroller jeweils die benötigten Viewcontroller
+                                                   für die Seiten zur Verfügung stellen. Dazu müssen Sie eine Datenquelle mit dem Protokoll
+                                                   <span class="clisting">UIPageViewControllerDataSource</span><a class="indexterm" id="dodtpcaba3b80-7af0-4232-b23d-79eadc5ab577"></a> bereitstellen. Es hat die zwei notwendigen Methoden <span class="clisting">pageViewController:viewControllerBeforeViewController:</span> und <span class="clisting">pageViewController:viewControllerAfterViewController:</span>, mit denen der Pageviewcontroller jeweils auf den Vorgänger beziehungsweise Nachfolger
+                                                   eines Viewcontrollers zugreifen kann. Das Beispielprogramm verwendet für die Seiten
+                                                   einfach Viewcontroller, die eine Seitenzahl anzeigen. Die Methoden der Datenquelle
+                                                   erzeugen jeweils einen neuen Viewcontroller, bei dem die Seitennummer um eins niedriger
+                                                   oder höher ist. Listing 4.66 enthält die Methode der Datenquelle zur Bestimmung des
+                                                   Vorgängers. Die Implementierung für den Nachfolger ist bis auf die vorletzte Zeile
+                                                   gleich.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (UIViewController *)pageViewController: (UIPageViewController *)inPageViewController viewControllerBeforeViewController:<br>        (UIViewController *)inViewController {<br>    LabelViewController *theController =<br>        (LabelViewController *)inViewController;<br>    return [self labelViewControllerWithPageNumber: theController.pageNumber &#8211; 1];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.66   </strong>Erzeugung des Vorgängers in der Datenquelle
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Storyboards und die Erzeugung von Viewcontrollern
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Da das Projekt ein Storyboard verwendet, müssen Sie neue Viewcontroller darüber erzeugen.
+                                                               Sie gelangen an das Storyboard über die Property <span class="clisting">storyboard</span> des Viewcontrollers. Es hat die Methode <span class="clisting">instantiateViewControllerWithIdentifier:</span>, mit der Sie einen neuen Viewcontroller anlegen können. Dessen Kennung legen Sie
+                                                               über das Feld <span class="cscreenelement">Identity</span> im Attributinspektor des Controllers im Interface Builder fest.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>
+                                                               <div class="listing"><pre class="prettyprint">- (id)labelViewControllerWithPageNumber:(NSInteger)inPage {<br>    LabelViewController *theController = [self.storyboard<br>        instantiateViewControllerWithIdentifier:@"label"];<br>    theController.pageNumber = inPage;<br>    return theController;<br>}<br></pre></div>
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Der Pageviewcontroller verändert bei einer Viewrotation die Blätterposition. Dazu
+                                                   implementiert sein Delegate, das das Protokoll <span class="clisting">UIPageViewControllerDelegate</span><a class="indexterm" id="dodtpf14d74fb-c071-4dd4-ae4d-a3cb328df512"></a> implementiert, die Methode <span class="clisting">pageViewController:spineLocationForInterfaceOrientation:</span>, die Listing 4.67 wiedergibt.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (UIPageViewControllerSpineLocation)pageViewController:<br>        (UIPageViewController *)inPageViewController<br>    spineLocationForInterfaceOrientation:<br>        (UIInterfaceOrientation)inOrientation {<br>    UIPageViewControllerNavigationOrientation theOrientation =<br>        inPageViewController.navigationOrientation;<br>    UIPageViewControllerSpineLocation theLocation =<br>        [self spineLocationForInterfaceOrientation:inOrientation<br>            navigationOrientation:theOrientation];<br>    NSArray *theControllers =<br>        [self viewControllersForSpineLocation:theLocation];<br>    [inPageViewController setViewControllers:theControllers<br>        direction:self.selectedDirection<br>        animated:YES completion:NULL];<br>    return theLocation;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.67   </strong>Berechnung der Blätterposition für die Viewrotation
+                                                </p>
+                                                <p>Diese Methode liefert aber nicht nur die neue Blätterposition zurück. Sie muss zusätzlich
+                                                   dafür sorgen, dass der Pageviewcontroller die richtige Anzahl an Viewcontrollern enthält.
+                                                </p><a id="dodtp33fc3b83-911b-400b-ace3-cc74cd2a7f95" name="dodtp33fc3b83-911b-400b-ace3-cc74cd2a7f95"></a><h4 class="t4"><span class="cfett"></span><span class="cfett"> Der Pageviewcontroller im Fototagebuch</span></h4>
+                                                <p>Für das Beispielprojekt <span class="cdateipfad">Page</span> brauchen Sie mindestens iOS 5. Mit einer niedrigeren iOS-Version können Sie das Projekt
+                                                   weder übersetzen noch auf einem Gerät ausführen. Das Fototagebuch soll sich aber auch
+                                                   mit iOS 4.0 übersetzen und ausführen lassen. Dazu brauchen Sie erst mal eine Antwort
+                                                   auf die Frage, wie die Applikation ohne Pageviewcontroller funktionieren soll. Das
+                                                   Fototagebuch geht den einfachsten Weg, indem es keine alternative Navigation anbietet.
+                                                </p>
+                                                <p>Auf den Quellcode hat die Kompatibilität zu iOS 4 zwei Auswirkungen:</p>
+                                                <ol class="paufz">
+                                                   <li>Wenn Sie das Programm mit einem alten SDK übersetzen, darf der Compiler auf keine
+                                                      Anweisungen mit dem Pageviewcontroller stoßen. Sie müssen diesen Code sozusagen verstecken.
+                                                   </li>
+                                                   <li>Wenn Sie die App mit dem 5er-SDK übersetzen und auf einem Gerät mit iOS 4 ausführen,
+                                                      darf sie den Pageviewcontroller nicht verwenden.
+                                                   </li>
+                                                </ol>
+                                                <p>Der erste Punkt lässt sich relativ einfach über den Präprozessor realisieren. Das
+                                                   iOS SDK definiert für jede unterstützte iOS-Version ein Makro <span class="clisting">__IPHONE_X_Y</span>, wobei X und Y für die Haupt- und Unterversionsnummer stehen. Für iOS 4.3 heißt das
+                                                   Makro beispielsweise <span class="clisting">__IPHONE_4_3</span>. Sie können durch die Existenz dieser Makros auf die iOS-Version schließen.
+                                                </p>
+                                                <p>Das Fototagebuch verwendet für die Einbindung des Pageviewcontrollers die Kategorie
+                                                   <span class="clisting">PhotoDiaryViewController(PageView)</span>, um den Code aus der Viewcontrollerklasse auszulagern. Diese Kategorie darf aber
+                                                   nur dann das Delegate und die Datenquelle des Pageviewcontrollers implementieren,
+                                                   wenn die entsprechenden Protokolle auch verfügbar sind. Der Header sieht deswegen
+                                                   folgendermaßen aus:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">@interface PhotoDiaryViewController(PageView)<br>#ifdef __IPHONE_5_0<br>&lt;UIPageViewControllerDataSource, UIPageViewControllerDelegate&gt;<br>#endif<br>- (void)setupPageViewControllerWithViewController:<br>    (UIViewController *)inViewController;<br>- (ItemViewController *)itemViewControllerWithIndexPath:<br>    (NSIndexPath *)inIndexPath;<br>- (void)displayItemAtIndexPath:(NSIndexPath *)inIndexPath;<br>@end<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.68   </strong>Bedingte Kompilierung für Pageviewcontroller
+                                                </p>
+                                                <p>Durch die Direktive in der zweiten Zeile blendet der Präprozessor die dritte Zeile
+                                                   nur bei der Verwendung eines iOS-SDK der Version 5.0 oder höher ein. Analog können
+                                                   Sie in der Implementierungsdatei über diese Präprozessoranweisungen Programmcode ausblenden.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Versionskompatibilität über bedingte Kompilierung
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Die <span class="cbegriff">bedingte Kompilierung</span><a class="indexterm" id="dodtp7c13fd14-fb19-42b7-8a69-172bb0881420"></a> ist zwar relativ einfach anzuwenden, hat aber den Nachteil, dass eine mit dem iOS
+                                                               SDK 4.3 übersetzte App zwar auch unter iOS 5.0 läuft, diese aber trotzdem nicht den
+                                                               Pageviewcontroller verwendet. Der Präprozessor hat diesen Code ja schon ausgeblendet,
+                                                               bevor der Compiler ihn überhaupt zu sehen bekam. Bedingte Kompilierung ist also für
+                                                               rückwärtskompatible Programme, die auch Funktionalitäten der neueren iOS-Versionen
+                                                               verwenden, nicht geeignet.
+                                                               <br><br>
+                                                               Setzen Sie also die versionsabhängige Compilierung nur in dem Quellcode ein, den Sie
+                                                               auch mit älteren SDK-Versionen übersetzen wollen.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Damit ein Programm sowohl unter alten iOS-Versionen läuft als auch die Möglichkeiten
+                                                   neuerer Versionen ausnutzen kann, müssen Sie die Prüfung zur Laufzeit durchführen.
+                                                   Sie können zwar die aktuelle Betriebssystemversion über die Property <span class="clisting">systemVersion</span><a class="indexterm" id="dodtp03fc4764-5b3d-419a-a964-973ce54b8834"></a> der Klasse <span class="clisting">UIDevice</span><a class="indexterm" id="dodtp356dcb06-de0b-4993-9abd-b0c4aa611d05"></a> abfragen. Dieser Ansatz ist aber unflexibel, weil Sie dabei von einer festen Verbindung
+                                                   zwischen Betriebssystemversion und der gesuchten Eigenschaft ausgehen. Es ist sinnvoller,
+                                                   die Laufzeitumgebung direkt nach der Existenz der gewünschten Eigenschaft zu befragen.
+                                                   Die Möglichkeiten dazu haben Sie teilweise bereits kennengelernt. Beispielsweise hat
+                                                   Apple mit iOS 5 die Property <span class="clisting">scrollView</span> zu der Klasse <span class="clisting">UIWebView</span><a class="indexterm" id="dodtp88590067-3a0c-4a59-84d4-805f3c790ef6"></a> hinzugefügt. Wenn Sie diese Property verwenden möchten, können Sie einfach den Webview
+                                                   fragen, ob er diese Property beziehungsweise die Methode <span class="clisting">scrollView</span> kennt. Dazu verwenden Sie die Methode <span class="clisting">respondsToSelector:</span>, die Sie schon im ersten Kapitel kennengelernt haben:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">if([theWebView respondsToSelector:@selector(scrollView)]) {<br>    UIScrollView *theScrollView = [theWebView scrollView];<br>    ...<br>}<br>else { // Plan B<br>    ...<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.69   </strong>Rückwärtskompatibler Methodenaufruf
+                                                </p>
+                                                <p>Für den Pageviewcontroller reicht das allerdings nicht aus, da Sie ja eine Klasse
+                                                   verwenden möchten, die es in den älteren SDKs noch nicht gab. Über die Funktion <span class="clisting">NSClassFromString()</span> können Sie auf ein Klassenobjekt über seinen Namen zugreifen. Sie liefert <span class="clisting">nil</span>, wenn es die gesuchte Klasse nicht gibt. Der Photodiaryviewcontroller verwendet die
+                                                   Methode <span class="clisting">displayItemAtIndexPath:</span>, um einen Tagebucheintrag anzuzeigen. Sie entscheidet mithilfe der Funktion, ob sie
+                                                   dafür einen Pageviewcontroller verwendet:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)displayItemAtIndexPath:(NSIndexPath *)inIndexPath {<br>    if(NSClassFromString(@"UIPageViewController") == nil) {<br>        [self pushItemAtIndexPath:inIndexPath];<br>    }<br>    else {<br>        UIPageViewController *thePageController =<br>            self.pageViewController;<br>        UIViewController *theController =<br>            [self itemViewControllerWithIndexPath:inIndexPath];<br><br>        if(thePageController == nil) {<br>            thePageController =<br>                [self pageViewControllerWithViewController:<br>                    theController];<br>            [self.navigationController pushViewController:<br>                thePageController animated:YES];<br>        }<br>        else {<br>            NSArray *theControllers =<br>                [NSArray arrayWithObject:theController];<br><br>            [thePageController setViewControllers:theControllers<br>                direction:<br>                UIPageViewControllerNavigationDirectionForward<br>                animated:NO completion:NULL];<br>        }<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.70   </strong>Rückwärtskompatible Verwendung des Pageviewcontrollers
+                                                </p>
+                                                <p>Auf dem iPad liefert die Methode <span class="clisting">pageViewController</span> den Pageviewcontroller aus dem Splitviewcontroller. Auf dem iPhone liefert diese
+                                                   Methode immer <span class="clisting">nil</span>, da Sie dort immer einen neuen Pageviewcontroller auf den Navigationstack legen müssen,
+                                                   was in dem If-Block geschieht.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp9d49c8ad-9181-4db0-8db3-4376f11656ac" name="dodtp9d49c8ad-9181-4db0-8db3-4376f11656ac"></a><h3 class="t3"><span class="cfett">4.6.4</span><span class="cfett"> Subview- und Containerviewcontroller</span><a href="#dodtp33fc3b83-911b-400b-ace3-cc74cd2a7f95"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>In den iOS-Versionen vor 5 sollten Viewcontroller nicht die Views anderer Viewcontroller
+                                                   über <span class="clisting">addSubview:</span> oder die <span class="clisting">insertSubview</span>-Methoden in ihre Views einbinden. Das ist zwar möglich, führt aber dazu, dass das
+                                                   Betriebssystem die Methoden für die Viewrotation und den Anzeigezyklus nicht aufruft.
+                                                   Mit iOS 5 hat Apple die Klasse <span class="clisting">UIViewController</span> um mehrere Methoden erweitert, die Ihnen eine nahezu beliebige Verschachtelung der
+                                                   Views Ihrer Viewcontroller erlauben. Es gibt drei wesentliche Anwendungsfälle, in
+                                                   denen diese neuen Methoden zum Einsatz kommen:
+                                                </p>
+                                                <ol class="paufz">
+                                                   <li><span class="cbegriff">Containerviewcontroller</span><a class="indexterm" id="dodtp69e4246a-e9be-4086-92a2-d24d0f27c07b"></a> zeigen einen oder mehrere andere Viewcontroller an und organisieren den Wechsel zwischen
+                                                      diesen Controllern. Das iOS stellt beispielsweise mit dem Splitview-, Navigation-
+                                                      und Tabbarcontroller auch Containerviewcontroller bereit.
+                                                   </li>
+                                                   <li>Ein <span class="cbegriff">Subview</span><a class="indexterm" id="dodtpb0019878-350b-450d-90da-6f18c0a8ccf8"></a> mit eigenem Controller belegt nur einen Teil der Bildschirmfläche. Ihn fügt entweder
+                                                      der Controller des Haupviews ein, wie das bei <span class="clisting">presentModalViewController:animated:</span> auf dem iPad und der Darstellungsart <span class="clisting">UIModalPresentationPageSheet</span> geschieht. Alternativ kann sich ein Subviewcontroller auch selbstständig in den Hauptview
+                                                      einklinken, wie das der Popoverviewcontroller macht.
+                                                   </li>
+                                                   <li>Über die neuen Methoden können Sie auch die Animationen für den Viewwechsel beeinflussen.</li>
+                                                </ol>
+                                                <p>Das Beispielprogramm <span class="cdateipfad">Container</span> auf der beiliegenden DVD gibt jeweils ein Beispiel für die ersten beiden Anwendungsfälle
+                                                   und gibt außerdem noch zwei Beispiele für eigene Übergänge.
+                                                </p>
+                                                <p>Das Vorgehen für Containerviewcontroller und Subviews mit Controllern ist sehr ähnlich.
+                                                   Sie fügen den inneren Controller über die Methode <span class="clisting">addChildViewController:</span> zum äußeren hinzu. Außerdem fügen Sie den View des inneren Controllers an einer beliebigen
+                                                   Stelle in den View des äußeren ein und nach Abschluss aller Operationen senden Sie
+                                                   an den inneren Controller noch die Nachricht <span class="clisting">didMoveToParentViewController:</span> mit dem äußeren Viewcontroller als Argument. Das Beispielprojekt implementiert die
+                                                   Klasse <span class="clisting">RaisingSegue</span><a class="indexterm" id="dodtpd0aedee9-5d27-48a1-975e-b1332223e648"></a>, die genau diese Schritte umsetzt. Sie enthält nur die Methode <span class="clisting">perform</span>, die den neuen Subview von links unten aufzieht. Da das fünfte Kapitel genauer auf
+                                                   Animationen und Blockfunktionen eingeht, gibt Listing 4.71 nur eine verkürzte Version
+                                                   ohne Animation wieder. Den vollständigen Quellcode mit Animationen finden Sie auf
+                                                   der DVD.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)perform {<br>    UIViewController *theFromViewController =<br>        self.sourceViewController;<br>    UIViewController *theToViewController =<br>        self.destinationViewController;<br>    CGRect theBounds = theFromViewController.view.bounds;<br>    UIView *theView = theToViewController.view;<br>    UIView *theBackgroundView =<br>        [[UIView alloc] initWithFrame:theBounds];<br><br>    [theFromViewController addChildViewController:theToViewController];<br>    theBackgroundView.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.5];<br>    theBackgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;<br>    [theBackgroundView addSubview:theView];<br>    [theFromViewController.view addSubview:theBackgroundView];<br>    theView.frame = CGRectInset(theBounds, 20.0, 20.0);<br>    [theToViewController didMoveToParentViewController:theFromViewController];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.71   </strong>Einfügen eines Subviews mit eigenem Controller
+                                                </p>
+                                                <p>Die Implementierung belegt für den Subview aber nicht die komplette Fläche, sondern
+                                                   nur ein kleineres Rechteck. Um die UI-Elemente außerhalb des Subviews zu sperren,
+                                                   legt der Übergang den Subview in einen Hintergrundview mit schwarztransparenter Hintergrundfarbe.
+                                                   Diese Farbgebung zeigt dem Nutzer die Sperrung an.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Automatische Weiterleitung der Ereignisse
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Wenn Sie einen Controller auf die beschriebene Art zu einem anderen Viewcontroller
+                                                               hinzufügen, erhält er automatisch alle Nachrichten über Viewrotationen. Sie können
+                                                               also beispielsweise die Methode <span class="clisting">didRotateFromInterfaceOrientation:</span> wie gewohnt verwenden. Außerdem leitet der Parentviewcontroller die Nachrichten des
+                                                               Anzeigezyklus &#8211; wie beispielsweise <span class="clisting">viewWillAppear:</span> &#8211; an die Subviewcontroller weiter. Im Beispielprogramm enthalten diese Methoden Log-Anweisungen,
+                                                               sodass Sie das leicht überprüfen können.
+                                                               <br><br>
+                                                               Allerdings ruft Cocoa Touch diese Methoden nicht unbedingt so auf, wie Sie es brauchen.
+                                                               Es kann ja schließlich nicht wissen, ob ein neuer Subview einen bestehenden verdrängt
+                                                               oder ob beide Subviews gleichzeitig sichtbar sind. Aus diesem Grund können Sie diese
+                                                               Nachrichten auch selbst an die Subviewcontroller verschicken. Dazu können Sie das
+                                                               Standardverhalten durch Überschreiben der Methode <span class="clisting">automaticallyForwardAppearanceAndRotationMethodsToChildViewControllers</span> im äußeren Viewcontroller abschalten, indem Ihre Implementierung einfach <span class="clisting">NO</span> zurückgibt.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Übergänge eignen sich für die Anzeige von Subviews unter iOS 5. Sie können sie zwar
+                                                   nur in Storyboards über den Interface Builder erzeugen. Aber bei der Verwendung von
+                                                   XIB-Dateien können Sie die Übergänge auch durch Programmanweisungen erzeugen. Das
+                                                   Beispielprogramm geht in der Methode <span class="clisting">close</span> der Klasse <span class="clisting">SupernumeraryViewController</span> so vor, um den Subview verschwinden zu lassen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (IBAction)close {<br>    id theSegue = [[ShrinkingSegue alloc] initWithIdentifier:nil source:self destination:self.parentViewController];<br><br>    [theSegue perform];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.72   </strong>Erzeugung eines Übergangs
+                                                </p>
+                                                <p>Die Klasse <span class="clisting">ShrinkingSegue</span> ist das Gegenstück zu <span class="clisting">RaisingSegue</span>, da sie den Subview auf die entgegengesetzte Weise wieder verschwinden lässt (siehe
+                                                   Listing 4.73). Während Sie nach dem Erscheinen des Subviews die Methode <span class="clisting">didMoveToParentViewController:</span> des Controllers aufrufen müssen, müssen Sie vor dem Verschwinden die Methode <span class="clisting">willMoveToParentViewController:</span> aufrufen. Diese beiden Methoden können Sie verwenden, damit Ihre Subviewcontroller
+                                                   auf das Einfügen und das Entfernen reagieren können. Das Einfügen und Entfernen können
+                                                   Sie anhand des Parameters unterscheiden. Beim Entfernen ist er <span class="clisting">nil</span>.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)perform {<br>    UIViewController *theFromViewController =<br>        self.sourceViewController;<br>    UIViewController *theToViewController =<br>        self.destinationViewController;<br>    CGRect theBounds = theToViewController.view.bounds;<br>    UIView *theView = theFromViewController.view;<br>    UIView *theBackgroundView = theView.superview;<br><br>    [theFromViewController willMoveToParentViewController:nil];<br>    [theBackgroundView removeFromSuperview];<br>    [theView removeFromSuperview];<br>    [theFromViewController removeFromParentViewController];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.73   </strong>Entfernen des Subviews
+                                                </p>
+                                                <p>Die Klasse <span class="clisting">ContainerViewController</span> des Beispielprojekts zeigt vier Subviews an und verwaltet mehrere Viewcontroller
+                                                   für Subviews. Dabei fügt sie die Subviewcontroller analog zu <span class="clisting">perform</span> der Klasse <span class="clisting">RaisingSegue</span> hinzu. Die vier Subviews haben alle die gleiche Größe und sind in jeweils zwei Reihen
+                                                   und Spalten angeordnet. Die Größe und Position könnte der Containerviewcontroller
+                                                   natürlich schon beim Einfügen der Subviews festlegen. Allerdings wäre dieses Vorgehen
+                                                   relativ unflexibel bei Größenveränderungen oder Rotationen des Containerviews. Sinnvoller
+                                                   ist ein dynamisches Layout, wie Sie es bereits mit der Methode <span class="clisting">layoutSubviews</span> kennengelernt haben.
+                                                </p>
+                                                <p>Aber anstatt eine eigene Viewunterklasse für den Containerviewcontroller zu erstellen,
+                                                   können Sie auch die Methode <span class="clisting">viewDidLayoutSubviews</span><a class="indexterm" id="dodtp0aa28dd4-4389-4f5b-b488-dd96ffc2d25b"></a> im Controller überschreiben. Cocoa Touch ruft diese Methode nach Aufruf der Methode
+                                                   <span class="clisting">layoutSubviews</span> des Views des Controllers auf. Die Klasse <span class="clisting">ContainerViewController</span> des Beispielprojekts nutzt diese Methode, um die Views entsprechend anzuordnen.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)viewDidLayoutSubviews {<br>    [super viewDidLayoutSubviews];<br>    CGRect theBounds = self.containerView.bounds;<br>    CGRect theFrame = CGRectMake(0.0, 0.0,<br>        CGRectGetWidth(theBounds) / 2.0,<br>        CGRectGetHeight(theBounds) / 2.0);<br>    NSUInteger theIndex = 0;<br><br>    for(UIViewController *theController in<br>        self.viewControllers) {<br>        UIView *theView = theController.view;<br>        NSUInteger theColumn = theIndex % 2;<br>        NSUInteger theRow = theIndex / 2;<br><br>        theFrame.origin.x = theColumn * theFrame.size.width;<br>        theFrame.origin.y = theRow * theFrame.size.height;<br>        theView.frame = theFrame;<br>        theIndex++;<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.74   </strong>Layout der Subviews über den Containerviewcontroller
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Verwaltung der Subviewcontroller
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie können alle Subviewcontroller des Containerviewcontrollers über dessen Property
+                                                               <span class="clisting">childViewControllers</span> erhalten. Allerdings können Sie diese Property nicht in Listing 4.74 verwenden, da
+                                                               ja der Containerviewcontroller noch weitere Subviewcontroller enthalten kann. Aus
+                                                               diesem Grund besitzt die Klasse <span class="clisting">ContainerViewController</span> die Property <span class="clisting">viewControllers</span>, die nur die Subviewcontroller enthält, die der Containerviewcontroller selbst verwaltet.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_04_006.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="4 Daten, Tabellen und Controller"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_04_005.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_05_001.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

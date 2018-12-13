@@ -1,0 +1,923 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 4 Daten, Tabellen und Controller">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 4 Daten, Tabellen und Controller">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 4 Daten, Tabellen und Controller</title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_04_002.html">
+      <link rel="next" href="apps_04_004.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_04_002.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_04_004.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6" class="navnav">4 Daten, Tabellen und Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_001.html#dodtp161390c7-9a37-4c74-9595-2265118b8a9d" class="navnav">4.1 Benachrichtigungen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_001.html#dodtp944a9e6e-1cbf-401f-ab3b-c6f85b6c876d" class="navnav">4.1.1 Benachrichtigungen empfangen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_001.html#dodtpad52d840-8b9f-495b-8a2a-35e4047330dd" class="navnav">4.1.2 Eigene Benachrichtigungen verschicken</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_002.html#dodtpb57c4bb1-6c65-41ad-89c1-3b7576ac3d40" class="navnav">4.2 Core Data</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtpe1e9b8ac-e5e8-4efb-a42d-3b2d94c7f1fe" class="navnav">4.2.1 Datenmodellierung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtpfe1fabf9-75f8-485c-87ce-e94464e26740" class="navnav">4.2.2 Implementierung von Entitätstypen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp04f7af7a-9e1e-4cde-bd50-4948972b41c4" class="navnav">4.2.3 Einbindung von Core Data</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp711fd6f8-9d0b-43f7-b7df-59135a212956" class="navnav">4.2.4 Der Objektkontext</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp2ba4af9f-2546-41d4-b686-0ffb17d12850" class="navnav">4.2.5 Die Nachrichten des Objektkontexts</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_002.html#dodtp94b638ad-f337-4d8a-b0e4-505a32faba95" class="navnav">4.2.6 Anlegen und Ändern von Entitäten in der Praxis</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_003.html#dodtpf45f1df5-53c6-4a69-a3ed-d229d0003cff" class="navh">4.3 View-Rotationen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_003.html#dodtp5345ec09-8314-4638-b388-9dc3d0a6983d" class="navh">4.3.1 Flexible Views dank der Autoresizingmask</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_003.html#dodtpb891c5b3-4a6e-4b5e-948d-d111012768e1" class="navh">4.3.2 Lang lebe das Rotationsprinzip</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_003.html#dodtpd1dcc312-26bd-4cb1-bb4c-02bbae967f9e" class="navh">4.3.3 Anpassung des Layouts</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_004.html#dodtp4879682b-5be3-4bc3-ac97-1ba88bf23d21" class="navnav">4.4 Texte, Bilder und Töne verwalten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_004.html#dodtp4d2a8cd8-a7fd-43f6-97f5-5e8ce021411a" class="navnav">4.4.1 Die Tastatur betritt die Bühne</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_004.html#dodtp1742cc84-080e-4401-bb5f-8199ed8adfe7" class="navnav">4.4.2 Fotos aufnehmen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_004.html#dodtp742013f6-5218-4c2b-94a5-35d471354bd2" class="navnav">4.4.3 Töne aufnehmen und abspielen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_005.html#dodtpc3f5f98e-3fa0-4ded-b3a1-091f17c3d7f1" class="navnav">4.5 Tableviews und Core Data</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp4173eb94-717b-41c2-bf9b-9b9909cbbd9d" class="navnav">4.5.1 Tableviews</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtpac0189cc-2f13-478f-a1c4-c4ff25a79da7" class="navnav">4.5.2 Tabellenzellen gestalten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtpe33951e6-7013-4dab-96e0-1e4ef4c73ca3" class="navnav">4.5.3 Buttons in Tabellenzellen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp04982a99-ada3-4624-aa0c-879217a1b0b1" class="navnav">4.5.4 Zellen löschen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp26fdab25-043f-47e3-9d67-3f4b5fd3614b" class="navnav">4.5.5 Core Data II: Die Rückkehr der Objekte</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp71d9a2c1-d96b-4401-9885-7307c2ff22d4" class="navnav">4.5.6 Prädikate</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp0437a63c-3e9d-4a27-8595-255fa2fc4555" class="navnav">4.5.7 Aktualisierung des Tableviews</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp34c90a04-f378-49e9-bd0b-db542c8f1874" class="navnav">4.5.8 Das Delegate des Fetchedresultscontrollers</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_005.html#dodtp93db3543-20d8-4787-95a7-bf305df55e41" class="navnav">4.5.9 Tabelleneinträge suchen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_04_006.html#dodtp7af46a15-51ff-4fcc-b2c4-b30e36461622" class="navnav">4.6 Containerviewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtpbdcb129d-0df5-43de-a8fa-0dbcdfbaa055" class="navnav">4.6.1 Der Navigationcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtp3216b28c-3a06-4dee-a7dd-4ba43a860410" class="navnav">4.6.2 Splitviewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtp42a6570b-bf63-47d9-8397-a69f74153e47" class="navnav">4.6.3 Der Pageviewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_04_006.html#dodtp9d49c8ad-9181-4db0-8db3-4376f11656ac" class="navnav">4.6.4 Subview- und Containerviewcontroller</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main"><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpf45f1df5-53c6-4a69-a3ed-d229d0003cff" name="dodtpf45f1df5-53c6-4a69-a3ed-d229d0003cff"></a><h2 class="t2"><span class="cfett">4.3</span><span class="cfett"> View-Rotationen</span><a href="#dodtp5345ec09-8314-4638-b388-9dc3d0a6983d"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h2>
+                                                <p>Zu den faszinierenden Neuerungen des iPhones gegenüber seinen Konkurrenzprodukten
+                                                   gehört sicherlich auch die Möglichkeit, das Gerät sowohl im Hoch- als auch im Querformat
+                                                   verwenden zu können. Sie drehen das iPhone um 90°, und die Bildschirmanzeige passt
+                                                   sich der neuen Ausrichtung automatisch an. Dabei gibt es Apps, wie beispielsweise
+                                                   <span class="cdateipfad">Safari</span>, die einfach nur das Layout anpassen, oder wie den <span class="cdateipfad">Rechner</span>, der im Hochformat<a class="indexterm" id="dodtp716bc70e-6614-49e8-8a3f-fd1aaf512ddd"></a> einen einfachen und im Querformat<a class="indexterm" id="dodtpebbd2fcb-703c-4946-9da2-277d008e7542"></a> einen wissenschaftlichen Rechner anzeigt (siehe Abbildung 4.6).
+                                                </p><a href="bilder/04_006.png" rel="lightbox" title="Anpassung der Anzeige im Rechner"><img class="bild" border="1" src="bilderklein/klein04_006.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.6   </strong>Anpassung der Anzeige im Rechner
+                                                </p>
+                                                <p>Das Fototagebuch soll seine Views auch automatisch an die Ausrichtung des Gerätes
+                                                   anpassen. Dazu müssen Sie aber keine Rotationen berechnen oder unterschiedliche Layouts
+                                                   verwalten. Es reicht aus, wenn Sie Ihre Views größenunabhängig gestalten. Dabei hilft
+                                                   Ihnen die Autoresizingmask.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp5345ec09-8314-4638-b388-9dc3d0a6983d" name="dodtp5345ec09-8314-4638-b388-9dc3d0a6983d"></a><h3 class="t3"><span class="cfett">4.3.1</span><span class="cfett"> Flexible Views dank der Autoresizingmask</span><a href="#dodtpb891c5b3-4a6e-4b5e-948d-d111012768e1"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpf45f1df5-53c6-4a69-a3ed-d229d0003cff"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Jeder View besitzt eine eigene <span class="cbegriff">Autoresizingmask</span><a class="indexterm" id="dodtp23059b38-d970-467b-be35-5a4a10d5ee49"></a>. Sie besteht aus sechs booleschen Werten, die zu einer Bitmaske<a class="indexterm" id="dodtpbf0cf167-da4c-41c5-bd5f-9afb154d1a2b"></a> verknüpft sind. Die booleschen Werte stehen dabei für die Veränderlichkeit &#8211; entweder
+                                                   für einen Abstand zu den vier Seiten des umliegenden Views oder für die Breite beziehungsweise
+                                                   Höhe des Views.
+                                                </p><a href="bilder/04_007.png" rel="lightbox" title="Die Autoresizingmask und das Beispiel im Größeninspektor des Interface Builders"><img class="bild" border="1" src="bilderklein/klein04_007.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.7   </strong>Die Autoresizingmask und das Beispiel im Größeninspektor des Interface Builders
+                                                </p>
+                                                <p>Sie können die Maske über den Größeninspektor im Interface Builder, der Ihnen auch
+                                                   ein animiertes Beispiel anzeigt (siehe Abbildung 4.7), oder über die Property <span class="clisting">autoresizingMask</span> im Code anpassen. Während die Anpassung im Code einheitlich ist &#8211; Sie setzen jeweils
+                                                   das Bit für die Größen, die flexibel sein sollen &#8211;, ist die Einstellung im Interface
+                                                   Builder für die Ränder im Gegensatz zu Breite und Höhe vertauscht. Sie müssen dort
+                                                   den roten Strich für ein Randelement selektieren, wenn es unveränderlich sein soll,
+                                                   und Sie müssen es deselektieren, falls Sie es flexibel haben wollen. Bei der Breite
+                                                   und der Höhe ist es genau umgekehrt. Dort bedeutet ein selektierter Strich, dass die
+                                                   Größe flexibel ist, und ein deselektierter, dass die Größe fest ist. Sie können die
+                                                   Maske aus der Abbildung also folgendermaßen im Programmcode setzen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">theView.autoresizingMask = UIViewAutoresizingFlexibleWidth |<br>    UIViewAutoresizingFlexibleRightMargin |<br>    UIViewAutoresizingFlexibleBottomMargin;<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.14   </strong>Setzen der Autoresizingmask im Programmcode
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Tipp
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Nutzen Sie die Beispielansicht im Interface Builder, wenn Sie sich unsicher sind,
+                                                               wie Sie die Autoresizingmask für Ihre Anforderungen einstellen müssen. Die Animation
+                                                               verdeutlicht sehr schön, wie sich der View bei einer Größenänderung verhält.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die Einstellungen in der Autoresizingmask eines Views werden immer dann wirksam, wenn
+                                                   die Größe des Superviews verändert wird. Wenn die Maske für eine Größe festlegt, dass
+                                                   sie unveränderlich ist, hat diese Größe nach der Änderung den gleichen Wert wie davor.
+                                                   Definiert die Maske den Wert hingegen als veränderlich, so wird die Größe dynamisch
+                                                   angepasst.
+                                                </p>
+                                                <p>Die folgenden Beispiele sollen das Verhalten veranschaulichen:</p>
+                                                <ul class="gp">
+                                                   <li>Wenn Sie einem View eine flexible Breite und Höhe geben, hat der View immer den gleichen
+                                                      Abstand zu den Rändern seines Superviews. Sie können mit dieser Maske beispielsweise
+                                                      Rahmen mit einer festen Breite realisieren. Wenn Sie eine neue XIB-Datei anlegen,
+                                                      bekommt der darin enthaltene View diese Maske, damit sich dessen Größe bei einer Rotation
+                                                      automatisch anpassen kann.
+                                                   </li>
+                                                   <li>Wenn Sie Textfelder, Labels und Buttons im Interface Builder anlegen, bekommen diese
+                                                      einen flexiblen rechten und unteren Rand. Bei einer Größenveränderung des Superviews
+                                                      ändern sie also ihre Position zum linken und oberen Rand nicht. Das ist sinnvoll,
+                                                      da es allgemein üblich ist, Formulare von oben links her aufzubauen.
+                                                   </li>
+                                                   <li>Formulare zeigen in der Regel die Buttons zum Absenden oder Ablehnen am unteren Rand
+                                                      an. Hier müssen Sie also den oberen Rand flexibel und den unteren unveränderlich setzen.
+                                                   </li>
+                                                   <li>Tabbars und Werkzeugleisten liegen am unteren Bildschirmrand und nehmen dessen komplette
+                                                      Breite ein. Sie müssen bei diesen Elementen also einen flexiblen oberen Rand und eine
+                                                      flexible Breite setzen, so wie es der Interface Builder bei diesen Elementen auch
+                                                      macht.
+                                                   </li>
+                                                </ul>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Tipp
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie sollten Ihre Views möglichst so gestalten, dass sie flexibel auf Größenveränderungen
+                                                               reagieren. Zum einen kann der View in der App eine andere Größe als im Interface Builder
+                                                               haben, und zum anderen ist das die beste Voraussetzung, um dessen Rotationsfähigkeit
+                                                               sicherzustellen.
+                                                               <br><br>
+                                                               Sie sollten sich außerdem beim Anlegen eines Views nicht auf feste Displaygrößen verlassen.
+                                                               Momentan haben alle iPhone- und iPod-Touch-Displays eine Größe von 320 × 480 Punkten,
+                                                               was entweder der Pixelzahl oder auf Retinadisplays 640 × 960 Pixeln entspricht. Es
+                                                               gibt aber keine Garantie dafür, dass das immer so bleibt.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die Autoresizingmask ist eine relativ einfache, aber effektive Methode, um Views größenunabhängig
+                                                   gestalten zu können. Sie kann aber natürlich nicht alle Möglichkeiten abdecken. Beispielsweise
+                                                   sollte beim analogen Wecker das Zifferblatt möglichst immer quadratisch sein. Das
+                                                   lässt sich durch die Autoresizingmask aber nicht ausdrücken, sondern nur über Programmcode.
+                                                </p>
+                                                <p>Die Klasse <span class="clisting">UIView</span> stellt jedoch Methoden bereit, mit denen Sie ein beliebiges Layout umsetzen können.
+                                                   Dabei bestimmt jeweils der Superview die Position und Größe seiner Subviews. Sie können
+                                                   das verändern, indem Sie die Methode <span class="clisting">layoutSubviews</span> überschreiben und darin die Subviews über deren Property <span class="clisting">frame</span> so positionieren, wie Sie es wünschen. Das iOS ruft diese Methode auf, sobald der
+                                                   View ein neues Layout benötigt. Sie sollten diese Methode niemals direkt aufrufen.
+                                                   Falls Sie das Layout eines Views neu berechnen möchten, sollten Sie stattdessen <span class="clisting">setNeedsLayout</span> verwenden. Der nächste Abschnitt behandelt ein Beispiel für einen View mit eigenem
+                                                   Layout.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpb891c5b3-4a6e-4b5e-948d-d111012768e1" name="dodtpb891c5b3-4a6e-4b5e-948d-d111012768e1"></a><h3 class="t3"><span class="cfett">4.3.2</span><span class="cfett"> Lang lebe das Rotationsprinzip</span><a href="#dodtpd1dcc312-26bd-4cb1-bb4c-02bbae967f9e"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp5345ec09-8314-4638-b388-9dc3d0a6983d"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Das Prinzip hinter der Rotation aus der Perspektive der App ist erstaunlich einfach,
+                                                   da es nur auf der Größenveränderung des dargestellten Views beruht. Die Verwaltung
+                                                   und die Darstellung der Rotation übernimmt das iOS für Sie. Sie brauchen also Ihren
+                                                   View nur größenunabhängig aufzubauen, um ihn rotationsfähig zu machen.
+                                                </p><a href="bilder/04_008.png" rel="lightbox" title="Layoutanpassung bei Rotation über die Autoresizingmask"><img class="bild" border="1" src="bilderklein/klein04_008.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.8   </strong>Layoutanpassung bei Rotation über die Autoresizingmask
+                                                </p>
+                                                <p>Sie können dafür in vielen Fällen die Autoresizingmask verwenden, wenn die Größe</p>
+                                                <ul class="gp">
+                                                   <li>sich durch die Rotation nicht verändern soll oder</li>
+                                                   <li>nur von der entsprechenden Größe des umgebenden Views in der gleichen Dimension abhängt.</li>
+                                                </ul>
+                                                <p>Sie können also beispielsweise die Breite des Views über die Autoresizingmask dynamisch
+                                                   anpassen, wenn die neue Breite nach der Rotation nur von der neuen Breite des Superviews
+                                                   abhängt. In Abbildung 4.8 ist ein Beispiel für eine solche Rotationsanpassung mit
+                                                   festen und variablen Größenänderungen dargestellt. Dabei bedeuten die weißen Punkte,
+                                                   dass der entsprechende Randwert in der Maske fixiert ist; und die gestrichelten Pfeile
+                                                   bedeuten, dass der entsprechende Größenwert in der Maske flexibel ist.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Größenanpassungen im Interface Builder
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie können Ihre Einstellungen der Autoresizingmask im Interface Builder überprüfen,
+                                                               indem Sie den Attributinspektor des obersten Views öffnen. Dort befindet sich das
+                                                               Dropdownmenü <span class="cscreenelement">Orientation</span>, mit dem Sie die Ausrichtung des Views verändern können. Sie können dort auch in
+                                                               der Rubrik <span class="cscreenelement">Simulated Metrics</span> verschiedene System-UI-Elemente konfigurieren, um die verfügbare Fläche des Views
+                                                               anzupassen.
+                                                               
+                                                               Die Einstellungen, die Sie dort vornehmen, haben aber keinen Einfluss auf Ihr Programm.
+                                                               Aber auch, wenn Ihr View keine Rotation unterstützen soll, ist es immer eine gute
+                                                               Idee, dessen Flexibilität über dieses Dropdownmenü zu testen. Sie können damit recht
+                                                               einfach herausfinden, ob sich Ihr View richtig an neue Größen anpasst.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Dieses Beispiel finden Sie auch als Projekt <span class="cdateipfad">Rotation</span> auf der beiliegenden DVD. Wenn Sie die App im Simulator starten und diesen über die
+                                                   Menüpunkte <span class="cscreenelement">Hardware</span> · <span class="cscreenelement">Links drehen</span> (<span class="ctastatur"><img align="top" src="keys/ctastatur_KENNRCk=.gif" alt="CMD" title="CMD"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KExpbmtzKQ==.gif" alt="Links" title="Links"></span>) beziehungsweise <span class="cscreenelement">Hardware</span> · <span class="cscreenelement">Rechts drehen</span> (<span class="ctastatur"><img align="top" src="keys/ctastatur_KENNRCk=.gif" alt="CMD" title="CMD"></span> + <span class="ctastatur"><img align="top" src="keys/ctastatur_KFJlY2h0cyk=.gif" alt="Rechts" title="Rechts"></span>) drehen, rotiert der View mit. Das liegt daran, dass Sie Cocoa Touch noch nicht mitgeteilt
+                                                   haben, welche Ausrichtungen Ihr View unterstützt. Das können Sie über die Methode
+                                                   <span class="clisting">shouldAutorotateToInterfaceOrientation:</span> des Viewcontrollers festlegen. Sie bekommt vom iOS die gewünschte Ausrichtung als
+                                                   Parameter übergeben und liefert <span class="clisting">YES</span> zurück, wenn der View, den der Controller verwaltet, diese Ausrichtung unterstützt.
+                                                   Für die Ausrichtungen gibt es den Aufzählungstyp <span class="clisting">UIInterfaceOrientation</span>, und Sie können den Parameter mit den entsprechenden Konstanten dieses Typs vergleichen.
+                                                   Wenn Sie beispielsweise nur Querformate unterstützen möchten, können Sie die Methode
+                                                   so implementieren:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (BOOL)shouldAutorotateToInterfaceOrientation:<br>    (UIInterfaceOrientation)inOrientation {<br>    return<br>        inOrientation == UIInterfaceOrientationLandscapeLeft ||<br>        inOrientation == UIInterfaceOrientationLandscapeRight;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.15   </strong>Unterstützung unterschiedlicher Geräteausrichtungen
+                                                </p>
+                                                <p>Wenn Sie alle Ausrichtungen unterstützen möchten, können Sie natürlich einfach <span class="clisting">YES</span> zurückgeben. Falls Sie sowohl Portrait- als auch Landscapeausrichtungen unterstützen
+                                                   möchten, stellt Cocoa Touch Ihnen die beiden Makros <span class="clisting">UIInterfaceOrientationIsPortrait()</span> und <span class="clisting">UIInterfaceOrientationIsLandscpe()</span> zur Verfügung. Mit Letzterem können Sie die <span class="clisting">return</span>-Anweisung in Listing 4.15 auch einfacher und klarer formulieren:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">return UIInterfaceOrientationIsLandscape(inOrientation);<br></pre></div>
+                                                <p>In dem Beispielprogramm <span class="cdateipfad">Rotation</span> können Sie die Rotationsunterstützung über das <span class="cbegriff">Segmented Control</span><a class="indexterm" id="dodtpc6438a4f-5172-4457-b4a3-8181a438fa30"></a> oben rechts im View ein- und ausschalten.
+                                                </p>
+                                                <p>Sie sollten in dieser Methode aber keine andere Funktionalität implementieren, und
+                                                   Sie sollten auch nicht annehmen, dass Cocoa Touch bei einer Rückgabe von <span class="clisting">YES</span> auch diese Ausrichtung verwendet. Diese Methode ist nur für die Entscheidung da,
+                                                   welche Ausrichtungen Ihr Viewcontroller unterstützt. Wenn Ihr Viewcontroller den Beginn
+                                                   oder das Ende einer Rotation mitbekommen soll, sollten Sie dafür lieber die Methoden
+                                                   <span class="clisting">willRotateToInterfaceOrientation:duration:</span><a class="indexterm" id="dodtp30369901-6493-474b-8f2e-839a68d9bdbf"></a> und <span class="clisting">didRotateFromInterfaceOrientation:</span><a class="indexterm" id="dodtp6aa4fb9e-58ed-4841-ac2d-f533f7b4d039"></a> überschreiben.
+                                                </p>
+                                                <p>Die aktuelle Ausrichtung des Viewcontrollers können Sie über die Property <span class="clisting">interfaceOrientation</span><a class="indexterm" id="dodtp6f3b15c3-689d-433d-8ea5-956c7ad4e8b7"></a> auslesen. Dieser Wert entspricht dabei der <span class="cbegriff">Anzeige-</span><a class="indexterm" id="dodtp6f944b77-d6a9-46cf-95c0-7a011c96c0c5"></a> und nicht der <span class="cbegriff">Geräteausrichtung</span><a class="indexterm" id="dodtpf2fc7d00-8966-4231-b8d1-afc7aa8d6da5"></a>. Das sind zwei unterschiedliche Werte, da ja die Anzeigeausrichtung nicht der Geräteausrichtung
+                                                   entsprechen muss. Wenn Ihr Viewcontroller beispielsweise nur das Hochformat unterstützt,
+                                                   bleibt die Anzeigeausrichtung immer gleich, egal wie Sie das Gerät drehen.
+                                                </p>
+                                                <p>Die Geräteausrichtung können Sie über das Singleton <span class="clisting">UIDevice</span><a class="indexterm" id="dodtp11717785-d653-4692-a289-77ff6e20753c"></a> und die Property <span class="clisting">orientation</span><a class="indexterm" id="dodtpe1a5712a-c3e4-4247-95c9-113e5384db43"></a> ermitteln. Die Device-Klasse verwendet zwar andere Konstanten, die für das Querformat
+                                                   auch noch vertauschte Bezeichnungen &#8211; Links ist das neue Rechts &#8211; haben. Sie können
+                                                   aber die Rückgabewerte der beiden Propertys trotzdem miteinander vergleichen, da die
+                                                   <span class="clisting">UIInterfaceOrientation</span>-Konstanten über die Device-Konstanten definiert sind.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Achtung
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Wenn Sie die zulässige Ausrichtung des Viewcontrollers von der aktuellen Ausrichtung
+                                                               des Gerätes abhängig machen möchten, dürfen Sie in <span class="clisting">shouldAutorotateToInterfaceOrientation:</span> nicht die Property <span class="clisting">interfaceOrientation</span> des Viewcontrollers verwenden. Diese Property liefert Ihnen nicht die Ausrichtung
+                                                               des Gerätes, sondern die des Viewcontrollers. Ihre Verwendung kann an dieser Stelle
+                                                               zu einer Endlosrekursion führen. Wenn Sie die Geräteausrichtung ermitteln möchten,
+                                                               sollten Sie immer die Property <span class="clisting">orientation</span> der Klasse <span class="clisting">UIDevice</span> verwenden.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpd1dcc312-26bd-4cb1-bb4c-02bbae967f9e" name="dodtpd1dcc312-26bd-4cb1-bb4c-02bbae967f9e"></a><h3 class="t3"><span class="cfett">4.3.3</span><span class="cfett"> Anpassung des Layouts</span><a href="#dodtpb891c5b3-4a6e-4b5e-948d-d111012768e1"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Der View des Itemviewcontrollers des Fototagebuchs passt sich bei der Rotation des
+                                                   Gerätes an dessen Ausrichtung an. Er stellt im Hochformat das Foto über dem Text dar.
+                                                   Das Querformat ordnet beide Elemente nebeneinander an. Dieses Verhalten können Sie
+                                                   nicht über die Autoresizingmask erreichen. Dazu verwendet das Programm eine eigene
+                                                   Unterklasse <span class="clisting">RotationView</span> von <span class="clisting">UIView</span>, die die Methode <span class="clisting">layoutSubviews</span><a class="indexterm" id="dodtpa6bda62a-719e-4090-a913-11b8bcd5da30"></a> überscheibt.
+                                                </p>
+                                                <p>Dieser View passt bei einer Rotation nur die Koordinaten seines zweiten Subviews an.
+                                                   Dafür verwendet das Programm einen Hilfsview, den Abbildung 4.9 als graue Fläche darstellt.
+                                                   Der Textview passt sein Layout über die Autoresizingmask an und hat feste Abstände
+                                                   zu den Rändern seines Superviews und eine flexible Breite und Höhe.
+                                                </p><a href="bilder/04_009.png" rel="lightbox" title="Automatische Layoutanpasung"><img class="bild" border="1" src="bilderklein/klein04_009.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 4.9   </strong>Automatische Layoutanpasung
+                                                </p>
+                                                <p>Der Rotation-View muss zwei Fälle unterscheiden. In der vertikalen Ansicht ordnet
+                                                   er den Hilfsview unter dem Bild an, wobei dieser die volle Breite einnimmt. In der
+                                                   horizontalen Ansicht weist er dem Hilfsview hingegen die volle Höhe zu und ordnet
+                                                   ihn neben dem Bild an. Die Methode unterscheidet zwischen Hoch- und Querformat, indem
+                                                   sie die Breite ihres Views mit dessen Höhe vergleicht.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)layoutSubviews {<br>    [super layoutSubviews];<br>    CGRect theFrame = self.frame;<br>    CGRect theFirstFrame =<br>        [[self.subviews objectAtIndex:0] frame];<br>    UIView *theSecondView = [self.subviews objectAtIndex:1];<br>    CGRect theSecondFrame = theSecondView.frame;<br><br>    if(CGRectGetWidth(theFrame) &lt; CGRectGetHeight(theFrame)) {<br>        theSecondFrame.origin.x = 0.0;<br>        theSecondFrame.origin.y = CGRectGetMaxY(theFirstFrame);<br>        theSecondFrame.size.width = CGRectGetWidth(theFrame);<br>        theSecondFrame.size.height = CGRectGetHeight(theFrame) &#8211;<br>            CGRectGetMaxY(theFirstFrame);<br>    }<br>    else {<br>        theSecondFrame.origin.x = CGRectGetMaxX(theFirstFrame);<br>        theSecondFrame.origin.y = 0.0;<br>        theSecondFrame.size.width = CGRectGetWidth(theFrame) &#8211;<br>            CGRectGetMaxX(theFirstFrame);<br>        theSecondFrame.size.height = CGRectGetHeight(theFrame);<br>    }<br>    theSecondView.frame = theSecondFrame;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 4.16   </strong>Berechnung des Layouts für die Rotationsanpassung
+                                                </p>
+                                                <p>Die komplette Methode für das Layout stellt Listing 4.16 dar. Sie können die Methode
+                                                   <span class="clisting">layoutSubviews</span> der Klasse <span class="clisting">UIView</span> immer überschreiben, wenn Sie das Layout Ihrer Views über Ihren Programmcode anpassen
+                                                   möchten. Sie sollten das aber nur machen, wenn das automatische Layout über die Autoresizingmask
+                                                   dafür nicht ausreicht.
+                                                </p>
+                                                <p>Cocoa Touch ruft diese Methode auf, wenn eine Neuanordnung Ihrer Views notwendig ist.
+                                                   Wie bereits erwähnt wurde, sollten Sie diese Methode aber niemals direkt aufrufen,
+                                                   sondern durch einen Aufruf der Methode <span class="clisting">setNeedsLayout</span> Ihren View für einen Aufruf markieren. Alternativ können Sie auch durch einen Aufruf
+                                                   von <span class="clisting">layoutIfNeeded</span> ein sofortiges Anordnen Ihrer Views erzwingen.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Tipp
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie können durch einen eigenen View, der die Methode <span class="clisting">layoutSubviews</span> überschreibt, Ihre Views beliebig an die Geräteausrichtung anpassen. Dabei können
+                                                               Sie nicht nur die Anordnung der Subviews anpassen, sondern sie auch anzeigen oder
+                                                               verstecken lassen. Sie sollten allerdings keine Steuerungslogik (z. B. zum Laden von
+                                                               Daten) in diese Methode legen. Dafür ist die Controllerschicht zuständig.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_04_003.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="4 Daten, Tabellen und Controller"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_04_002.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_04_004.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

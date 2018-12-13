@@ -1,0 +1,743 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 5 Animationen und Layer">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 5 Animationen und Layer">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 5 Animationen und Layer</title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_05_003.html">
+      <link rel="next" href="apps_05_005.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_05_003.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_05_005.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406" class="navnav">5 Animationen und Layer</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_001.html#dodtp5efea2f9-5971-4355-9098-73d240420ae8" class="navnav">5.1 Modell und Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpbfefaccf-2786-4687-9caf-bf869a37dd09" class="navnav">5.1.1 iOS Next Topmodel</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpcdb08693-584e-460f-84d6-adbffd990377" class="navnav">5.1.2 View an Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpf43e6bf8-5b92-4faf-8de8-d852c2bdb6e7" class="navnav">5.1.3 Modell an Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpa07cc55d-58b3-412a-b67d-a83e85baebc2" class="navnav">5.1.4 Undo und Redo</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtp8755d0e5-718b-4a1b-9167-c6361491d08c" class="navnav">5.1.5 Unittests</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_002.html#dodtp1c3f3d80-581b-478e-88bc-c9ed3a708401" class="navnav">5.2 Als die Views das Laufen lernten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp9e9cf9b7-2f55-4fed-b3b6-39449f3b1d7d" class="navnav">5.2.1 Blockfunktionen in C</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp0c53305d-45fe-44c6-9852-ea8594b2c837" class="navnav">5.2.2 Animationen mit Blöcken</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp85028dc1-a1a1-40c9-bcc3-4f753ef479e3" class="navnav">5.2.3 Transitionen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp0a0f2033-6d33-4367-b1ba-3a224955f8bd" class="navnav">5.2.4 Zur Animation? Bitte jeder nur einen Block!</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_003.html#dodtpb1c7ea8c-fe2c-4936-9c9a-8ec6e345a78e" class="navnav">5.3 Core Animation</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtpc7304b46-d817-4f7c-ad3a-655bdf12d064" class="navnav">5.3.1 Layer</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp766676af-c5c5-4b69-bb6c-a92f38e6040d" class="navnav">5.3.2 Vordefinierte Layerklassen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp13aeb6cc-99bc-4e4b-9ee7-186982cef3cb" class="navnav">5.3.3 Unser Button soll schöner werden</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp66fddda2-3ee3-4e44-ae6a-6901c9f96a1e" class="navnav">5.3.4 Spieglein, Spieglein an der Wand</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtpce26e4e5-0327-4743-bbd7-d6b3b9eee6d8" class="navnav">5.3.5 Der bewegte Layer</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtpfb02b879-0cc7-44cd-91fb-be429ae0b56f" class="navnav">5.3.6 Der View, der Layer, seine Animation und ihr Liebhaber</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp3d532cce-a949-4cbb-b90f-83cb4ca2c6e0" class="navnav">5.3.7 Die 3. Dimension</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_004.html#dodtpb92345dc-dbc2-4f78-8e86-ca5d585914c1" class="navh">5.4 Der Tabbar-Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_004.html#dodtp74751c51-49aa-4a38-a753-b920e7ddf1e4" class="navh">5.4.1 Aufbau einer Reiternavigation</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_004.html#dodtp3dc6d335-db6c-4eeb-a3d7-2fd60f934221" class="navh">5.4.2 Für ein paar Controller mehr</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_005.html#dodtpbb883a33-ad82-42a5-9e9b-a3878fb20332" class="navnav">5.5 Was Sie schon immer über Instruments wissen wollten, aber nie zu fragen wagten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_005.html#dodtp4af905ee-fd2f-407d-8fe3-1cf49c378f4b" class="navnav">5.5.1 Spiel mir das Lied vom Leak</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_005.html#dodtp20f3171b-12d7-4643-a316-ccfff954fba9" class="navnav">5.5.2 Ich folgte einem Zombie</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_005.html#dodtp613c16ef-6413-4c04-a7d1-268d8e43a5e9" class="navnav">5.5.3 Time Bandits</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main"><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpb92345dc-dbc2-4f78-8e86-ca5d585914c1" name="dodtpb92345dc-dbc2-4f78-8e86-ca5d585914c1"></a><h2 class="t2"><span class="cfett">5.4</span><span class="cfett"> Der Tabbar-Controller</span><a href="#dodtp74751c51-49aa-4a38-a753-b920e7ddf1e4"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h2>
+                                                <p>Das Beispielprojekt enthält ein Puzzle- und Memory-Spiel, die jeweils einen eigenen
+                                                   View-Controller haben. Im Gegensatz zum Fototagebuch haben beide Spiele die gleiche
+                                                   Priorität. Ein Navigation-Controller oder modale Dialoge machen für den Spielwechsel
+                                                   also wenig Sinn. Eine <span class="cbegriff">Tabbarnavigation</span><a class="indexterm" id="dodtpe49e457b-f199-4264-90ed-21a0c2d64b9d"></a>, auch <span class="cbegriff">Reiternavigation</span><a class="indexterm" id="dodtpecb2a252-599a-4cc8-bc20-890835b8e100"></a> genannt, ist hierfür besser geeignet. Sie verwaltet beliebig viele View-Controller,
+                                                   von denen sie aber immer nur einen anzeigen kann. Über die Tabbar können Sie den View-Controller
+                                                   für die Anzeige auswählen. Dabei stellt die Tabbar für jeden View-Controller ein beschriftetes
+                                                   Icon dar.
+                                                </p><a href="bilder/05_019.png" rel="lightbox" title="Eine Tabbar mit vier Einträgen"><img class="bild" border="1" src="bilderklein/klein05_019.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.19   </strong>Eine Tabbar mit vier Einträgen
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp74751c51-49aa-4a38-a753-b920e7ddf1e4" name="dodtp74751c51-49aa-4a38-a753-b920e7ddf1e4"></a><h3 class="t3"><span class="cfett">5.4.1</span><span class="cfett"> Aufbau einer Reiternavigation</span><a href="#dodtp3dc6d335-db6c-4eeb-a3d7-2fd60f934221"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpb92345dc-dbc2-4f78-8e86-ca5d585914c1"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Sie können eine Tabbarnavigation über die Klasse <span class="clisting">UITabBarController</span><a class="indexterm" id="dodtp2396b7b4-573c-4089-ae14-4565ce150c64"></a> erzeugen. Das geht am einfachsten über den Interface Builder, in dem Sie das entsprechende
+                                                   Symbol aus der Palette in die Baumdarstellung einer XIB-Datei ziehen. Sie können dann
+                                                   weitere View-Controller auf diesen Tabbar-Controller ziehen. Wenn Sie den Baum des
+                                                   Controllers aufklappen, können Sie die enthaltenen View-Controller sehen (siehe Abbildung
+                                                   5.20). Außerdem ermöglicht Ihnen diese Ansicht, die View-Controller umzuordnen und
+                                                   zu konfigurieren.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Wer mit wem?
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Sie dürfen in einen Tabbar-Controller fast alle anderen View-Controller einfügen und
+                                                               einen Tabbar-Controller auch als modalen Dialog anzeigen. Andererseits unterstützt
+                                                               iOS aber keine Tabbar-Controller in Navigation-Controllern.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p><a href="bilder/05_020.png" rel="lightbox" title="Baumdarstellung eines Tabbar-Controllers"><img class="bild" border="1" src="bilderklein/klein05_020.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.20   </strong>Baumdarstellung eines Tabbar-Controllers</p>
+                                                </p>
+                                                <p>Beim Einfügen eines View-Controllers in einen Tabbar-Controller legt der Interface
+                                                   Builder automatisch ein Objekt der Klasse <span class="clisting">UITabBarItem</span><a class="indexterm" id="dodtp9184a23e-2f39-4a03-9125-82dfae18e407"></a> unterhalb des View-Controllers an, auf das Sie über die Property <span class="clisting">tabBarItem</span> vom View-Controller aus zugreifen können. Über dieses Element legen Sie das Icon
+                                                   und die Beschriftung des View-Controllers in der Tabbar fest. Dabei verwendet auch
+                                                   dieses Icon nur den Alphawert des Bildes für die Anzeige. Außerdem können Sie über
+                                                   dieses Element die Beschriftung der Plakette (<span class="cbegriff">Badge</span><a class="indexterm" id="dodtp23152ad0-ae34-4eac-b462-0ae89e6e5724"></a>) bestimmen. Die Plakette ist der rote Kreis mit der 3 in Abbildung 5.19.
+                                                </p>
+                                                <p>Die Games-App verwendet eine Plakette, um die Anzahl der neuen Highscores anzuzeigen.
+                                                   Sie können die angezeigte Zeichenkette der Plakette über die Property <span class="clisting">badgeValue</span> des Tabbar-Elements setzen. Wenn Sie keine Plakette anzeigen möchten, müssen Sie
+                                                   die Property auf <span class="clisting">nil</span> setzen. Wenn Sie stattdessen eine leere Zeichenkette verwenden, zeigt der Tabbareintrag
+                                                   eine leere Plakette an.
+                                                </p>
+                                                <p>Bei jeder Speicherung eines neuen Highscore-Wertes erhöht die Methode <span class="clisting">saveScore:</span> den Wert in der Plakette.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">UITabBarItem *theItem = self.highscoreItem;<br>NSString *theValue = [NSString stringWithFormat:@"%d",<br>                      [theItem.badgeValue intValue] + 1];<br>theItem.badgeValue = theValue;<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.54   </strong>Aktualisierung der Plakette
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp3dc6d335-db6c-4eeb-a3d7-2fd60f934221" name="dodtp3dc6d335-db6c-4eeb-a3d7-2fd60f934221"></a><h3 class="t3"><span class="cfett">5.4.2</span><span class="cfett"> Für ein paar Controller mehr</span><a href="#dodtp74751c51-49aa-4a38-a753-b920e7ddf1e4"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Ein Tabbar-Controller kann beliebig viele View-Controller enthalten, aber die Tabbar
+                                                   kann nur maximal fünf Einträge nebeneinander anzeigen. Bei sechs und mehr Controllern
+                                                   verwendet der Tabbar-Controller einen zusätzlichen Navigation-Controller mit eingebettetem
+                                                   Tableview-Controller. Darüber können Sie auf die restlichen View-Controller zugreifen.
+                                                   Die Tabbar verwendet in diesem Fall den Platz für den fünften Tabbar-Eintrag für die
+                                                   Anzeige des <span class="cbegriff">Mehr-Eintrags</span><a class="indexterm" id="dodtp7c4af5b8-d3b5-4e52-8272-77af13b911bd"></a>, der zu diesem Tableview-Controller führt. Diese Struktur stellt Abbildung 5.21 dar.
+                                                </p>
+                                                <p>Der Tableview des Mehr-Eintrags listet alle View-Controller auf, die keinen Platz
+                                                   in der Tabbar gefunden haben. Wenn Sie einen View-Controller aus der Tabelle auswählen,
+                                                   zeigt ihn der Tabbar-Controller über den Navigation-Controller an.
+                                                </p>
+                                                <p>Die Auslagerung der Einträge aus der Tabbar in den Tableview geschieht dabei vollkommen
+                                                   automatisch. <span class="footnote"><a id="dodtpaa814674-4b35-4f55-b023-b9b030582a54">[23](Das gilt aber nur für die App. Der Interface Builder quetscht alle Tabbar-Einträge nebeneinander.)</a></span> Sie haben dafür also keinen zusätzlichen Aufwand. Andererseits können Sie die Anzeige
+                                                   des Mehr-Eintrags nicht unterdrücken oder bei weniger als sechs Viewcontrollern erzwingen.
+                                                </p><a href="bilder/05_021.png" rel="lightbox" title="Struktur des Tabbar-Controllers"><img class="bild" border="1" src="bilderklein/klein05_021.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.21   </strong>Struktur des Tabbar-Controllers
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Anpassungsfähige View-Controller
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Die ersten vier Views des Tabbar-Controllers bekommen eine größere Anzeigehöhe als
+                                                               die Views aus dem Tableview für die Mehr-Einträge. Da diese Einträge ein Navigation-Controller
+                                                               anzeigt, haben sie wegen der Navigationsleiste eine geringere Höhe. Sie sollten bei
+                                                               der Erstellung darauf achten, da der Tabbar-Controller eine Neuanordnung seiner Elemente
+                                                               erlaubt. Die Views der eingebetteten View-Controller sollten sich also an die unterschiedlichen
+                                                               Höhen anpassen können, was Sie in der Regel durch die Anpassung der Autoresizing-Masken
+                                                               Ihrer Views erreichen.
+                                                               
+                                                               Der Tabbar-Controller achtet aber auf Navigation-Controller bei den Mehr-Einträgen.
+                                                               Wenn Sie einen Navigation-Controller aus dem Tableview aufrufen, schiebt der Tabbar-Controller
+                                                               dessen Wurzel-Controller auf seinen Navigation-Controller. Dadurch kann es nicht passieren,
+                                                               dass Sie einen Navigation-Controller auf einen anderen schieben.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Über den Button <span class="cscreenelement">Bearbeiten</span> in der Navigationsleiste gelangen Sie zu einer Ansicht, mit der Sie die Einträge
+                                                   in der Tabbar anpassen können. Diese Ansicht zeigt alle Tabbar-Einträge. Sie können
+                                                   jeden Eintrag auf die Tabbar ziehen und dadurch deren Einträge neu festlegen (siehe
+                                                   Abbildung 5.22).
+                                                </p><a href="bilder/05_022.png" rel="lightbox" title="Bearbeiten der Tabbar"><img class="bild" border="1" src="bilderklein/klein05_022.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.22   </strong>Bearbeiten der Tabbar
+                                                </p>
+                                                <p>Der Tabbar-Controller speichert diese neue Anordnung aber nicht permanent ab. Das
+                                                   Programm <span class="cdateipfad">More</span> auf der beiliegenden DVD demonstriert ein Vorgehen, um die Anordnung der Tabbar-Einträge
+                                                   in den Nutzereinstellungen zu speichern. Dazu weist es jedem Viewcontroller eine fortlaufende
+                                                   Nummer zu. Wenn Sie die Viewcontroller umordnen, verändern Sie die Reihenfolge dieser
+                                                   Nummern. Das Programm speichert diese Reihenfolge ab und kann beim Neustart daraus
+                                                   die Anordnung der Viewcontroller wieder herstellen.
+                                                </p>
+                                                <p>Zur Ablage der Indexwerte in den Viewcontrollern verwendet die App die Property <span class="clisting">tag</span> der Tabbar-Einträge. Nach dem Laden des Tabbar-Controllers aus der NIB-Datei weist
+                                                   sie zunächst den Tabbar-Einträgen die Indexwerte zu. Dazu verwendet die Methode <span class="clisting">application:didFinishLaunchingWithOptions:</span> eine Blockfunktion zusammen mit einer entsprechenden Methode von <span class="clisting">NSArray</span>.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">NSArray *theControllers = self.tabBarController.viewControllers;<br>[theControllers enumerateObjectsUsingBlock:<br>    ^(id inController, NSUInteger inIndex, BOOL *outStop) {<br>        [[inController tabBarItem] setTag:inIndex];<br>    }];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.55   </strong>Nummerierung der Tabbar-Einträge
+                                                </p>
+                                                <p>Nach jeder Änderung der Tabbar-Einträge soll die App die neue Reihenfolge abspeichern.
+                                                   Das erfolgt über die User-Defaults und die Delegatemethode <span class="clisting">tabBarController:willEndCustomizingViewControllers:changed:</span> des Tabbar-Controllers.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Programmeinstellungen sichern
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>In den User-Defaults können Sie Ihre Daten wie in einem Dictionary ablegen. Sie speichern
+                                                               sie im Gegensatz zum Dictionary aber permanent ab, sodass sie nach einem Neustart
+                                                               der App wieder zur Verfügung stehen.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Listing 5.56 enthält die Implementierung. Da Sie nur bei einer Änderung der Reihenfolge
+                                                   die Werte speichern müssen, überprüft die Methode den Wert des Parameters <span class="clisting">change</span>. Über die Key-Value-Coding-Methode <span class="clisting">valueForKeyPath:</span> erzeugt die Methode das Array mit den Viewcontroller-Positionswerten.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)tabBarController:(UITabBarController *)inController willEndCustomizingViewControllers:(NSArray *)inControllers changed:(BOOL)inChanged {<br>    if(inChanged) {<br>        NSArray *theIndexes =<br>            [inControllers valueForKeyPath:@"tabBarItem.tag"];<br>        NSUserDefaults *theDefaults =<br>            [NSUserDefaults standardUserDefaults];<br>        [theDefaults setObject:theIndexes forKey:@"tabBarItems"];<br>        [theDefaults synchronize];<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.56   </strong>Abspeichern der Reihenfolge in den User-Defaults
+                                                </p>
+                                                <p>Jetzt fehlt nur der Code zur Wiederherstellung der Reihenfolge in der Tabbar. Das
+                                                   übernimmt die Methode <span class="clisting">restoreTabBar</span>, die Sie in Listing 5.57 sehen. Sie liest zuerst die Indexwerte aus den User-Defaults.
+                                                   Die Schleife durchquert die Viewcontroller in der Reihenfolge der Indexwerte aus dem
+                                                   Tabbar-Controller und fügt sie in ein veränderliches Array ein. Schließlich weist
+                                                   sie dieses Array dem Tabbar-Controller zu.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)restoreTabBar {<br>    NSUserDefaults *theDefaults =<br>        [NSUserDefaults standardUserDefaults];<br>    NSArray *theIndexes =<br>        [theDefaults arrayForKey:@"tabBarItems"];<br>    NSArray *theViewControllers =<br>        self.tabBarController.viewControllers;<br>    if(theIndexes.count == theViewControllers.count) {<br>        NSMutableArray *theControllers =<br>            [NSMutableArray arrayWithCapacity:theIndexes.count];<br>        for(NSNumber *theIndex in theIndexes) {<br>            NSUInteger theValue = theIndex.unsignedIntValue;<br>            [theControllers addObject:<br>                [theViewControllers objectAtIndex:theValue]];<br>        }<br>        self.tabBarController.viewControllers = theControllers;<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.57   </strong>Wiederherstellung der Reihenfolge in der Tabbar
+                                                </p>
+                                                <p>Die If-Abfrage in Listing 5.57 wirkt auf den ersten Blick überflüssig. Sie vermeidet
+                                                   aber zwei Probleme. Beim ersten Start existieren noch keine Indexwerte in den User-Defaults.
+                                                   Ohne diese Abfrage erhielte der Tabbar-Controller ein leeres Array, da der Schleifenblock
+                                                   nicht ausgeführt wurde. Dadurch würde auch die Tabbar leer bleiben.
+                                                </p>
+                                                <p>Ein ähnlicher Effekt kann bei einer Aktualisierung Ihrer App auftreten, bei der Sie
+                                                   die Tabbar erweitern oder verkürzen. Bei einer Erweiterung würden Viewcontroller herausfallen,
+                                                   und eine Verkürzung hätte einen Fehler mit Programmabsturz zur Folge.
+                                                </p><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_05_004.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="5 Animationen und Layer"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_05_003.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_05_005.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

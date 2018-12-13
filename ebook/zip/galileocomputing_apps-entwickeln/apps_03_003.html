@@ -1,0 +1,758 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 3 Aufwachen &#8211; analoger Wecker">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 3 Aufwachen &#8211; analoger Wecker">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 3 Aufwachen &#8211; analoger
+         Wecker
+      </title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_03_002.html">
+      <link rel="next" href="apps_03_004.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_03_002.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_03_004.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff" class="navnav">3 Aufwachen &#8211; analoger Wecker</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_03_001.html#dodtp523deab6-b894-4553-bc57-f19b8c82711c" class="navnav">3.1 Eigene View-Klassen in Cocoa Touch</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_001.html#dodtp453496f8-2506-4078-9d48-f2ae841048ec" class="navnav">3.1.1 Zeichnen in Cocoa Touch</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_001.html#dodtpbeef7b9e-a920-4d0a-b8c8-018fd73786a2" class="navnav">3.1.2 Zeitberechnung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_001.html#dodtp368e550c-41e2-45fe-a426-af8e69e230eb" class="navnav">3.1.3 View-Erzeugung über NIB-Dateien</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_001.html#dodtpa7215b74-eb08-4a84-947c-6c11dfd1ac69" class="navnav">3.1.4 Aktualisierung der Zeitanzeige</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_001.html#dodtpf63ee996-c5eb-434d-b03c-56a8017b0cd7" class="navnav">3.1.5 Wiederverwendbarkeit von Views</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_03_002.html#dodtp48e66c8d-0135-4d4a-aca0-154c1cb50ec2" class="navnav">3.2 Views und Viewcontroller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtpac25936e-a3e5-4cd8-9cec-8686f92f9ec6" class="navnav">3.2.1 Outlets</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtpaac41390-9135-4fdc-a7cf-3867becf384f" class="navnav">3.2.2 View-Hierarchien</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtpfd3f33d1-3da7-47db-b0ae-e871a076e662" class="navnav">3.2.3 Actions</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtp1b1bb933-3bdc-4810-80ac-9f5c2d8a24f6" class="navnav">3.2.4 Ereignisse</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtp009b4d3a-a199-4df6-bd87-5e229a18375d" class="navnav">3.2.5 Controlzustände und Buttons</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtp3a191257-4e08-4274-8b17-625b0208638b" class="navnav">3.2.6 Direkte Gestenverarbeitung</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtpbc46c62d-db40-4709-8cbc-4580da56485f" class="navnav">3.2.7 Übergänge</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_002.html#dodtp197deaea-4bd9-433f-a357-f8ab4a157ca6" class="navnav">3.2.8 Der Lebenszyklus eines Viewcontrollers</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_03_003.html#dodtpf5e69a2b-44b9-48a6-a838-4e601f65ad94" class="navh">3.3 Lokale Benachrichtigungen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_003.html#dodtpbc9c4dcc-43e5-44ba-8796-5377ec7cb186" class="navh">3.3.1 Benachrichtigungen versenden ...</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_003.html#dodtp25696055-745a-4da7-9928-2073c9f44118" class="navh">3.3.2 ... und verarbeiten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_03_004.html#dodtp1cb56bf3-2314-4800-af45-0afb535fe169" class="navnav">3.4 Eine App für alle</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_004.html#dodtpba7535e2-bc44-4bbb-9a46-60d6cceeb3ab" class="navnav">3.4.1 Das Retina Display</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_004.html#dodtpa4f42412-62c6-40ba-8535-93b28d74b78f" class="navnav">3.4.2 Sprachkursus für die App</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_004.html#dodtpe767cf6c-709f-4b47-aff6-e36e2d4aa28f" class="navnav">3.4.3 Es funktioniert nicht</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_004.html#dodtp30997de2-120c-4188-aaec-a97e12d03cec" class="navnav">3.4.4 Universelle Apps</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_03_005.html#dodtp328a43f6-1580-4d6a-8363-0c13dc2738f9" class="navnav">3.5 Fehlersuche</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_005.html#dodtp3ca11770-99b5-4828-b3ac-9236ca7131bf" class="navnav">3.5.1 Logging</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_005.html#dodtp7fa3f986-d0d3-4f84-9220-484085a6f5bf" class="navnav">3.5.2 Der Debugger</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_005.html#dodtp9cead0f4-c431-4b34-9007-c85b3d3dfe9d" class="navnav">3.5.3 Laufzeitfehler</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_03_006.html#dodtpcaac84af-76af-4c19-a4cd-176b1c601791" class="navnav">3.6 Die App auf einem Gerät testen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_006.html#dodtp0c573092-1c85-428a-a49d-0c701eb0a61b" class="navnav">3.6.1 Das iOS Developer Program</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_006.html#dodtp8c4daf78-a061-43aa-b100-d8cfa95f0e06" class="navnav">3.6.2 Entwicklungszertifikat und Entwicklungsprofile</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_03_006.html#dodtp804bfb38-27ef-4215-a13f-204f5283c0e2" class="navnav">3.6.3 Profilprobleme</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main"><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpf5e69a2b-44b9-48a6-a838-4e601f65ad94" name="dodtpf5e69a2b-44b9-48a6-a838-4e601f65ad94"></a><h2 class="t2"><span class="cfett">3.3</span><span class="cfett"> Lokale Benachrichtigungen</span><a href="#dodtpbc9c4dcc-43e5-44ba-8796-5377ec7cb186"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h2>
+                                                <p>Dem Wecker fehlt jetzt nur noch ein Alarmton, der zur gewählten Zeit erklingt. Sie
+                                                   können natürlich die Zeitdifferenz zum aktuellen Zeitpunkt berechnen und einen Timer
+                                                   starten. Dieser ruft nach Ablauf der Zeit eine Methode auf, die einen Ton abspielt.
+                                                   Das funktioniert aber nur, wenn Ihr Programm die ganze Zeit im Vordergrund weiterläuft.
+                                                   Sie können also Ihr iPhone in der Zwischenzeit nur eingeschränkt nutzen.
+                                                </p>
+                                                <p>Das Beispielprogramm verwendet stattdessen lokale Benachrichtigungen<a class="indexterm" id="dodtpb0523c4e-e3ae-451f-a1c0-584c242258f7"></a>, die Apple mit iOS 4.0 eingeführt hat. Das sind zeitgesteuerte Ereignisse, die durch
+                                                   das Betriebssystem zu einem bestimmten Zeitpunkt ausgelöst werden. Eine lokale Benachrichtigung
+                                                   kann beim Auslösen eine Alertbox<a class="indexterm" id="dodtp67341ed6-abde-4582-a227-75aae015aabf"></a> auf dem Bildschirm anzeigen, eine Audiodatei abspielen oder die <span class="cbegriff">Badgenummer</span><a class="indexterm" id="dodtp2a2e4d18-482e-4ef8-a4e6-b0312ce191fe"></a> auf einen festen Wert setzen. Badgenummern sind die Zahlen in einem roten Kreis am
+                                                   App-Icon, die viele Apps (z. B. <span class="cbegriff">Mail</span>) verwenden. Lokale Benachrichtigungen funktionieren auch, wenn Sie Ihre App in den
+                                                   Hintergrund schicken oder sogar stoppen. Die Nachricht erscheint aber nicht, wenn
+                                                   die App im Vordergrund läuft. Stattdessen wird eine Methode im Application-Delegate
+                                                   aufgerufen.
+                                                </p><a href="bilder/03_027.png" rel="lightbox" title="Anzeige einer lokalen Benachrichtigung"><img class="bild" border="1" src="bilderklein/klein03_027.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 3.27   </strong>Anzeige einer lokalen Benachrichtigung
+                                                </p>
+                                                <p>Sie definieren eine neue Benachrichtigung, indem Sie ein Objekt der Klasse <span class="clisting">UILocalNotification</span><a class="indexterm" id="dodtp3e030fc1-aff0-4dee-85ab-b6364bce45c2"></a> erzeugen und den Auslösezeitpunkt setzen. Außerdem müssen Sie einen Nachrichtentitel
+                                                   und -text angeben, wenn Sie eine Alertbox anzeigen lassen wollen. Für den Benachrichtigungston
+                                                   und die Badgenummer sind ebenfalls entsprechende Methoden vorhanden. Die neue Benachrichtigung
+                                                   wird dann in die Verarbeitungswarteschlange eingefügt. Sie können auf diese Warteschlange
+                                                   über das Singleton <span class="clisting">UIApplication</span><a class="indexterm" id="dodtp45af751b-d601-4035-a81b-d630b73abcc2"></a> zugreifen.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtpbc9c4dcc-43e5-44ba-8796-5377ec7cb186" name="dodtpbc9c4dcc-43e5-44ba-8796-5377ec7cb186"></a><h3 class="t3"><span class="cfett">3.3.1</span><span class="cfett"> Benachrichtigungen versenden ...</span><a href="#dodtp25696055-745a-4da7-9928-2073c9f44118"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtpf5e69a2b-44b9-48a6-a838-4e601f65ad94"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Die Methode <span class="clisting">scheduleLocalNotification:</span> fügt eine Benachrichtigung in die Warteschlange ein, und <span class="clisting">cancelLocalNotification:</span> entfernt sie wieder daraus. Die Methode <span class="clisting">cancelAllLocalNotifications</span> entfernt alle Benachrichtigungen der App aus der Warteschlange. Über die Property
+                                                   <span class="clisting">scheduledLocalNotifications</span> können Sie alle Benachrichtigungen aus der Warteschlange auslesen und ab iOS 4.2
+                                                   auch setzen. Sie können in der Warteschlange aber nur auf die Benachrichtigungen Ihrer
+                                                   App zugreifen. Der Zugriff auf die Benachrichtigungen anderer Apps ist nicht möglich.
+                                                </p>
+                                                <p>Die Methode <span class="clisting">createAlarm</span> in der Klasse <span class="clisting">AlarmClockViewController</span> erzeugt eine neue Benachrichtigung:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)createAlarm {<br>    UIApplication *theApplication = <br>        [UIApplication sharedApplication];<br>    UILocalNotification *theNotification = <br>        [[UILocalNotification alloc] init];<br>    NSTimeInterval theTime = self.startTimeOfCurrentDay + clockControl.time;<br>    while(theTime &lt; [NSDate timeIntervalSinceReferenceDate]) {<br>        theTime += kSecondsOfDay / 2.0;<br>    }<br>    [theApplication cancelAllLocalNotifications];<br>    theNotification.fireDate = <br>         [NSDate dateWithTimeIntervalSince ReferenceDate:theTime];<br>    theNotification.timeZone = [NSTimeZone defaultTimeZone];<br>    theNotification.alertBody = @"Aufwachen";<br>    theNotification.soundName = UILocalNotificationDefaultSoundName;<br>    [theApplication scheduleLocalNotification:theNotification];<br>    [theNotification release];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 3.38   </strong>Erzeugung einer lokalen Benachrichtigung
+                                                </p>
+                                                <p>Zuerst muss die Methode die Alarmzeit in ein <span class="clisting">NSDate</span>-Objekt<a class="indexterm" id="dodtp3d8a657e-e8fe-48da-b874-cfbd6b5164f1"></a> umwandeln. Die Alarmzeit liegt als relative Zeit zum Beginn des aktuellen Tages oder
+                                                   der letzten Mittagszeit vor, da das Ziffernblatt nur 12 und nicht 24 Stunden umfasst.
+                                                   Die Berechnung erfolgt nun so, dass zu der Startzeit des Tages die Alarmzeit hinzugerechnet
+                                                   wird. Solange diese Zeit noch kleiner als die aktuelle Zeit ist, werden jeweils die
+                                                   Sekunden eines halben Tages hinzugezählt. Für die Berechnung wurde eine Konstante
+                                                   <span class="clisting">kSecondsOfDay</span> mit der Anzahl der Sekunden eines Tages definiert. Bevor aber die neue Alarmzeit
+                                                   gesetzt wird, müssen Sie die eventuell vorhandenen Benachrichtigungen aus der Warteschlange
+                                                   löschen. Als Alarmton wird der Systemton für Benachrichtigungen verwendet.
+                                                </p>
+                                                <p>Die Methode <span class="clisting">startTimeOfCurrentDay</span> berechnet den Startzeitpunkt des Tages zu der aktuellen Uhrzeit. Dazu verwenden Sie
+                                                   einen Kalender, mit dem Sie das aktuelle Datum ohne Uhrzeit in einem <span class="clisting">NSDateComponents</span>-Objekt berechnen lassen. Da alle Zeitkomponenten auf 0 stehen, hat dieses Objekt
+                                                   die Uhrzeit 0:00 Uhr. Sie brauchen es also nur über den Kalender wieder in ein <span class="clisting">NSDate</span>-Objekt zurückrechnen lassen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (NSTimeInterval)startTimeOfCurrentDay {<br>    NSCalendar *theCalendar = [NSCalendar currentCalendar];<br>    NSDateComponents *theComponents =<br>        [theCalendar components:NSYearCalendarUnit |<br>                                NSMonthCalendarUnit |<br>                                NSDayCalendarUnit<br>                       fromDate:[NSDate date]];<br>    NSDate *theDate =<br>        [theCalendar dateFromComponents:theComponents];<br><br>    return [theDate timeIntervalSinceReferenceDate];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 3.39   </strong>Berechnung des Startzeitpunktes des aktuellen Tages
+                                                </p>
+                                                <p>Damit haben Sie den Versand einer lokalen Benachrichtigung abgeschlossen. Denken Sie
+                                                   beim Ausprobieren der App aber daran, dass sie die Benachrichtigungen nicht anzeigt,
+                                                   wenn die App im Vordergrund läuft. Sie sollten die App also vor der Versendung über
+                                                   den Home-Button des Simulators in den Hintergrund schicken oder sie über Xcode stoppen.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp25696055-745a-4da7-9928-2073c9f44118" name="dodtp25696055-745a-4da7-9928-2073c9f44118"></a><h3 class="t3"><span class="cfett">3.3.2</span><span class="cfett"> ... und verarbeiten</span><a href="#dodtpbc9c4dcc-43e5-44ba-8796-5377ec7cb186"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Durch eine lokale Benachrichtigung können Sie folgende Ereignisse auslösen. Sie können</p>
+                                                <ul class="gp">
+                                                   <li>eine Nachricht anzeigen lassen,</li>
+                                                   <li>einen Klang mit einer maximalen Länge von 30 Sekunden abspielen und</li>
+                                                   <li>die Markierungszahl (die <span class="cbegriff">Badgenummer</span>) am Icon der Applikation im Springboard auf einen festen Wert setzen.
+                                                   </li>
+                                                </ul>
+                                                <p>Die lokale Benachrichtigung kann aber leider nicht Ihre Applikation automatisch in
+                                                   den Vordergrund bringen. Entweder ist sie bereits im Vordergrund, oder es erscheint
+                                                   die Alertbox, wenn Sie einen Nachrichtentext angeben. Ohne Nachrichtentext zeigt sie
+                                                   auch keine Alertbox an, sondern löst nur die anderen Ereignisse aus. Um die App zu
+                                                   aktivieren, muss der Nutzer den rechten Button <span class="cscreenelement">Anzeigen</span> in der Alertbox betätigen.
+                                                </p>
+                                                <p>Wenn die App im Vordergrund läuft, informiert Cocoa Touch Sie direkt über das Auftreten
+                                                   einer lokalen Benachrichtigung. Das geschieht über die Methode <span class="clisting">application:didReceiveLocalNotification:</span> im Application-Delegate. Das Betriebssystem ruft diese Methode auch auf, wenn die
+                                                   App nicht oder im Hintergrund lief und der Nutzer den Anzeige-Button gedrückt hat.
+                                                   Sie können also diese Methode nutzen, um auch dann eine Nachricht anzuzeigen, wenn
+                                                   die App bereits aktiv ist. Mit dieser Methode können Sie die Benachrichtigung manuell
+                                                   verarbeiten. Das Beispielprogramm soll auch eine Alertbox anzeigen und einen Ton abspielen.
+                                                </p>
+                                                <p>Allerdings sollten Sie die Alertbox auch nur dann anzeigen, wenn die App bereits aktiv
+                                                   war. Sie können diese Unterscheidung über die Property <span class="clisting">applicationState</span> des Singletons <span class="clisting">UIApplication</span> machen. Die Nachricht zeigen Sie über eine Alertbox an. Dazu verwenden Sie die Klasse
+                                                   <span class="clisting">UIAlertView</span><a class="indexterm" id="dodtpcf552e15-7a28-490b-8be9-08bde5f24b85"></a>.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)application:(UIApplication *)inApplication<br>    didReceiveLocalNotification:<br>        (UILocalNotification *)inNotification {<br>    if(inApplication.applicationState ==<br>        UIApplicationStateActive) {<br>        UIAlertView *theAlert =<br>            [[UIAlertView alloc] initWithTitle:nil<br>                message:inNotification.alertBody<br>                delegate:nil cancelButtonTitle:@"OK"<br>                otherButtonTitles:nil];<br>        [theAlert show];<br>        [theAlert release];<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 3.40   </strong>Anzeige einer Alertbox beim Empfang einer Benachrichtigung
+                                                </p>
+                                                <p>Sie können den Systemton für lokale Benachrichtigungen leider nicht selbst in Ihrem
+                                                   Programm abspielen. Es gibt dafür keine Funktion, die genau diesen Klang ertönen lässt.
+                                                   Die Applikation soll stattdessen einen anderen Ton abspielen. Das Klingeln eines mechanischen
+                                                   Weckers passt hier sehr gut.
+                                                </p>
+                                                <p>Wenn Sie eigene Töne für eine lokale Benachrichtigung verwenden wollen, müssen diese
+                                                   laut Dokumentation als 16-Bit-Little-Endian-PCM-Audiodaten vorliegen. Die Länge des
+                                                   Tons darf nicht größer als 30 Sekunden sein, und die Datei sollte im <span class="cbegriff">Core-Audio-Format</span> mit der Endung <span class="cdateipfad">.caf</span> vorliegen. Unter Mac OS X gibt es das Kommandozeilenprogramm afconvert<a class="indexterm" id="dodtp0840d9bd-20e9-4100-b3bd-c33a6f06e17c"></a>, mit dem Sie eine Audiodatei in dieses Format konvertieren können. Der Aufruf dafür
+                                                   ist:
+                                                </p>
+                                                <p><div class="listing"><pre class="prettyprint">/usr/bin/afconvert &#8211;f caff &#8211;d LEI16 {Eingabedatei} {Ausgabedatei}</div></p>
+                                                <p>Der Parameter <span class="clisting">{Eingabedatei}</span> ist die Datei mit dem Ton im Ursprungsformat, und das Programm schreibt den konvertierten
+                                                   Klang in die Datei <span class="clisting">{Ausgabedatei}</span>. Liegt der Klingelton für den analogen Wecker beispielsweise als WAV-Datei vor, können
+                                                   Sie ihn mit
+                                                </p>
+                                                <p><div class="listing"><pre class="prettyprint">/usr/bin/afconvert -f caff -d LEI16 ringtone.wav ringtone.caf</div></p>
+                                                <p>in eine CAF-Datei konvertieren.</p>
+                                                <p>Bevor Sie den Klang verwenden können, müssen Sie diesen als Ressource zu Ihrem Projekt
+                                                   hinzufügen. Dazu ziehen Sie einfach die gewünschte Datei auf die Gruppe <span class="cscreenelement">Supporting Files</span> in der Navigatorspalte des Projekts. Sie sollten im folgenden Dialog darauf achten,
+                                                   dass Xcode die Datei auch in das Projekt kopiert. Setzen Sie dazu das Häckchen in
+                                                   der Checkbox <span class="cscreenelement">Destination</span>. Sie können anschließend den Systemton bei der Erzeugung der lokalen Benachrichtigung
+                                                   durch die Sounddatei ersetzen, indem Sie den Dateinamen ohne Pfadangabe verwenden.
+                                                </p>
+                                                <p>Im Gegensatz zu einem Systemton können Sie diesen Klang auch über Funktionen aus der
+                                                   Audio-Toolbox<a class="indexterm" id="dodtp40d9c517-1b01-431c-83e3-1919b38cdc75"></a> abspielen. Dazu müssen Sie allerdings dieses Framework einbinden. Wählen Sie dazu
+                                                   zunächst das Target der App aus. Ein Xcode-Projekt kann mehrere Produkte (zum Beispiel
+                                                   Apps oder Frameworks) verwalten. Jedes Produkt hat dabei sein eigenes Target. Es legt
+                                                   die Dateien und Regeln zur Erstellung des jeweiligen Produkts fest. Sie erreichen
+                                                   das Target, wenn Sie in der linken Navigationsspalte das Projekt auswählen. Daneben
+                                                   erscheint eine Spalte mit dem Abschnitt <span class="cscreenelement">Targets</span>. Wählen Sie dort das Target <span class="cscreenelement">AlarmClock</span> aus (siehe Abbildung 3.28, links).
+                                                </p>
+                                                <p>Im Hauptfenster befindet sich dann ein Tabulator <span class="cscreenelement">Build Phases</span> mit dem Abschnitt <span class="cscreenelement">Link Binary With Libraries</span>. Öffnen Sie diesen Punkt durch einen Klick auf das entsprechende Dreieck. Sie können
+                                                   dem Target über das Plus-Zeichen neue Frameworks hinzufügen. Selektieren Sie im Dialog
+                                                   den Eintrag <span class="cscreenelement">AudioToolbox.framework</span><span class="cdateipfad">,</span> und klicken Sie auf den Button <span class="cscreenelement">Add</span>.
+                                                </p><a href="bilder/03_028.png" rel="lightbox" title="So fügen Sie ein Framework zu einem Target hinzu."><img class="bild" border="1" src="bilderklein/klein03_028.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 3.28   </strong>So fügen Sie ein Framework zu einem Target hinzu.
+                                                </p>
+                                                <p>Wenn Sie ein Framework einbinden, fügt Xcode sowohl die Binärdateien mit den entsprechenden
+                                                   Klassen, Methoden und Funktionen als auch die entsprechenden Suchpfade für Headerdateien
+                                                   mit den Deklarationen zum Projekt hinzu. Dabei liegen die Headerdateien immer unterhalb
+                                                   eines virtuellen Ordners mit dem Namen des Frameworks.
+                                                </p>
+                                                <p>In der Regel hat jedes Framework von Apple eine Headerdatei mit dem Namen des Frameworks.
+                                                   Über diese Datei können Sie alle Header des Frameworks auf einmal einbinden. Da Sie
+                                                   die Audio-Toolbox im Application-Delegate verwenden möchten, müssen Sie also dort
+                                                   den Header dieses Frameworks über die Direktive
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">#import &lt;AudioToolbox/AudioToolbox.h&gt;<br></pre></div>
+                                                <p>einbinden.</p>
+                                                <p>Das Abspielen des Tons erfolgt in zwei Schritten. Zuerst muss ihn die App aus der
+                                                   Datei laden. Sie erhalten dabei einen Verweis auf den Ton, mit dem Sie ihn beliebig
+                                                   oft abspielen können. Wenn Sie ihn nicht mehr benötigen, sollten sie den Ton über
+                                                   diesen Verweis wieder freigeben.
+                                                </p>
+                                                <p>Der Verweis auf den Ton ist eine vorzeichenlose Zahl, die das Application-Delegate
+                                                   über die Property <span class="clisting">soundId</span> verwaltet. Das Delegate soll den Ton aber nur einmal laden, und das nur dann, wenn
+                                                   es ihn braucht. Dies erfolgt in dem <span class="cbegriff">Lazy-Getter</span><a class="indexterm" id="dodtp519babae-b90a-4758-8672-50a6a36e82e8"></a> <span class="clisting">soundId</span>. Diese Methode prüft zuerst, ob sie den Ton bereits geladen hat, und macht dies gegebenenfalls.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Lazy-Getter
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Lazy-Getter sind eine einfache und effektive Möglichkeit für den sparsamen Umgang
+                                                               mit Ressourcen. Sie haben bereits ein weiteres Beispiel dafür kennengelernt. Die Property
+                                                               <span class="clisting">view</span> der Klasse <span class="clisting">UIViewController</span> lädt den View erst, wenn das Programm das erste Mal darauf zugreift. Das ist in der
+                                                               Regel kurz vor dessen Anzeige.
+                                                               
+                                                               Lazy-Getter haben meist den gleichen, einfachen Aufbau:
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">- (MyClass *)myObject {<br>    if(myObject == nil) {<br>        myObject = ...; // Speicherverwaltung nicht vergessen!<br>    }<br>    return myObject;<br>}<br></pre></div>
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Die Methode <span class="clisting">playSound</span> spielt den Ton ab:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (NSNumber *)soundId {<br>    if(soundId == nil) {<br>        NSURL *theURL =<br>           [[NSBundle mainBundle] URLForResource:@"ringtone"<br>                                   withExtension:@"caf"];<br>        SystemSoundID theId;<br><br>        if(AudioServicesCreateSystemSoundID(<br>            (CFURLRef) theURL, &amp;theId) ==<br>                kAudioServicesNoError) {<br>            self.soundId =<br>                [NSNumber numberWithUnsignedInt:theId];<br>        }<br>    }<br>    return soundId;<br>}<br>- (void)playSound {<br>    NSNumber *theId = self.soundId;<br><br>    if(theId) {<br>        AudioServicesPlaySystemSound(<br>            [theId unsignedIntValue]);<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 3.41   </strong>Laden und Abspielen eines Tons
+                                                </p>
+                                                <p>Listing 3.41 verwendet für die Property <span class="clisting">soundId</span> anstatt des Typs <span class="clisting">NSUInteger</span> die Klasse <span class="clisting">NSNumber</span><a class="indexterm" id="dodtp3632268f-8c67-4664-963e-2c098f23af28"></a>. Das hat den Vorteil, dass Sie als Propertywert <span class="clisting">nil</span> den Zustand des nicht geladenen Tons abbilden können. In der Methode <span class="clisting">dealloc</span> müssen Sie den Ton auch wieder freigeben, damit kein Speicherleck entsteht. Das können
+                                                   Sie durch den folgenden Setter erreichen: 
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)setSoundId:(NSNumber *)inSoundId {<br>    if(soundId != inSoundId) {<br>        if(soundId != nil) {<br>            AudioServicesDisposeSystemSoundID(<br>                [soundId unsignedIntValue]);<br>            [soundId release];<br>        }<br>        soundId = [inSoundId retain];<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 3.42   </strong>Freigabe des Alarmtons im Setter
+                                                </p>
+                                                <p>Hier erfolgt der lesende Zugriff auf den Wert auch über das Attribut und nicht über
+                                                   den Getter. Der wäre hier kontraproduktiv, da er ja den Ton lädt, falls er noch nicht
+                                                   geladen wurde. Diese Implementierung stellt sicher, dass das Delegate den alten Alarmton
+                                                   immer freigibt, wenn Sie einen neuen über den Setter setzen.
+                                                </p>
+                                                <p>Das Application-Delegate kann über die Methode <span class="clisting">applicationDidReceiveMemoryWarning:</span> auch auf Speicherwarnungen reagieren. Da es den Alarmton jederzeit wieder laden kann,
+                                                   sollten Sie in dieser Methode den Propertywert für <span class="clisting">soundId</span> auf nil setzen.
+                                                </p><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_03_003.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="3 Aufwachen &#8211; analoger Wecker"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_03_002.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_03_004.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

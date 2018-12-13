@@ -1,0 +1,1323 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="title" content="Galileo Computing :: Apps entwickeln für iPhone und iPad - 5 Animationen und Layer">
+      <meta name="author" content="Klaus M. Rodewig, Clemens Wagner">
+      <meta name="publisher" content="Galileo Press 2011">
+      <meta name="copyright" content="Galileo Press 2011">
+      <meta name="Desription" content="Apps entwickeln für iPhone und iPad - Das Praxisbuch - 5 Animationen und Layer">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta http-equiv="content-language" content="de">
+      <title>Galileo Computing :: Apps entwickeln für iPhone und iPad - 5 Animationen und Layer</title>
+      <link rel="stylesheet" type="text/css" href="common/galileo_open.css">
+      <link rel="stylesheet" type="text/css" href="common/prettify.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="common/css/lightbox.css">
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/prototype.js"></script>
+      &nbsp; &nbsp; &nbsp;                  <script src="common/js/scriptaculous.js?load=effects,builder"></script>
+      &nbsp; &nbsp; &nbsp;                  <script type="text/javascript" src="common/js/lightbox.js"></script><link rel="prev" href="apps_05_001.html">
+      <link rel="next" href="apps_05_003.html"><script type="text/javascript" src="common/prettify.js"></script><script type="text/javascript" src="common/openwin.js"></script></head>
+   <body vlink="#000099" link="#000099" alink="#000099" onload="prettyPrint()">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000066">
+         <tr>
+            <td height="74" valign="bottom" colspan="2"><a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP"><img src="common/galileocomputing_openbook.gif" width="200" height="56" border="0" alt="Galileo Computing < openbook &gt;" title="Galileo Computing < openbook &gt;"></a></td>
+            <td width="80" height="74"><a href="http://www.galileocomputing.de/?GPP=opAppiP"><img src="common/galileocomputing.gif" border="0" alt="Galileo Computing - Professionelle Bücher. Auch für Einsteiger." title="Galileo Computing - Professionelle Bücher. Auch für Einsteiger."></a></td>
+         </tr>
+      </table>
+      <div align="right"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Professionelle Bücher. Auch für Einsteiger.</a></div><br><table class="tbl" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+            <tr>
+               <td width="190" valign="top">
+                  <table class="tbl1" border="0" cellpadding="3" cellspacing="0" width="190" align="left">
+                     <tbody>
+                        <tr>
+                           <td class="tbl2"><a class="nav" href="index.html">Inhaltsverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_widmung_001.html#"></a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_geleitwort_001.html#dodtpfad62f21-21f9-4eae-9038-c462dc2de850">Geleitwort des Gutachters</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_00_vorwort_001.html#dodtp134aa4f5-3ea1-4d2b-90ec-625e9ad04995">Vorwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_01_001.html#dodtp06116df0-71a6-4127-9c90-87cc60beb89d">1 Einführung</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_02_001.html#dodtp13428fe8-22e7-48ed-b301-c766518dcaac">2 Einstieg in die Praxis</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_03_001.html#dodtpd90d1a51-f4d6-4634-a164-a45ebd6f9dff">3 Aufwachen &#8211; analoger Wecker</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_04_001.html#dodtpa5a111c6-3a92-4be9-aa3a-ed64f8951ac6">4 Daten, Tabellen und Controller</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navh" href="#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406">5 Animationen und Layer</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_06_001.html#dodtp610fd647-93cb-4bff-b94e-30d1cceb28fc">6 Programmieren, aber sicher</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_07_001.html#dodtp35da27e0-4c50-417c-a28d-f5907117d740">7 Jahrmarkt der Nützlichkeiten</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="apps_anhang_a_dvd-inhalt_001.html#dodtp71232b80-1f13-4c5a-88ac-de2264b674f7">A Die Buch-DVD</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="stichwort.html">Stichwort</a></td>
+                        </tr>
+                        <tr>
+                           <td><br><a href="http://download2.galileo-press.de/openbook/galileocomputing_apps-entwickeln.zip" class="navnav"><strong>Download:</strong><br>- ZIP, ca. 23,6 MB</a></td>
+                        </tr>
+                        <tr>
+                           <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav">Buch bestellen</a></td>
+                        </tr>
+                        <tr>
+                           <td><a class="navnav" href="#kommentar">Ihre Meinung?</a><br><br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+               <td width="10"><img src="common/spacer10.gif" width="10" height="10" alt="Spacer"></td>
+               <td width="85%" valign="top">
+                  <div align="center">
+                     <table width="98%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        <tbody>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%">
+                                             <div align="left"><a href="apps_05_001.html" class="navnav"> &lt;&lt; zurück</a></div>
+                                          </td>
+                                          <td width="49%">
+                                             <div align="center"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="navnav">Galileo Computing</a> / <a href="http://www.galileocomputing.de/katalog/openbook/?GPP=opAppiP" class="navnav">
+                                                   &lt;openbook&gt;</a> / <a href="index.html" class="navnav">Apps entwickeln für iPhone und iPad</a></div>
+                                          </td>
+                                          <td width="25%">
+                                             <div align="right"><a href="apps_05_003.html" class="navnav">vor &gt;&gt; </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" valign="top">
+                                 <table width="100%" border="0" cellpadding="10" cellspacing="0" class="box">
+                                    <tbody>
+                                       <tr>
+                                          <td colspan="2"><a href="http://www.galileocomputing.de/?GPP=opAppiP" class="buchtitel">Apps entwickeln für iPhone und iPad</a><span class="autor"> von Klaus M. Rodewig, Clemens Wagner</span><br><span class="untertitel">Das Praxisbuch</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" width="211">
+                                             <dl>
+                                                <dt><a href="http://www.galileo-press.de/3521?GPP=opAppiP" class="navnav"><img src="common/9783836214636.jpg" border="0" alt="Buch: Apps entwickeln für iPhone und iPad" title="Buch: Apps entwickeln für iPhone und iPad"></a></dt>
+                                                <dd><br><a href="http://www.galileo-press.de/3521?GPP=opAppiP"><span class="autor"><strong>Apps entwickeln für iPhone und iPad</strong><br><pressinfo>geb., mit DVD<br>515 S., 49,90 Euro<br>Galileo Computing<br>ISBN 978-3-8362-1463-6
+                                                         <br><br>Die <strong>Neuauflage</strong> des Buches erhalten Sie in unserem Online-Shop - <em>versandkostenfrei</em> innerhalb Deutschlands und Österreichs.<br><a class="navnav" href="http://www.galileo-press.de/3521?GPP=opAppiP"><img src="common/pfeil_rechts5.gif" alt="" border="0">Zum Online-Shop</a></span></span></a></dd>
+                                             </dl>
+                                          </td>
+                                          <td width="80%">
+                                             <table border="0">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="baseline"><img src="common/pfeil_u.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="3" class="kap"><strong><a href="apps_05_001.html#dodtpa5dbcb97-8e52-44af-b2a1-d51145cf8406" class="navnav">5 Animationen und Layer</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_001.html#dodtp5efea2f9-5971-4355-9098-73d240420ae8" class="navnav">5.1 Modell und Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpbfefaccf-2786-4687-9caf-bf869a37dd09" class="navnav">5.1.1 iOS Next Topmodel</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpcdb08693-584e-460f-84d6-adbffd990377" class="navnav">5.1.2 View an Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpf43e6bf8-5b92-4faf-8de8-d852c2bdb6e7" class="navnav">5.1.3 Modell an Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtpa07cc55d-58b3-412a-b67d-a83e85baebc2" class="navnav">5.1.4 Undo und Redo</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_001.html#dodtp8755d0e5-718b-4a1b-9167-c6361491d08c" class="navnav">5.1.5 Unittests</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_002.html#dodtp1c3f3d80-581b-478e-88bc-c9ed3a708401" class="navh">5.2 Als die Views das Laufen lernten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp9e9cf9b7-2f55-4fed-b3b6-39449f3b1d7d" class="navh">5.2.1 Blockfunktionen in C</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp0c53305d-45fe-44c6-9852-ea8594b2c837" class="navh">5.2.2 Animationen mit Blöcken</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp85028dc1-a1a1-40c9-bcc3-4f753ef479e3" class="navh">5.2.3 Transitionen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_002.html#dodtp0a0f2033-6d33-4367-b1ba-3a224955f8bd" class="navh">5.2.4 Zur Animation? Bitte jeder nur einen Block!</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_003.html#dodtpb1c7ea8c-fe2c-4936-9c9a-8ec6e345a78e" class="navnav">5.3 Core Animation</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtpc7304b46-d817-4f7c-ad3a-655bdf12d064" class="navnav">5.3.1 Layer</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp766676af-c5c5-4b69-bb6c-a92f38e6040d" class="navnav">5.3.2 Vordefinierte Layerklassen</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp13aeb6cc-99bc-4e4b-9ee7-186982cef3cb" class="navnav">5.3.3 Unser Button soll schöner werden</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp66fddda2-3ee3-4e44-ae6a-6901c9f96a1e" class="navnav">5.3.4 Spieglein, Spieglein an der Wand</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtpce26e4e5-0327-4743-bbd7-d6b3b9eee6d8" class="navnav">5.3.5 Der bewegte Layer</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtpfb02b879-0cc7-44cd-91fb-be429ae0b56f" class="navnav">5.3.6 Der View, der Layer, seine Animation und ihr Liebhaber</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_003.html#dodtp3d532cce-a949-4cbb-b90f-83cb4ca2c6e0" class="navnav">5.3.7 Die 3. Dimension</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_004.html#dodtpb92345dc-dbc2-4f78-8e86-ca5d585914c1" class="navnav">5.4 Der Tabbar-Controller</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_004.html#dodtp74751c51-49aa-4a38-a753-b920e7ddf1e4" class="navnav">5.4.1 Aufbau einer Reiternavigation</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_004.html#dodtp3dc6d335-db6c-4eeb-a3d7-2fd60f934221" class="navnav">5.4.2 Für ein paar Controller mehr</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline" colspan="2"><strong><a href="apps_05_005.html#dodtpbb883a33-ad82-42a5-9e9b-a3878fb20332" class="navnav">5.5 Was Sie schon immer über Instruments wissen wollten, aber nie zu fragen wagten</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_005.html#dodtp4af905ee-fd2f-407d-8fe3-1cf49c378f4b" class="navnav">5.5.1 Spiel mir das Lied vom Leak</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_005.html#dodtp20f3171b-12d7-4643-a316-ccfff954fba9" class="navnav">5.5.2 Ich folgte einem Zombie</a></strong></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"></td>
+                                                      <td valign="baseline" width="10"><img src="common/pfeil_rechts5.gif" width="10" height="10" border="0" alt="Pfeil"></td>
+                                                      <td valign="baseline"><strong><a href="apps_05_005.html#dodtp613c16ef-6413-4c04-a7d1-268d8e43a5e9" class="navnav">5.5.3 Time Bandits</a></strong></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table width="100%" cellpadding="20" cellspacing="0" border="0" bgcolor="#eeeeee">
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <div class="main"><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp1c3f3d80-581b-478e-88bc-c9ed3a708401" name="dodtp1c3f3d80-581b-478e-88bc-c9ed3a708401"></a><h2 class="t2"><span class="cfett">5.2</span><span class="cfett"> Als die Views das Laufen lernten</span><a href="#dodtp9e9cf9b7-2f55-4fed-b3b6-39449f3b1d7d"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a></h2>
+                                                <p>Für jedes Puzzleteil verwendet die App einen eigenen Imageview, wobei sie ein großes
+                                                   Bild in die passenden Bilder für die Teile zerschneidet. Dazu enthält das Programm
+                                                   die Kategorie <span class="clisting">UIImage(Subimage)</span> mit zwei Methoden. Über <span class="clisting">subimageWithRect:</span> können Sie aus einem Bild einen rechteckigen Bereich in ein neues Bild kopieren:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (UIImage *)subimageWithRect:(CGRect)inRect {<br>    CGImageRef theImage =<br>        CGImageCreateWithImageInRect(self.CGImage, inRect);<br>    UIImage *theResult = [UIImage imageWithCGImage:theImage];<br><br>    CGImageRelease(theImage);<br>    return theResult;<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.17   </strong>Kopieren eines rechteckigen Bereiches in ein neues Bild
+                                                </p>
+                                                <p>Die zweite Methode, <span class="clisting">splitIntoSubimagesWithRows:columns:</span>, zerlegt ein Bild in gleichgroße, rechteckige Bilder und liefert das Ergebnis in
+                                                   einem Array zurück. Das Bild enthält seine Größe als geräteunabhängige Werte. Im Puzzle
+                                                   liefert <span class="clisting">size</span> also immer 300 × 300 Pixel für das Puzzlebild &#8211; egal ob es für die Standard- oder
+                                                   die Retina-Auflösung ist. Sie müssen also diese logische Bildgröße erst in die physikalische
+                                                   umrechnen, indem Sie die Breite und die Höhe mit dem Skalierungsfaktor multiplizieren.
+                                                   Den Faktor erhalten Sie über die Property <span class="clisting">scale</span>.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (NSArray *)splitIntoSubimagesWithRows:(NSUInteger)inRows<br>                                columns:(NSUInteger)inColumns {<br>    CGSize theSize = self.size;<br>    CGRect theRect = CGRectMake(0.0, 0.0,<br>        self.size * theSize.width / inColumns,<br>        self.size * theSize.height / inRows);<br>    NSMutableArray *theResult = [NSMutableArray<br>        arrayWithCapacity:inRows * inColumns];<br><br>    theSize = theRect.size;<br>    for(NSUInteger theRow = 0; theRow &lt; inRows; ++theRow) {<br>        for(NSUInteger theColumn = 0; theColumn &lt; inColumns;<br>            ++theColumn) {<br>            theRect.origin.x = theSize.width * theColumn;<br>            theRect.origin.y = theSize.height * theRow;<br>            [theResult addObject:<br>                [self subimageWithRect:theRect]];<br>        }<br>    }<br>    return [[theResult copy] autorelease];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.18   </strong>Aufteilen eines Bildes für das Puzzle
+                                                </p>
+                                                <p>Bei der Aktualisierung des Puzzles brauchen Sie jeweils nur den Stein an seine neuen
+                                                   Positionen zu setzen. Das können Sie erreichen, indem Sie der Property <span class="clisting">frame</span> des Views für das Puzzleteil einen entsprechenden Wert zuweisen. Um zu einem Puzzleteil
+                                                   den entsprechenden Subview zu finden, vertauscht die Methode die Views in der Reihenfolge.
+                                                   Dadurch entspricht die Position des Views im Subviewarray der Position des Puzzleteils
+                                                   im Array des Modells.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)puzzleDidTilt:(NSNotification *)inNotification {<br>    NSDictionary *theInfo = inNotification.userInfo;<br>    NSUInteger theFromIndex =<br>        [[theInfo objectForKey:kPuzzleFromIndexKey] intValue];<br>    NSUInteger theToIndex =<br>        [[theInfo objectForKey:kPuzzleToIndexKey] intValue];<br>    UIView *thePuzzleView = self.puzzleView;<br>    UIView *theFromView =<br>        [thePuzzleView.subviews objectAtIndex:theFromIndex];<br>    UIView *theToView =<br>        [thePuzzleView.subviews objectAtIndex:theToIndex];<br><br>    [thePuzzleView exchangeSubviewAtIndex:theFromIndex<br>                       withSubviewAtIndex:theToIndex];<br>    theFromView.frame = [self frameForItemAtIndex:theToIndex];<br>    theToView.frame = [self frameForItemAtIndex:theFromIndex];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.19   </strong>Aktualisierung der Puzzleteile
+                                                </p>
+                                                <p>Die Klasse <span class="clisting">UIView</span> stellt eine Reihe von Methoden zur Verfügung, mit denen Sie Views animieren können.
+                                                   Die Animationen beschreiben Sie dabei über Property-Veränderungen der beteiligten
+                                                   Views. Sie geben dazu einfach an, welchen Wert die Property am Ende des Animationsablaufs
+                                                   haben soll, und den Rest erledigt Cocoa für Sie. Diese Animationsbeschreibung erfolgt
+                                                   innerhalb eines <span class="cbegriff">Blocks</span><a class="indexterm" id="dodtpa786441a-d36a-4983-acb2-348afb3c65f9"></a> oder auch einer <span class="cbegriff">Blockfunktion</span><a class="indexterm" id="dodtp66d69ea0-9e2a-446d-813f-aa949779044b"></a>. Das ist eine Erweiterung der Programmiersprache C von Apple, die Xcode seit der
+                                                   Betriebssystemversion 10.6 (<span class="cbegriff">Snow Leopard</span>) unterstützt. Das zugrunde liegende Konzept für Blöcke sind <span class="cbegriff">Closures</span><a class="indexterm" id="dodtpf4ea154c-65bb-4c44-b6bb-3e33e277f238"></a> aus den <span class="cbegriff">funktionalen Programmiersprachen</span> wie beispielsweise <span class="cbegriff">LISP</span>, <span class="cbegriff">Scheme</span> oder <span class="cbegriff">Haskell</span>. Vielleicht kennen Sie das Konzept aber auch schon aus anderen Programmiersprachen
+                                                   wie <span class="cbegriff">JavaScript</span>, <span class="cbegriff">Ruby</span> oder <span class="cbegriff">Python</span>.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp9e9cf9b7-2f55-4fed-b3b6-39449f3b1d7d" name="dodtp9e9cf9b7-2f55-4fed-b3b6-39449f3b1d7d"></a><h3 class="t3"><span class="cfett">5.2.1</span><span class="cfett"> Blockfunktionen in C</span><a href="#dodtp0c53305d-45fe-44c6-9852-ea8594b2c837"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp1c3f3d80-581b-478e-88bc-c9ed3a708401"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Ein Block ist eine Programmfunktion, die sich bei ihrer Erstellung Daten bis zu ihrer
+                                                   Ausführung merken kann. Sie können also einer Closure bei der Erzeugung schon Daten
+                                                   mitgeben, die sie bei ihrer späteren Ausführung verwendet.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Blockfunktionen
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Dieser Abschnitt beschreibt Blöcke nur so weit, wie Sie sie für die Verwendung in
+                                                               Animationen brauchen. Falls Sie tiefer gehende Informationen dazu brauchen, sollten
+                                                               Sie in das Dokument <span class="ckursiv">Blocks Programming Topics</span> schauen. Sie finden es in der API-Dokumentation oder unter folgender URL: <a href="http://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/Blocks/Articles/00_Introduction.html" target="_blank">http://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/Blocks/Articles/00_Introduction.html</a>
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Dazu ein Beispiel: Ein Fischhändler verkauft tagein, tagaus auf dem Markt Makrelen.
+                                                   Die Kunden kommen zu ihm, um eine bestimmte Menge an Fisch zu kaufen. Dafür geben
+                                                   sie ihm einen entsprechenden Geldbetrag. Der Fischhändler braucht also eine Funktion,
+                                                   die einer Menge Fisch einen Geldbetrag zuordnet. Seine Makrelen bekommt der Fischhändler
+                                                   auf dem Großmarkt, wo die Kilopreise für Makrelen aber jeden Tag anders sind.
+                                                </p>
+                                                <p>Der Fischhändler muss sich also jeden Morgen auf dem Markt neu überlegen, wie viel
+                                                   er für das Kilogramm Makrele von seinen Kunden haben will. Sie kennen ja das alte
+                                                   Marktwirtschaftsspielchen: Verlangt er zu viel, kauft keiner den Fisch. Ist der Fisch
+                                                   zu billig, dann geht er pleite. Da der gute Mann aber nicht jeden Tag ausführliche
+                                                   Marktforschungsanalysen betreiben möchte, hat die einfache Faustregel aufgestellt,
+                                                   den Fisch für den doppelten Einkaufspreis zu verkaufen. In die Verkaufsfunktion kommen
+                                                   also mit dem Einkaufspreis und dem Faktor noch zwei zusätzliche Werte ins Spiel.
+                                                </p>
+                                                <p>Ohne Closures müssten Sie diese beiden Werte entweder als zusätzliche Funktionsparameter
+                                                   oder als globale Variablen umsetzen. Zusätzliche Funktionsparameter haben den Nachteil,
+                                                   dass Sie sie immer beim Funktionsaufruf verfügbar haben müssen. Globale Variablen
+                                                   schränken Ihre Funktion auf eine Variante ein. Wenn Sie beispielsweise mit einem Programm
+                                                   den Makrelenmarkt simulieren wollen, haben alle Fischverkäufer den gleichen Großmarktpreis
+                                                   bezahlt und berechnen den Verkaufspreis mit dem gleichen Faktor.
+                                                </p>
+                                                <p>Mit Closures können Sie hingegen für jeden Fischverkäufer eine eigene Verkaufsfunktion
+                                                   erstellen. Das könnte dann so aussehen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">typedef double Money;<br>typedef double Weight;<br>Money thePurchasePrice = 4.20; // Einkaufspreis<br>double thePurchaseFactor = 2.0; // Aufschlagsfaktor<br>Money (^thePurchaseFunction)(Weight) = ^(Weight inWeight) {<br>    return inWeight * thePurchasePrice * thePurchaseFactor;<br>};<br>Money thePrice = thePurchaseFunction(2.5); // = 21 Euro<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.20   </strong>Erzeugung einer Blockfunktion
+                                                </p>
+                                                <p>Listing 5.20 erzeugt eine Blockfunktion, speichert sie in der Variablen <span class="clisting">thePurchaseFunction</span> und ruft sie einmal mit dem Wert 2,5 auf. Für die Berechnung verwendet sie die Variablen
+                                                   <span class="clisting">thePurchasePrice</span> und <span class="clisting">thePurchaseFactor</span>, die außerhalb des Blocks definiert wurden. Dabei speichert das Laufzeitsystem diese
+                                                   Werte aber als Kontext der Blockfunktion ab. Wenn Sie die Werte der Variablen ändern,
+                                                   verändern Sie diese Werte in der Blockfunktion nicht. Wenn Sie also die Zeilen aus
+                                                   Listing 5.21 an Listing 5.20 anhängen, erhalten Sie den gleichen Verkaufspreis wie
+                                                   oben und nicht 18,90 Euro. Die Blockfunktion merkt sich also die Variablenwerte bis
+                                                   zu ihrer Ausführung.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">thePurchaseFactor = 1.8;<br>thePrice = thePurchaseFunction(2.5); // = 21 Euro<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.21   </strong>Eine Änderung der Variablen ändert nicht die Blockfunktion.
+                                                </p>
+                                                <p>Das ist bei Animationen wichtig, da Sie über einen Block beschreiben, wie der View
+                                                   nach der Animation aussehen soll. Wann Cocoa Touch diesen Block ausführt, kann Ihnen
+                                                   dabei egal sein. Er hat genau die Werte, die Sie bei seiner Erzeugung festgelegt haben.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Rückgabetyp von Blockfunktionen
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Blockfunktionen sind sehr streng bezüglich ihres Rückgabetyps. Im Gegensatz zu vielen
+                                                               C-Anweisungen konvertieren sie den Wert nicht automatisch in den richtigen Typ. Das
+                                                               liegt daran, dass die Definition die Deklaration nicht kennt. Die Definition muss
+                                                               also den Rückgabetyp aus der Return-Anweisung extrahieren:
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">^(void) { return 1; } // Rückgabetyp int<br>^(void) { return 1.0; } // Rückgabetyp double<br>^(void) { return 1.0f; } // Rückgabetyp float<br></pre></div>
+                                                               
+                                                               Sie müssen also sicherstellen, dass die Rückgabetypen der Blockdeklaration und ?definition übereinstimmen.
+                                                               
+                                                               Das gilt übrigens auch, wenn der Block ein Objekt zurückgeben soll. Auch hier wandelt
+                                                               der Compiler nicht automatisch in die Oberklasse um:
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">id ^(theBlock)(void) = ^(void) { return @"Hello"; }; // Fehler<br>NSObject *^(theBlock)(void) { return @"Hello"; }; // Fehler<br></pre></div>
+                                                               
+                                                               Sie müssen hier explizit in den richtigen Rückgabetyp umwandeln:
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">id ^(theBlock)(void) = ^(void) { return (id)@"Hello"; }; // OK<br></pre></div>
+                                                               
+                                                               Wenn Sie Blockfunktionen in Ihren Programmen verwenden möchten, sollten Sie wie in
+                                                               Listing 5.23 dafür über <span class="clisting">typedef</span> eigene Typen definieren. Das vereinfacht Ihnen die Deklaration von Variablen.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Sie können diese Funktion nicht nur aufrufen, sondern auch wie ein Objekt behandeln.
+                                                   Beispielsweise können Sie die Funktion als Parameterwert an eine andere Funktion oder
+                                                   eine Methode übergeben. Dabei ist es wichtig, dass Sie die Blockfunktion nur innerhalb
+                                                   des Bereiches verwenden dürfen, in dem Sie sie deklariert haben. Folgendes dürfen
+                                                   Sie beispielsweise nicht machen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">if(YES) { /* Anfang */<br>    thePurchaseFunction = ^(Weight inWeight) {<br>        return inWeight * thePurchasePrice * 2.1;<br>    };<br>/* Ende */ }<br>thePrice = thePurchaseFuntion(3.1); // Fehler<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.22   </strong>Bereichsverletzungen mit Blöcken
+                                                </p>
+                                                <p>Die letzte Anweisung in Listing 5.22 ist eine Bereichsverletzung, weil sie die Blockfunktion
+                                                   außerhalb des deklarierenden Bereichs verwendet (der durch <span class="clisting">/* Anfang */</span> und <span class="clisting">/* Ende */</span> gekennzeichnet ist). Sie dürfen eine Blockfunktion auch nicht einfach als Funktions-
+                                                   oder Methodenergebnis zurückgeben, da Sie auch hier den deklarierenden Block verlassen.
+                                                   Bei Bereichsverletzungen von Blöcken gibt Ihnen der Compiler in vielen Fällen keine
+                                                   Fehlermeldungen aus. Es kann sogar vorkommen, dass das Programm trotz einer Bereichsverletzung
+                                                   funktioniert.
+                                                </p>
+                                                <p>Sie können Bereichsverletzungen vermeiden, indem Sie den Block kopieren. Hier treten
+                                                   die Objekteigenschaften von Blöcken zutage. Sie können nämlich auch an Blöcke die
+                                                   Methoden <span class="clisting">retain</span>, <span class="clisting">release</span>, <span class="clisting">autorelease</span> und <span class="clisting">copy</span> senden. Wenn Sie also einen Block aus einer Methode zurückgeben möchten, schicken
+                                                   Sie ihm ein <span class="clisting">copy</span> und gegebenenfalls noch ein <span class="clisting">autorelease</span> (erinnern Sie sich noch an die erste Speicherverwaltungsregel?):
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">typedef double (^FunctionType)(double inValue);<br>- (FunctionType)createFunction {<br>    return [[^(double inValue) {...} copy] autorelease];<br>}<br>- (double)evaluateFunctionWithValue:(double)inValue {<br>    FunctionType theFunction = [self createFunction];<br>    return theFunction(inValue);<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.23   </strong>Das Kopieren von Blöcken
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Blockfunktionen und ARC
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Automatisches Referenzenzählen (ARC) vereinfacht die Handhabung von Blockfunktionen
+                                                               als Rückgabewerte. Sie können hier beispielsweise einfach
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">return ^(void){ ... };<br></pre></div>
+                                                               
+                                                               schreiben. Der ARC-Compiler fügt automatisch die notwendigen Aufrufe von <span class="clisting">copy</span> und <span class="clisting">autorelease</span> ein:
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">return <span class="cfett">[[</span>^(void){ ... } <span class="cfett">copy] autorelease]</span>;<br></pre></div>
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Wenn Sie Blockfunktionen in Objekten speichern möchten, ist es am einfachsten, dafür
+                                                   Propertys vom Typ <span class="clisting">copy</span> zu verwenden. Sie können dann die Propertywerte wie bei anderen Propertys auch zuweisen.
+                                                   Durch den Speicherverwaltungstyp kopiert die Laufzeitumgebung automatisch die Blockfunktion
+                                                   bei der Zuweisung:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">// Typdeklaration<br>typedef double (^FunctionType)(double inValue);<br>// Propertydeklaration<br>@property(nonatomic, copy) FunctionType function;<br>// Zuweisung<br>self.function = ^(double inValue) { ... };<br>// Ausführung<br>self.function(2.5);<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.24   </strong>Blockfunktion als Propertywert
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp0c53305d-45fe-44c6-9852-ea8594b2c837" name="dodtp0c53305d-45fe-44c6-9852-ea8594b2c837"></a><h3 class="t3"><span class="cfett">5.2.2</span><span class="cfett"> Animationen mit Blöcken</span><a href="#dodtp85028dc1-a1a1-40c9-bcc3-4f753ef479e3"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp9e9cf9b7-2f55-4fed-b3b6-39449f3b1d7d"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Mit diesen Grundlagen für Blöcke können Sie jetzt anfangen, Ihre Views in Bewegung
+                                                   zu setzen. Dazu bietet Ihnen die Klasse <span class="clisting">UIView</span> eine Reihe von Klassenmethoden. Die Methoden sind nicht auf Objektebene, da Sie innerhalb
+                                                   einer Animation mehrere Views gleichzeitig verändern können. Im einfachsten Fall wollen
+                                                   Sie nur eine oder mehrere Eigenschaften Ihrer Views verändern und das über eine Animation
+                                                   visualisieren. Beispielsweise können Sie folgendermaßen einen View animiert vergrößern:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">CGRect theFrame = theView.frame;<br>theFrame.size.width *= 2;<br>theFrame.size.height *= 2;<br>[UIView animateWithDuration:0.75 animations:^{<br>    theView.frame = theFrame;<br>}];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.25   </strong>Animierte Vergrößerung eines Views
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Parameterlose Blockfunktionen
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Wenn eine Blockfunktion keinen Parameter erwartet, können Sie die Angabe der Parameterliste
+                                                               auch weglassen. In Listing 5.25 können Sie deshalb die Definition des Animationsblocks
+                                                               von <span class="clisting">^(void){ ... }</span> auf <span class="clisting">^{ ... }</span> verkürzen.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Sie können also eine Animation durch einen Methodenaufruf und eine Zeile im Animationsblock
+                                                   starten. Cocoa erzeugt automatisch zu den Änderungen, die Sie im Animationsblock an
+                                                   den Views vornehmen, die notwendigen Animationen. In vielen Fällen möchten Sie am
+                                                   Ende der Animation weiteren Code ausführen. Dafür gibt es eine Variante mit zwei Blockfunktionen:
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">[UIView animateWithDuration:0.75 animations:^{<br>    theView.frame = theFrame;<br>}<br>completion:^(BOOL inFinished) {<br>    theView.alpha = 0.5;<br>}];<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.26   </strong>Animation mit Block für das Animationsende
+                                                </p>
+                                                <p>Die Animation ruft nach ihrer Beendigung den zweiten Block auf. Dabei gibt der boolesche
+                                                   Parameter an, ob Cocoa Touch die Animation regulär beendet oder vor Beendigung abgebrochen
+                                                   hat. In der Regel hat dieser Parameter also den Wert <span class="clisting">YES</span>.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Abbrechen von Animationen
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Für den Abbruch von View-Animationen gibt es keine dokumentierte Methode im UIKit.
+                                                               Da diese Animationen aber auf Core Animation basieren, können Sie auf die Animationen
+                                                               eines Views über seinen <span class="cbegriff">Layer</span><a class="indexterm" id="dodtp3c853430-dc9b-4803-9bd8-26106df9096e"></a> zugreifen. Über die folgende Anweisung können Sie alle Animationen stoppen:
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">[theView.layer removeAllAnimations];<br></pre></div>
+                                                               
+                                                               Wenn Sie die Animationen so stoppen, springt der View augenblicklich in den Endzustand.
+                                                               Alle animierten Propertys des Views haben also die Werte, die Sie ihnen im Animationsblock
+                                                               zugewiesen haben.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Sie können folgende Propertys eines Views animieren:</p>
+                                                <ul class="gp">
+                                                   <li>Mit den Propertys <span class="clisting">frame</span> und <span class="clisting">bounds</span> können Sie die Position und die Größe des Views verändern.
+                                                   </li>
+                                                   <li>Über die Property <span class="clisting">center</span> verschieben Sie den Mittelpunkt eines Views. Das hat nicht nur Auswirkungen auf dessen
+                                                      Lage, sondern auch auf die Transformation des Views.
+                                                   </li>
+                                                   <li>Sie können einem View eine affine Transformation, das ist eine 3 × 3-Matrix einer
+                                                      bestimmten Struktur, über die Property <span class="clisting">transform</span> zuweisen. Mit Transformationen können Sie den View drehen, vergrößern und verschieben.
+                                                   </li>
+                                                   <li>Ein- und Ausblendeffekte können Sie durch eine Änderung des Wertes der Property <span class="clisting">alpha</span> erreichen.
+                                                   </li>
+                                                   <li>Sogar die Hintergrundfarbe des Views können Sie über die Property <span class="clisting">backgroundColor</span> animieren.
+                                                   </li>
+                                                   <li>Über die Property <span class="clisting">contentStretch</span> bestimmen Sie den dehnbaren Bereich des Views.
+                                                   </li>
+                                                </ul>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Dehnungsübungen
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Der dehnbare Bereich eines Views ist ein Rechteck, dessen Breite und Höhe der View
+                                                               anpassen darf (siehe Abbildung 5.10). Allerdings kann der View auch Bereiche an den
+                                                               Rändern anpassen (das ist durch Pfeile in der Abbildung gekennzeichnet). Für die Koordinaten
+                                                               geben Sie relative Werte zwischen 0 und 1 an. Dadurch sind die Größenangaben unabhängig
+                                                               von der Größe des Views. Das Rechteck für Abbildung 5.10 hat beispielsweise folgende
+                                                               Werte:
+                                                               
+                                                               
+                                                               <div class="listing"><pre class="prettyprint">theView.contentStretch = CGRectMake(0.125, 0.25, 0.625, 0.5);<br></pre></div>
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><a href="bilder/05_010.png" rel="lightbox" title="Dehnbare Bereiche (Pfeile) eines Views"><img class="bild" border="1" src="bilderklein/klein05_010.png" alt="Abbildung"></a><p class="pbildunter"><strong>Abbildung 5.10   </strong>Dehnbare Bereiche (Pfeile) eines Views
+                                                </p>
+                                                <p>Während der Animationsausführung ist die Verarbeitung von Touch-Events unterbrochen,
+                                                   sodass Sie also keine Eingaben empfangen können. In vielen Fällen ist das auch nicht
+                                                   notwendig. Es gibt aber noch eine dritte Animationsmethode, mit der Sie unter anderem
+                                                   dieses Verhalten beeinflussen können. Dazu besitzt diese Methode den Parameter <span class="clisting">options</span>. Außerdem können Sie über den Parameter <span class="clisting">delay</span> die Ausführung der Animation verzögern.
+                                                </p>
+                                                <p>Der Wert des Optionsparameters ist eine <span class="cbegriff">Bitmenge</span><a class="indexterm" id="dodtped30a198-48d4-4a64-ae87-0c98b53ebb39"></a>, die Sie aus mehreren Konstanten, die einen booleschen Wert darstellen, zusammensetzen
+                                                   können. Wenn Sie mehrere Eigenschaften über die Optionen setzen wollen, müssen Sie
+                                                   die entsprechenden Konstanten über das <span class="cbegriff">bitweise Oder</span> (Operator <span class="clisting">|</span>) verknüpfen.
+                                                </p>
+                                                <p>Sie können die Touchverarbeitung während der Animation über die Konstante <span class="clisting">UIViewAnimationOptionAllowUserInteraction</span> einschalten. Über Viewanimationen können Sie Ihre Views aber auch kontinuierlich
+                                                   animieren. Dazu brauchen Sie nur den Schalter <span class="clisting">UIViewAnimationOptionRepeat</span> zu setzen, dann setzt die Animation am Ende der Bewegung den View wieder auf den
+                                                   Ursprungszustand zurück und beginnt von vorne. Der Parameter <span class="clisting">duration</span> gibt bei wiederholten Animationen die Länge einer Wiederholung an, und die gesamte
+                                                   Animation läuft dauerhaft. Diese dauerhaften Animationen sollen häufig auch den Rückweg,
+                                                   also den Übergang vom End- zum Anfangszustand, animieren. Mit dem Schalter <span class="clisting">UIViewAnimationOptionAutoreverse</span> können Sie dieses Verhalten einschalten.
+                                                </p>
+                                                <p>Über den Optionsparameter können Sie auch den Geschwindigkeitsverlauf in der Animation
+                                                   steuern.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <caption class="tabunter">
+                                                      <p class="ptabellenunter"><strong>Tabelle 5.3   </strong>Geschwindigkeitsverläufe in der Animation
+                                                      </p>
+                                                   </caption>
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf">
+                                                            
+                                                            
+                                                            
+                                                            <span class="cfett">UIViewAnimationOptionCurve...</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">Die Animation ...</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">...<span class="clisting">EaseInOut</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">beschleunigt am Anfang und bremst am Ende ab.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">...<span class="clisting">EaseIn</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">beschleunigt am Anfang und läuft dann bis zum Ende mit einer konstanten Geschwindigkeit.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">...<span class="clisting">EaseOut</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">startet mit einer konstanten Geschwindigkeit und verlangsamt sich am Ende.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">...<span class="clisting">Linear</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">hat über den gesamten Verlauf die gleiche Geschwindigkeit.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Das Beispielprogramm <span class="cdateipfad">Animation</span> auf der beiliegenden DVD vermittelt einen Eindruck von den verschiedenen Animationsverläufen.
+                                                   Sie können dort über ein <span class="cbegriff">Segmented Control</span><a class="indexterm" id="dodtp0f7ee394-6d65-40c7-8e6a-62a96dc2911d"></a> die Animationskurve wählen und eine Animation starten.
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">
+                                                               
+                                                               
+                                                               
+                                                               Animationen ohne Blockfunktionen
+                                                               
+                                                               </span></td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">
+                                                            <p>Blockfunktionen hat Apple erst mit iOS 4.0 eingeführt. Trotzdem können Sie auch in
+                                                               älteren iOS-Versionen Animationen einbinden (Sie sollten aber möglichst die Blockfunktionen
+                                                               bevorzugen).
+                                                               <br><br>
+                                                               Zum Einbinden in älteren iOS-Versionen müssen Sie Ihre Animationen in Aufrufe der
+                                                               Klassenmethoden <span class="clisting">beginAnimations:context:</span> und <span class="clisting">commitAnimations</span> einschließen. Mit weiteren Klassenmethoden können Sie zwischen diesen Methodenaufrufen
+                                                               die Animationsoptionen setzen. Die Animation aus Listing 5.25 sieht ohne Blockfunktionen
+                                                               beispielsweise so aus:
+                                                                                                                              
+                                                               <div class="listing"><pre class="prettyprint">CGRect theFrame = theView.frame;<br>theFrame.size.width *= 2;<br>theFrame.size.height *= 2;<br>[UIView beginAnimations:@"resize" context:NULL];<br>[UIView setAnimationDuration:0.75];<br>theView.frame = theFrame;<br>[UIView commitAnimations];<br></pre></div>
+                                                               
+                                                               Der erste Parameter der Methode <span class="clisting">beginAnimations:context:</span> gibt den Namen der Animation an. Sie können hier auch <span class="clisting">nil</span> verwenden. Unter diesem Namen speichert Cocoa Touch die Animation im Layer. Darauf
+                                                               geht der nächste Abschnitt noch genauer ein. Im Context-Parameter können Sie der Animation
+                                                               beliebige Daten mitgeben, die sie an Ihre Delegatemethoden weitergibt.
+                                                               
+                                                               
+                                                            </p>
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp85028dc1-a1a1-40c9-bcc3-4f753ef479e3" name="dodtp85028dc1-a1a1-40c9-bcc3-4f753ef479e3"></a><h3 class="t3"><span class="cfett">5.2.3</span><span class="cfett"> Transitionen</span><a href="#dodtp0a0f2033-6d33-4367-b1ba-3a224955f8bd"><img src="common/down.gif" width="15" height="15" border="0" alt="Zur nächsten Überschrift"></a><a href="#dodtp0c53305d-45fe-44c6-9852-ea8594b2c837"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Mit den vorgestellten Animationen können Sie das Aussehen eines oder mehrerer Views
+                                                   gleichzeitig ändern. Für das Memory-Spiel des Beispielprogramms dieses Kapitels sollte
+                                                   die Animation das Umdrehen der Karten simulieren. Das können Sie mit View-Transitionen
+                                                   erreichen.
+                                                </p>
+                                                <p>Transitionen sind Animationen zum gleichzeitigen Ein- und Ausblenden von Views. Die
+                                                   Animation verbindet dabei das Erscheinen und das Verschwinden der Views zu einem Effekt.
+                                                   Es gibt folgende Transitionen:
+                                                </p>
+                                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                                   <caption class="tabunter">
+                                                      <p class="ptabellenunter"><strong>Tabelle 5.4   </strong>Transitionstypen
+                                                      </p>
+                                                   </caption>
+                                                   <tbody>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf">
+                                                            
+                                                            
+                                                            
+                                                            <span class="cfett">UIViewAnimationOptionTransition...</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellenkopf"><span class="cfett">Die Animation ...</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">...<span class="clisting">None</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">Kein Animationseffekt. Das ist der Standardwert.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">...<span class="clisting">FlipFromLeft</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">dreht die Views um deren vertikale Achse um 180° &#8211; die linke Seite nach vorne und
+                                                            die rechte nach hinten.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">...<span class="clisting">FlipFromRight</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">dreht die Views um deren vertikale Achse um 180° &#8211; die rechte Seite nach vorne und
+                                                            die linke nach hinten.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">...<span class="clisting">CurlUp</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">blättert den auszublendenden View wie ein Kalenderblatt nach oben weg.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                      <tr>
+                                                         
+                                                         
+                                                         <td class="tabellentext">...<span class="clisting">CurlDown</span>
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                         <td class="tabellentext">blättert den einzublendenden View von oben ein.
+                                                            
+                                                            
+                                                         </td>
+                                                         
+                                                         
+                                                      </tr>
+                                                      
+                                                      
+                                                   </tbody>
+                                                </table>
+                                                <p>Sie können eine Transition über die Klassenmethode <span class="clisting">transitionWithView: duration:options:animations:completion:</span> von <span class="clisting">UIView</span> starten. Dabei geben Sie im ersten Parameter den View an, dessen Subviews Sie in
+                                                   die Transition einbeziehen möchten. Die Transition animiert alle Views, die Sie anzeigen,
+                                                   verstecken, zum View hinzufügen oder aus ihm entfernen. Die anderen Parameter verhalten
+                                                   sich genau wie bei den bereits vorgestellten Animationsmethoden. Die Flipanimationen
+                                                   eignen sich herragend, um das Umdrehen der Karten im Memoryspiel der Beispielapplikation
+                                                   zu animieren.
+                                                </p>
+                                                <p>Eine Karte im Memory besteht aus drei Views. Der äußere View der Klasse <span class="clisting">CardView</span> dient als Container, der jeweils einen View für die Vorder- und Rückseite der Karte
+                                                   enthält. Die Vorderseite zeigt ein farbiges Vieleck, während die Rückseite ein einheitliches
+                                                   Muster anzeigt. Der Containerview steuert die Transitionen der Karte über die Methode
+                                                   <span class="clisting">showFrontSide:withAnimationCompletion:</span>.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (FrontView *)frontView {<br>    return self.subviews.lastObject;<br>}<br>- (BOOL)showsFrontSide {<br>    return !self.frontView.hidden;<br>}<br>- (void)setShowsFrontSide:(BOOL)inShowingFront {<br>    [[self.subviews objectAtIndex:0] setHidden:inShowingFront];<br>    self.frontView.hidden = !inShowingFront;<br>}<br>- (void)showFrontSide:(BOOL)inShow withAnimationCompletion:<br>   (void (^)(BOOL inFinished))inCompletion {<br>    UIViewAnimationOptions theTransition = inShow ?<br>        UIViewAnimationOptionTransitionFlipFromLeft :<br>        UIViewAnimationOptionTransitionFlipFromRight;<br>    [UIView transitionWithView:self<br>                      duration:0.75<br>                       options:theTransition |<br>                       UIViewAnimationOptionAllowUserInteraction<br>                    animations:^{<br>                        self.showsFrontSide = inShow;<br>                    }<br>                    completion:inCompletion];<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.27   </strong>Transition der Memorykarten
+                                                </p>
+                                                <p>Der Animationsblock verändert die Property <span class="clisting">hidden</span> der beiden Seiten der Karte, sodass sie jeweils nur einen View zeigt. Die Transition
+                                                   erzeugt daraus eine Animation, die wie ein Umdrehen der Karten aussieht. Für das Anzeigen
+                                                   und Verstecken der Vorderseite verwendet die Methode dabei die entgegengesetzten Transitionen.
+                                                </p>
+                                                <p>Wenn Sie in einer Transition auch noch Views animieren wollen, können Sie dazu die
+                                                   Option <span class="clisting">UIViewAnimationOptionAllowAnimatedContent</span> setzen. Dann setzt Cocoa Touch alle Änderungen an Views im Animationsblock der Transition
+                                                   auch in Animationen um.
+                                                </p><br><div align="center"><a href="#top"><img src="common/jupiters.gif" border="0" alt="Galileo Computing - Zum Seitenanfang"></a></div><a id="dodtp0a0f2033-6d33-4367-b1ba-3a224955f8bd" name="dodtp0a0f2033-6d33-4367-b1ba-3a224955f8bd"></a><h3 class="t3"><span class="cfett">5.2.4</span><span class="cfett"> Zur Animation? Bitte jeder nur einen Block!</span><a href="#dodtp85028dc1-a1a1-40c9-bcc3-4f753ef479e3"><img src="common/top.gif" width="15" height="15" border="0" alt="Zur vorigen Überschrift"></a></h3>
+                                                <p>Wenn Sie mehrere Animationen hintereinander ausführen wollen, reicht dafür das Hintereinanderschreiben
+                                                   mehrerer Animationsanweisungen nicht aus. Die Animationen laufen dann trotzdem gleichzeitig
+                                                   ab. Das liegt einerseits daran, dass Cocoa Touch die Animationen auch aus der Runloop
+                                                   heraus startet. Andererseits warten die Animationsmethoden auch nicht auf den Ablauf
+                                                   der Animationen. Dafür gibt es ja schließlich den <span class="cbegriff">Completionblock</span><a class="indexterm" id="dodtpec2d26b4-55d8-4645-adda-bb8549185be3"></a>. In diesem Block können Sie die anschließende Animation starten, sodass Sie eine
+                                                   sequenzielle Ausführung der Animationen erhalten.
+                                                </p>
+                                                <p>Das Memory-Spiel des Beispielprojekts besitzt einen Hilfeknopf, mit dem Sie die verdeckten
+                                                   Karten der Reihe nach kurz aufdecken können. Dazu besitzt die Klasse <span class="clisting">MemoryViewController</span> die rekursive Methode <span class="clisting">showCardView:atIndex:</span>, die die Karten nacheinander kurz aufdeckt.
+                                                </p>
+                                                <div class="listing"><pre class="prettyprint">- (void)showCardView:(BOOL)inShow atIndex:(NSUInteger)inIndex {<br>    NSArray *theViews = self.memoryView.subviews;<br>    UIViewAnimationOptions theOptions = inShow ?<br>        UIViewAnimationOptionTransitionCurlUp :<br>        UIViewAnimationOptionTransitionCurlDown;<br><br>    if(inIndex &lt; theViews.count) {<br>        Card *theCard =<br>           [self.memory.cards objectAtIndex:inIndex];<br>        CardView *theView = [theViews objectAtIndex:inIndex];<br><br>        [UIView transitionWithView:theView duration:0.25<br>            options:theOptions<br>            animations:^{<br>                theView.showsFrontSide =<br>                    inShow || theCard.showsFrontSide;<br>            }<br>            completion:^(BOOL inFinished) {<br>                [self showCardView:inShow atIndex:inIndex + 1];<br>                if(inIndex == 0 &amp;&amp; inShow) {<br>                    [self showCardView:NO atIndex:0];<br>            }<br>        }];<br>    }<br>}<br></pre></div>
+                                                <p class="plistingunter"><strong>Listing 5.28   </strong>Animierte Hilfe des Memoryspiels
+                                                </p>
+                                                <p>Der erste Parameter gibt an, ob die Methode die Karte an der Indexposition zeigen
+                                                   oder verdecken soll. Das Auf- und Zudecken der Karte geschieht dabei auch über die
+                                                   Property <span class="clisting">showsFrontSide</span> und eine Curl-Up- beziehungsweise Curl-Down-Transition. Der Completion-Block der
+                                                   Transition startet dabei jeweils die Transition der nächsten Karte, sodass dadurch
+                                                   eine Kette von Animationen entsteht. Der Completion-Block für die erste Karte startet
+                                                   außerdem noch eine zweite Animationskette zum Verdecken der Karten.
+                                                </p><br><hr><a name="kommentar"></a><h3>Ihr Kommentar</h3>
+                                                <p>Wie hat Ihnen das &lt;openbook&gt; gefallen? Wir freuen uns immer über Ihre freundlichen
+                                                   und kritischen Rückmeldungen.
+                                                </p>
+                                                <form action="http://www.galileo-press.de/feedback/openbook" method="post" style="text-align: center; margin-top: 10px;"><input type="hidden" name="openbookurl" value="http://www.galileocomputing.de/katalog/openbook/apps_05_002.html"><input type="hidden" name="buchtitel" value="Apps entwickeln für iPhone und iPad"><input type="hidden" name="Kapitel" value="5 Animationen und Layer"><table border="0">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td><label for="name">Name</label><br></td>
+                                                            <td><input type="text" name="name" id="name" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td><label for="email">E-Mail</label><br></td>
+                                                            <td><input type="text" name="email" id="email" size="40"><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td valign="top"><label for="comment">Ihr Kommentar</label><br></td>
+                                                            <td><textarea name="comment" id="comment" rows="10" cols="40"></textarea><br></td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td></td>
+                                                            <td><input type="submit" value="Kommentar absenden"></td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                </form>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width="100%" class="start" colspan="1" height="22" align="center">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                       <tr>
+                                          <td width="25%"><a href="apps_05_001.html" class="navnav"> &lt;&lt; zurück</a></td>
+                                          <td width="49%">
+                                             <div align="center"><a class="navnav" href="#">&lt;top&gt;</a></div>
+                                          </td>
+                                          <td align="right" width="25%">
+                                             <div align="right"><a href="apps_05_003.html" class="navnav">vor &gt;&gt;
+                                                   </a></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td width="10" valign="top"></td>
+               <td width="160" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="160">
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">
+                  &nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP" class="autor">
+                  <strong>Zum Katalog</strong></a>
+                  
+                  </td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2">
+                  <img src="common/leer.gif" border="0" height="1" width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><a href="http://www.galileo-press.de/3521?GPP=opAppiP">
+                  <img src="common/2734.png" width="126" height="100" border="0" align="left"
+                  hspace="4" vspace="8" alt="Zum Katalog: Neuauflage: Apps programmieren für iPhone und iPad">
+                  <br><br><br><br><br><br><strong>Neuauflage: Apps programmieren für iPhone und iPad</strong><br><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="">Jetzt bestellen</a><br /><br />
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Ihre Meinung?</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  
+                  <table cellspacing="3">
+                  <tr>
+                  <td>Wie hat Ihnen das &lt;openbook&gt; gefallen?<br><a href="#kommentar"><img src="common/pfeil_rechts5.gif"
+                  border="0" alt="">Ihre Meinung</a>
+                  <br><br></td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr>
+                  
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2">&nbsp;<a href="http://www.galileocomputing.de/katalog/buecher/?GPP=opAppiP"
+                  class="autor"><strong>Buchempfehlungen</strong></a></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2448?GPP=opAppiP">
+                  <img src="common/1658.png" width="114" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Objective-C 2.0 & Cocoa"><br><br><br><br><br><br>&nbsp;Objective-C
+                  2.0<br>&nbsp;Cocoa</a><br><br></td>
+                  </tr>
+                  
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2663?GPP=opAppiP">
+                  <img src="common/1791.png" width="126" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X Lion"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X Lion</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2664?GPP=opAppiP">
+                  <img src="common/1792.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Mac OS X und UNIX"><br><br><br><br><br><br><br>&nbsp;Mac
+                  OS X<br>&nbsp;und UNIX</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2516?GPP=opAppiP">
+                  <img src="common/1697.png" width="122" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Android 3"><br><br><br><br><br><br><br>&nbsp;Android
+                  3</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2672?GPP=opAppiP">
+                  <img src="common/1802.png" width="116" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: Java ist auch eine Insel"><br><br><br><br><br><br><br>&nbsp;Java
+                  ist auch<br>&nbsp;eine Insel</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2556?GPP=opAppiP">
+                  <img src="common/1725.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: CSS"><br><br><br><br><br><br><br>&nbsp;CSS</a><br><br></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td><td valign="top">
+                  <a href="http://www.galileocomputing.de/2930?GPP=opAppiP">
+                  <img src="common/1810.png" width="124" height="100" border="0" align="left" hspace="4"
+                  vspace="8" alt="Zum Katalog: jQuery"><br><br><br><br><br><br><br>&nbsp;jQuery</a><br><br></td>
+                  </tr>
+                  </table></td>
+                  </tr>
+                  <tr>
+                  <td><img src="common/leer.gif" height="2" width="1" border="0" /></img></td>
+                  </tr>
+                  
+                  <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                  <td class="start" height="20" colspan="2"><span class="autor"><strong>&nbsp;Shopping</strong></span></td>
+                  </tr>
+                  <tr>
+                  <td valign="top" class="tbl4" width="2"><img src="common/leer.gif" border="0" height="1"
+                  width="1"></td>
+                  <td valign="top">
+                  <table cellspacing="3">
+                  <tr>
+                  <td><b>Versandkostenfrei</b> bestellen in Deutschland und &Ouml;sterreich<br><a href="http://www.galileocomputing.de/hilfe/Shop/?GPP=opAppiP"><img
+                  src="common/pfeil_rechts5.gif" border="0" alt="Info">Info</a><br><br></td>
+                  
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                  <br><br><hr width="70%" align="center">
+                  <div align="center">
+                  <p class="standard"><strong>Copyright © Galileo Press 2011</strong><br>
+                  Für Ihren privaten Gebrauch dürfen Sie die Online-Version natürlich ausdrucken.
+                  Ansonsten unterliegt das &lt;openbook&gt; denselben Bestimmungen, wie die
+                  gebundene Ausgabe: Das Werk einschließlich aller seiner Teile ist urheberrechtlich
+                  geschützt. Alle Rechte vorbehalten einschließlich der Vervielfältigung, Übersetzung,
+                  Mikroverfilmung sowie Einspeicherung und Verarbeitung in elektronischen Systemen.</p><br><a
+                  href="http://www.galileocomputing.de/?GPP=opAppiP">[Galileo Computing]</a><br><br>
+                  Galileo Press, Rheinwerkallee 4, 53227 Bonn, Tel.: 0228.42150.0, Fax 0228.42150.77,
+                  <a href="mailto:info@galileo-press.de">info@galileo-press.de</a></div><br><br>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>
